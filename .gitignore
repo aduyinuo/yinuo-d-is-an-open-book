@@ -1,0 +1,17 @@
+# Windows
+Thumbs.db
+desktop.ini
+*.lnk
+
+# macOS
+.DS_Store
+__MACOSX/
+
+# Editor
+.vscode/
+*.swp
+*.swo
+
+# Node (if any tooling is added)
+node_modules/
+npm-debug.log

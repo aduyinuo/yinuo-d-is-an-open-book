@@ -1,0 +1,26 @@
+# Keep internal planning and operational drafts out of the public GitBook publish.
+internal/**
+**/internal/**
+
+gitbook-publish-order.md
+site-navigation-draft.md
+profile-and-updates.md
+profile-first-visit-paths.md
+profile-updates-index.md
+latest-news.md
+research/README.md
+research/activity-board-model.md
+research/big-questions-registry.md
+research/collection-priority-matrix.md
+research/collection-status-dashboard.md
+research/collections-and-subprojects-atlas.md
+research/mentor-portal-and-ideas-flow.md
+research/mentor-update-templates.md
+research/mentors-portal-weekly-evidence.md
+research/now-cycle-08-2026-board.md
+research/proposal-agendas-and-vision-map.md
+research/publish-readiness-checklist.md
+research/topic-activity-board.md
+research/topic-activity-board-2026-08-sample.md
+appointment-booking.md
+calendar-and-booking.md
