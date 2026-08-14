@@ -11,4 +11,5 @@
 * [Community](people-and-community/overview.md)
 * [Open science and wellbeing](open-science-and-wellbeing/overview.md)
 * [Statements](statements/index.md)
+* [Calendar](calendar.md)
 * [Contact](contact.md)

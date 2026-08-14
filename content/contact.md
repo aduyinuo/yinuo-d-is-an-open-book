@@ -15,7 +15,7 @@ If we are setting up a conversation, a short answer to any of these makes it go 
 - What decision or feedback do you need from me?
 - Is there a deadline attached?
 
-Meetings are usually scheduled over email. Times are US Mountain Time.
+Meetings are usually scheduled over email. Times are US Mountain Time. My availability is on the [Calendar](calendar.md) page.
 
 ## What I am usually glad to talk about
 

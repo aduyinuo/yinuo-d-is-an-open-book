@@ -4,6 +4,12 @@
 
 I build at the boundary of human intelligence, AI systems, and cyber-physical decision support.
 
+## Latest news
+
+* **2026-08** — The [Calendar](calendar.md) page is up: current availability, and how to ask for a meeting.
+* **2026-08** — A [Contact](contact.md) page is up.
+* **2026-08** — This site is public: research collections, tools, and statements are open to read.
+
 ## Start here
 
 * [Research overview](research/overview.md)
