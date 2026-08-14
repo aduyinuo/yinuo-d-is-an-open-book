@@ -6,6 +6,16 @@
 
 I read everything that arrives. A first message is most useful when it names the topic, the decision or feedback you are looking for, and any material worth reading beforehand.
 
+
+
+
+
+
+
+
+
+
+
 ## Before we meet
 
 If we are setting up a conversation, a short answer to any of these makes it go further:
@@ -24,6 +34,6 @@ Meetings are usually scheduled over email. Times are US Mountain Time. My availa
 * teaching, CTF, and security-education work
 * mentoring conversations with students and early-career researchers
 
-**Related:** [Home](home.md) | [Research overview](research/overview.md) | [Statements](/broken/pages/raeBFsuHEu7qQCgxbtjq)
+**Related:** [Home](../home.md) | [Research overview](../research/overview.md) | [Statements](/broken/pages/raeBFsuHEu7qQCgxbtjq)
 
 _Last updated: 2026-08_

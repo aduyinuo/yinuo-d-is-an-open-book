@@ -8,7 +8,7 @@ My availability, week view
 
 ## Booking a meeting
 
-To set up a conversation, email <aduyino6@gmail.com> with:
+To set up a conversation, email [aduyino6@gmail.com](mailto:aduyino6@gmail.com) with:
 
 * the topic, in one or two sentences
 * any draft, dataset, or artifact I should read first
@@ -18,6 +18,6 @@ To set up a conversation, email <aduyino6@gmail.com> with:
 
 I will confirm by email with a calendar invitation.
 
-**Related:** [Contact](contact.md) | [Home](home.md)
+**Related:** [Contact](contact.md) | [Home](../home.md)
 
 _Last updated: 2026-08_

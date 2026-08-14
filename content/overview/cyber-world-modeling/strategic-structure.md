@@ -1,2 +1,4 @@
 # Strategic Structure
 
+learn structure
+
