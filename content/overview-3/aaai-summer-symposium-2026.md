@@ -48,6 +48,6 @@ Selected papers were published in the AAAI symposium proceedings. Mine:
 
 > J. Acosta, M. T. Nazim, T. Guerra, **Y. Du**, P. Aggarwal. _Cyber-Agent-Flow: Execution Trace Instrumentation and Analysis for Cybersecurity Agent Workflows._ Proceedings of the AAAI Symposium Series, 9(1), 337–340, 2026.
 
-**Related:** [Community](./) | [CyberAI Reading Group](cyberai-reading-group.md) | [Research overview](../research/overview.md)
+**Related:** [Community](./) | [CyberAI Reading Group](cyberai-reading-group/cyberai-reading-group-1.md) | [Research overview](../research/overview.md)
 
 _Last updated: 2026-08_
