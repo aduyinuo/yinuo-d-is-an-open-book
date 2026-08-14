@@ -14,7 +14,7 @@ I build at the boundary of human intelligence, AI systems, and cyber-physical de
 
 * [Research overview](research/overview.md)
 * [Projects](research/projects/index.md)
-* [Tools](tools/overview.md)
+* [Tools](overview-1/)
 * [Teaching](teaching/overview.md)
 * [Opportunities](opportunities/overview.md)
 * [Reading notes and blog](notes-and-blog/overview.md)
@@ -22,7 +22,5 @@ I build at the boundary of human intelligence, AI systems, and cyber-physical de
 * [Open science and wellbeing](open-science-and-wellbeing/overview.md)
 * [Statements](statements/index.md)
 * [Contact](contact.md)
-
-
 
 _Last updated: 2026-08_
