@@ -1,4 +1,6 @@
-# Iterated Strategic Interaction in Networks
+# Iterated Strategic Interaction
+
+## Dynamic Sociality
 
 <figure><img src="../../.gitbook/assets/social-ipd-network.gif" alt="Agents playing iterated prisoner&#x27;s dilemma on a network"><figcaption><p>Eight agents, twelve ties, fourteen rounds. Green edges are mutual cooperation.</p></figcaption></figure>
 
