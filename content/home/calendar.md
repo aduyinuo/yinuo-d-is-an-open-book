@@ -1,3 +1,7 @@
+---
+icon: calendar-check
+---
+
 # Calendar
 
 My working calendar, in US Mountain Time. Busy blocks are shown without detail; anything not blocked is open for meetings.
