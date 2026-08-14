@@ -12,7 +12,7 @@ Narration: whatever you type in the slide's Notes pane becomes the text shown
 under that slide. Blank lines make paragraphs; **bold** and _italic_ work.
 A line starting with '---' splits the notes so the slide reveals in steps.
 """
-import os, sys, re, json, html, base64
+import os, sys, re, json, html, io, shutil
 
 from pptx import Presentation
 from pptx.util import Emu
@@ -61,6 +61,36 @@ def para_html(p, slide_w, base_pt):
     return ('<p style="margin:0 0 .45em 0;text-align:%s;margin-left:%.1fcqw">%s</p>'
             % (align, indent, "".join(bits)))
 
+def save_image(sh, media_dir, media_url, counter):
+    """Write the picture to its own file, downscaled, and return the URL."""
+    try:
+        img = sh.image
+    except Exception:
+        return None
+    ext = (img.ext or "png").lower()
+    name = "img%03d.%s" % (counter, "jpg" if ext in ("jpeg", "jpg") else ext)
+    path = os.path.join(media_dir, name)
+    blob = img.blob
+    try:
+        from PIL import Image
+        im = Image.open(io.BytesIO(blob))
+        if im.width > 1600:
+            im = im.resize((1600, round(im.height * 1600 / im.width)), Image.LANCZOS)
+        if im.mode in ("RGBA", "LA", "P") and "transparency" in im.info or im.mode == "RGBA":
+            im.save(path if path.endswith(".png") else path + ".png", optimize=True)
+            if not path.endswith(".png"):
+                name += ".png"; path += ".png"
+        else:
+            im = im.convert("RGB")
+            name = os.path.splitext(name)[0] + ".jpg"
+            path = os.path.join(media_dir, name)
+            im.save(path, "JPEG", quality=82, optimize=True, progressive=True)
+    except Exception:
+        with open(path, "wb") as fh:
+            fh.write(blob)
+    return media_url + "/" + name
+
+
 def shape_html(sh, slide_w, slide_h, media, idx):
     try:
         left, top = sh.left, sh.top
@@ -74,14 +104,11 @@ def shape_html(sh, slide_w, slide_h, media, idx):
               emu_pct(width, slide_w), emu_pct(height, slide_h)))
 
     if sh.shape_type == 13 or sh.__class__.__name__ == "Picture":
-        try:
-            img = sh.image
-            b64 = base64.b64encode(img.blob).decode("ascii")
-            uri = "data:%s;base64,%s" % (img.content_type, b64)
-            return ('<div class="shp img" style="%s">'
-                    '<img src="%s" alt=""></div>' % (pos, uri))
-        except Exception:
+        url = save_image(sh, media[0], media[1], idx) if media else None
+        if not url:
             return ""
+        return ('<div class="shp img" style="%s">'
+                '<img src="%s" alt="" loading="lazy"></div>' % (pos, url))
 
     if not sh.has_text_frame:
         # keep simple filled shapes as blocks so layout still reads
@@ -114,14 +141,24 @@ def notes_of(slide):
         pass
     return ""
 
-def convert(path):
+def convert(path, slug=None):
     prs = Presentation(path)
     W, H = prs.slide_width, prs.slide_height
+    slug = slug or os.path.splitext(os.path.basename(path))[0]
+    media_dir = os.path.join(OUT, "media", slug)
+    if os.path.isdir(media_dir):
+        shutil.rmtree(media_dir)
+    os.makedirs(media_dir, exist_ok=True)
+    media = (media_dir, "media/" + slug)
+    counter = [0]
     frags, narr = {}, {}
     for i, slide in enumerate(prs.slides, start=1):
         shapes = [s for s in slide.shapes]
-        # z-order as authored
-        body = "".join(shape_html(s, W, H, None, j) for j, s in enumerate(shapes))
+        parts = []
+        for s_ in shapes:
+            counter[0] += 1
+            parts.append(shape_html(s_, W, H, media, counter[0]))
+        body = "".join(parts)
         frags[i] = '<div class="slide">%s</div>' % body
         n = notes_of(slide)
         # '---' in the notes marks reveal steps
@@ -148,10 +185,11 @@ def main(argv):
         return 1
     made = []
     for f in files:
-        if not os.path.isabs(f):
+        if not os.path.isabs(f) and not os.path.exists(f):
             f = os.path.join(SRC, f)
-        title, frags, narr, ratio = convert(f)
+        f = os.path.abspath(f)
         slug = os.path.splitext(os.path.basename(f))[0]
+        title, frags, narr, ratio = convert(f, slug)
         out = os.path.join(OUT, slug + ".html")
         open(out, "w", encoding="utf-8", newline="\n").write(
             build_html(title, frags, narr, ratio))
