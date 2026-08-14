@@ -1,0 +1,30 @@
+name: Refresh the activity board
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - 'internal/activity/activity.json'
+      - 'internal/activity/render_board.py'
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install matplotlib pillow
+      - run: python internal/activity/render_board.py
+      - name: Commit the refreshed board
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/.gitbook/assets/activity-board.png content/personal/what-is-she-up-to.md
+          git diff --staged --quiet || git commit -m "Refresh the activity board"
+          git push
