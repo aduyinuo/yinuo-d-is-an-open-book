@@ -5,101 +5,109 @@ icon: creative-commons-remix
 
 # Work With Me
 
-<mark style="color:$danger;">**I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis.**</mark> If funded positions become available they will be listed on [Opportunities](../overview-4/). I am always happy for discussions if you happen to be working on similar ideas.
+These positions are unpaid. I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis, and I would rather say that at the outset than after you have read the whole page. If funded positions become available they will be listed on [Opportunities](../overview-4/).
 
-What I can offer is a defined question with a well thought-out project plan and ethical credit assignment. Research projects work on an open question from one of the research threads. Engineering projects work on an artifact, such as an environment, a testbed, or an instrumentation layer, that other projects depend on.
+What I can offer is a defined question rather than an errand, credit that reflects what you contributed, including authorship where it is warranted, and time from me. Research projects work on an open question from one of the research threads. Engineering projects work on an artifact, such as an environment, a testbed, or an instrumentation layer, that other projects depend on.
 
 Each project below names the thread it belongs to, the question it works on, what you would do, and what you need to be able to do. Read the linked thread page first, then write to me about the one you are interested in.
 
 ## Projects
 
-<table><thead><tr><th width="230">Project</th><th width="130">Role</th><th>Question it works on</th></tr></thead><tbody><tr><td><a href="work-with-me.md#a-defender-that-knows-when-its-model-is-wrong">A defender that knows when its model is wrong</a><br><a href="../overview/3-year-agenda/cyber-world-modeling/"><em>Cyber World Modeling</em></a></td><td>Research</td><td>How should a defender act when its learned model is most likely to be wrong exactly where the adversary is operating?</td></tr><tr><td><a href="work-with-me.md#using-an-inaccurate-world-model-to-cut-the-cost-of-strategic-search">Using an inaccurate world model to cut the cost of strategic search</a><br><a href="../overview/3-year-agenda/cyber-world-modeling/"><em>Cyber World Modeling</em></a></td><td>Research</td><td>Do simulated rollouts from an imperfect model reduce the cost of computing strategic responses, or bias the empirical game?</td></tr><tr><td><a href="work-with-me.md#learning-the-operations-instead-of-naming-them">Learning the operations instead of naming them</a><br><a href="../overview/3-year-agenda/mental-world-modeling/"><em>Mental World Modeling</em></a></td><td>Research</td><td>Can an agent learn its own vocabulary of problem-solving operations rather than being given one?</td></tr><tr><td><a href="work-with-me.md#eliciting-reasoning-from-people-under-time-pressure">Eliciting reasoning from people under time pressure</a><br><a href="../overview/3-year-agenda/mental-world-modeling/"><em>Mental World Modeling</em></a></td><td>Research</td><td>How do you recover how someone solved a problem when you cannot ask them to think aloud while they work?</td></tr><tr><td><a href="work-with-me.md#measuring-whether-a-human-ai-team-is-actually-complementary">Measuring whether a human-AI team is actually complementary</a><br><a href="../overview/3-year-agenda/human-ai-complementarity/"><em>Human-AI Complementarity</em></a></td><td>Research</td><td>Did the pair reach a decision neither would have reached alone, or did one party carry the other?</td></tr><tr><td><a href="work-with-me.md#the-chart-testbed">The CHART testbed</a><br><a href="../overview/3-year-agenda/human-ai-complementarity/"><em>Human-AI Complementarity</em></a></td><td>Engineering</td><td>Making team structure a directed graph the software enforces, so it can be varied as a controlled manipulation.</td></tr><tr><td><a href="work-with-me.md#instrumenting-agent-workflows">Instrumenting agent workflows</a><br><a href="../overview/3-year-agenda/human-ai-complementarity/"><em>Human-AI Complementarity</em></a></td><td>Engineering</td><td>Recording what an agent did in enough detail to locate where a team failed.</td></tr><tr><td><a href="work-with-me.md#moving-agents-between-cyber-environments">Moving agents between cyber environments</a><br><a href="../overview/3-year-agenda/toward-deployment/"><em>Toward Deployment</em></a></td><td>Engineering</td><td>Running the same agent across simulators, emulators, and ranges so results can be compared at all.</td></tr></tbody></table>
+<table><thead><tr><th width="235">Project</th><th width="125">Role</th><th>Question it works on</th></tr></thead><tbody><tr><td><a href="#when-is-a-world-model-good-enough">When is a world model good enough?</a><br><em><a href="../overview/3-year-agenda/cyber-world-modeling/">Cyber World Modeling</a></em></td><td>Research</td><td>How do we decide a world model is reasonably accurate, and which kinds of error are acceptable for a defense agent in an operational network?</td></tr><tr><td><a href="#expediting-strategic-search-with-a-world-model">Expediting strategic search with a world model</a><br><em><a href="../overview/3-year-agenda/cyber-world-modeling/">Cyber World Modeling</a></em></td><td>Research</td><td>Can a reasonably accurate model expedite the search for strategic responses, or does a faulty model bias the game-solving step?</td></tr><tr><td><a href="#a-consensus-on-mental-operations-and-learning-them">A consensus on mental operations, and learning them</a><br><em><a href="../overview/3-year-agenda/mental-world-modeling/">Mental World Modeling</a></em></td><td>Research</td><td>Can mental operations be learned as reusable actions rather than fixed in advance, with a separate account of the control over them?</td></tr><tr><td><a href="#eliciting-reasoning-under-a-clock">Eliciting reasoning under a clock</a><br><em><a href="../overview/3-year-agenda/mental-world-modeling/">Mental World Modeling</a></em></td><td>Research</td><td>How do you recover how someone solved a problem when thinking aloud as they go is exactly what you cannot ask for?</td></tr><tr><td><a href="#testing-what-chart-can-express">Testing what CHART can express</a><br><em><a href="../overview/3-year-agenda/human-ai-complementarity/">Human-AI Complementarity</a></em></td><td>Research / engineering</td><td>Can the graph express the teamwork in a SOC or an incident response team, and can teamwork be prescribed, monitored, and diagnosed through it?</td></tr><tr><td><a href="#a-metric-of-complementarity">A metric of complementarity</a><br><em><a href="../overview/3-year-agenda/human-ai-complementarity/">Human-AI Complementarity</a></em></td><td>Research</td><td>Did the pair reach a decision neither would have reached alone, or did one strong member carry the other?</td></tr><tr><td><a href="#instrumenting-agent-workflows">Instrumenting agent workflows</a><br><em><a href="../overview/3-year-agenda/human-ai-complementarity/">Human-AI Complementarity</a></em></td><td>Engineering</td><td>Recording what an agent did in enough detail to attribute a failure to the structure rather than infer it.</td></tr><tr><td><a href="#an-actionable-taxonomy-of-realism">An actionable taxonomy of realism</a><br><em><a href="../overview/3-year-agenda/toward-deployment/">Toward Deployment</a></em></td><td>Research</td><td>When we say a realistic cyber environment, what exactly does it entail, and can the relevant parties agree on it?</td></tr><tr><td><a href="#sim2sim-before-sim2real">sim2sim before sim2real</a><br><em><a href="../overview/3-year-agenda/toward-deployment/">Toward Deployment</a></em></td><td>Research</td><td>If sim2real can be transformed into sim2sim without losing its complexity, what does that let us measure that we could not before?</td></tr><tr><td><a href="#cyber-environments-and-benchmarks">Cyber environments and benchmarks</a><br><em><a href="../overview/3-year-agenda/toward-deployment/">Toward Deployment</a></em></td><td>Engineering</td><td>Keeping the collection of environments runnable, comparable, and documented for what each does and does not represent.</td></tr></tbody></table>
 
 ## Cyber World Modeling
 
-### A defender that knows when its model is wrong
+### When is a world model good enough?
 
 **Role:** research assistant · **Thread:** [Cyber World Modeling](../overview/3-year-agenda/cyber-world-modeling/) → [Next](../overview/3-year-agenda/cyber-world-modeling/next.md)
 
-A model learned from data is wrong somewhere. Against an adversary that error is not random, because the adversary has an incentive to find the regions where the defender's model is wrong and to operate there. This project asks how a defender should behave under that condition: how to detect that the model of the adversary has become unreliable, how to bound the cost of acting on a model that is wrong, and whether a model that represents its own uncertainty is safer to act on than one that is confident and wrong.
+A learned world model is always wrong somewhere, and a factored model that is confidently wrong about the opponent's latent may be worse than an honest monolith. This project works on the question the thread turns on first: how to decide whether a world model is reasonably accurate, and which kinds of error are more or less acceptable for a defense agent in an operational network. Concretely, that means detecting when the opponent latent has drifted, bounding how badly a wrong model can hurt, and testing whether a model that fails wide and uncertain is safer to act on than one that fails sharp and wrong.
 
-You would work on top of [FOE-Dreamer](../overview/3-year-agenda/cyber-world-modeling/environment.md), where the adversary is held in a separate latent variable, which is what makes it possible to ask whether the error is localized rather than spread across the whole representation.
+You would work on top of [FOE-Dreamer](../overview/3-year-agenda/cyber-world-modeling/environment.md), where the opponent is kept in a latent of its own, since that is what makes it possible to ask whether error stays localized rather than smeared across the whole representation.
 
-**What you need:** reinforcement learning at the level of implementing and modifying an existing agent; PyTorch; comfort reading model-based RL papers, since you will be working from Dreamer-style architectures rather than a clean textbook setting. Prior exposure to POMDPs helps.
+**What you need:** reinforcement learning at the level of implementing and modifying an existing agent; PyTorch; comfort reading model-based RL papers, since the starting point is a Dreamer-style architecture rather than a clean textbook setting. Familiarity with uncertainty estimation or POMDPs helps.
 
-### Using an inaccurate world model to cut the cost of strategic search
+### Expediting strategic search with a world model
 
 **Role:** research assistant · **Thread:** [Cyber World Modeling](../overview/3-year-agenda/cyber-world-modeling/) → [Next](../overview/3-year-agenda/cyber-world-modeling/next.md)
 
-In PSRO each new best response is learned through repeated interaction with the environment, which is the expensive part. A world model can supply some of those interactions as simulated rollouts. Co-learning a world model with the empirical game already exists, in Dyna-PSRO. The open part is what happens when the model is inaccurate: whether imagined rollouts still reduce the total cost of reaching a strategically robust policy, or whether the model's errors propagate into the empirical game and the responses computed from it. The project is to find the conditions under which the model helps and the conditions under which slower interaction with the real environment is better.
+Once a reasonably accurate model exists, the interesting use is not only prediction but acceleration: imagined rollouts can stand in for expensive environment interaction when computing a best response inside PSRO. Co-learning a world model with the empirical game is not itself new, since Dyna-PSRO does exactly this. The open part is what a faulty, adversarially stressed model does to that loop, and whether model-based imagination still reduces the regret PSRO leaves on the table or injects a bias that the game-solving step amplifies. The project is to find when imagination helps and when it is worse than slower, honest interaction.
 
-**What you need:** game theory through normal-form solution concepts and best response; enough familiarity with empirical game-theoretic analysis to read the PSRO literature; Python and reinforcement learning implementation. Being willing to run and account for a lot of compute matters here, because the claim is fundamentally about cost.
+**What you need:** game theory through normal-form solution concepts and best response; enough familiarity with empirical game-theoretic analysis to read the PSRO literature; Python and reinforcement learning implementation. Willingness to run and account for a lot of compute matters here, because the claim is fundamentally about cost.
 
 ## Mental World Modeling
 
-### Learning the operations instead of naming them
+### A consensus on mental operations, and learning them
 
 **Role:** research assistant · **Thread:** [Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/) → [Next](../overview/3-year-agenda/mental-world-modeling/next.md)
 
-Every account of problem-solving in this thread so far takes its operations as given: they are named in advance and then located in the data. Research on mental operations has never settled on a single agreed set, and the right level of detail depends on the scale of analysis. This project asks whether an agent can instead learn its own operations as reusable sub-behaviors, in the way hierarchical reinforcement learning learns options or program-synthesis systems build and reuse a library of procedures, so that the grain is determined by what proves useful. A second part concerns the control of the operations rather than the operations themselves: choosing which to apply, noticing that an approach is failing, and deciding when to stop.
+A long history of work on mental operations never settled on a single canonical set, and the right grain may depend on the scale you are looking at. Work in both agent-based modeling and human subject studies points to the same conclusion: the definition needs a consensus, and the operations should be learned rather than fixed. This project pursues that, treating mental operations as reusable actions an agent discovers and composes, in the way hierarchical reinforcement learning learns options or program-synthesis systems build and reuse a library. A second part concerns the control that decides which operation to use and when to quit, which is a distinct problem from the operations it governs and the under-modeled one.
 
-**What you need:** reinforcement learning, ideally including hierarchical RL or options; Python; interest in cognitive science, since the target is a description of human problem-solving and not only an agent that performs well.
+**What you need:** reinforcement learning, ideally including hierarchical RL or options; Python; interest in cognitive science, since the target is an account of human problem-solving and not only an agent that performs well.
 
-### Eliciting reasoning from people under time pressure
+### Eliciting reasoning under a clock
 
 **Role:** research assistant · **Thread:** [Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/) → [Problem-Solving](../overview/3-year-agenda/mental-world-modeling/problem-solving/)
 
-Thinking aloud while working is the most reliable way to recover how someone solved a problem, and it is unusable in a timed competition or an operational setting. The approach here is to replay people their own session afterward as a retrieval cue, anchored to submission logs so that the recall has timestamps to attach to. The work is running these sessions with capture-the-flag competitors, building a coding scheme coarse enough that independent observers agree on it, and establishing that agreement quantitatively.
+Thinking aloud as you go is the gold-standard elicitation method and exactly what you cannot ask for during a timed competition. The approach here is stimulated recall anchored to submission logs, replaying people their own session afterward so the recall has timestamps to attach to, rather than a think-aloud that would distort the thing it measures. The work is running these sessions with capture-the-flag competitors and building an account coarse enough that independent observers agree on it, with that agreement established quantitatively.
 
-**What you need:** willingness to run studies with human participants and to work within IRB requirements; qualitative coding and inter-rater reliability, or willingness to learn them properly; enough security background to follow what a competitor is doing during a challenge.
+**What you need:** willingness to run studies with human participants and work within IRB requirements; qualitative coding and inter-rater reliability, or willingness to learn them properly; enough security background to follow what a competitor is doing during a challenge.
 
 ## Human-AI Complementarity
 
-### Measuring whether a human-AI team is actually complementary
+### Testing what CHART can express
+
+**Role:** research or engineering assistant · **Thread:** [Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/) → [CHART](../overview/3-year-agenda/human-ai-complementarity/chart.md)
+
+[CHART](../overview/3-year-agenda/human-ai-complementarity/chart.md) makes team structure a directed graph: approvals route along control edges, explanations reach a panel, messages route by mention. It is a first step toward capturing the syntax of human-agent teamwork, and its completeness and succinctness remain to be tested. Can it express the teamwork in a SOC or an incident response team? Can teamwork represented in it be prescribed, monitored, and diagnosed? The work runs in both directions: encoding real team structures to find what the graph cannot say, and extending the platform so that the structures it can express actually run.
+
+**What you need:** for the engineering side, solid software engineering in Python including a web stack and real-time messaging, and the ability to build an interface a study participant can use without training. For the research side, enough familiarity with security operations to model how a real SOC or incident response team divides authority.
+
+### A metric of complementarity
 
 **Role:** research assistant · **Thread:** [Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/) → [Next](../overview/3-year-agenda/human-ai-complementarity/next.md)
 
-A team can succeed because it combined what the person and the agent each contributed, or because one capable party compensated for the other. Overall success does not separate these. This project builds a measure that does, which requires estimating what each party would have done alone and comparing that with what the pair did. The experiments run in [CHART](../overview/3-year-agenda/human-ai-complementarity/chart.md) and the [Team Defense Game](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md), where the team's structure is set explicitly and can be varied.
+A team can win because it is genuinely more than its parts, or because one strong member carried it while the other watched, and win rate cannot tell these apart. This project builds a measure of complementarity proper: evidence that the pair produced a decision neither the human nor the agent would have reached alone, counterfactually rather than merely jointly. The experiments run in the [Team Defense Game](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md) and in CHART, where the team structure is the manipulation rather than the backdrop.
 
 **What you need:** experimental design and statistics beyond a first course, since the measure is the contribution; experience running human-participant studies; Python for analysis. Familiarity with counterfactual or causal estimation is an advantage.
-
-### The CHART testbed
-
-**Role:** engineering assistant · **Thread:** [Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/) → [CHART](../overview/3-year-agenda/human-ai-complementarity/chart.md)
-
-CHART represents a human-AI team's structure as a directed graph that the software enforces: approvals travel along control edges, explanations reach the parties entitled to them, messages route by mention. Because the structure is enforced rather than described, changing the graph is a controlled manipulation rather than an instruction to participants. The work is extending the platform to support new team configurations, agent behaviors, and interaction modalities, and keeping it stable enough to run studies on.
-
-**What you need:** solid software engineering in Python, including a web stack and real-time messaging; the ability to design an interface that a study participant can use without training; version control and testing habits that hold up when other people's experiments depend on your code.
 
 ### Instrumenting agent workflows
 
 **Role:** engineering assistant · **Thread:** [Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/) → [CyberAgentFlow](../overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md)
 
-When a human-AI team performs poorly, the failure has to be attributable: an approval that routed incorrectly, an explanation that never arrived, a decision that was wrong on its merits. That requires recording what agents actually did rather than inferring it afterward. This project builds the tracing layer for agent workflows in penetration-testing and defense sessions, including the representation of events and their dependencies.
+When a human-AI team fails, the trace has to be detailed enough to say the failure was in the structure, such as an approval that routed wrong or an explanation that never arrived, rather than merely that the team lost. [CyberAgentFlow](../overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md) instruments agent workflows so their behaviour can be examined rather than inferred. This project builds and maintains that tracing layer, including how events and their dependencies are represented.
 
-**What you need:** Python; experience with logging, tracing, or observability; some exposure to LLM agent frameworks; enough security knowledge to know which events in a session are worth recording.
+**What you need:** Python; experience with logging, tracing, or observability; some exposure to LLM agent frameworks; enough security knowledge to judge which events in a session are worth recording.
 
 ## Toward Deployment
 
-### Testing whether a transferred policy wins for the right reasons
+### An actionable taxonomy of realism
 
-**Role:** research assistant · **Thread:** [Toward Deployment](../overview/3-year-agenda/toward-deployment/) → [Next](../overview/3-year-agenda/toward-deployment/next.md)
+**Role:** research assistant · **Thread:** [Toward Deployment](../overview/3-year-agenda/toward-deployment/) → [When We Say "A Realistic Cyber Environment"](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
 
-A policy moved to a new environment and scoring well has either learned the task or learned features specific to the benchmark, and the score does not distinguish them. This project builds tests that do: perturbing the parts of an environment a competent policy should depend on and a benchmark-specific one should not, evaluating on forms of realism the policy never trained against, and constructing cases designed to fail a policy that has memorized surface structure.
+To find a solution we first have to understand the problem: when we say a realistic cyber environment, what exactly does it entail? This project works on an actionable taxonomy of realism built from consensus among the relevant parties, which means eliciting what practitioners, environment builders, and researchers each mean by the term and reconciling it into a vocabulary that can actually be applied to an environment.
+
+**What you need:** willingness to run structured interviews and work within IRB requirements; qualitative analysis; enough breadth across cyber simulators, emulators, and ranges to hold a technical conversation with the people you are interviewing.
+
+### sim2sim before sim2real
+
+**Role:** research assistant · **Thread:** [Toward Deployment](../overview/3-year-agenda/toward-deployment/) → [Transfer to "Realistic" Environments](../overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
+
+Until there is unlimited access to operational environments for training, the methods for sim2real still have to be evaluated and improved somehow. The insight this project builds on is that the sim2real challenge can be transformed into sim2sim without losing its complexity. The work is making that substitution rigorous: transferring policies between environments that differ in known ways, and testing whether a policy that scores well has learned the task or the benchmark, using probes and held-out kinds of realism it never trained against.
 
 **What you need:** reinforcement learning and evaluation methodology; Python; the disposition to design experiments intended to break a result rather than confirm it, which is the actual skill this project requires.
 
-### Moving agents between cyber environments
+### Cyber environments and benchmarks
 
 **Role:** engineering assistant · **Thread:** [Toward Deployment](../overview/3-year-agenda/toward-deployment/) → [Cyber Environments & Benchmarks](../overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/)
 
-Claims about transfer are only meaningful if the same agent can actually be run across a simulator, an emulator, and a range, and if what differs between them is documented. This project maintains that path: interfaces to environments such as CybORG, Cyber Wheel, and CyberVAN, the harness that runs agents across them, and the record of what each environment represents and omits.
+Claims about transfer are only meaningful if the same agent can actually be run across the environments being compared. This project maintains the collection of environments used, adapted, and built across the projects, the harness that runs agents across them, and the record of what each environment does and does not represent.
 
 **What you need:** Python and comfort in Linux, networking, and containers; patience with other people's research code, since much of the work is making existing environments run and keeping them running; clear documentation habits.
 
 ## Applying
 
-Write to me with the project you are interested in, what you have done that is relevant, and what you want to get out of it. If you are a UTEP student, say what year you are in and how many hours a week you can realistically commit, keeping in mind that this is unpaid and should not come at the cost of paid work or coursework. Undergraduates are welcome to write about the engineering projects and about [Eliciting reasoning from people under time pressure](work-with-me.md#eliciting-reasoning-from-people-under-time-pressure).
+Write to me with the project you are interested in, what you have done that is relevant, and what you want to get out of it. If you are a UTEP student, say what year you are in and how many hours a week you can realistically commit, keeping in mind that this is unpaid and should not come at the cost of paid work or coursework. Undergraduates are welcome to write about the engineering projects and about [Eliciting reasoning under a clock](#eliciting-reasoning-under-a-clock).
 
 Funded positions, when available, are listed on [Opportunities](../overview-4/). Current and past students are on [Mentor](../mentor/).
 
