@@ -1,10 +1,12 @@
-name: Publish slide decks to GitHub Pages
+name: Build slide decks and publish to GitHub Pages
 
 on:
   push:
     branches: [main]
     paths:
+      - 'slides-source/**'
       - 'docs/**'
+      - 'internal/slides/**'
       - '.github/workflows/pages.yml'
   workflow_dispatch:
 
@@ -26,8 +28,20 @@ jobs:
     steps:
       - uses: actions/checkout@v4
 
-      # enablement: true turns GitHub Pages on via the API using the workflow
-      # token, so no manual setting change is needed.
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+
+      - name: Convert PowerPoint decks to annotated slide pages
+        run: |
+          pip install python-pptx
+          python internal/slides/pptx_to_deck.py || true
+
+      - name: Build the deck index
+        run: python internal/slides/make_index.py
+
+      # enablement: true switches GitHub Pages on through the API using the
+      # workflow token, so there is no setting to change by hand.
       - uses: actions/configure-pages@v5
         with:
           enablement: true
