@@ -44,6 +44,6 @@ Five half-day parts, with a keynote each morning.
 
 Selected papers were published in the AAAI symposium proceedings.
 
-**Related:** [Community](./) | [CyberAI Reading Group](cyberai-reading-group.md) | [Research overview](../research/overview.md)
+**Related:** [Community](./) | [CyberAI Reading Group](cyberai-reading-group/cyberai-reading-group-1.md) | [Research overview](../research/overview.md)
 
 _Last updated: 2026-08_

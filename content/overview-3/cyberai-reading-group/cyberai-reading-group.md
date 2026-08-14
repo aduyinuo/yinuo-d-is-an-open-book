@@ -1,8 +1,6 @@
-# 2025-2026 CyberAI Reading Group
+# 2026 Spring
 
-A reading group on artificial intelligence and cybersecurity, running through the 2025–2026 academic year. Sessions pair a paper with the person who wrote it wherever possible: the author presents, then takes questions from the room.
 
-The group is deliberately cross-community. Binary analysis sits next to prompt injection, honeypot design next to game theory, because the people building cyber agents and the people studying how humans use them rarely read the same venues.
 
 ## Guest speakers
 
@@ -23,6 +21,6 @@ Each session has a host who introduces the paper and keeps discussion moving. Qu
 
 If you work on AI agents, cybersecurity, or the human side of either, and want to attend or present, write to [aduyino6@gmail.com](mailto:aduyino6@gmail.com).
 
-**Related:** [Community](./) | [AAAI Summer Symposium](aaai-summer-symposium-2026.md) | [Research overview](../research/overview.md)
+**Related:** [Community](../) | [AAAI Summer Symposium](../aaai-summer-symposium-2026.md) | [Research overview](../../research/overview.md)
 
 _Last updated: 2026-08_
