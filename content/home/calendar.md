@@ -6,17 +6,7 @@ My working calendar, in US Mountain Time. Busy blocks are shown without detail; 
 Availability, deadlines, and the CyberAI Reading Group
 {% endembed %}
 
-## Booking a meeting
 
-To set up a conversation, email [aduyino6@gmail.com](mailto:aduyino6@gmail.com) with:
-
-* the topic, in one or two sentences
-* any draft, dataset, or artifact I should read first
-* the decision or feedback you need from me
-* a deadline, if there is one
-* two or three time windows that work for you
-
-I will confirm by email with a calendar invitation.
 
 **Related:** [Contact](contact.md) | [Home](../home.md)
 
