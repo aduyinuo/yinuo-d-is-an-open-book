@@ -32,6 +32,12 @@ At the end of the episode the whole thing re-settles at once: every instance fro
 
 Interdependence is usually described and then assumed. Writing approval and pooling into the game makes it something you can vary and measure — you can tighten the authority boundary, shrink the pool, and see what it does to the pair.
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/human-ai-complementarity--team-defense-game.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 ## Publications
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-chb.png" alt="CHB: AI" data-size="original"></td><td><mark style="color:green;">Experimental evaluation of cognitive agents for collaboration in human-autonomy cyber defense teams</mark><br>Computers in Human Behavior: Artificial Humans, 4, 100148</td><td><strong>Y. Du</strong>, <a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, <a href="https://scholar.google.com/citations?user=jktsx4EAAAAJ">T. Malloy</a>, <a href="https://feifang.info/">F. Fang</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td><a href="https://doi.org/10.1016/j.chbah.2025.100148"><img src="../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr><tr><td><img src="../../../.gitbook/assets/badge-jcyb.png" alt="J. Cybersec." data-size="original"></td><td><mark style="color:green;">Learning about simulated adversaries from human defenders using interactive cyber-defense games</mark><br>Journal of Cybersecurity, 9(1), tyad022</td><td><a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, <strong>Y. Du</strong>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td><a href="https://doi.org/10.1093/cybsec/tyad022"><img src="../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr><tr><td><img src="../../../.gitbook/assets/badge-aaaiss.png" alt="AAAI Symposium" data-size="original"></td><td><mark style="color:green;">Turing-like experiment in a cyber defense game</mark><br>AAAI Symposium Series, 3(1), 547–550</td><td><strong>Y. Du</strong>, <a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td></td></tr></tbody></table>

@@ -58,6 +58,12 @@ Scientific transparency comes first: reproducible, auditable logs, with learning
 
 Cybersecurity is the motivating case — tiered authority, compartmentalized access, decisions on a timescale where hesitation costs. But the design principles carry to any high-stakes interdependent domain: emergency response, healthcare, autonomous vehicle coordination.
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/human-ai-complementarity--chart.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 ## Publications
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-book.png" alt="Book" data-size="original"></td><td><mark style="color:green;">CHART: A Configurable Testbed for Human-AI Teaming Research in Cybersecurity Operations</mark><br>Book chapter</td><td><strong>Y. Du</strong>, V. Miloserdov, M. J. Ferreira, B. Prébot, T. Malloy, C. Gonzalez</td></tr><tr><td><img src="../../../.gitbook/assets/badge-chb.png" alt="CHB: AI" data-size="original"></td><td><mark style="color:green;">Experimental evaluation of cognitive agents for collaboration in human-autonomy cyber defense teams</mark><br>Computers in Human Behavior: Artificial Humans, 4, 100148</td><td><strong>Y. Du</strong>, B. Prébot, T. Malloy, F. Fang, C. Gonzalez</td></tr></tbody></table>

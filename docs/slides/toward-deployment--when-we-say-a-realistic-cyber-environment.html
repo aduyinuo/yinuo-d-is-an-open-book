@@ -1,0 +1,99 @@
+
+<!doctype html><html lang="en"><head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>When We Say "A Realistic Cyber Environment" — slides</title>
+<meta property="og:title" content="When We Say "A Realistic Cyber Environment"">
+<meta property="og:description" content="Toward Deployment">
+<style>
+:root{--d:#22452f;--m:#4a7c59;--l:#93b294;--vl:#e6efe4;--ink:#1f2430;--mute:#6b7280;--och:#a8843c;--bg:#ffffff}
+*{box-sizing:border-box}
+html,body{margin:0;padding:0;background:var(--bg);color:var(--ink);
+  font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Inter,Helvetica,Arial,sans-serif}
+#wrap{max-width:980px;margin:0 auto;padding:14px 16px 28px}
+#head{display:flex;gap:10px;align-items:baseline;flex-wrap:wrap;margin-bottom:10px}
+#head h1{font-size:17px;margin:0;color:var(--d);font-weight:650}
+#head .sub{font-size:12.5px;color:var(--mute)}
+#slidewrap{position:relative;width:100%;aspect-ratio:16/9;border:1px solid var(--l);
+  border-radius:10px;overflow:hidden;background:#fff;container-type:size}
+.slide{position:absolute;inset:0;padding:5.2cqw 6cqw;display:flex;flex-direction:column;justify-content:center}
+.slide.title{background:var(--d);color:#fff;justify-content:center}
+.slide.title h2{font-size:6.4cqw;line-height:1.12;margin:0 0 2.4cqh;font-weight:650}
+.slide.title .meta{font-size:2.6cqw;color:var(--l)}
+.slide h2{font-size:4.4cqw;line-height:1.15;margin:0 0 3.2cqh;color:var(--d);font-weight:650}
+.slide .kicker{font-size:2.1cqw;letter-spacing:.14em;text-transform:uppercase;color:var(--och);margin-bottom:1.6cqh}
+.slide ul{margin:0;padding-left:3.4cqw}
+.slide li{font-size:2.9cqw;line-height:1.5;margin-bottom:1.7cqh;color:var(--ink)}
+.slide p.lead{font-size:3.1cqw;line-height:1.45;margin:0;color:var(--ink)}
+.slide .rule{height:.5cqh;background:var(--l);width:14cqw;margin-bottom:2.6cqh;border-radius:2px}
+.frag{opacity:.16;transition:opacity .18s}
+.frag.on{opacity:1}
+#bar{display:flex;align-items:center;gap:12px;margin:10px 0 4px;font-size:12.5px;color:var(--mute)}
+#bar input[type=range]{flex:1;accent-color:var(--m)}
+#nav{display:flex;gap:8px}
+#nav button{font:inherit;font-size:12.5px;border:1px solid var(--l);background:#fff;color:var(--d);
+  border-radius:7px;padding:4px 11px;cursor:pointer}
+#nav button:hover{background:var(--vl)}
+#narr{margin-top:14px;padding:14px 16px;background:var(--vl);border-radius:10px;
+  font-size:15px;line-height:1.62;color:var(--ink);min-height:74px}
+#narr p{margin:0 0 10px}#narr p:last-child{margin:0}
+#narr strong{color:var(--d)}
+#narr em{color:var(--mute)}
+#hint{margin-top:10px;font-size:12px;color:var(--mute)}
+@media(max-width:640px){#narr{font-size:14.5px}}
+</style></head><body>
+<div id="wrap">
+  <div id="head"><h1>When We Say "A Realistic Cyber Environment"</h1><span class="sub">Toward Deployment</span></div>
+  <div id="slidewrap"><div id="slidehost"></div></div>
+  <div id="bar">
+    <div id="nav"><button onclick="step(-1)">← Prev</button><button onclick="step(1)">Next →</button></div>
+    <span id="count"></span>
+    <input type="range" min="1" max="1" value="1" oninput="jump(+this.value)" title="Jump to slide">
+  </div>
+  <div id="narr"></div>
+  <div id="hint">Use arrow keys or space to advance.</div>
+</div>
+<script>
+const FRAGS = {"1": "<div class=\"slide title\"><h2>When We Say \"A Realistic Cyber Environment\"</h2><div class=\"meta\">Toward Deployment</div></div>", "2": "<div class=\"slide\"><div class=\"kicker\">The idea</div><div class=\"rule\"></div><h2>Environments get described by the features they implement, or by a broad claim of being realistic.</h2><ul><li class=\"frag\">Neither tells you whether the environment supports the claim you want to make with it.</li></ul></div>", "3": "<div class=\"slide\"><div class=\"kicker\">Toward Deployment</div><div class=\"rule\"></div><h2>The failure it fixes</h2><p class=\"lead\">Picture a defender benchmark where attacks raise alerts but ordinary enterprise life is thin — few normal logins, little admin maintenance, hardly any background traffic.</p><p class=\"lead frag\">A defender scores well there because malicious behaviour is being read against a clean baseline.</p><p class=\"lead frag\">The result is valid for that benchmark and says nothing about an enterprise full of noisy legitimate activity.</p></div>", "4": "<div class=\"slide\"><div class=\"kicker\">Toward Deployment</div><div class=\"rule\"></div><h2>The method</h2><p class=\"lead\">**Derive.** Start from a use case, decomposed on both sides — attacker goal, technique, procedure; defender posture, detection priority, countermeasure.</p><p class=\"lead frag\">Walk MITRE ATT\\&amp;CK and D3FEND, recording what each technique requires the environment to provide, model, or emit.</p><p class=\"lead frag\">**Cluster.** Those per-technique requirements converge into eleven realism dimensions, in five groups: infrastructure (topological, operating system, service), organizational behaviour (identity, temporal, benign activity), security layer (defensive, telemetry), agent interface (action, observation), and external context (external ecosystem).</p></div>", "5": "<div class=\"slide\"><div class=\"kicker\">Toward Deployment</div><div class=\"rule\"></div><h2>What it shows</h2><p class=\"lead\">Applied to GOAD, an emulated multi-domain Active Directory environment: **suitable** for credential-based privilege escalation at a fit of 0.88, and **not suitable** for targeted data exfiltration at 0.39 with five critical requirements unmet — the same environment, unchanged.</p><p class=\"lead frag\">Suitability is a property of the _pair_, not of the environment.</p><p class=\"lead frag\">Across thirteen publicly inspectable enterprise environments two families appear.</p></div>"};
+const NARR  = {"1": "Environments get described by the features they implement, or by a broad claim of being realistic. Neither tells you whether the environment supports the claim you want to make with it.", "2": "Environments get described by the features they implement, or by a broad claim of being realistic. Neither tells you whether the environment supports the claim you want to make with it.", "3": "Picture a defender benchmark where attacks raise alerts but ordinary enterprise life is thin — few normal logins, little admin maintenance, hardly any background traffic. A defender scores well there because malicious behaviour is being read against a clean baseline. The result is valid for that benchmark and says nothing about an enterprise full of noisy legitimate activity.\n\nThe offensive side has the mirror image. In NASimEmu an action can succeed deterministically in the simulator and fail against the corresponding real service in the emulator, because the simulator abstracted away the service and operating-system fidelity that decides whether an exploit lands. PenGym reports the same gap.\n\nSo the score reflects the agent's capability _and_ which conditions the environment modelled or omitted, with no way to separate the two.", "4": "**Derive.** Start from a use case, decomposed on both sides — attacker goal, technique, procedure; defender posture, detection priority, countermeasure. Walk MITRE ATT\\&CK and D3FEND, recording what each technique requires the environment to provide, model, or emit.\n\n**Cluster.** Those per-technique requirements converge into eleven realism dimensions, in five groups: infrastructure (topological, operating system, service), organizational behaviour (identity, temporal, benign activity), security layer (defensive, telemetry), agent interface (action, observation), and external context (external ecosystem). Each is operationalised through concrete scoring elements — 115 of them — set at the level where a missing property makes a class of techniques inexpressible or unobservable.\n\n**Score.** For a given objective, each element is critical, useful, or not needed. Coverage of each is full, partial, absent, or unknown. Critical weighs 2 and useful 1; full counts 1, partial 0.5, absent 0. The weighted average is a fit score from 0 to 1.\n\nOne rule overrides it: **if any critical requirement is absent, the environment is not suitable for that objective** — a single missing critical property can invalidate the evaluation. Otherwise, suitable above a provisional threshold of 0.75, partially suitable below, and incomplete when too much is unknown.\n\n**Validate.** ATT\\&CK and D3FEND are themselves curated abstractions, so the dimension set needs outside checking: interviews with academic, SecOps and pentesting practitioners, then a broader survey, asking what to add, remove, split or merge and whether people agree on what matters.", "5": "Applied to GOAD, an emulated multi-domain Active Directory environment: **suitable** for credential-based privilege escalation at a fit of 0.88, and **not suitable** for targeted data exfiltration at 0.39 with five critical requirements unmet — the same environment, unchanged.\n\nSuitability is a property of the _pair_, not of the environment.\n\nAcross thirteen publicly inspectable enterprise environments two families appear. Real-software emulators reproduce service, operating-system and action-level realism. Abstract simulators reproduce topology and the agent interface but abstract away temporal dynamics, defensive controls, benign activity and telemetry. Those context dimensions are the least represented anywhere — which means the objectives that depend on them, including targeted exfiltration, evasive operations and threat hunting, are currently supported by no environment at all.\n\nInteractive scorecard\n\n_Metrion is a poster at ACM CCS 2026, with Maria Rigaki and Carlos A. Catania. The current comparison uses dimension-level proxy grades rather than element-level scoring, and is not yet validated._"};
+const N = Object.keys(FRAGS).length;
+let si = 1, cur = 0;
+const host = document.getElementById('slidehost');
+const narr = document.getElementById('narr');
+const rng  = document.querySelector('#bar input');
+function maxStep(){ return host.querySelectorAll('.frag').length; }
+function md(t){
+  return t.split(/\n\s*\n/).map(p =>
+    '<p>' + p.replace(/&/g,'&amp;').replace(/</g,'&lt;')
+             .replace(/\*\*(.+?)\*\*/g,'<strong>$1</strong>')
+             .replace(/_(.+?)_/g,'<em>$1</em>') + '</p>').join('');
+}
+function render(){
+  host.querySelectorAll('.frag').forEach((el,i)=> el.classList.toggle('on', i < cur));
+  const M = maxStep();
+  document.getElementById('count').textContent = 'slide ' + si + ' / ' + N + (si===N && cur>=M ? ' — end' : '');
+  rng.max = N; rng.value = si;
+  location.hash = si > 1 ? 's' + si : '';
+}
+function show(){ host.innerHTML = FRAGS[si]; narr.innerHTML = md(NARR[si] || ''); render(); }
+function jump(n){ si = Math.min(Math.max(1,n), N); cur = 0; show(); }
+function step(d){
+  const M = maxStep();
+  if (d > 0){ if (cur < M){ cur++; render(); } else if (si < N){ si++; cur = 0; show(); } }
+  else { if (cur > 0){ cur--; render(); } else if (si > 1){ si--; show(); cur = maxStep(); render(); } }
+}
+document.addEventListener('keydown', e => {
+  if (e.target.tagName === 'INPUT') return;
+  if (e.key === ' ' || e.key === 'ArrowRight' || e.key === 'ArrowDown'){ e.preventDefault(); step(1); }
+  if (e.key === 'ArrowLeft' || e.key === 'ArrowUp'){ e.preventDefault(); step(-1); }
+});
+function fromHash(){ const m = location.hash.match(/^#s(\d+)$/); if (m){ si = Math.min(Math.max(1,+m[1]),N); cur = 0; show(); } }
+window.addEventListener('hashchange', fromHash);
+document.getElementById('slidewrap').addEventListener('click', () => step(1));
+// GitBook webframe handshake
+function post(a){ if (window.parent !== window) window.parent.postMessage(a, '*'); }
+post({action:'@webframe.ready'});
+function sizeUp(){ post({action:'@webframe.resize', aspectRatio: 16/9, maxHeight: 900,
+  size:{height: document.getElementById('wrap').scrollHeight}}); }
+new ResizeObserver(sizeUp).observe(document.getElementById('wrap'));
+fromHash(); show(); sizeUp();
+</script></body></html>

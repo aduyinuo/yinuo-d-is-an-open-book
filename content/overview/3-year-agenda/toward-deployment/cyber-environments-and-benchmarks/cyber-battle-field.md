@@ -10,6 +10,12 @@ It is the awkward one, and usefully so. The observation is 512-dimensional but w
 
 For transfer experiments it serves as the **far target**: its action space only partially aligns with a kill-chain source environment and its observation space is substantially different, which makes it the larger of the two domain gaps tested.
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--cyber-environments-and-benchmarks--cyber-battle-field.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 ## Publications
 
 _Work of mine that runs on this environment._

@@ -14,4 +14,10 @@ Because the hosts are real, the instrumentation is real too: packet captures and
 
 A high-fidelity reference point rather than a training environment for this work. The fidelity question it raises is taken up on [When We Say "A Realistic Cyber Environment"](../when-we-say-a-realistic-cyber-environment.md).
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--cyber-environments-and-benchmarks--cybervan.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 _Last updated: 2026-08_

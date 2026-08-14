@@ -12,6 +12,12 @@ The cost is the usual one. Setup is heavy, episodes are slow, and you cannot run
 
 **Use it for** checking whether something learned in simulation does anything at all against live services.
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--cyber-environments-and-benchmarks--daedelus.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 ## Publications
 
 _Work of mine that runs on this environment._

@@ -12,6 +12,12 @@ What it buys you is the thing simulators cannot: an attacker who is actually sur
 
 **Don't use it for** training reinforcement learning agents — the loop runs at human speed.
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--cyber-environments-and-benchmarks--hackit.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 ## Publications
 
 _Work of mine that runs on this environment._

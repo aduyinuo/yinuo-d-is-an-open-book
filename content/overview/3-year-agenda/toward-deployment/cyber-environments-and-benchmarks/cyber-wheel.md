@@ -10,6 +10,12 @@ The blue agent's characteristic action is deploying decoys — the aim is to get
 
 For transfer work it makes a good **source** environment: a competent policy arrives under a modest training budget, its kill-chain observation is compact with a high proportion of decision-relevant features, and hosts and subnets are fully configurable through YAML.
 
+## Slides
+
+{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--cyber-environments-and-benchmarks--cyber-wheel.html" %}
+Step through this project as slides, with the text for each slide below it.
+{% endembed %}
+
 ## Publications
 
 _Work of mine that runs on this environment._

@@ -1,0 +1,13 @@
+name: Annotated Slides
+title: Annotated Slides
+description: Embed an annotated slide deck (slides plus narration) inside a page.
+visibility: private
+script: ./src/index.tsx
+scopes:
+  - space:content:read
+blocks:
+  - id: deck
+    title: Annotated slides
+    description: Embed an annotated slide deck by name.
+    urlUnfurl:
+      - https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/*
