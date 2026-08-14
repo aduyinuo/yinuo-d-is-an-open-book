@@ -1,8 +1,4 @@
 # What is she reading?
 
-
-
-
-
-_Last updated: 2026-08_
+_GoodReads profile_
 
