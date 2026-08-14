@@ -32,6 +32,7 @@
       * [Cyber Battle Field](overview/toward-deployment/cyber-environments-and-benchmarks/cyber-battle-field.md)
       * [CyberVAN](overview/toward-deployment/cyber-environments-and-benchmarks/cybervan.md)
   * [Publications](overview/publications.md)
+  * [Work With Me](overview/work-with-me.md)
 * [Tools](overview-1/README.md)
   * [Astrolabe](overview-1/astrolabe.md)
   * [Nanny](overview-1/nanny.md)
