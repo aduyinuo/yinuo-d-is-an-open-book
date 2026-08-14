@@ -22,6 +22,6 @@ Three stages of development. *Pre-rigorous*: intuition, hand-waving, examples, n
 
 The trap is thinking the second stage is the destination. Rigour is the tool that makes intuition reliable; the point was never to stop having intuitions.
 
-**Intuition and logic in mathematics — Henri Poincaré.** A century old, and still the clearest statement that discovery and verification are different acts, done well by different habits of mind, and that a field which honours only one of them will produce people who can check work but not start it.
+**Intuition and logic in mathematics — Henri Poincaré.** [(pdf)](../../.gitbook/assets/poincare-intuition-and-logic.pdf) A century old, and still the clearest statement that discovery and verification are different acts, done well by different habits of mind, and that a field which honours only one of them will produce people who can check work but not start it.
 
 _Last updated: 2026-08_

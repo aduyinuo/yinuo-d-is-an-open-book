@@ -4,6 +4,8 @@
 
 **[Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) — Brett Mensh & Konrad Kording** (PLOS Computational Biology, 2017).
 
+[Download](../../../.gitbook/assets/ten-simple-rules-structuring-papers.pdf) — published open access under CC BY; © Mensh & Kording, reproduced with attribution.
+
 The rules that stuck with me:
 
 *One paper, one central contribution.* If you can't say it in one sentence, the paper is two papers or none.

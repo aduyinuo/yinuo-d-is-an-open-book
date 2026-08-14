@@ -2,6 +2,8 @@
 
 **[NASA Systems Engineering Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)** (NASA/SP-2016-6105 Rev 2).
 
+[Download the copy I keep](../../.gitbook/assets/nasa-systems-engineering-handbook.pdf) — a work of the US government, in the public domain.
+
 Wildly disproportionate to a research project, which is exactly why it's useful. It names every stage a complex build passes through, so you can decide deliberately which ones you're skipping rather than discovering later that you skipped them.
 
 The parts that transfer to a lab:
