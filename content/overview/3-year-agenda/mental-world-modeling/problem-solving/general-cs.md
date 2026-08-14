@@ -46,6 +46,6 @@ _In preparation. Astrolabe, the annotation instrument this work runs on, is desc
 
 ## Collaborators
 
-<table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-ana.png" alt="Ana" width="72"><br><strong>Ana</strong><br>University of Texas at El Paso<br><em>(surname to confirm)</em></td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-anantaa-kotal.png" alt="Anantaa Kotal" width="48"><br><a href="https://anantaakotal.github.io/"><strong>Anantaa Kotal</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
 
 _Last updated: 2026-08_

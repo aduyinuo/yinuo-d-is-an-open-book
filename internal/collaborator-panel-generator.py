@@ -3,8 +3,8 @@ from PIL import Image, ImageDraw, ImageFont
 
 ROOT = "/sessions/festive-hopeful-edison/mnt/GitHub/content"
 ASSETS = os.path.join(ROOT, ".gitbook/assets")
-SIZE = 320                      # stored resolution
-DISPLAY = 72                   # rendered width
+SIZE = 96                       # stored resolution
+DISPLAY = 48                    # rendered width
 
 # green palette
 TINTS = [("#22452f", "#ffffff"), ("#4a7c59", "#ffffff"),

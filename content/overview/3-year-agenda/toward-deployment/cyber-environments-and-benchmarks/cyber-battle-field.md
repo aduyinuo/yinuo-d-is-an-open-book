@@ -18,6 +18,6 @@ _Work of mine that runs on this environment._
 
 ## Collaborators
 
-<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-sabrina-saika.png" alt="Sabrina Saika" width="72"><br><strong>Sabrina Saika</strong><br>University of Texas at El Paso</td><td><img src="../../../../.gitbook/assets/collab-aritran-piplai.png" alt="Aritran Piplai" width="72"><br><a href="https://expertise.utep.edu/profiles/apiplai"><strong>Aritran Piplai</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-sabrina-saika.png" alt="Sabrina Saika" width="48"><br><strong>Sabrina Saika</strong><br>University of Texas at El Paso</td><td><img src="../../../../.gitbook/assets/collab-aritran-piplai.png" alt="Aritran Piplai" width="48"><br><a href="https://expertise.utep.edu/profiles/apiplai"><strong>Aritran Piplai</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
 
 _Last updated: 2026-08_

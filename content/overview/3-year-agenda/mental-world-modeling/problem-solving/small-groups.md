@@ -32,6 +32,6 @@ That cuts against the intuition that synthetic groups would collapse into consen
 
 ## Collaborators
 
-<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-prashanth-rajivan.png" alt="Prashanth Rajivan" width="72"><br><a href="https://ise.washington.edu/facultyfinder/prashanth-rajivan"><strong>Prashanth Rajivan</strong></a><br>University of Washington</td><td><img src="../../../../.gitbook/assets/collab-cleotilde-gonzalez.png" alt="Cleotilde Gonzalez" width="72"><br><a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/"><strong>Cleotilde Gonzalez</strong></a><br>Carnegie Mellon University</td></tr></tbody></table>
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-prashanth-rajivan.png" alt="Prashanth Rajivan" width="48"><br><a href="https://ise.washington.edu/facultyfinder/prashanth-rajivan"><strong>Prashanth Rajivan</strong></a><br>University of Washington</td><td><img src="../../../../.gitbook/assets/collab-cleotilde-gonzalez.png" alt="Cleotilde Gonzalez" width="48"><br><a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/"><strong>Cleotilde Gonzalez</strong></a><br>Carnegie Mellon University</td></tr></tbody></table>
 
 _Last updated: 2026-08_
