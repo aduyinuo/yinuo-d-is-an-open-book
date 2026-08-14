@@ -6,8 +6,6 @@ icon: sack-dollar
 
 A track record of failures and lessons learned.
 
-Most proposal experience is invisible from the outside. You see the awards on a CV and not the eight submissions behind them, which means early-career researchers calibrate against a number that was never real. This page is the other half.
-
 ## Awards
 
 <table><thead><tr><th width="120">Year</th><th width="320">Program</th><th>Role</th></tr></thead><tbody><tr><td>2023</td><td>Accelerating Foundation Models Research — advancing the development and application of foundation models in AI</td><td>Contributor; PI: Cleotilde Gonzalez</td></tr></tbody></table>
