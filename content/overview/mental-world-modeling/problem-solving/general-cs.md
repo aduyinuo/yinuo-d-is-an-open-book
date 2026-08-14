@@ -14,6 +14,16 @@ Three coders labelling the same session, segment by segment, with the consensus 
 
 The running agreement figure is deliberately not flattering. Disagreement is treated as the finding rather than the noise: the segments where coders split are the segments where the operation genuinely is ambiguous, and those are worth studying rather than smoothing away.
 
+## The instrument
+
+The coding in that animation is not done by hand on paper. It runs in **Astrolabe**, a local research app built for this work.
+
+Astrolabe takes in transcripts — typed, uploaded, or recorded in the browser and transcribed with Whisper — and lets multiple annotators code the same session against a shared scheme. It then reports stage-level percent agreement and Cohen's kappa between coders, and exports the agreement report and the full annotation bundle for downstream analysis.
+
+It also carries the question-card structure the project is organised around, with hypergraph overlays for grouping operations at different scales, and reusable prompt scaffolds when a language model is used to propose candidate operations or concepts.
+
+Two design commitments worth naming: it runs entirely on the researcher's own machine, nothing hosted; and it never writes to the source material. It reads a snapshot, keeps all app state in its own database, and hands changes back as text you paste yourself.
+
 ## Where it connects
 
 This is the layer underneath the tooling. If mental operations can be identified reliably, then a system that watches a work session can say something useful about *where* someone is stuck rather than only that they are — which is what the assistive side of the work needs in order to be more than a faster autocomplete.
