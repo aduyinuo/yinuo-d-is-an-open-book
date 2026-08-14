@@ -16,6 +16,7 @@
       * [Capture-the-Flag](overview/mental-world-modeling/problem-solving/capture-the-flag.md)
     * [Biased Sequential Decision Making](overview/mental-world-modeling/bias/README.md)
       * [Challenging Attacker](overview/mental-world-modeling/bias/adversary.md)
+    * [Opponent (Agent) Modeling](overview/mental-world-modeling/opponent-agent-modeling.md)
   * [Human-AI Complementarity](overview/human-ai-complementarity/README.md)
     * [Team Defense Game](overview/human-ai-complementarity/team-defense-game.md)
     * [CyberAgentTrace](overview/human-ai-complementarity/cyberagenttrace.md)
