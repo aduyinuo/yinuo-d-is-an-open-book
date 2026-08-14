@@ -1,6 +1,12 @@
 # General CS Problem-Solving
 
-<figure><img src="../../../.gitbook/assets/ps-cs-consensus.gif" alt="Three coders annotating one solving session with mental operations, and the consensus track underneath"><figcaption>One session, three independent coders, one consensus track.</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ps-cs-graph.gif" alt="A problem-solving graph being built step by step as a session unfolds"><figcaption>The same session as a graph, drawn as it happens.</figcaption></figure>
+
+## Solving as a graph
+
+A session isn't a list. Reading the spec spawns two things at once — a plan to split the problem into cases, and the memory of a similar bug. The plan spawns two pieces of implementation. Running the tests produces a failure, the failure produces a hypothesis, and the hypothesis produces both a patch and a note about the pattern that will outlive this problem.
+
+Drawn this way, the shape of the solve is visible: where it branched, where it looped back, and which step turned out to be the hinge.
 
 ## The question
 
@@ -8,7 +14,9 @@ When someone works through a computing problem, what are they doing at each mome
 
 Naming those operations is easy. Getting independent observers to agree on where one ends and the next begins is not, and that agreement is the whole ballgame — a construct nobody can code reliably isn't a construct.
 
-## What the animation shows
+## Can observers agree on it
+
+<figure><img src="../../../.gitbook/assets/ps-cs-consensus.gif" alt="Three coders annotating one solving session with mental operations, and the consensus track underneath"><figcaption>One session, three independent coders, one consensus track.</figcaption></figure>
 
 Three coders labelling the same session, segment by segment, with the consensus track underneath. Where all three agree, the consensus block is solid and outlined. Where they don't, it fades.
 
