@@ -1,7 +1,32 @@
 # 2026 Spring
 
-The spring term opens on **January 23, 2026**. Dates are assigned as speakers confirm.
+The spring term opens on **January 23, 2026**. Talk dates are assigned as speakers confirm.
 
-<table><thead><tr><th width="230">Speaker</th><th>Talk</th></tr></thead><tbody><tr><td>Siyu Liu</td><td>LLMs for vulnerability discovery</td></tr><tr><td>Omer Akgul</td><td>Hack AI Hackers</td></tr><tr><td>Maria Rigaki</td><td>LLM defense agents</td></tr><tr><td>Mingming Chen</td><td>RL for SDN poisoning</td></tr><tr><td>Michael Lanier</td><td>Cyber range; game-theoretic simulation for APT Typhoon</td></tr><tr><td>Xin Fan Guo</td><td>Model-driven AI (knowledge graphs) for network intrusion detection</td></tr><tr><td>Jeongkeun Shin</td><td>—</td></tr><tr><td>Emilia Rivas, Sabrina Saika</td><td>—</td></tr><tr><td>Thomas Guerra</td><td>—</td></tr><tr><td>Yongzhao Wang</td><td>EGTA and applications in cybersecurity</td></tr><tr><td>Mingyu Guo</td><td>GT/RL for Active Directory defense</td></tr><tr><td>Myles Foley</td><td>Combinatorial bandit for JS fuzzing</td></tr><tr><td>Michael Kouremetis</td><td>LLM pentest agents (PentestJudge) and evaluation (Worlds)</td></tr><tr><td>Sears Schulz</td><td>US Cyber Games; Air Force Cyber Protection Team</td></tr><tr><td>William Blum</td><td>Cyber range — CyberBattleSim</td></tr><tr><td>Phillipe Austria</td><td>Cyber range — CyberWheel; LLM agents for cybersecurity</td></tr><tr><td>Md Sadman Siraj</td><td>GT for IoT wireless networks (emergency response)</td></tr><tr><td>Mike Mylrea</td><td>—</td></tr></tbody></table>
+## Guest talks
+
+| Date | Speaker | Affiliation | Talk |
+| ---- | ------- | ----------- | ---- |
+| TBD | Siyu Liu | — | LLMs for vulnerability discovery |
+| TBD | [Omer Akgul](https://oakgul.com/) | RSAC Labs | Hack the AI Hackers |
+| TBD | [Maria Rigaki](https://mariarigaki.github.io/) | Czech Technical University in Prague | LLM defense agents |
+| TBD | Mingming Chen | — | RL for SDN poisoning |
+| TBD | [Michael Lanier](https://scholar.google.com/citations?user=qANuP04AAAAJ\&hl=en) | Washington University in St. Louis | Cyber range; game-theoretic simulation for APT Typhoon |
+| TBD | [Xin Fan Guo](https://safeandtrustedai.org/person/xin-fan-guo/) | King's College London | Model-driven AI (knowledge graphs) for network intrusion detection |
+| TBD | Yongzhao Wang | — | EGTA and applications in cybersecurity |
+| TBD | Mingyu Guo | — | GT/RL for Active Directory defense |
+| TBD | Myles Foley | — | Combinatorial bandit for JS fuzzing |
+| TBD | Michael Kouremetis | — | LLM pentest agents (PentestJudge) and evaluation (Worlds) |
+| TBD | Sears Schulz | — | US Cyber Games; Air Force Cyber Protection Team |
+| TBD | William Blum | — | Cyber range — CyberBattleSim |
+| TBD | Phillipe Austria | — | Cyber range — CyberWheel; LLM agents for cybersecurity |
+| TBD | Md Sadman Siraj | — | GT for IoT wireless networks (emergency response) |
+
+## Student presentations
+
+| Date | Presenter | Paper or topic |
+| ---- | --------- | -------------- |
+| TBD | Jeongkeun Shin | — |
+| TBD | Emilia Rivas and Sabrina Saika | — |
+| TBD | Thomas Guerra | — |
 
 _Last updated: 2026-08_
