@@ -6,9 +6,7 @@ icon: house-chimney-user
 
 <figure><img src=".gitbook/assets/yinuo-du.png" alt="Yinuo Du" width="180"><figcaption></figcaption></figure>
 
-## Bio
-
-
+I study human and AI decision-making in cybersecurity: computational models of people, AI agents for autonomous defense, and the teaming paradigms that put the two together. The methods come from game theory, reinforcement learning, cognitive modeling, and behavioral experiments.
 
 ## Latest news
 

@@ -4,10 +4,6 @@ icon: folder-user
 
 # CV
 
-**Yinuo Du** — Assistant Professor of Research, Computer Science, University of Texas at El Paso.
-
-I study human and AI decision-making in cybersecurity: computational models of people, AI agents for autonomous defense, and the teaming paradigms that put the two together. The methods come from game theory, reinforcement learning, cognitive modeling, and behavioral experiments.
-
 [Google Scholar](https://scholar.google.com/citations?user=XdY3VB0AAAAJ) · [LinkedIn](https://www.linkedin.com/in/yinuo-du) · [Publications](../publications.md)
 
 ## Academic employment
