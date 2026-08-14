@@ -12,12 +12,6 @@ The attacker begins with a permanent foothold on User0. Holding a user host pays
 
 **Use it for** comparable results — it is the closest thing the field has to a common baseline, and the B-line and Meander attackers are defined here.
 
-## Slides
-
-{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--cyber-environments-and-benchmarks--cyborg.html" %}
-Step through this project as slides, with the text for each slide below it.
-{% endembed %}
-
 ## Publications
 
 _Work of mine that runs on this environment._

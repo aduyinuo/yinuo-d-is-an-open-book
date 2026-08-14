@@ -36,12 +36,6 @@ Across thirteen publicly inspectable enterprise environments two families appear
 
 _Metrion is a poster at ACM CCS 2026, with Maria Rigaki and Carlos A. Catania. The current comparison uses dimension-level proxy grades rather than element-level scoring, and is not yet validated._
 
-## Slides
-
-{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/toward-deployment--when-we-say-a-realistic-cyber-environment.html" %}
-Step through this project as slides, with the text for each slide below it.
-{% endembed %}
-
 ## Publications
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-ccs.png" alt="ACM CCS" data-size="original"></td><td><mark style="color:green;">Realistic Enough for What? Metrion: A Multidimensional Framework for Evaluating Cyber Environments</mark><br>Poster, ACM CCS 2026</td><td><strong>Y. Du</strong>, M. Rigaki, C. A. Catania</td><td></td></tr></tbody></table>

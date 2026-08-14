@@ -20,12 +20,6 @@ Loud, slow, and much harder to predict, because what it does next depends on wha
 
 ##
 
-## Slides
-
-{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/mental-world-modeling--opponent-agent-modeling--bias--adversary.html" %}
-Step through this project as slides, with the text for each slide below it.
-{% endembed %}
-
 ## Publications
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/badge-tsc.png" alt="ACM TSC" data-size="original"></td><td><mark style="color:green;">A cyber-war between bots: cognitive attackers are more challenging for defenders than strategic attackers</mark><br>ACM Transactions on Social Computing, 8(3–4), 1–22</td><td><strong>Y. Du</strong>, <a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, <a href="https://scholar.google.com/citations?user=jktsx4EAAAAJ">T. Malloy</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td><a href="https://doi.org/10.1145/3712672"><img src="../../../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr><tr><td><img src="../../../../../.gitbook/assets/badge-hfes.png" alt="HFES" data-size="original"></td><td><mark style="color:green;">Towards autonomous cyber defense: predictions from a cognitive model</mark><br>Human Factors and Ergonomics Society Annual Meeting, 66(1)</td><td><strong>Y. Du</strong>, <a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, X. Xi, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td><a href="https://doi.org/10.1177/1071181322661504"><img src="../../../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr></tbody></table>

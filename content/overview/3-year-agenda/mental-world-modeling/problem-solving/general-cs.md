@@ -40,12 +40,6 @@ Two design commitments worth naming: it runs entirely on the researcher's own ma
 
 This is the layer underneath the tooling. If mental operations can be identified reliably, then a system that watches a work session can say something useful about _where_ someone is stuck rather than only that they are — which is what the assistive side of the work needs in order to be more than a faster autocomplete.
 
-## Slides
-
-{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/mental-world-modeling--problem-solving--general-cs.html" %}
-Step through this project as slides, with the text for each slide below it.
-{% endembed %}
-
 ## Publications
 
 _In preparation. Astrolabe, the annotation instrument this work runs on, is described under_ [_Artifacts_](../../../../artifacts/astrolabe/)_._

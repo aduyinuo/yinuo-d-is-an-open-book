@@ -42,12 +42,6 @@ The lesson is not that the agent is bad at reasoning. It reached the objective. 
 
 _Observations come from a single run. They illustrate common failure modes rather than establishing their frequency._
 
-## Slides
-
-{% embed url="https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/human-ai-complementarity--cyberagenttrace.html" %}
-Step through this project as slides, with the text for each slide below it.
-{% endembed %}
-
 ## Publications
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-aaai.png" alt="AAAI-Summer Symposium" data-size="original"></td><td><mark style="color:green;">Cyber-Agent-Flow: Execution Trace Instrumentation and Analysis for Cybersecurity Agent Workflows</mark><br>Extended abstract, AAAI Symposium Series, 9(1), 337–340</td><td><a href="https://www.utep.edu/cs/people/faculty-websites/jacosta.html">J. Acosta</a>, M. T. B. Nazim, T. Guerra, <strong>Y. Du</strong>, <a href="https://expertise.utep.edu/profiles/paggarwal">P. Aggarwal</a></td><td><a href="https://doi.org/10.1609/aaaiss.v9i1.42950"><img src="../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr></tbody></table>
