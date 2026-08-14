@@ -76,3 +76,7 @@
   * [Photo Collections](personal/photo-collections/README.md)
     * [El Paso](personal/photo-collections/el-paso.md)
     * [Pittsburgh](personal/photo-collections/pittsburgh.md)
+  * [Application Package](personal/application-package/README.md)
+    * [Research Statement](personal/application-package/research-statement.md)
+    * [Teaching Statement](personal/application-package/teaching-statement.md)
+  * [Writing MISC](personal/writing-misc.md)
