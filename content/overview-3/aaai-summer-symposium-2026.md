@@ -1,9 +1,8 @@
-# AAAI Summer Symposium: Human-Aware AI Agents for the Cyber Battlefield
+# 2026 AAAI Summer Symposium
 
 I co-organized this symposium, part of the AAAI 2026 Summer Symposium Series, held June 22–24, 2026 at Dongguk University in Seoul, South Korea.
 
-**Official website:** [sites.google.com/view/suss26-ai-agents-for-cyber](https://sites.google.com/view/suss26-ai-agents-for-cyber/home)
-**Series page:** [AAAI 2026 Summer Symposium Series](https://aaai.org/conference/summer-symposia/suss26/)
+**Official website:** [sites.google.com/view/suss26-ai-agents-for-cyber](https://sites.google.com/view/suss26-ai-agents-for-cyber/home) **Series page:** [AAAI 2026 Summer Symposium Series](https://aaai.org/conference/summer-symposia/suss26/)
 
 ## What it was about
 
@@ -24,27 +23,27 @@ Technical progress alone does not settle the question. Analysts supply the conte
 
 Five half-day parts, with a keynote each morning.
 
-| Part | Focus |
-| --- | --- |
-| 1 | Attacker and pen-testing agents |
-| 2 | Defender and autonomous defense agents |
-| 3 | Cyber ranges, challenges, and benchmarks |
-| 4 | AI assistants and human-in-the-loop attack and defense |
-| 5 | Cross-community lightning talks |
+| Part | Focus                                                  |
+| ---- | ------------------------------------------------------ |
+| 1    | Attacker and pen-testing agents                        |
+| 2    | Defender and autonomous defense agents                 |
+| 3    | Cyber ranges, challenges, and benchmarks               |
+| 4    | AI assistants and human-in-the-loop attack and defense |
+| 5    | Cross-community lightning talks                        |
 
 ## Organizing committee
 
-| Organizer | Affiliation |
-| --- | --- |
-| Arunesh Sinha | Rutgers University |
-| Kimberly J. Ferguson-Walter | Leidos |
-| Palvi Aggarwal | University of Texas at El Paso |
-| Quanyan Zhu | New York University |
-| Sridhar Venkatesan | Peraton Labs |
-| Yinuo Du | University of Texas at El Paso |
+| Organizer                   | Affiliation                    |
+| --------------------------- | ------------------------------ |
+| Arunesh Sinha               | Rutgers University             |
+| Kimberly J. Ferguson-Walter | Leidos                         |
+| Palvi Aggarwal              | University of Texas at El Paso |
+| Quanyan Zhu                 | New York University            |
+| Sridhar Venkatesan          | Peraton Labs                   |
+| Yinuo Du                    | University of Texas at El Paso |
 
 Selected papers were published in the AAAI symposium proceedings.
 
-**Related:** [Community](overview.md) | [CyberAI Reading Group](cyberai-reading-group.md) | [Research overview](../research/overview.md)
+**Related:** [Community](./) | [CyberAI Reading Group](cyberai-reading-group.md) | [Research overview](../research/overview.md)
 
 _Last updated: 2026-08_
