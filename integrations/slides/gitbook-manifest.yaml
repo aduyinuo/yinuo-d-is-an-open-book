@@ -1,13 +1,25 @@
-name: Annotated Slides
+name: openbook-annotated-slides
 title: Annotated Slides
-description: Embed an annotated slide deck (slides plus narration) inside a page.
+description: Show an annotated slide deck (slides with narration) inline in a page.
+summary: |
+  # Overview
+  Renders a deck published under
+  https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/ inside the page,
+  using a ContentKit webframe. The reader steps through slides with the arrow
+  keys and reads the narration beneath each one.
+
+  # Use
+  Paste a deck URL onto a page and it turns into the deck, or insert the
+  "Annotated Slides" block and set the deck name.
 visibility: private
 script: ./src/index.tsx
 scopes:
   - space:content:read
+categories:
+  - content
 blocks:
   - id: deck
-    title: Annotated slides
-    description: Embed an annotated slide deck by name.
+    title: Annotated Slides
+    description: An annotated slide deck with narration.
     urlUnfurl:
-      - https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/*
+      - https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/
