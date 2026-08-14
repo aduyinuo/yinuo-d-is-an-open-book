@@ -6,7 +6,6 @@
   * [Work With Me](home/work-with-me.md)
   * [CV](home/cv.md)
 * [Research](research/overview.md)
-  * [Research overview](research/overview.md)
   * [Cyber World Modeling](overview/cyber-world-modeling/README.md)
     * [FOE-Dreamer](overview/cyber-world-modeling/environment.md)
     * [Learn Structure](overview/cyber-world-modeling/strategic-structure.md)

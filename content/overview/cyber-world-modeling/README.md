@@ -16,7 +16,7 @@ icon: connectdevelop
 
 [**Learn Structure**](strategic-structure.md) takes a step further and exploits the structure of factorized components. Given that most of a long interaction is not strategic, where does the strategic part live? We attempt to make strategic dependence a measurable quantity — how much value a defender forfeits by ignoring the opponent, as a function of the game's structure — generates games that contain a known amount of it, then learns that structure back and checks the recovery. Find where dependence is high and expensive game-theoretic reasoning can be spent there and nowhere else.
 
-## Future Work
+## Ongoing & Future Work
 
 1. A learned world model is always wrong somewhere, and a factored model that is confidently wrong about the opponent's latent may be worse than an honest monolith. How can we decide if a world model is "reasonably accurate"? What types of "errors" are more or less acceptable for a defense agent in operational networks?
 2. Once a "reasonably accurate" model exists, can we use to expedite the search for strategic responses rather than only to roll the world forward?&#x20;

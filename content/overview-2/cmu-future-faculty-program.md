@@ -12,8 +12,6 @@ What it involved:
 
 **A course and syllabus design project** — building a full course from objectives through assessment, the deliverable that ties the seminars together.
 
-## What I took from it
 
-The single idea that stuck: decide what a student should be able to *do* at the end, make the assessment measure exactly that, and only then design the lectures. It is the same requirements-before-design discipline I use in research, applied to a classroom — and it is the reason my [guest lectures](2025-fall-guest-lectures-at-utep.md) are built around one thing a student should walk out able to do, not a survey of everything I could say.
 
 _Last updated: 2026-08_

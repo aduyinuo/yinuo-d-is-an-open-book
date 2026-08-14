@@ -16,7 +16,7 @@ icon: head-side-gear
 
 [**Opponent (Agent) Modeling**](opponent-agent-modeling/) is the adversarial half — how agents read each other into kinds across repeated interaction, and how to model an attacker whose biases are built into the reward, so that the defender it trains faces a realistic opponent instead of an idealized one.
 
-## Future Work
+## Ongoing & Future Work
 
 Existing work in both agent-based modeling and human subject studies signals the necessity to find a consensus on the definition of mental operations, and that should be _learned_ rather than fixed — mental operations treated as reusable actions an agent discovers and composes, with a separate account of the control that decides which to use and when to quit.&#x20;
 

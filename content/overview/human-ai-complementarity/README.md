@@ -20,7 +20,7 @@ Three instruments, each turning a piece of the structure into something you can 
 
 [**CHART**](chart.md) makes team structure a directed graph: approvals route along control edges, explanations reach a panel, messages route by mention. Change the graph and you have changed the team, on purpose and on the record.
 
-## Future Work
+## Ongoing & Future Work
 
 CHART is only a first step to capture the syntax of human-agent teamwork. Its completeness and succinctness remain to be tested. Can it express the teamwork in a SOC center or a incident response team? Can we prescribe, monitor, and diagnose human-agent teamwork represented with CHART? These questions are taken up [next](next.md).
 
