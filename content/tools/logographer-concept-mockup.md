@@ -1,23 +1,23 @@
-# Logographer Concept Mockup
+# Logographer
 
 ## Intent
-Reduce distress from agent-generated writing by learning and enforcing your personal readability preferences.
+Reduce the friction of agent-generated writing by learning a writer's readability preferences and applying them consistently.
 
 ## Interaction flow
 ```mermaid
 sequenceDiagram
-    participant U as You
+    participant W as Writer
     participant A as AI Assistant
     participant L as Logographer
-    U->>A: Request draft
+    W->>A: Request draft
     A-->>L: Raw draft
     L->>L: Apply personal style profile
-    L-->>U: Refined draft + change rationale
-    U->>L: Feedback (accept/reject notes)
+    L-->>W: Refined draft + change rationale
+    W->>L: Feedback (accept/reject notes)
     L->>L: Update preference profile
 ```
 
-## MVP panels (UI mockup outline)
+## MVP panels
 1. Preference profile summary
 2. Raw vs refined side-by-side
 3. Rule activations with confidence
@@ -28,3 +28,7 @@ sequenceDiagram
 - lower rejection rate over time
 - reduced reading friction
 - stable voice and structure consistency
+
+**Related:** [Tools](overview.md) | [Tool roadmap](tool-roadmap-and-status-board.md)
+
+_Last updated: 2026-08_

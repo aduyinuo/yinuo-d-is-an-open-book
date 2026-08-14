@@ -1,6 +1,6 @@
-﻿# 00 — BAA in Plain English
+# 00 - BAA in Plain English
 
-**Prev:** [Section index](index.md) | **Next:** [10 — Vision and thrust decomposition](10-vision-and-thrust-decomposition.md) | **Related:** [ARL-BAA flagship brief](../arl-baa-0122-deep-brief.md)
+**Prev:** [Section index](index.md) | **Next:** [10 - Vision and thrust decomposition](10-vision-and-thrust-decomposition.md) | **Related:** [ARL-BAA flagship brief](../arl-baa-0122-deep-brief.md)
 
 ## Plain-language summary
 The BAA asks whether a resource-constrained tactical AI can observe workflows, detect meaningful optimization opportunities, and autonomously produce secure, on-device improvements with verifiable behavior.
@@ -19,4 +19,4 @@ The BAA asks whether a resource-constrained tactical AI can observe workflows, d
 - What audit-trail format is both reviewer-legible and mission-usable?
 
 ---
-**Prev:** [Section index](index.md) | **Next:** [10 — Vision and thrust decomposition](10-vision-and-thrust-decomposition.md) | **Related:** [20 — Gaps, risks, and overclaims](20-gaps-risks-and-overclaims.md)
+**Prev:** [Section index](index.md) | **Next:** [10 - Vision and thrust decomposition](10-vision-and-thrust-decomposition.md) | **Related:** [30 - Method candidates and metrics](30-method-candidates-and-metrics.md)

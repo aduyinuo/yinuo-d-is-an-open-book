@@ -1,25 +1,25 @@
-﻿# Proposal Portfolio Timeline
+# Proposal Portfolio
 
-Source:
-`[5] Proposals/`
+## Framing
+Proposal work runs as a set of parallel lanes at different stages of maturity, not a single sequential draft stream. Each lane carries its own call, its own collaborators, and its own timeline.
 
-## Thesis block
-Proposal work is a lane-based pipeline with uneven readiness; visibility requires explicit folder-level structure plus immediate next actions.
+## Active and recent lanes
 
-## Lane structure mined
+| Lane | Focus |
+|---|---|
+| ARL-BAA (2026 Spring) | Tactical AI for workflow diagnosis, capability generation, and autonomous validation. The most developed lane; see the deep brief below. |
+| SaTC (2025 Fall) | Collaborative security research proposal with institutional partners. |
+| TRI-Kaizen (2025 Fall) | Continuous-improvement framing applied to human-agent research workflows. |
+| University internal programs (2025-2026) | Internal seed and pilot funding supporting early-stage lines. |
+| LREU (2025 Fall) | Undergraduate research experience support. |
 
-| Lane | Observed structure | Readiness signal |
-|---|---|---|
-| `[0] 2025 Fall LREU Documents` | direct files (`cv.pdf`, diversity statement) | archival support materials |
-| `[1] 2025 Fall TRI-Kaizen` | `CFP/`, `Submission Package/` (currently sparse) | scaffold created; packaging pending |
-| `[2] 2025 Fall SaTC UTEP-CTU` | `CFP/` + populated `Submission Package/` | moderate package completeness |
-| `[3] 2025 Fall UTEP URI Internal` | `CFP/` + proposal/letter/CV package | focused internal package |
-| `[4] 2026 Spring Pilot UTEP Internal` | `CFP/`, `Submission Package/` (currently sparse) | low visible packaging maturity |
-| `[5] 2026 Spring ARL-BAA` | `CFP/`, `White Paper Drafts/`, `My thoughts/`, `meeting_notes/` | flagship deep-brief candidate |
-
-## ARL flagship expansion links
+## ARL flagship expansion
 - [ARL deep brief](arl-baa-0122-deep-brief.md)
 - [ARL section index](arl-baa-0122/index.md)
 
-## Portfolio operating rule
-For every lane, track: intent, package completeness, evidence quality, and next deadline-linked action.
+## How each lane is tracked
+For every lane: the intent, the evidence behind the central claims, and the next deadline-linked action.
+
+**Related:** [Proposals index](index.md) | [Research overview](../overview.md)
+
+_Last updated: 2026-08_

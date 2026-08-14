@@ -1,22 +1,20 @@
-﻿# 40 — Meeting Evidence Trace
+# 40 - Design Rationale
 
-**Prev:** [30 — Method candidates and metrics](30-method-candidates-and-metrics.md) | **Next:** [90 — Artifact index](90-artifact-index.md) | **Related:** [Section index](index.md)
+**Prev:** [30 - Method candidates and metrics](30-method-candidates-and-metrics.md) | **Next:** [90 - Evidence and artifacts](90-artifact-index.md) | **Related:** [Section index](index.md)
 
 ## Working claim
-Meeting transcripts are design evidence, not memory aids. They should be trace-linked to proposal commitments.
+Design conversations are evidence, not memory aids. The reasoning behind each proposal commitment should be recoverable, not folklore.
 
-## Trace table
+## What shaped the current framing
 
-| Meeting artifact | Signal to preserve | Proposal relevance |
+| Input | Signal preserved | Effect on the proposal |
 |---|---|---|
-| `04-29 ... White Paper Submission Strategy ...` | program-officer alignment on thrust framing | validates top-level direction |
-| `05-08 ... Proposal Submission, Budget ...` | adaptation cycle, automation-worth uncertainty, validation concerns | sharpens Area 3 framing and risk language |
-| `My thoughts/definitions_feedback_transcription.md` | pressure for plain-language clarity | improves readability and reviewer interpretation |
+| Submission-strategy discussions | agreement on how the thrusts should be framed | validates the top-level direction |
+| Adaptation-cycle discussions | uncertainty about what is worth automating, and how validation should work | sharpens the Area 3 framing and the risk language |
+| Definitional feedback | pressure for plain-language clarity | improves readability and reviewer interpretation |
 
 ## Operating rule
-Each major proposal section should include at least:
-1. one transcript-backed rationale, and
-2. one concrete next action.
+Each major proposal section should carry at least one documented rationale and one concrete next action.
 
 ---
-**Prev:** [30 — Method candidates and metrics](30-method-candidates-and-metrics.md) | **Next:** [90 — Artifact index](90-artifact-index.md) | **Related:** [20 — Gaps, risks, and overclaims](20-gaps-risks-and-overclaims.md)
+**Prev:** [30 - Method candidates and metrics](30-method-candidates-and-metrics.md) | **Next:** [90 - Evidence and artifacts](90-artifact-index.md) | **Related:** [10 - Vision and thrust decomposition](10-vision-and-thrust-decomposition.md)

@@ -1,4 +1,4 @@
-# Research Statement Positioning Map
+# Positioning Map
 
 ## Positioning objective
 Express one coherent research identity without erasing the distinct methods and goals of each collection.
@@ -9,15 +9,14 @@ Express one coherent research identity without erasing the distinct methods and 
 3. **Human involvement**: human-only, human-assisted, human-agent teamed
 4. **Evidence maturity**: framing, formalization, prototype, empirical, publication-ready
 
-## Collection alignment sketch
+## Where each collection sits
 - **LucidWorld**: formalization -> algorithmic -> empirical bridge
 - **DesignTheGame**: conceptual and methodological shaping
-- **UnitedForces**: workflow/teaming operationalization
+- **UnitedForces**: workflow and teaming operationalization
 - **BeRealistic**: feasibility and realism validation
 - **ReadTheRoom**: context and adversarial behavior grounding
-- **PickYourBattles**: strategic prioritization/governance layer
+- **PickYourBattles**: strategic prioritization layer
 
-## Writing guardrails
-- no absolute claims without bounded conditions
-- clearly mark what is solved vs. in progress
-- anchor every positioning claim to at least one artifact
+**Related:** [Research statement](overview.md) | [Research projects index](../index.md)
+
+_Last updated: 2026-08_

@@ -2,7 +2,7 @@
 
 * [Home](home.md)
 * [Research](research/overview.md)
-  * [Research overview](/broken/pages/uLpX24Od3OhtjLCm737A)
+  * [Research overview](research/overview.md)
   * [Projects](research/projects/index.md)
 * [Tools](tools/overview.md)
 * [Teaching](teaching/overview.md)
@@ -11,3 +11,4 @@
 * [Community](people-and-community/overview.md)
 * [Open science and wellbeing](open-science-and-wellbeing/overview.md)
 * [Statements](statements/index.md)
+* [Contact](contact.md)

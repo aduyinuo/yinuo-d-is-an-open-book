@@ -1,22 +1,21 @@
-﻿# 90 — Artifact Index
+# 90 - Evidence and Artifacts
 
-**Prev:** [40 — Meeting evidence trace](40-meeting-evidence-trace.md) | **Next:** [Section index](index.md) | **Related:** [Proposals index](../index.md)
+**Prev:** [40 - Design rationale](40-meeting-evidence-trace.md) | **Next:** [Section index](index.md) | **Related:** [Proposals index](../index.md)
 
-## Source root
-`[5] Proposals/[5] 2026 Spring ARL-BAA/`
+## What backs the claims in this section
 
-## Artifact map
-
-| Path | Role |
+| Evidence type | What it establishes |
 |---|---|
-| `CFP/Research Opportunity Topic_ OPT-0122.pdf` | call text anchor |
-| `White Paper Drafts/2026-ARLProposal.pdf` | main draft lineage |
-| `My thoughts/research_notes_consolidated.md` | conceptual synthesis and open opportunities |
-| `My thoughts/questions_and_partial_solutions.md` | decomposition and plain-language pressure points |
-| `My thoughts/challenges_and_metrics.md` | challenge/metric pairing |
-| `My thoughts/cowork_outputs/proposal_full_read.md` | gap and overclaim audit evidence |
-| `My thoughts/cowork_outputs/methods_inventory.md` | method candidate inventory |
-| `meeting_notes/*.txt` and `meeting_notes/*Summary*.md` | decision and rationale trace |
+| The call text | the requirement each commitment answers to |
+| White paper drafts | how the argument has been stated and revised |
+| Consolidated research notes | the conceptual synthesis and the open opportunities |
+| Question decomposition | where the call language is ambiguous and how it is being read |
+| Challenge and metric notes | the pairing between each challenge and its measurable proxy |
+| Method inventory | the candidate methods considered and why they were kept or dropped |
+| Design discussion records | the rationale trail behind each commitment |
+
+## How to request material
+Proposal materials are shared selectively. See [Contact](../../../contact.md).
 
 ---
-**Prev:** [40 — Meeting evidence trace](40-meeting-evidence-trace.md) | **Next:** [Section index](index.md) | **Related:** [ARL-BAA flagship brief](../arl-baa-0122-deep-brief.md)
+**Prev:** [40 - Design rationale](40-meeting-evidence-trace.md) | **Next:** [Section index](index.md) | **Related:** [ARL-BAA flagship brief](../arl-baa-0122-deep-brief.md)

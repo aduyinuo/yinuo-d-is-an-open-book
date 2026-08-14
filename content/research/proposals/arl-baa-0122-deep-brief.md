@@ -1,31 +1,30 @@
-﻿# ARL-BAA-0122 Deep Brief
+# ARL-BAA-0122 Deep Brief
 
-Root:
-`[5] Proposals/[5] 2026 Spring ARL-BAA/`
+## Thesis
+ARL-BAA-0122 has enough underlying structure to support a full proposal knowledge space with clear evidence links, risk controls, and readability-first writing.
 
-## Thesis block
-ARL-BAA-0122 has enough existing structure to support a full proposal knowledge space with clear evidence links, risk controls, and readability-first writing.
+## What this lane is built on
 
-## What the source folder already contains
-
-| Subfolder | Signal |
+| Strand | What it contributes |
 |---|---|
-| `CFP/` | call text anchor (`Research Opportunity Topic_ OPT-0122.pdf`) |
-| `White Paper Drafts/` | PDF/DOCX draft lineage |
-| `My thoughts/` | consolidated notes, challenge/metric files, Q&A decomposition |
-| `My thoughts/cowork_outputs/` | proposal full-read, methods inventory, secops mapping |
-| `meeting_notes/` | transcript + summary traces for April/May design decisions |
+| The call itself | the requirement text every claim has to answer to |
+| White paper drafts | the lineage of how the argument has been stated so far |
+| Working notes | challenge and metric definitions, and a question-by-question decomposition of the call |
+| Design discussions | the rationale behind the current thrust framing |
 
-## Multi-page set (live)
+## Section pages
 1. [ARL section index](arl-baa-0122/index.md)
-2. [00 — BAA in plain English](arl-baa-0122/00-baa-plain-english.md)
-3. [10 — vision and thrust decomposition](arl-baa-0122/10-vision-and-thrust-decomposition.md)
-4. [20 — gaps, risks, and overclaims](arl-baa-0122/20-gaps-risks-and-overclaims.md)
-5. [30 — method candidates and metrics](arl-baa-0122/30-method-candidates-and-metrics.md)
-6. [40 — meeting evidence trace](arl-baa-0122/40-meeting-evidence-trace.md)
-7. [90 — artifact index](arl-baa-0122/90-artifact-index.md)
+2. [00 - BAA in plain English](arl-baa-0122/00-baa-plain-english.md)
+3. [10 - Vision and thrust decomposition](arl-baa-0122/10-vision-and-thrust-decomposition.md)
+4. [30 - Method candidates and metrics](arl-baa-0122/30-method-candidates-and-metrics.md)
+5. [40 - Design rationale](arl-baa-0122/40-meeting-evidence-trace.md)
+6. [90 - Evidence and artifacts](arl-baa-0122/90-artifact-index.md)
 
 ## Quality bar
 - no acronym-only paragraphs without plain-language framing
-- claim/evidence/metric alignment for major commitments
+- claim, evidence, and metric aligned for every major commitment
 - every unresolved question tied to an explicit next action
+
+**Related:** [Proposals index](index.md) | [ARL-BAA flagship](arl-baa-flagship.md)
+
+_Last updated: 2026-08_

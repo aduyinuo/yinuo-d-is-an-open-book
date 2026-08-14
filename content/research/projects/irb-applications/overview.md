@@ -1,37 +1,21 @@
-# IRB Applications Collection
+# IRB Applications
 
-This collection supports the compliance and ethics layer for human-agent and teamwork studies.
+This collection is the ethics and compliance layer behind the human-agent and teamwork studies described elsewhere on this site. It exists so that empirical results stay publishable and defensible.
 
-Collection root:
-`[2] Research Projects/IRB Applications/`
+## Why it is public
+Research on human participants carries obligations that should be visible, not implied. Stating protocol status openly prevents claims from outpacing approved scope, and it tells collaborators and participants what governs the work they are joining.
 
-## Operational role
-This collection provides the ethics/compliance infrastructure for human-agent and teamwork studies so empirical results remain publishable and defensible.
+## What each study line records
+1. **Study intent** - one-sentence purpose and participant population.
+2. **Protocol status** - draft, submitted, revisions, approved, active, or closed.
+3. **Artifact links** - protocol, consent, instruments, de-identification procedure.
+4. **Data handling** - storage location, access scope, retention plan.
+5. **Risk controls** - known risks and who owns each mitigation.
 
-## Current source structure
-- `utep irb logistics/`
-- additional human-AI/team/future-of-work supporting files
-
-## Practical page set (site-facing)
-1. `overview.md` (this page)
-2. `study-lines-and-status.md`
-3. `protocol-artifacts-index.md`
-
-## Minimum operational checklist per study line
-1. **Study intent:** one-sentence purpose and participant population.
-2. **Protocol status:** draft/submitted/revisions approved/active/closed.
-3. **Artifact links:** protocol, consent, instruments, de-identification procedure.
-4. **Data handling:** storage location, access scope, retention plan.
-5. **Risk controls:** known risks and mitigation owner.
-
-## Why this strengthens credibility
-- Prevents claims that outpace approved protocol scope.
-- Makes compliance status legible to mentors/collaborators.
-- Reduces rework by exposing missing artifacts early.
-
-## Immediate next deliverables
-- Build `study-lines-and-status.md` with one row per active or planned study.
-- Build `protocol-artifacts-index.md` with direct links to protocol evidence.
-- Add a private compliance tracker in the internal workspace, not the public site.
+## Active study areas
+- Human-agent teaming workflow studies, characterizing teamwork and taskwork patterns.
+- CTF and problem-solving cognition studies, identifying cognitive signatures of difficult tasks.
 
 **Related:** [Research projects index](../index.md) | [Research overview](../../overview.md)
+
+_Last updated: 2026-08_

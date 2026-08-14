@@ -1,25 +1,20 @@
-﻿# 90 — Artifacts and Source Index
+# 90 - Evidence and Artifacts
 
-**Prev:** [30 — Learning approach and world model](30-learning-approach-and-world-model.md) | **Next:** [Section index](index.md) | **Related:** [LucidWorld overview](../overview.md)
+**Prev:** [30 - Learning approach and world model](30-learning-approach-and-world-model.md) | **Next:** [Section index](index.md) | **Related:** [LucidWorld overview](../overview.md)
 
-## Source root
-`[2] Research Projects/2025-2026 LucidWorld/[2] 2026 learn_structure/`
+## What backs the claims in this section
 
-## Core manuscript files
-
-| Path | Role |
+| Evidence type | What it establishes |
 |---|---|
-| `Notes/Latex/main.tex` | manuscript assembly entry point |
-| `Notes/Latex/sections/current_status.tex` | maturity snapshot and open-status ledger |
-| `Notes/Latex/sections/problem_statement_generator.tex` | generator problem definition and plan |
-| `Notes/Latex/sections/questions_and_partial_solutions.tex` | section decomposition and unresolved questions |
-| `Notes/Latex/sections/milestones.tex` | timeline and milestone anchors |
+| Manuscript sections | the formal definitions, the generator problem statement, and the learning approach as written for publication |
+| Maturity ledger | which claims are settled, which are provisional, and what checks remain open |
+| Section decomposition notes | the unresolved questions each section is still carrying |
+| Milestone record | the timeline this subproject is working against |
+| Literature base | dependence measures and causal grounding the taxonomy builds on |
+| Revision history | the discussions that drove each substantive change |
 
-## Supporting folders
-- `Literature/` — dependence and causality references
-- `Feedback/` — revision-driving meeting transcripts
-- `Submissions/` — publication packaging trail
-- `Notes/obsolete_notes/` — historical lineage for backtracking decisions
+## How to request material
+Manuscript drafts and supporting materials can be shared on request ahead of publication. See [Contact](../../../../contact.md).
 
 ---
-**Prev:** [30 — Learning approach and world model](30-learning-approach-and-world-model.md) | **Next:** [Section index](index.md) | **Related:** [Learn Structure flagship](../learn-structure-flagship.md)
+**Prev:** [30 - Learning approach and world model](30-learning-approach-and-world-model.md) | **Next:** [Section index](index.md) | **Related:** [Learn Structure flagship](../learn-structure-flagship.md)

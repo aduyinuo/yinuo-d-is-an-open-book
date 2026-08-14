@@ -1,37 +1,21 @@
-# Research Statement Collection
+# Research Statement
 
-This collection is the portfolio-level synthesis layer that connects active collections into one coherent research identity.
+This is the portfolio-level synthesis layer. It connects the active collections into one coherent research identity rather than a list of separate efforts.
 
-Collection root:
-`[2] Research Projects/RESEARCH STATEMENT/`
+## What it holds
+- **Positioning:** how each collection contributes to the long-term agenda.
+- **Evidence:** the concrete artifacts behind each major claim.
+- **Revision history:** what the narrative used to say, and why it changed.
 
-## Operational role
-This collection is the portfolio-level synthesis layer that connects active collections (e.g., LucidWorld, proposals, teamwork lines) into one coherent research identity.
+## Standards this narrative is held to
+1. Every major claim links to at least one concrete artifact.
+2. The flagship lines named here match their real state in the portfolio.
+3. No forward-looking claim is phrased as completed work.
+4. Every revision states what changed and why.
 
-## What this collection should contain
-- **Positioning map:** how each collection contributes to the long-term agenda.
-- **Evidence links:** concrete artifacts supporting each major claim.
-- **Revision log:** timestamped changes and rationale for narrative shifts.
-- **Audience variants:** concise versions for mentors, collaborators, and applications.
+## Pages
+- [Positioning map](positioning-map.md)
 
-## Current source structure
-- `Latex/` package with sectioned manuscript materials for the canonical narrative.
+**Related:** [Research projects index](../index.md) | [Research statement](../../../statements/research-statement.md) | [Research overview](../../overview.md)
 
-## Practical page set (site-facing)
-1. `overview.md` (this page)
-2. `positioning-map.md`
-3. `evidence-links.md`
-4. `revision-log.md`
-
-## Credibility checks before publishing updates
-1. Every major claim links to at least one concrete artifact page.
-2. Flagship lines listed here match current status in the portfolio.
-3. No future-looking claim is phrased as completed work.
-4. Each revision entry states what changed and why.
-
-## Update cadence
-- **Weekly:** refresh active-line summaries and evidence links.
-- **Monthly:** revise portfolio framing and remove stale priorities.
-- **After major milestones:** add one short revision entry and impacted claim updates.
-
-**Related:** [Research projects index](../index.md) | [Research statement page](../../../statements/research-statement.md) | [Research overview](../../overview.md)
+_Last updated: 2026-08_

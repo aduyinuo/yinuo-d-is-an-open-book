@@ -13,4 +13,4 @@
 
 
 
-**Related:** [Research overview](../overview.md) | [Proposal index](/broken/pages/4VRAINMPfn4MvkHiT9Eq)
+**Related:** [Research overview](../overview.md) | [Proposal index](../proposals/index.md)

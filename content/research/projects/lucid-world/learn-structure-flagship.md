@@ -1,25 +1,21 @@
-﻿# Flagship Subspace: Learn Structure
+# Flagship Subproject: Learn Structure
 
-Source root:
-`[2] Research Projects/2025-2026 LucidWorld/[2] 2026 learn_structure/`
+`learn_structure` is a flagship subproject within the LucidWorld collection. It is presented as a structured section rather than a single summary page, because the argument runs from definition through generation and learning to validation.
 
-## Thesis block
-`learn_structure` is a flagship **subproject** within the LucidWorld **collection**. It should be presented as a structured mini-site, not a single summary page.
+## Why it carries flagship weight
+- A manuscript-scale writing effort organized into modular sections.
+- An explicit maturity ledger tracking which claims are settled and which are still open.
+- A generator problem statement with concrete validity criteria, including how unattainable requests are handled.
+- A revision history in which design decisions are traceable to the discussions that produced them.
 
-## Mined depth signals
-- Manuscript-scale LaTeX pipeline with many modular `sections/*.tex` files.
-- Explicit status machinery (`current_status.tex`) with maturity grid and pending checks.
-- Generator problem statement with concrete validity criteria and unattainable-request handling.
-- Feedback transcripts supporting design decisions and revision history.
-
-## Multi-page set (live)
+## Read the section
 1. [Section index](learn-structure/index.md)
-2. [00 — overview and stakes](learn-structure/00-overview-and-stakes.md)
-3. [10 — taxonomy development](learn-structure/10-taxonomy-development.md)
-4. [20 — generator problem and plan](learn-structure/20-generator-problem-and-plan.md)
-5. [30 — learning approach and world model](learn-structure/30-learning-approach-and-world-model.md)
-6. [90 — artifacts and source index](learn-structure/90-artifacts-and-source-index.md)
+2. [00 - Overview and stakes](learn-structure/00-overview-and-stakes.md)
+3. [10 - Taxonomy development](learn-structure/10-taxonomy-development.md)
+4. [20 - Generator problem and plan](learn-structure/20-generator-problem-and-plan.md)
+5. [30 - Learning approach and world model](learn-structure/30-learning-approach-and-world-model.md)
+6. [90 - Evidence and artifacts](learn-structure/90-artifacts-and-source-index.md)
 
-## Navigation
-- Back to [LucidWorld overview](overview.md)
-- Back to [LucidWorld subprojects dossier](subprojects-dossier.md)
+**Related:** [LucidWorld overview](overview.md) | [Research projects index](../index.md)
+
+_Last updated: 2026-08_

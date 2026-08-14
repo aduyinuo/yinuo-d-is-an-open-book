@@ -1,5 +1,7 @@
 # Home
 
+<figure><img src=".gitbook/assets/yinuo-du.png" alt="Yinuo Du" width="180"><figcaption></figcaption></figure>
+
 I build at the boundary of human intelligence, AI systems, and cyber-physical decision support.
 
 ## Start here
@@ -13,6 +15,7 @@ I build at the boundary of human intelligence, AI systems, and cyber-physical de
 * [People and community](people-and-community/overview.md)
 * [Open science and wellbeing](open-science-and-wellbeing/overview.md)
 * [Statements](statements/index.md)
+* [Contact](contact.md)
 
 
 

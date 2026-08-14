@@ -24,3 +24,14 @@ research/topic-activity-board.md
 research/topic-activity-board-2026-08-sample.md
 appointment-booking.md
 calendar-and-booking.md
+
+# Internal artifacts kept out of the public tree.
+index.md
+research/projects/_project-template.md
+research/projects/*/subprojects-dossier.md
+research/projects/irb-applications/study-lines-and-status.md
+research/projects/irb-applications/protocol-artifacts-index.md
+research/projects/research-statement/revision-log.md
+research/projects/research-statement/evidence-links.md
+research/projects/pick-your-battles/literature-to-action-map.md
+tools/release-readiness-checklist.md

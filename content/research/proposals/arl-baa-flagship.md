@@ -1,19 +1,19 @@
-﻿# Flagship Proposal Space: ARL-BAA-0122
-
-Source root:
-`[5] Proposals/[5] 2026 Spring ARL-BAA/`
+# Flagship Proposal Space: ARL-BAA-0122
 
 ## Why this is flagship
-It combines call interpretation, draft lineage, dense thought corpus, and meeting evidence in one location.
+It is the lane where call interpretation, draft lineage, a dense body of working notes, and design rationale all converge in one place. That density makes it the best worked example of how proposal thinking is structured here.
 
-## Built page stack
+## Section pages
 1. [ARL section index](arl-baa-0122/index.md)
-2. [00 — BAA plain English](arl-baa-0122/00-baa-plain-english.md)
-3. [10 — vision and thrust decomposition](arl-baa-0122/10-vision-and-thrust-decomposition.md)
-4. [20 — gaps, risks, and overclaims](arl-baa-0122/20-gaps-risks-and-overclaims.md)
-5. [30 — method candidates and metrics](arl-baa-0122/30-method-candidates-and-metrics.md)
-6. [40 — meeting evidence trace](arl-baa-0122/40-meeting-evidence-trace.md)
-7. [90 — artifact index](arl-baa-0122/90-artifact-index.md)
+2. [00 - BAA in plain English](arl-baa-0122/00-baa-plain-english.md)
+3. [10 - Vision and thrust decomposition](arl-baa-0122/10-vision-and-thrust-decomposition.md)
+4. [30 - Method candidates and metrics](arl-baa-0122/30-method-candidates-and-metrics.md)
+5. [40 - Design rationale](arl-baa-0122/40-meeting-evidence-trace.md)
+6. [90 - Evidence and artifacts](arl-baa-0122/90-artifact-index.md)
 
-## Presentation rule
-Facts, assumptions, and open questions should stay explicitly separated in every section.
+## How these pages are written
+Facts, assumptions, and open questions stay explicitly separated in every section.
+
+**Related:** [Proposals index](index.md) | [ARL deep brief](arl-baa-0122-deep-brief.md)
+
+_Last updated: 2026-08_
