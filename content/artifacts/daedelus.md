@@ -1,6 +1,0 @@
----
-icon: display-code
----
-
-# Daedelus
-
