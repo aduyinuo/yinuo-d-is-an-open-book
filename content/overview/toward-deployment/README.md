@@ -4,30 +4,18 @@ icon: high-definition
 
 # Toward Deployment
 
-Almost everything in autonomous cyber defense is trained somewhere other than where it would be used. This thread takes that seriously instead of treating it as a footnote — and it is the one place in the program where the discipline is subtraction rather than construction: not believing a result until it has survived the move out of the environment that produced it.
+Most methods in autonomous cyber defense are developed and tested in an environment different from the one where they would be deployed. This thread treats that gap as its central problem.
 
-## The puzzle
+The gap between a training environment and a deployment environment is the same problem that embodied agents encounter as sim-to-real transfer, and it has the same components. The dynamics and the available observations differ between the two. A policy degrades as the deployed environment moves away from the data it was trained on. And a claim of safety has to hold while the model is inaccurate, because outside its training distribution it will be. In cyber defense this appears as three ways a good result can fail to mean what it appears to mean.
 
-The gap between where a policy is trained and where it would run is the same gap embodied agents hit as sim-to-real, and it has the same three teeth. Dynamics and sensing differ between the training world and the real one. A policy drifts as the deployment ages away from the data it was built on. And any safety you claim has to hold while the model is wrong, because out of distribution it will be. In the cyber setting those teeth show up as three specific ways a good-looking result fails to mean what it says.
+First, a claim that an environment is realistic is rarely tested. Two environments can share every listed feature and still represent the world differently, so a statement that a method was evaluated in a realistic environment often goes unverified.
 
-_Realism is asserted, not checked._ Two environments can agree on every feature and still describe the world completely differently, so "we evaluated in a realistic environment" is a claim almost no one puts to the test.
+Second, a more detailed environment costs more to train in, and an improvement in a summary metric may not be due to the added detail. Whether the additional realism is worth its cost is easy to leave unexamined.
 
-_A heavier environment costs more, and win rate hides whether it paid._ Training in a richer world is expensive, and the headline number can improve for reasons that have nothing to do with the added realism.
+Third, a policy that transfers to a new environment and scores well may have learned the task, or may have learned features specific to the benchmark. Its score does not distinguish these.
 
-_A policy that transfers may be winning for the wrong reasons._ Move it to a new environment and a high score can mean it learned the task — or that it learned the benchmark.
+The thread's lines address these points. [When We Say "A Realistic Cyber Environment"](when-we-say-a-realistic-cyber-environment.md) examines what a claim of realism can be taken to mean. [Training in "Realistic" Environments](training-in-realistic-environments.md) examines the cost of added fidelity and why a summary metric can obscure whether it helped. [Transfer to "Realistic" Environments](transfer-to-realistic-environments.md) studies moving a policy across the gap without retraining it. [Cyber Environments & Benchmarks](cyber-environments-and-benchmarks/) describes the environments this work uses and what each does and does not represent.
 
-## Work so far
-
-[**When We Say "A Realistic Cyber Environment"**](when-we-say-a-realistic-cyber-environment.md) pins down what a realism claim could even mean, so that it can be checked rather than asserted.
-
-[**Training in "Realistic" Environments**](training-in-realistic-environments.md) asks what the extra fidelity costs and why win rate can hide whether it worked.
-
-[**Transfer to "Realistic" Environments**](transfer-to-realistic-environments.md) moves a policy across the gap without retraining it, and treats the crossing itself as the object of study.
-
-[**Cyber Environments & Benchmarks**](cyber-environments-and-benchmarks/) is the ground the rest runs on — the environments, and what each one does and does not represent.
-
-## What's still open
-
-The thread's own next step is the hardest of its claims to secure: a way to show a transferred policy is winning for the right reasons and not reading the benchmark, plus detecting drift once deployed and bounding behaviour while the model is off-distribution. Those are taken up [next](next.md).
+Two questions remain open: how to show that a transferred policy performs well for the right reasons, and how to keep it reliable as the deployed environment changes. They are described on the [next](next.md) page.
 
 _Last updated: 2026-08_

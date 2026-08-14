@@ -4,18 +4,12 @@ icon: crystal-ball
 
 # Next
 
-The thread can say what realism should mean, what it costs, and how to move a policy across the gap. What it cannot yet do is certify the crossing — and certification is the whole point of the thread.
+Three questions follow from this thread.
 
-## Winning for the right reasons
+The first is how to show that a transferred policy performs well for the right reasons rather than because it has learned features specific to the benchmark. A score on the new environment does not establish this. What is needed is a test that separates the two cases: perturbing the parts of the environment that a competent policy should depend on and a benchmark-specific one should not, evaluating on forms of realism the policy was not trained on, and constructing cases designed to fail a policy that has memorized surface features. Transfer supports a claim of readiness for deployment only if it survives this kind of test.
 
-A transferred policy that scores well has either learned the task or learned the benchmark, and the score alone will not say which. The open question is a test that separates them: causal probes that perturb the parts of the environment a genuine policy should depend on and a benchmark-reader should not, held-out kinds of realism the policy never trained against, counterfactual episodes built to fail a policy that has memorised surface structure. Transfer is only evidence of deployment-readiness if it survives being actively doubted.
+The second is how to detect that a deployed policy has become unreliable as its environment changes. A policy is trained on a fixed description of a network that continues to change after deployment. Detecting when that change is large enough to matter for a particular policy, rather than change in general, and deciding whether to retrain, revert, or transfer control to a person, is unresolved.
 
-## Drift after deployment
-
-A policy is built on a snapshot; the network it defends keeps moving. Knowing when a deployed policy has aged out of usefulness — before it fails rather than after — is an open detection problem: watching for the distribution shift that matters to _this_ policy rather than shift in general, and deciding when to retrain, roll back, or hand control to a human.
-
-## Behaviour while the model is wrong
-
-Out of distribution the model is wrong, and safety has to mean something anyway. Bounding worst-case behaviour under model error — so that being wrong degrades the defender gracefully instead of catastrophically — is the last open piece, and the one that ties this thread back to the faulty-model question in [Cyber World Modeling](../cyber-world-modeling/next.md): a deployed defender and a defender with a wrong world model are facing the same danger from two sides.
+The third is how a policy should behave while its model is inaccurate. Outside its training distribution the model is wrong, and a claim of safety has to hold even then. Bounding the worst-case behavior of a policy under model error, so that being wrong reduces performance gradually rather than sharply, is the remaining question. It connects to the question of the inaccurate world model in [Cyber World Modeling](../cyber-world-modeling/next.md): a deployed defender and a defender with an inaccurate world model face the same problem from two directions.
 
 _Last updated: 2026-08_

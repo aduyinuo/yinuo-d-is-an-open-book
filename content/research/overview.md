@@ -4,24 +4,20 @@ icon: researchgate
 
 # Research
 
-I study decision-making in cybersecurity — the machine's, the attacker's, the defender's, and the one a person and an agent sometimes have to make together.
+I study decision-making in cybersecurity: how an autonomous agent, an attacker, and a defender each make decisions, and what happens when a person and an agent have to make a decision together.
 
-The hard part of defending a network has never been the network. It is that every consequential move depends on something that cannot be fully written down: an adversary who adapts and hides, a teammate whose judgment you cannot see inside, an analyst weighing whether the recommendation on the screen is worth trusting. Both sides of that encounter hold knowledge they cannot completely put into words. A defender's sense that _this doesn't look right_ and a model's latent state are each real and each partly inarticulate. Much of my work is about moving that knowledge along a ladder — from intuition, to rules of thumb, to something explicit enough to build on and to check — and about pairing people and agents precisely because each holds what the other cannot state.
+Three questions run through the work.
 
-<figure><img src="../.gitbook/assets/research-agenda.png" alt="Four research threads drawn as trajectories: each runs from a durable question through published work to an open question at the frontier"><figcaption><p>The program as four trajectories, not four topics — each carries earlier work into a question it hasn't answered yet.</p></figcaption></figure>
+The first is what an agent must represent in order to act. An agent operating in a real network has to model both the network and the people in it: what they intend, and what they are paying attention to. [Cyber World Modeling](../overview/cyber-world-modeling/) concerns the first part, what to represent about the network and the adversary and how to keep the two separate. [Mental World Modeling](../overview/mental-world-modeling/) concerns the second, how people solve problems they cannot solve alone and how they interpret one another over repeated interaction.
 
-Three questions run under the whole program, and they are meant to meet rather than sit in separate boxes.
+The second is how a person and an AI should work together when each knows things the other cannot state. [Human-AI Complementarity](../overview/human-ai-complementarity/) treats the team as a structure that can be specified and studied: who can authorize what, who sees what, and who learns from whom, so that the effect of the team's design can be measured rather than assumed.
 
-**What must an agent represent in order to act?** An agent that will act in a real operation has to model two worlds at once — the physical world of the network, and the mental world of the people in it: the intent, the attention, the context that decide what a move actually means. A defender that models the whole state space equally is spending its budget in the wrong place; one that treats the people in the loop as noise is modeling the wrong thing entirely. [Cyber World Modeling](../overview/cyber-world-modeling/) takes the first world — what to represent about the network and the adversary, and how to factor it so that being wrong about one is not being wrong about the other. [Mental World Modeling](../overview/mental-world-modeling/) takes the second — how the people the agent shares the problem with solve what they cannot solve alone, and how they read and misread each other across repeated play.
+The third is whether results obtained in a controlled setting hold up in deployment. [Toward Deployment](../overview/toward-deployment/) examines what makes an environment realistic, what training in a more realistic environment costs, and whether a policy that performs well after being moved to a new environment does so for the right reasons.
 
-**How should a human and an AI combine when each knows things the other cannot say?** [Human-AI Complementarity](../overview/human-ai-complementarity/) treats collaboration as a structure rather than an attitude: who may authorize what, which actions must happen together, what each teammate is allowed to see. Written down, teamwork becomes something you can vary and measure instead of something you assert after the fact — and something detailed enough to say what went wrong, not only that it did.
-
-**How do we know any of it survives contact with a real deployment?** [Toward Deployment](../overview/toward-deployment/) is the discipline of not believing your own results — pinning down what anyone means by a "realistic" environment, what a heavier one costs to train in, and whether a policy that wins after moving to a new environment is winning for the right reasons or just reading the benchmark.
-
-None of the four is a closed topic. Each is a trajectory: a durable question, the work done against it so far, and the open question it is pointed at next — which is what the figure is trying to show, and what each thread's own page picks up in detail.
+Each thread's page develops one of these questions.
 
 ***
 
-[Publications](../publications.md) lists the work these pages draw on. Each project page carries its own papers and the people I did them with.
+[Publications](../publications.md) lists the work these pages draw on. Each project page carries its own papers and collaborators.
 
 _Last updated: 2026-08_
