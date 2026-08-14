@@ -2,13 +2,16 @@
 
 <figure><img src=".gitbook/assets/yinuo-du.png" alt="Yinuo Du" width="180"><figcaption></figcaption></figure>
 
-I build at the boundary of human intelligence, AI systems, and cyber-physical decision support.
+
 
 ## Latest news
 
-* **2026-08** — The [Calendar](home/calendar.md) page is up: current availability, and how to ask for a meeting.
-* **2026-08** — A [Contact](home/contact.md) page is up.
-* **2026-08** — This site is public: research collections, tools, and statements are open to read.
+* **2026-07** — Talk acceptance to Collective Intelligence
+* **2026-07** — Workshop paper acceptance to RAISE
+* **2026-06** — AAAI Summer Symposium at Seoul
+* **2026-04 —** Book chapter acceptance to&#x20;
+* **2025-09** — Joining UTEP CS Department
+* **2025-05** — PhD dissertation defense!&#x20;
 
 ## Start here
 
