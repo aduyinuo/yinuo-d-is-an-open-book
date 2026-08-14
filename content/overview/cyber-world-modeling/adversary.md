@@ -1,8 +1,6 @@
 # Adversary
 
-Two attackers, the same network, the same objective. Watching them move is the fastest way to see why "the adversary" is not one thing.
-
-<figure><img src="../../.gitbook/assets/adversary-beeline-meander.gif" alt="B-line and Meander attackers moving through the same network, side by side"><figcaption>Both are heading for the operational server. They get there very differently.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/adversary-beeline-meander.gif" alt="B-line and Meander attackers moving through the same network, side by side"><figcaption><p>Both are heading for the operational server. They get there very differently.</p></figcaption></figure>
 
 ## B-line
 
@@ -16,10 +14,6 @@ Breadth first. It scans every subnet it can see, discovers services on every add
 
 Loud, slow, and much harder to predict, because what it does next depends on what it happened to find.
 
-## Why this matters for defense
-
-A defender trained against one of these learns a policy that reads the other badly. B-line teaches you to watch a corridor; Meander teaches you to watch volume. Neither lesson transfers.
-
-The interesting part sits between them: real attackers are neither perfectly routed nor exhaustive. They are shaped by cost, by habit, and by what they believe about the network — which is what modelling the adversary is actually for.
+##
 
 _Last updated: 2026-08_
