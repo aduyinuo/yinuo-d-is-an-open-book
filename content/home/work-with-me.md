@@ -5,7 +5,7 @@ icon: creative-commons-remix
 
 # Work With Me
 
-_<mark style="color:$danger;">**I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis.**</mark>_ If funded positions become available they will be listed on [Opportunities](../overview-4/). I am always happy for discussions if you happen to be working on similar ideas.
+<mark style="color:$danger;">**I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis.**</mark> If funded positions become available they will be listed on [Opportunities](../overview-4/). I am always happy for discussions if you happen to be working on similar ideas.
 
 What I can offer is a defined question with a well thought-out project plan and ethical credit assignment. Research projects work on an open question from one of the research threads. Engineering projects work on an artifact, such as an environment, a testbed, or an instrumentation layer, that other projects depend on.
 
