@@ -1,4 +1,8 @@
-# CyberAgentTrace
+---
+icon: tty-answer
+---
+
+# CyberAgentFlow
 
 Most evaluations of agentic cyber tools ask whether the task got done. That tells you almost nothing about how it got done, or what it cost.
 

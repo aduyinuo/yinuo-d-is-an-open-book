@@ -1,8 +1,12 @@
+---
+icon: diaspora
+---
+
 # CHART
 
 Most teams describe how they work together and then hope. CHART writes it down as a graph and makes the software enforce it.
 
-<figure><img src="../../.gitbook/assets/chart-interaction.gif" alt="A CHART session: the dependency graph, an approval routed along the control edge, an agent-generated explanation, and a routed chat message"><figcaption>One session. The structure is not a description — it decides what can happen.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/chart-interaction.gif" alt="A CHART session: the dependency graph, an approval routed along the control edge, an agent-generated explanation, and a routed chat message"><figcaption><p>One session. The structure is not a description — it decides what can happen.</p></figcaption></figure>
 
 CHART is a **Configurable Human-AI Research Testbed**. Existing platforms fix the team: CybORG and the CAGE challenges put the human outside the loop as an evaluator; the Team Defense Game brought the human in, but with one hard-wired coordination pattern. That makes it hard to ask the question that actually matters — whether a result about trust or workload survives a change in how the team is organised. CHART makes the structure of teamwork the independent variable.
 
