@@ -9,6 +9,8 @@
 * [Opportunities](opportunities/overview.md)
 * [Reading notes and blog](notes-and-blog/overview.md)
 * [Community](people-and-community/overview.md)
+  * [AAAI Summer Symposium](people-and-community/aaai-summer-symposium-2026.md)
+  * [CyberAI Reading Group](people-and-community/cyberai-reading-group.md)
 * [Open science and wellbeing](open-science-and-wellbeing/overview.md)
 * [Statements](statements/index.md)
 * [Calendar](calendar.md)
