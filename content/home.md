@@ -1,3 +1,7 @@
+---
+icon: house-chimney-user
+---
+
 # Home
 
 <figure><img src=".gitbook/assets/yinuo-du.png" alt="Yinuo Du" width="180"><figcaption></figcaption></figure>
