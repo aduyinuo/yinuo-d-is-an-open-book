@@ -2,7 +2,9 @@
 
 My working calendar, in US Mountain Time. Open slots are available for meetings unless marked otherwise.
 
-<iframe src="https://calendar.google.com/calendar/embed?src=aduyino6%40gmail.com&amp;ctz=America%2FDenver&amp;mode=WEEK&amp;showTitle=0&amp;showPrint=0&amp;showTabs=1&amp;showCalendars=0" style="border:0" width="100%" height="600" frameborder="0" scrolling="no"></iframe>
+{% embed url="https://calendar.google.com/calendar/embed?src=aduyino6%40gmail.com&ctz=America%2FDenver&mode=WEEK" %}
+My availability, week view
+{% endembed %}
 
 ## Booking a meeting
 
