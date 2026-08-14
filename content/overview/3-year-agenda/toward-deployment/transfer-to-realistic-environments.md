@@ -47,6 +47,6 @@ Evaluated across [CyberWheel](cyber-environments-and-benchmarks/cyber-wheel.md) 
 
 ## Collaborators
 
-<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-sabrina-saika.png" alt="Sabrina Saika" width="48"><br><strong>Sabrina Saika</strong><br>University of Texas at El Paso</td><td><img src="../../../.gitbook/assets/collab-aritran-piplai.png" alt="Aritran Piplai" width="48"><br><a href="https://expertise.utep.edu/profiles/apiplai"><strong>Aritran Piplai</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
+<table><thead><tr><th width="150"></th><th width="150"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-sabrina-saika.png" alt="Sabrina Saika" width="48"><br><strong>Sabrina Saika</strong><br>University of Texas at El Paso</td><td><img src="../../../.gitbook/assets/collab-aritran-piplai.png" alt="Aritran Piplai" width="48"><br><a href="https://expertise.utep.edu/profiles/apiplai"><strong>Aritran Piplai</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
 
 _Last updated: 2026-08_

@@ -114,13 +114,14 @@ def cell(p, rel):
 def table(people, rel, per_row=5):
     chunks = [people[i:i+per_row] for i in range(0, len(people), per_row)]
     width = max(len(c) for c in chunks)
-    head = "".join('<th></th>' for _ in range(width))
+    colw = 150
+    head = "".join(f'<th width="{colw}"></th>' for _ in range(width))
     rows = ""
     for ch in chunks:
         tds = "".join(cell(p, rel) for p in ch)
         tds += "<td></td>" * (width - len(ch))
         rows += f"<tr>{tds}</tr>"
-    return (f'<table data-header-hidden><thead><tr>{head}</tr></thead>'
+    return (f'<table><thead><tr>{head}</tr></thead>'
             f'<tbody>{rows}</tbody></table>')
 
 changed = []
