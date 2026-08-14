@@ -1,23 +1,39 @@
 # When We Say "A Realistic Cyber Environment"
 
-<figure><img src="../../.gitbook/assets/realistic-domain-gap.gif" alt="Source and target domains showing the same kill-chain class described by the same three features with different distributions"><figcaption>The same stage of the same attack, in two environments.</figcaption></figure>
+Environments get described by the features they implement, or by a broad claim of being realistic. Neither tells you whether the environment supports the claim you want to make with it.
 
-## Reading it
+<figure><img src="../../.gitbook/assets/metrion-method.gif" alt="The Metrion methodology: derive requirements from ATT&#x26;CK and D3FEND, cluster into dimensions, score them, validate with practitioners"><figcaption>Metrion, built from the question rather than from a feature list.</figcaption></figure>
 
-Both panels describe **the same class** — lateral movement, one stage of the kill chain. Both are described by **the same three features**: how often connections succeed, how large the rewards are, how much activity is going on.
+## The failure it fixes
 
-What differs is the domain. A domain here is a simulator. The source has three servers running SMB, RDP and LDAP; the target has two desktops running RDP alone.
+Picture a defender benchmark where attacks raise alerts but ordinary enterprise life is thin — few normal logins, little admin maintenance, hardly any background traffic. A defender scores well there because malicious behaviour is being read against a clean baseline. The result is valid for that benchmark and says nothing about an enterprise full of noisy legitimate activity.
 
-And once you look at the distributions, they have almost nothing in common. Connection success peaks late and tight in the source, early and broad in the target. Reward magnitude climbs to a peak in the source and decays from the first step in the target. Activity sits high and narrow in the source, low and wide in the target.
+The offensive side has the mirror image. In NASimEmu an action can succeed deterministically in the simulator and fail against the corresponding real service in the emulator, because the simulator abstracted away the service and operating-system fidelity that decides whether an exploit lands. PenGym reports the same gap.
 
-## Why this is the whole problem
+So the score reflects the agent's capability *and* which conditions the environment modelled or omitted, with no way to separate the two.
 
-A policy trained on the top panel has learned what those numbers mean. Not the feature names — the values. Put it in the bottom panel and every feature it reads is still there, correctly labelled, and quietly wrong.
+## The method
 
-This is why "realistic" isn't a single dial. Two environments can agree on what to measure and disagree completely on what the measurements look like. Structural alignment — same fields, same layout — closes none of that gap.
+**Derive.** Start from a use case, decomposed on both sides — attacker goal, technique, procedure; defender posture, detection priority, countermeasure. Walk MITRE ATT&CK and D3FEND, recording what each technique requires the environment to provide, model, or emit.
 
-## What follows
+**Cluster.** Those per-technique requirements converge into eleven realism dimensions, in five groups: infrastructure (topological, operating system, service), organizational behaviour (identity, temporal, benign activity), security layer (defensive, telemetry), agent interface (action, observation), and external context (external ecosystem). Each is operationalised through concrete scoring elements — 115 of them — set at the level where a missing property makes a class of techniques inexpressible or unobservable.
 
-If the gap is distributional, the bridge has to be distributional too. That is what the encoder in [Transfer to "Realistic" Environments](transfer-to-realistic-environments.md) is for: not renaming features, but pulling the two distributions into a shared latent space so a policy trained on one can read the other.
+**Score.** For a given objective, each element is critical, useful, or not needed. Coverage of each is full, partial, absent, or unknown. Critical weighs 2 and useful 1; full counts 1, partial 0.5, absent 0. The weighted average is a fit score from 0 to 1.
+
+One rule overrides it: **if any critical requirement is absent, the environment is not suitable for that objective** — a single missing critical property can invalidate the evaluation. Otherwise, suitable above a provisional threshold of 0.75, partially suitable below, and incomplete when too much is unknown.
+
+**Validate.** ATT&CK and D3FEND are themselves curated abstractions, so the dimension set needs outside checking: interviews with academic, SecOps and pentesting practitioners, then a broader survey, asking what to add, remove, split or merge and whether people agree on what matters.
+
+## What it shows
+
+Applied to GOAD, an emulated multi-domain Active Directory environment: **suitable** for credential-based privilege escalation at a fit of 0.88, and **not suitable** for targeted data exfiltration at 0.39 with five critical requirements unmet — the same environment, unchanged.
+
+Suitability is a property of the *pair*, not of the environment.
+
+Across thirteen publicly inspectable enterprise environments two families appear. Real-software emulators reproduce service, operating-system and action-level realism. Abstract simulators reproduce topology and the agent interface but abstract away temporal dynamics, defensive controls, benign activity and telemetry. Those context dimensions are the least represented anywhere — which means the objectives that depend on them, including targeted exfiltration, evasive operations and threat hunting, are currently supported by no environment at all.
+
+[Interactive scorecard](https://stratosphereips.github.io/realism-framework/)
+
+_Metrion is a poster at ACM CCS 2026, with Maria Rigaki and Carlos A. Catania. The current comparison uses dimension-level proxy grades rather than element-level scoring, and is not yet validated._
 
 _Last updated: 2026-08_
