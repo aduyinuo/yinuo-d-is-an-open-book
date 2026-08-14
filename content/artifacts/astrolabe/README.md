@@ -6,9 +6,9 @@ icon: map
 
 A local research app for turning recorded work sessions into coded, comparable data — and for finding out whether independent coders actually agree on what they saw.
 
-<figure><img src="../../.gitbook/assets/mock-astrolabe.png" alt="The Astrolabe interface: a problem-solving graph in the centre, score dropdown and Polya heuristics on the left, card detail and inter-coder agreement on the right"><figcaption>One session as a graph. Green edges are decomposition; amber are follow-ups; magenta is the highest-scoring card.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/mock-astrolabe.png" alt="The Astrolabe interface: a problem-solving graph in the centre, score dropdown and Polya heuristics on the left, card detail and inter-coder agreement on the right"><figcaption><p>One session as a graph. Green edges are decomposition; amber are follow-ups; magenta is the highest-scoring card.</p></figcaption></figure>
 
-Built for the [problem-solving](../../overview/mental-world-modeling/problem-solving/) studies. Get a transcript in, let several people annotate it against a shared scheme, and measure the agreement rather than assuming it.
+Built for the [problem-solving](../../overview/3-year-agenda/mental-world-modeling/problem-solving/) studies. Get a transcript in, let several people annotate it against a shared scheme, and measure the agreement rather than assuming it.
 
 ## What it does
 
