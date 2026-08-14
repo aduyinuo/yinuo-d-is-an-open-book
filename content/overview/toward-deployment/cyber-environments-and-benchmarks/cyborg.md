@@ -2,6 +2,8 @@
 
 **Cyber Operations Research Gym — the substrate under the CAGE challenges.**
 
+<figure><img src="../../../.gitbook/assets/env-cyborg.gif" alt="CAGE Challenge 2: thirteen hosts across three subnets, the attacker&#x27;s reward accruing, and the restoring defender resetting a host"><figcaption><p>Thirteen hosts, three subnets, one mandatory waypoint — and a defender that undoes your work.</p></figcaption></figure>
+
 CybORG is a network simulator built for reinforcement learning research in autonomous cyber defence. It handles concurrent red, blue, and green agents — attacker, defender, and ordinary users — across a network of connected hosts.
 
 The CAGE Challenge 2 scenario is the version most of this work uses. Thirteen hosts across three subnets: five user workstations, three enterprise servers plus a Defender host, and an operational subnet holding three workstations and Op_Server0. The operational subnet cannot be reached directly from the user subnet, so the enterprise layer is a mandatory waypoint.

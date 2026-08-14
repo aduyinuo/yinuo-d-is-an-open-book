@@ -2,6 +2,8 @@
 
 **A configurable RL environment where the defender's main move is deception.**
 
+<figure><img src="../../../.gitbook/assets/env-cyberwheel.gif" alt="Cyberwheel: the environment assembled from configuration, decoys deployed, and the red agent&#x27;s attack landing on one"><figcaption><p>Everything is a config file — including where the fake servers go.</p></figcaption></figure>
+
 Cyberwheel is a reinforcement learning simulation environment for training and evaluating autonomous cyber defence models, built for modularity. Networks, services, host types, and both offensive and defensive agents are specified through configuration files, and the reward function, observation space, and action space can be redefined without rewriting the environment.
 
 The blue agent's characteristic action is deploying decoys — the aim is to get the red agent to spend its attack on a decoy server rather than a real one. Recent versions support training red and blue agents simultaneously, each learning against the other.
