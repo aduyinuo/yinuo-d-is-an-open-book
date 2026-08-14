@@ -16,6 +16,6 @@ The hard part of defending a network has never been the network. It is that ever
 
 ***
 
-[Publications](../publications.md) lists the work these pages draw on. Each project page carries its own papers and the people I did them with.
+[Publications](../publications.md)&#x20;
 
 _Last updated: 2026-08_
