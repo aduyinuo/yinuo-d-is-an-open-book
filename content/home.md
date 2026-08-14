@@ -10,15 +10,18 @@ I study human and AI decision-making in cybersecurity: computational models of p
 
 ## Latest news
 
-<div style="width:100%;max-width:640px;height:150px;overflow-y:auto;border:1px solid #d8e2d8;border-radius:6px;padding:10px 16px;">
-<ul style="margin:0;padding-left:18px;">
-<li style="margin:0 0 8px;"><strong>2026-07</strong> — Talk acceptance to Collective Intelligence</li>
-<li style="margin:0 0 8px;"><strong>2026-07</strong> — Workshop paper acceptance to RAISE</li>
-<li style="margin:0 0 8px;"><strong>2026-06</strong> — AAAI Summer Symposium at Seoul</li>
-<li style="margin:0 0 8px;"><strong>2026-04</strong> — Book chapter acceptance</li>
-<li style="margin:0 0 8px;"><strong>2025-09</strong> — Joining UTEP CS Department</li>
-<li style="margin:0;"><strong>2025-05</strong> — PhD dissertation defense</li>
-</ul>
-</div>
+* **2026-07** — Talk acceptance to Collective Intelligence
+* **2026-07** — Workshop paper acceptance to RAISE
+* **2026-06** — AAAI Summer Symposium at Seoul
+* **2026-04** — Book chapter acceptance
+
+<details>
+
+<summary>Earlier</summary>
+
+* **2025-09** — Joining UTEP CS Department
+* **2025-05** — PhD dissertation defense
+
+</details>
 
 _Last updated: 2026-08_
