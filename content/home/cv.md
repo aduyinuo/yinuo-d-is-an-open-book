@@ -6,6 +6,10 @@ icon: folder-user
 
 [Google Scholar](https://scholar.google.com/citations?user=XdY3VB0AAAAJ) · [LinkedIn](https://www.linkedin.com/in/yinuo-du) · [Publications](../publications.md)
 
+{% file src="../.gitbook/assets/yinuo-du-cv.pdf" %}
+Download CV (PDF)
+{% endfile %}
+
 ## Academic employment
 
 <table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2025 (– 2026)</td><td>Assistant Professor of Research, Computer Science Department, University of Texas at El Paso</td></tr></tbody></table>
