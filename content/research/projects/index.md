@@ -11,14 +11,6 @@
 * [UnitedForces](united-forces/overview.md)
 * [BeRealistic](be-realistic/overview.md)
 
-## Flagship deep-dives
 
-* [LucidWorld learn\_structure](lucid-world/learn-structure-flagship.md)
-* [DesignTheGame deep-dive](design-the-game/deep-dive/index.md)
-
-## Global navigation
-
-* [Research overview](../overview.md)
-* [Proposal index](/broken/pages/4VRAINMPfn4MvkHiT9Eq)
 
 **Related:** [Research overview](../overview.md) | [Proposal index](/broken/pages/4VRAINMPfn4MvkHiT9Eq)
