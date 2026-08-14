@@ -7,7 +7,7 @@
   * [Research overview](research/overview.md)
   * [Cyber World Modeling](overview/cyber-world-modeling/README.md)
     * [FOE-Dreamer](overview/cyber-world-modeling/environment.md)
-    * [Strategic Structure](overview/cyber-world-modeling/strategic-structure.md)
+    * [Learn Structure](overview/cyber-world-modeling/strategic-structure.md)
   * [Mental World Modeling](overview/mental-world-modeling/README.md)
     * [Problem-Solving](overview/mental-world-modeling/problem-solving/README.md)
       * [Small Groups](overview/mental-world-modeling/problem-solving/small-groups.md)
