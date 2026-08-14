@@ -1,6 +1,10 @@
-# Capture-the-Flag Problem-Solving
+---
+icon: hackerrank
+---
 
-<figure><img src="../../../.gitbook/assets/ps-ctf-phases.gif" alt="Six phases of CTF problem solving, with phases two to four iterating and a belief layer underneath"><figcaption>A solve, traced through the six phases. Phases two to four are a loop, not a line.</figcaption></figure>
+# Capture-the-Flag
+
+<figure><img src="../../../.gitbook/assets/ps-ctf-phases.gif" alt="Six phases of CTF problem solving, with phases two to four iterating and a belief layer underneath"><figcaption><p>A solve, traced through the six phases. Phases two to four are a loop, not a line.</p></figcaption></figure>
 
 ## The six phases
 

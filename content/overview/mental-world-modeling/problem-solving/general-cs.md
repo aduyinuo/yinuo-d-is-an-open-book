@@ -1,6 +1,10 @@
+---
+icon: computer-speaker
+---
+
 # General CS Problem-Solving
 
-<figure><img src="../../../.gitbook/assets/ps-cs-graph.gif" alt="A problem-solving graph being built step by step as a session unfolds"><figcaption>The same session as a graph, drawn as it happens.</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ps-cs-graph.gif" alt="A problem-solving graph being built step by step as a session unfolds"><figcaption><p>The same session as a graph, drawn as it happens.</p></figcaption></figure>
 
 ## Solving as a graph
 
@@ -16,7 +20,7 @@ Naming those operations is easy. Getting independent observers to agree on where
 
 ## Can observers agree on it
 
-<figure><img src="../../../.gitbook/assets/ps-cs-consensus.gif" alt="Three coders annotating one solving session with mental operations, and the consensus track underneath"><figcaption>One session, three independent coders, one consensus track.</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/ps-cs-consensus.gif" alt="Three coders annotating one solving session with mental operations, and the consensus track underneath"><figcaption><p>One session, three independent coders, one consensus track.</p></figcaption></figure>
 
 Three coders labelling the same session, segment by segment, with the consensus track underneath. Where all three agree, the consensus block is solid and outlined. Where they don't, it fades.
 
@@ -34,6 +38,6 @@ Two design commitments worth naming: it runs entirely on the researcher's own ma
 
 ## Where it connects
 
-This is the layer underneath the tooling. If mental operations can be identified reliably, then a system that watches a work session can say something useful about *where* someone is stuck rather than only that they are — which is what the assistive side of the work needs in order to be more than a faster autocomplete.
+This is the layer underneath the tooling. If mental operations can be identified reliably, then a system that watches a work session can say something useful about _where_ someone is stuck rather than only that they are — which is what the assistive side of the work needs in order to be more than a faster autocomplete.
 
 _Last updated: 2026-08_

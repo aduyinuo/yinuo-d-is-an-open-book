@@ -1,4 +1,8 @@
-# Environment
+---
+icon: rectangles-mixed
+---
+
+# FOE-Dreamer
 
 A world-model agent for network defense, built so that learning can happen where the network actually is rather than only in a simulator.
 
@@ -9,7 +13,5 @@ The right side is the **factored world model**. An observation $$o_t$$ is split 
 The left side is the **opponent model**. A window of recent latent-action pairs runs through a recurrent encoder into $$z^{opp}_t$$, a compact representation of who the agent is up against. Two decoders read it: $$Dec_{act}$$ predicts the opponent's next actions, $$Dec_{obs}$$ predicts what the opponent will observe.
 
 The two sides meet at the concatenation. $$z^{opp}_t$$, $$z_t, h_t$$ and $$u_t$$ are joined and read by $$Dec_o$$ and $$Dec_r$$, which reconstruct the observation and the reward.
-
-
 
 _Last updated: 2026-08_

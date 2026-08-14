@@ -1,3 +1,7 @@
+---
+icon: face-shaking-horizontal
+---
+
 # Challenging Attacker
 
 <figure><img src="../../../../.gitbook/assets/adversary-beeline-meander.gif" alt="B-line and Meander attackers moving through the same network, side by side"><figcaption><p>Both are heading for the operational server. They get there very differently.</p></figcaption></figure>
