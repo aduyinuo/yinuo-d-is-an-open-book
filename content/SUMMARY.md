@@ -4,6 +4,7 @@
   * [Calendar](home/calendar.md)
   * [Contact](home/contact.md)
   * [Work With Me](home/work-with-me.md)
+  * [CV](home/cv.md)
 * [Research](research/overview.md)
   * [Research overview](research/overview.md)
   * [Cyber World Modeling](overview/cyber-world-modeling/README.md)
