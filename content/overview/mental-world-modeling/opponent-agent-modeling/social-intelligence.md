@@ -24,4 +24,16 @@ The categories are relative, not absolute. A partner is classified against the g
 
 ## _Contrast_
 
+
+## Publications
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-preprint.png" alt="Preprint" data-size="original"></td><td><mark style="color:green;">Toward a Cognitive Theory of Interdependent Decisions in Groups: Dynamic Prosociality, Categorization, and Contrast</mark><br><em>Under revision, Psychological Review</em></td><td><strong>Y. Du</strong>, <a href="https://expertise.utep.edu/profiles/paggarwal">P. Aggarwal</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/badge-ci.png" alt="Collective Intelligence" data-size="original"></td><td><mark style="color:green;">Degree of Interdependence in Networks: Why More Connections Reduce Group Performance</mark><br>Collective Intelligence 2026, talk</td><td><strong>Y. Du</strong>, <a href="https://expertise.utep.edu/profiles/paggarwal">P. Aggarwal</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td></td></tr><tr><td><img src="../../../.gitbook/assets/badge-acta.png" alt="Acta Psych." data-size="original"></td><td><mark style="color:green;">Emergent cooperative decision-making in triadic prisoner's dilemma: effects of incentives and information</mark><br>Acta Psychologica, 260</td><td><strong>Y. Du</strong>, <a href="https://scholar.google.com/citations?user=SPaXALYAAAAJ">K. Singh</a>, <a href="https://expertise.utep.edu/profiles/paggarwal">P. Aggarwal</a>, <a href="https://feifang.info/">F. Fang</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td></td></tr></tbody></table>
+
+## Collaborators
+
+* [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal) — University of Texas at El Paso
+* [Kuldeep Singh](https://scholar.google.com/citations?user=SPaXALYAAAAJ)
+* [Fei Fang](https://feifang.info/) — Carnegie Mellon University
+* [Cleotilde Gonzalez](https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/) — Carnegie Mellon University
+
 _Last updated: 2026-08_

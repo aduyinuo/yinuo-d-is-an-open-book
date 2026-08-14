@@ -41,4 +41,14 @@ Evaluated across [CyberWheel](cyber-environments-and-benchmarks/cyber-wheel.md) 
 
 **Related:** [Toward Deployment](./) | [Training in Realistic Environments](training-in-realistic-environments.md) | [Cyber Environments & Benchmarks](cyber-environments-and-benchmarks/)
 
+
+## Publications
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/badge-raise2.png" alt="RAISE-EROCIS" data-size="original"></td><td><mark style="color:green;">Crossing the Cyber Divide: Sim-to-Sim and Sim-to-Real Transfer for RL Agents</mark><br>RAISE workshop, at ESORICS 2026</td><td>S. Saika, <strong>Y. Du</strong>, <a href="https://expertise.utep.edu/profiles/apiplai">A. Piplai</a></td><td></td></tr></tbody></table>
+
+## Collaborators
+
+* Sabrina Saika — University of Texas at El Paso
+* [Aritran Piplai](https://expertise.utep.edu/profiles/apiplai) — University of Texas at El Paso
+
 _Last updated: 2026-08_

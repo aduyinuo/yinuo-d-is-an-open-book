@@ -28,4 +28,14 @@ The workable combination is stimulated recall — replay the solver their own se
 
 Tool selection is arguably its own first-class operation rather than something buried inside execution. And knowing when to abandon a line of attack is an optimal-stopping problem that the taxonomy doesn't yet handle.
 
+
+## Publications
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-sigcse.png" alt="SIGCSE" data-size="original"></td><td><mark style="color:green;">Capture-The-Flag Universe: Design Considerations, System Behavior, and Player Experiences</mark><br><em>Under review, SIGCSE Virtual 2026</em></td><td>Author list under anonymous review</td><td></td></tr></tbody></table>
+
+## Collaborators
+
+* Yansi — University of Texas at El Paso _(surname to confirm)_
+* Ana — University of Texas at El Paso _(surname to confirm)_
+
 _Last updated: 2026-08_

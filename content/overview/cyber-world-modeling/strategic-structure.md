@@ -28,4 +28,13 @@ Whether to define the spread through regret or through variance is still open, a
 
 Game-theoretic reasoning is expensive. If most of a large game is strategically flat, an agent that knows _where_ the strategic structure sits can spend its reasoning there and treat the rest cheaply. Finding that structure — defining it, generating games that contain it by construction, then learning it back from data and checking the recovery — is what this line of work is about.
 
+
+## Publications
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/badge-preprint.png" alt="Preprint" data-size="original"></td><td><mark style="color:green;">Learning Strategic Structure in Sequential Adversarial Games</mark></td><td><strong>Y. Du</strong>, <a href="https://www.cs.utep.edu/kiekintveld/">C. Kiekintveld</a></td><td></td></tr></tbody></table>
+
+## Collaborators
+
+* [Christopher Kiekintveld](https://www.cs.utep.edu/kiekintveld/) — University of Texas at El Paso
+
 _Last updated: 2026-08_

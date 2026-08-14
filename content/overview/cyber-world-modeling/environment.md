@@ -14,4 +14,13 @@ The left side is the **opponent model**. A window of recent latent-action pairs 
 
 The two sides meet at the concatenation. $$z^{opp}_t$$, $$z_t, h_t$$ and $$u_t$$ are joined and read by $$Dec_o$$ and $$Dec_r$$, which reconstruct the observation and the reward.
 
+
+## Publications
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../.gitbook/assets/badge-preprint.png" alt="Preprint" data-size="original"></td><td><mark style="color:green;">FOE-Dreamer: Deployment-Efficient Learning of Cyber Defense Policies in Operational Networks</mark><br><em>Under review, ACSAC</em></td><td><strong>Y. Du</strong>, <a href="https://www.cs.utep.edu/kiekintveld/">C. Kiekintveld</a></td><td></td></tr></tbody></table>
+
+## Collaborators
+
+* [Christopher Kiekintveld](https://www.cs.utep.edu/kiekintveld/) — University of Texas at El Paso
+
 _Last updated: 2026-08_

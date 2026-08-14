@@ -40,4 +40,17 @@ If those deviations are systematic and separable, they are behavioural fingerpri
 
 _The trajectories shown are illustrative of the mechanism. Measured results are still being written up._
 
+
+## Publications
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/badge-preprint.png" alt="Preprint" data-size="original"></td><td><mark style="color:green;">Simulating Attackers with Cognitive Biases using Reinforcement Learning</mark></td><td><a href="https://www.linkedin.com/in/jannat-akbar/">Jannat Akbar</a>, <a href="https://users.aalto.fi/~oulasvir/">Antti Oulasvirta</a>, <a href="https://expertise.utep.edu/profiles/paggarwal">P. Aggarwal</a>, <strong>Y. Du</strong></td><td></td></tr><tr><td><img src="../../../../.gitbook/assets/badge-empirical.png" alt="Empirical" data-size="original"></td><td><mark style="color:green;">Evidence of cognitive biases in cyber attackers from an empirical study</mark><br>Hawaii International Conference on System Sciences</td><td><a href="https://expertise.utep.edu/profiles/paggarwal">P. Aggarwal</a>, S. Rubaiyet Nowmi, <strong>Y. Du</strong>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td></td></tr></tbody></table>
+
+## Collaborators
+
+* [Jannat Akbar](https://www.linkedin.com/in/jannat-akbar/) — Aalto University
+* [Antti Oulasvirta](https://users.aalto.fi/~oulasvir/) — Aalto University
+* [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal) — University of Texas at El Paso
+* Saeefa Rubaiyet Nowmi — University of Texas at El Paso
+* [Cleotilde Gonzalez](https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/) — Carnegie Mellon University
+
 _Last updated: 2026-08_
