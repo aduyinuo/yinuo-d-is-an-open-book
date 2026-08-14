@@ -4,18 +4,22 @@ icon: high-definition
 
 # Toward Deployment
 
-Most methods in autonomous cyber defense are developed and tested in an environment different from the one where they would be deployed. This thread treats that gap as its central problem.
+## Sim2Real Challenges in Cybersecurity
 
-The gap between a training environment and a deployment environment is the same problem that embodied agents encounter as sim-to-real transfer, and it has the same components. The dynamics and the available observations differ between the two. A policy degrades as the deployed environment moves away from the data it was trained on. And a claim of safety has to hold while the model is inaccurate, because outside its training distribution it will be. In cyber defense this appears as three ways a good result can fail to mean what it appears to mean.
+Sim2real refers to the long standing challenge encountered by embodied agents — between where a policy is trained and where it would run. Dynamics and sensing differ between the training world and the real one. A policy drifts as the deployment ages away from the data it was built on. And any safety we claim has to hold while the model is wrong, because out of distribution it will be.&#x20;
 
-First, a claim that an environment is realistic is rarely tested. Two environments can share every listed feature and still represent the world differently, so a statement that a method was evaluated in a realistic environment often goes unverified.
+In the cyber setting ...
 
-Second, a more detailed environment costs more to train in, and an improvement in a summary metric may not be due to the added detail. Whether the additional realism is worth its cost is easy to leave unexamined.
+## Where We Are at Year-1 (There's Much Work To Do...)
 
-Third, a policy that transfers to a new environment and scores well may have learned the task, or may have learned features specific to the benchmark. Its score does not distinguish these.
+To find a solution we must first understand the problem. [**When We Say "A Realistic Cyber Environment"**](when-we-say-a-realistic-cyber-environment.md)**,** what exactly does it entail? In this project we take on the ambitious mission to define an actionable taxonomy of realism based on consensus from all the relevant parties.
 
-The thread's lines address these points. [When We Say "A Realistic Cyber Environment"](when-we-say-a-realistic-cyber-environment.md) examines what a claim of realism can be taken to mean. [Training in "Realistic" Environments](training-in-realistic-environments.md) examines the cost of added fidelity and why a summary metric can obscure whether it helped. [Transfer to "Realistic" Environments](transfer-to-realistic-environments.md) studies moving a policy across the gap without retraining it. [Cyber Environments & Benchmarks](cyber-environments-and-benchmarks/) describes the environments this work uses and what each does and does not represent.
+How about we bypass the problem altogether? If transferring from sim to real is a dead end, can we [**Train in "Realistic" Environments Directly**](training-in-realistic-environments.md)? How much will we pay for the high fidelity training environment? Will it be worth it?
 
-Two questions remain open: how to show that a transferred policy performs well for the right reasons, and how to keep it reliable as the deployed environment changes. They are described on the [next](next.md) page.
+But then again...before the dreams come true and we get unlimited amount of access to operational environments for training purposes, how do we evaluate and improve our methods for sim2real? One key insight we had is that the sim2real challenge can be transformed to a sim2sim without loss of its complexity. So perhaps we can tackle [**sim2sim before sim2real**](transfer-to-realistic-environments.md)?
+
+[**Cyber Environments & Benchmarks**](cyber-environments-and-benchmarks/) is a collection of cyber environments that I used, adapted, built in my various projects.&#x20;
+
+
 
 _Last updated: 2026-08_

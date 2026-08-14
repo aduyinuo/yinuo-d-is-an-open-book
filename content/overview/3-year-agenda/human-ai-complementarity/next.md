@@ -4,10 +4,16 @@ icon: crystal-ball
 
 # Next
 
-Two questions follow from the instruments built in this thread.
+## A metric of complementarity
 
-The first is how to measure complementarity. A team can succeed because it combined the person's and the agent's contributions into a result neither would have reached alone, or because one capable member compensated for the other. Overall success does not distinguish these. What is needed is a measure that identifies the first case, meaning evidence that a decision depended on both parties, which requires estimating what each would have done separately. Without such a measure, the statement that a human-AI team performed better describes the outcome rather than the collaboration.
+A team can win because it is genuinely more than its parts, or because one strong member carried it while the other watched. Win rate cannot tell these apart. The open question is a measure of complementarity proper: evidence that the pair produced a decision neither the human nor the agent would have reached alone — counterfactually, not just jointly. Without it, "the team did better" is a claim about the scoreboard, not about the teaming.
 
-The second is whether information a person or an agent cannot state can still be transferred between them. This has two directions. One is whether an agent can present the basis for a recommendation in a form a person can evaluate and correct, rather than one that only indicates which inputs were influential. The other is whether a person's judgment, which they may be unable to put into words, can be captured as a constraint that the agent learns to respect. A related question is when authority should move between the person and the agent as a situation changes, whether that decision can be learned, and how to permit it without losing the guarantees that a fixed structure provides.
+## Moving tacit knowledge across the boundary
+
+If the value of the pairing lies in knowledge neither side can fully state, the interface between them is the research problem. Two directions, both open: whether an agent can surface its latent reasons in a form a human can actually correct — not a saliency map, something a person can push back on — and whether a human's inarticulate judgment can be captured as a constraint the agent comes to respect without the human having to write it down first. This is the tacit-to-explicit ladder, run across a human-machine seam rather than inside one head.
+
+## Authority that shifts
+
+A fixed authority graph is a simplification. Real teams move authority around as the situation changes — the human takes the wheel when stakes rise, the agent runs ahead when they don't. When that shift should happen, whether it can be learned, and how to allow it without giving up the safety the fixed structure was there to guarantee, is the third open question.
 
 _Last updated: 2026-08_

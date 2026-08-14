@@ -4,12 +4,22 @@ icon: head-side-gear
 
 # Mental World Modeling
 
-To work with a person or against one, an agent needs a model of that person: what they intend, what they are attending to, and how they understand the situation. This is difficult for reasons that are not specific to cybersecurity. Describing how someone solves a problem requires a set of operations to describe it with, and research on mental operations has not settled on a single agreed set. The appropriate level of detail depends on the scale of analysis, and the same solution can be described as a few steps or as many. General problem-solving heuristics transfer poorly, because knowing a heuristic and knowing when to apply it are different abilities, and the second is the harder one. Much of what an expert does is not available to introspection, so it has to be recovered indirectly rather than reported.
+## Challenges
 
-Cybersecurity adds two further difficulties. The other party is often an adversary who is deliberately deceptive and who departs from optimal play in systematic ways, so a defender trained only against an optimal attacker is prepared for an opponent it will not meet. And the problem-solving one wants to study, whether an analyst at work or a competitor in a capture-the-flag event, takes place under time pressure, where the most reliable method for eliciting reasoning, having the person think aloud while they work, cannot be used.
+**I — the units of a working mind are grain-relative, transfer weakly, and are partly tacit.** To model someone solving a hard problem we need units to model them in: operations, steps, moves. But a long history of work on mental operations never settled on a single canonical set, and for good reason. The right grain might depend on the scale we are looking at — the same solve is a handful of steps or a thousand, depending on where you stand. General heuristics ("work backwards," "try a simpler case") transfer badly: people who can recite them still fail to deploy them, because knowing an operation and regulating when to use it are different capacities, and the regulation is the harder one. And much of what an expert does is tacit — not withheld, but genuinely unavailable to introspection — so it has to be recovered indirectly rather than asked for. Any model of a mind at work has to be built from units that will not sit still, out of evidence the mind itself cannot fully report.
 
-The thread has two lines. [Problem-Solving](problem-solving/) studies how people solve problems in small groups, in general programming work, and in capture-the-flag competitions, using a description of the process coarse enough that different observers agree on it, and eliciting reasoning afterward by replaying a person their own session as a prompt. [Opponent (Agent) Modeling](opponent-agent-modeling/) studies the adversarial case: how agents infer one another's type over repeated interaction, and how to model an attacker whose systematic biases are represented explicitly, so that a defender trained against it faces a realistic opponent.
+**II — the mind is often hiding, or under a clock.** In cybersecurity the other agent is frequently an adversary who is actively using deception and who departs from optimal play in structured, repeatable ways. While the human problem-solving we want to support — an analyst, a competitor in capture-the-flag — happens under time pressure, where the gold-standard elicitation method, thinking aloud as you go, is exactly what you cannot ask for. The methods have to recover strategy from sparse, sometimes adversarial traces.
 
-Two questions remain open: whether these operations can be learned by an agent rather than specified in advance, and whether inferring a cooperative partner's type and modeling an adversary's biases are the same problem. They are described on the [next](next.md) page.
+## Where We Are at Year-1
+
+[**Problem-Solving**](problem-solving/) — small groups, general computing work, and capture-the-flag — builds a deliberately coarse, reliability-first account of how people solve, and pairs it with elicitation that survives a live competition: stimulated recall anchored to submission logs, rather than think-aloud that would distort the thing it measures.
+
+[**Opponent (Agent) Modeling**](opponent-agent-modeling/) is the adversarial half — how agents read each other into kinds across repeated interaction, and how to model an attacker whose biases are built into the reward, so that the defender it trains faces a realistic opponent instead of an idealized one.
+
+## Ongoing & Future Work
+
+Existing work in both agent-based modeling and human subject studies signals the necessity to find a consensus on the definition of mental operations, and that should be _learned_ rather than fixed — mental operations treated as reusable actions an agent discovers and composes, with a separate account of the control that decides which to use and when to quit.&#x20;
+
+We attempt to tackle this problem [next](next.md).
 
 _Last updated: 2026-08_
