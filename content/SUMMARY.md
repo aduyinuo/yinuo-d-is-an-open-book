@@ -3,7 +3,7 @@
 * [Home](home.md)
   * [Calendar](home/calendar.md)
   * [Contact](home/contact.md)
-  * [Work With M](home/work-with-me.md)
+  * [Work With Me](home/work-with-me.md)
   * [CV](home/cv.md)
 * [Research](research/overview.md)
   * [3-Year Agenda](overview/3-year-agenda/README.md)
