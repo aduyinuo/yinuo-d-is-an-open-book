@@ -16,17 +16,6 @@ Two parts to it. First, dependence: sometimes your choice genuinely hinges on th
 
 The dependence is not uniform. It concentrates in pockets, and those pockets move during a single interaction as the opponent shifts.
 
-## How you would measure it
-
-Take a region. Hold it fixed and vary the opponent — passive, greedy, adaptive, deceptive. If the best action barely moves, the region is not strategic and can be solved as a decision problem. If the best action swings, the region is strategic and has to be treated as such.
-
-That is the right panel: the same probe, run against four opponents. Wide spread means the region matters strategically. Flat means it doesn't.
-
-Whether to define the spread through regret or through variance is still open, and the two are not obviously equivalent.
-
-## Why it's worth the trouble
-
-Game-theoretic reasoning is expensive. If most of a large game is strategically flat, an agent that knows _where_ the strategic structure sits can spend its reasoning there and treat the rest cheaply. Finding that structure — defining it, generating games that contain it by construction, then learning it back from data and checking the recovery — is what this line of work is about.
 
 
 ## Publications
