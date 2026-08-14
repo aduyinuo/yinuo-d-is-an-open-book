@@ -11,7 +11,17 @@ icon: group-arrows-rotate
 
 ## Review
 
+### Journals
+
+<table><thead><tr><th width="140">Year</th><th>Journal</th></tr></thead><tbody><tr><td>2026</td><td>Computational Brain &#x26; Behavior</td></tr><tr><td>2025</td><td>Computational Brain &#x26; Behavior</td></tr><tr><td>2025</td><td>BMC Psychology</td></tr></tbody></table>
+
+### Conferences
+
 <table><thead><tr><th width="140">Year</th><th>Venue</th></tr></thead><tbody><tr><td>2025</td><td>AAAI Conference on Artificial Intelligence (AAAI), Demo Track</td></tr><tr><td>2024</td><td>International Conference on Autonomous Agents and Multiagent Systems (AAMAS)</td></tr><tr><td>2023–2024</td><td>Annual Meeting of the Cognitive Science Society (CogSci)</td></tr><tr><td>2022</td><td>Conference on Decision and Game Theory for Security (GameSec)</td></tr></tbody></table>
+
+### Judging
+
+<table><thead><tr><th width="140">Year</th><th>Event</th></tr></thead><tbody><tr><td>2026</td><td>Judge, UTEP AI Challenge competition (January 7–10), NSF award #2329579, PI Pei-Ling Hsu</td></tr></tbody></table>
 
 ## Committees and roles
 
