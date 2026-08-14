@@ -2,8 +2,6 @@
 
 I build at the boundary of human intelligence, AI systems, and cyber-physical decision support.
 
-This public site collects my current research program, project portfolio, tools, teaching, and writing in a form that is readable to collaborators, students, and curious readers.
-
 ## Start here
 
 * [Research overview](research/overview.md)
