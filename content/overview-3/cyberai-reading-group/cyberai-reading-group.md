@@ -15,12 +15,12 @@ The group meets on Fridays through the spring term, which runs from January 20 t
 | <img src="../../.gitbook/assets/av_yongzhao-wang.jpg" alt="Yongzhao Wang" width="90"> | Mar 6, 2026  | [Yongzhao Wang](https://sites.google.com/umich.edu/yongzhao-wang/)                   | University of Michigan               | EGTA and applications in cybersecurity                             |
 | <img src="../../.gitbook/assets/av_mingyu-guo.jpg" alt="Mingyu Guo" width="90">     | Mar 13, 2026 | [Mingyu Guo](https://scholar.google.com/citations?user=bxEKdzkAAAAJ\&hl=en)          | —                                    | GT/RL for Active Directory defense                                 |
 | <img src="../../.gitbook/assets/av_myles-foley.jpg" alt="Myles Foley" width="90">   | Mar 27, 2026 | Myles Foley                                                                          | —                                    | Combinatorial bandit for JS fuzzing                               |
+| <img src="../../.gitbook/assets/av_jeongkeun-shin.jpg" alt="Jeongkeun Shin" width="90"> | Apr 3, 2026  | Jeongkeun Shin                                                                   | Carnegie Mellon University           | —                                                                  |
 
 ## Student presentations
 
 |                                                                                       | Date | Presenter                       | Paper or topic |
 | ------------------------------------------------------------------------------------- | ---- | ------------------------------- | -------------- |
-| <img src="../../.gitbook/assets/av_jeongkeun-shin.jpg" alt="Jeongkeun Shin" width="90"> | TBD  | Jeongkeun Shin                | —              |
 | <img src="../../.gitbook/assets/av_rivas-saika.jpg" alt="Emilia Rivas and Sabrina Saika" width="90"> | TBD | Emilia Rivas and Sabrina Saika | —              |
 | <img src="../../.gitbook/assets/av_thomas-guerra.jpg" alt="Thomas Guerra" width="90"> | TBD  | Thomas Guerra                 | —              |
 
