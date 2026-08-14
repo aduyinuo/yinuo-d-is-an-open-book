@@ -48,9 +48,6 @@ _Observations come from a single run. They illustrate common failure modes rathe
 
 ## Collaborators
 
-* [Jaime Acosta](https://www.utep.edu/cs/people/faculty-websites/jacosta.html) — University of Texas at El Paso / DEVCOM ARL
-* [Mohammad Taneem Bin Nazim](https://scholar.google.com/citations?user=v3qB098AAAAJ) — University of Texas at El Paso
-* T. Guerra — University of Texas at El Paso _(full name to confirm)_
-* [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal) — University of Texas at El Paso
+<table data-header-hidden><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-jaime-acosta.png" alt="Jaime Acosta" width="104"><br><a href="https://www.utep.edu/cs/people/faculty-websites/jacosta.html"><strong>Jaime Acosta</strong></a><br>University of Texas at El Paso / DEVCOM ARL</td><td><img src="../../../.gitbook/assets/collab-mohammad-taneem-bin-nazim.png" alt="Mohammad Taneem Bin Nazim" width="104"><br><a href="https://scholar.google.com/citations?user=v3qB098AAAAJ"><strong>Mohammad Taneem Bin Nazim</strong></a><br>University of Texas at El Paso</td><td><img src="../../../.gitbook/assets/collab-t-guerra.png" alt="T. Guerra" width="104"><br><strong>T. Guerra</strong><br>University of Texas at El Paso<br><em>(full name to confirm)</em></td><td><img src="../../../.gitbook/assets/collab-palvi-aggarwal.png" alt="Palvi Aggarwal" width="104"><br><a href="https://expertise.utep.edu/profiles/paggarwal"><strong>Palvi Aggarwal</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
 
 _Last updated: 2026-08_

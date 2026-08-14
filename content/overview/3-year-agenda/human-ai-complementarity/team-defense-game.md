@@ -38,9 +38,6 @@ Interdependence is usually described and then assumed. Writing approval and pool
 
 ## Collaborators
 
-* [Baptiste Prébot](https://sites.google.com/view/baptisteprebot) — Carnegie Mellon University
-* [Tyler Malloy](https://scholar.google.com/citations?user=jktsx4EAAAAJ) — University of Luxembourg
-* [Fei Fang](https://feifang.info/) — Carnegie Mellon University
-* [Cleotilde Gonzalez](https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/) — Carnegie Mellon University
+<table data-header-hidden><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-baptiste-prebot.png" alt="Baptiste Prébot" width="104"><br><a href="https://sites.google.com/view/baptisteprebot"><strong>Baptiste Prébot</strong></a><br>Carnegie Mellon University</td><td><img src="../../../.gitbook/assets/collab-tyler-malloy.png" alt="Tyler Malloy" width="104"><br><a href="https://scholar.google.com/citations?user=jktsx4EAAAAJ"><strong>Tyler Malloy</strong></a><br>University of Luxembourg</td><td><img src="../../../.gitbook/assets/collab-fei-fang.png" alt="Fei Fang" width="104"><br><a href="https://feifang.info/"><strong>Fei Fang</strong></a><br>Carnegie Mellon University</td><td><img src="../../../.gitbook/assets/collab-cleotilde-gonzalez.png" alt="Cleotilde Gonzalez" width="104"><br><a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/"><strong>Cleotilde Gonzalez</strong></a><br>Carnegie Mellon University</td></tr></tbody></table>
 
 _Last updated: 2026-08_

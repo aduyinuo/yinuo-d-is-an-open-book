@@ -42,7 +42,6 @@ _Metrion is a poster at ACM CCS 2026, with Maria Rigaki and Carlos A. Catania. T
 
 ## Collaborators
 
-* [Maria Rigaki](https://mariarigaki.github.io/) — Czech Technical University in Prague
-* Carlos A. Catania — Czech Technical University in Prague
+<table data-header-hidden><thead><tr><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-maria-rigaki.png" alt="Maria Rigaki" width="104"><br><a href="https://mariarigaki.github.io/"><strong>Maria Rigaki</strong></a><br>Czech Technical University in Prague</td><td><img src="../../../.gitbook/assets/collab-carlos-a-catania.png" alt="Carlos A. Catania" width="104"><br><strong>Carlos A. Catania</strong><br>Czech Technical University in Prague</td></tr></tbody></table>
 
 _Last updated: 2026-08_

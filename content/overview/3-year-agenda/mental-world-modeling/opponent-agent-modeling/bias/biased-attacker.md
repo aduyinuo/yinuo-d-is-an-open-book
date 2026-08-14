@@ -46,10 +46,6 @@ _The trajectories shown are illustrative of the mechanism. Measured results are 
 
 ## Collaborators
 
-* [Jannat Akbar](https://www.linkedin.com/in/jannat-akbar/) — Aalto University
-* [Antti Oulasvirta](https://users.aalto.fi/~oulasvir/) — Aalto University
-* [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal) — University of Texas at El Paso
-* Saeefa Rubaiyet Nowmi — University of Texas at El Paso
-* [Cleotilde Gonzalez](https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/) — Carnegie Mellon University
+<table data-header-hidden><thead><tr><th></th><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../../.gitbook/assets/collab-jannat-akbar.png" alt="Jannat Akbar" width="104"><br><a href="https://www.linkedin.com/in/jannat-akbar/"><strong>Jannat Akbar</strong></a><br>Aalto University</td><td><img src="../../../../../.gitbook/assets/collab-antti-oulasvirta.png" alt="Antti Oulasvirta" width="104"><br><a href="https://users.aalto.fi/~oulasvir/"><strong>Antti Oulasvirta</strong></a><br>Aalto University</td><td><img src="../../../../../.gitbook/assets/collab-palvi-aggarwal.png" alt="Palvi Aggarwal" width="104"><br><a href="https://expertise.utep.edu/profiles/paggarwal"><strong>Palvi Aggarwal</strong></a><br>University of Texas at El Paso</td><td><img src="../../../../../.gitbook/assets/collab-saeefa-rubaiyet-nowmi.png" alt="Saeefa Rubaiyet Nowmi" width="104"><br><strong>Saeefa Rubaiyet Nowmi</strong><br>University of Texas at El Paso</td><td><img src="../../../../../.gitbook/assets/collab-cleotilde-gonzalez.png" alt="Cleotilde Gonzalez" width="104"><br><a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/"><strong>Cleotilde Gonzalez</strong></a><br>Carnegie Mellon University</td></tr></tbody></table>
 
 _Last updated: 2026-08_

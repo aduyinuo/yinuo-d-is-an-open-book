@@ -30,9 +30,6 @@ The categories are relative, not absolute. A partner is classified against the g
 
 ## Collaborators
 
-* [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal) — University of Texas at El Paso
-* [Kuldeep Singh](https://scholar.google.com/citations?user=SPaXALYAAAAJ)
-* [Fei Fang](https://feifang.info/) — Carnegie Mellon University
-* [Cleotilde Gonzalez](https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/) — Carnegie Mellon University
+<table data-header-hidden><thead><tr><th></th><th></th><th></th><th></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-palvi-aggarwal.png" alt="Palvi Aggarwal" width="104"><br><a href="https://expertise.utep.edu/profiles/paggarwal"><strong>Palvi Aggarwal</strong></a><br>University of Texas at El Paso</td><td><img src="../../../../.gitbook/assets/collab-kuldeep-singh.png" alt="Kuldeep Singh" width="104"><br><a href="https://scholar.google.com/citations?user=SPaXALYAAAAJ"><strong>Kuldeep Singh</strong></a></td><td><img src="../../../../.gitbook/assets/collab-fei-fang.png" alt="Fei Fang" width="104"><br><a href="https://feifang.info/"><strong>Fei Fang</strong></a><br>Carnegie Mellon University</td><td><img src="../../../../.gitbook/assets/collab-cleotilde-gonzalez.png" alt="Cleotilde Gonzalez" width="104"><br><a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/"><strong>Cleotilde Gonzalez</strong></a><br>Carnegie Mellon University</td></tr></tbody></table>
 
 _Last updated: 2026-08_

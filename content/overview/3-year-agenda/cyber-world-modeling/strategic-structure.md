@@ -16,14 +16,12 @@ Two parts to it. First, dependence: sometimes your choice genuinely hinges on th
 
 The dependence is not uniform. It concentrates in pockets, and those pockets move during a single interaction as the opponent shifts.
 
-
-
 ## Publications
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-preprint.png" alt="Preprint" data-size="original"></td><td><mark style="color:green;">Learning Strategic Structure in Sequential Adversarial Games</mark></td><td><strong>Y. Du</strong>, <a href="https://www.cs.utep.edu/kiekintveld/">C. Kiekintveld</a></td><td></td></tr></tbody></table>
 
 ## Collaborators
 
-* [Christopher Kiekintveld](https://www.cs.utep.edu/kiekintveld/) — University of Texas at El Paso
+<table data-header-hidden><thead><tr><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-christopher-kiekintveld.png" alt="Christopher Kiekintveld" width="104"><br><a href="https://www.cs.utep.edu/kiekintveld/"><strong>Christopher Kiekintveld</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
 
 _Last updated: 2026-08_
