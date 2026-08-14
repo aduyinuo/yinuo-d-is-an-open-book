@@ -1,8 +1,12 @@
-# Strategic Structure
+---
+icon: diagram-project
+---
+
+# Learn Structure
 
 Not every part of a game is strategic. Most of it isn't.
 
-<figure><img src="../../.gitbook/assets/strategic-dependence.gif" alt="A map of strategic dependence across a state-action space, shifting as the opponent changes"><figcaption>Left: how much the best action depends on the opponent, across the space. Right: probing one region against four opponent behaviours.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/strategic-dependence.gif" alt="A map of strategic dependence across a state-action space, shifting as the opponent changes"><figcaption><p>Left: how much the best action depends on the opponent, across the space. Right: probing one region against four opponent behaviours.</p></figcaption></figure>
 
 ## The intuition
 
@@ -22,6 +26,6 @@ Whether to define the spread through regret or through variance is still open, a
 
 ## Why it's worth the trouble
 
-Game-theoretic reasoning is expensive. If most of a large game is strategically flat, an agent that knows *where* the strategic structure sits can spend its reasoning there and treat the rest cheaply. Finding that structure — defining it, generating games that contain it by construction, then learning it back from data and checking the recovery — is what this line of work is about.
+Game-theoretic reasoning is expensive. If most of a large game is strategically flat, an agent that knows _where_ the strategic structure sits can spend its reasoning there and treat the rest cheaply. Finding that structure — defining it, generating games that contain it by construction, then learning it back from data and checking the recovery — is what this line of work is about.
 
 _Last updated: 2026-08_

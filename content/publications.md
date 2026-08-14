@@ -1,3 +1,7 @@
+---
+icon: google-scholar
+---
+
 # Publications
 
 Full list on [Google Scholar](https://scholar.google.com/citations?user=XdY3VB0AAAAJ\&hl=en).

@@ -1,3 +1,7 @@
+---
+icon: square-person-confined
+---
+
 # Iterated Strategic Interaction
 
 ## Dynamic Sociality

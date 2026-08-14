@@ -1,3 +1,7 @@
+---
+icon: brain-arrow-curved-right
+---
+
 # Problem-Solving
 
 Three settings, one question: what is actually going on in someone's head while they solve a hard problem, and can it be observed well enough to model?

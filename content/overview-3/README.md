@@ -1,3 +1,7 @@
+---
+icon: group-arrows-rotate
+---
+
 # Community
 
 ## Organize
@@ -8,9 +12,5 @@
 ## **Review**
 
 ## **Others**
-
-
-
-
 
 _Last updated: 2026-08_

@@ -1,3 +1,7 @@
+---
+icon: honey-pot
+---
+
 # Biased Attacker
 
 Real attackers are not expected-utility maximisers. Most models of them are.

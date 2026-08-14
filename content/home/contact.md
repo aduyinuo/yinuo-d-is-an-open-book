@@ -1,3 +1,7 @@
+---
+icon: envelope
+---
+
 # Contact
 
 <table><thead><tr><th width="110"></th><th></th></tr></thead><tbody><tr><td><mark style="color:green;">To</mark></td><td>Yinuo Du &#x3C;aduyino6@gmail.com></td></tr><tr><td><mark style="color:green;">Subject</mark></td><td>…</td></tr><tr><td><mark style="color:green;">Message</mark></td><td><p>Topic, in one or two sentences</p><p>Anything I should read first — a draft, a dataset, an artifact</p><p>What you need from me — a decision, feedback, an introduction</p><p>A deadline, if there is one</p><p>Two or three time windows, if you want to meet</p></td></tr></tbody></table>

@@ -1,3 +1,7 @@
+---
+icon: family-pants
+---
+
 # Small Groups
 
 <figure><img src="../../../.gitbook/assets/ps-winter-survival.gif" alt="Winter survival task: individual rankings converging on a group ranking, against the expert ranking"><figcaption><p>Four people rank twelve items. The group then has to agree on one ranking.</p></figcaption></figure>
