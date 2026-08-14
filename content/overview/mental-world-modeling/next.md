@@ -1,0 +1,6 @@
+---
+icon: crystal-ball
+---
+
+# Next
+
