@@ -168,12 +168,80 @@ def convert(path, slug=None):
     return title, frags, narr, (W / H if H else 16 / 9)
 
 # ---------------------------------------------------------------- html output
-def build_html(title, frags, narr, ratio):
+BASE_URL = os.environ.get(
+    "SLIDES_BASE_URL",
+    "https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides")
+
+
+def build_html(title, frags, narr, ratio, slug):
     tpl = open(os.path.join(HERE, "viewer_template.html"), encoding="utf-8").read()
+    self_url = "%s/%s.html" % (BASE_URL, slug)
     return (tpl.replace("__TITLE__", html.escape(title, quote=False))
                .replace("__RATIO__", "%.4f" % ratio)
+               .replace("__SELF__", self_url)
+               .replace("__BASE__", BASE_URL)
+               .replace("__SLUG__", slug)
                .replace("__FRAGS__", json.dumps(frags, ensure_ascii=False))
                .replace("__NARR__",  json.dumps(narr,  ensure_ascii=False)))
+
+
+def write_oembed(slug, title, ratio):
+    """Static oEmbed document so embedders render the deck as a live frame."""
+    d = os.path.join(OUT, "oembed")
+    os.makedirs(d, exist_ok=True)
+    self_url = "%s/%s.html" % (BASE_URL, slug)
+    w, h = 1280, 900
+    doc = {
+        "version": "1.0",
+        "type": "rich",
+        "provider_name": "Open Book Lab",
+        "provider_url": BASE_URL,
+        "title": title,
+        "width": w,
+        "height": h,
+        "thumbnail_url": "%s/media/%s/cover.png" % (BASE_URL, slug),
+        "thumbnail_width": 1280,
+        "thumbnail_height": 720,
+        "html": ('<iframe src="%s" width="%d" height="%d" frameborder="0" '
+                 'allowfullscreen style="border:0;max-width:100%%"></iframe>'
+                 % (self_url, w, h)),
+    }
+    with open(os.path.join(d, slug + ".json"), "w", encoding="utf-8", newline="\n") as fh:
+        json.dump(doc, fh, ensure_ascii=False, indent=2)
+
+
+def write_cover(slug, title):
+    """A simple cover image so link previews are not blank."""
+    try:
+        from PIL import Image, ImageDraw, ImageFont
+    except Exception:
+        return
+    W, H = 1280, 720
+    im = Image.new("RGB", (W, H), "#22452f")
+    d = ImageDraw.Draw(im)
+    def font(px):
+        for f in ("/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf",
+                  "/usr/share/fonts/truetype/liberation/LiberationSans-Bold.ttf",
+                  "C:/Windows/Fonts/segoeuib.ttf"):
+            if os.path.exists(f):
+                return ImageFont.truetype(f, px)
+        return ImageFont.load_default()
+    f1 = font(64)
+    words, lines, cur = title.split(), [], ""
+    for w_ in words:
+        t = (cur + " " + w_).strip()
+        if d.textlength(t, font=f1) > W - 160:
+            lines.append(cur); cur = w_
+        else:
+            cur = t
+    lines.append(cur)
+    y = H // 2 - (len(lines) * 76) // 2
+    for ln in lines[:4]:
+        d.text((80, y), ln, font=f1, fill="#ffffff"); y += 76
+    d.rectangle([80, y + 24, 200, y + 32], fill="#93b294")
+    md = os.path.join(OUT, "media", slug)
+    os.makedirs(md, exist_ok=True)
+    im.save(os.path.join(md, "cover.png"))
 
 def main(argv):
     os.makedirs(OUT, exist_ok=True)
@@ -192,7 +260,9 @@ def main(argv):
         title, frags, narr, ratio = convert(f, slug)
         out = os.path.join(OUT, slug + ".html")
         open(out, "w", encoding="utf-8", newline="\n").write(
-            build_html(title, frags, narr, ratio))
+            build_html(title, frags, narr, ratio, slug))
+        write_oembed(slug, title, ratio)
+        write_cover(slug, title)
         made.append((slug, len(frags), sum(1 for v in narr.values() if v)))
     for slug, n, withnotes in made:
         print("%-40s %2d slides, %d with narration" % (slug, n, withnotes))
