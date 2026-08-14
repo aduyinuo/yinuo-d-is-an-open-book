@@ -10,8 +10,6 @@
 * [PickYourBattles](pick-your-battles/overview.md)
 * [UnitedForces](united-forces/overview.md)
 * [BeRealistic](be-realistic/overview.md)
-* [Research statement](research-statement/overview.md)
-* [IRB applications](irb-applications/overview.md)
 
 ## Flagship deep-dives
 
