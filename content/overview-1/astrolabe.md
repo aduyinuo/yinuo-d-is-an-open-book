@@ -1,3 +1,7 @@
+---
+icon: map
+---
+
 # Astrolabe
 
 A local research app for turning recorded work sessions into coded, comparable data.
