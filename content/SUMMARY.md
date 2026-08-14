@@ -49,7 +49,7 @@
 * [Mentor](mentor/README.md)
   * [2025-2026 UTEP](mentor/2025-2026-utep.md)
   * [2021-2025 CMU](mentor/2021-2025-cmu.md)
-* [Community](overview-3/README.md)
+* [Service](overview-3/README.md)
   * [AAAI Summer Symposium](overview-3/aaai-summer-symposium-2026.md)
   * [CyberAI Reading Group](overview-3/cyberai-reading-group/README.md)
     * [2026 Fall](overview-3/cyberai-reading-group/2026-fall.md)
