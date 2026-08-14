@@ -23,7 +23,7 @@
   * [Human-AI Complementarity](overview/human-ai-complementarity/README.md)
     * [CHART](overview/human-ai-complementarity/chart.md)
     * [Team Defense Game](overview/human-ai-complementarity/team-defense-game.md)
-    * [CyberAgentTrace](overview/human-ai-complementarity/cyberagenttrace.md)
+    * [CyberAgentFlow](overview/human-ai-complementarity/cyberagenttrace.md)
   * [Toward Deployment](overview/toward-deployment/README.md)
     * [When We Say "A Realistic Cyber Environment"](overview/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
     * [Training in "Realistic" Environments](overview/toward-deployment/training-in-realistic-environments.md)

@@ -1,8 +1,12 @@
+---
+icon: diaspora
+---
+
 # CHART
 
 Most teams describe how they work together and then hope. CHART writes it down as a graph and makes the software enforce it.
 
-<figure><img src="../../.gitbook/assets/chart-interaction.gif" alt="A CHART session: the dependency graph, an approval routed along the control edge, an agent-generated explanation, and a routed chat message"><figcaption>One session. The structure is not a description — it decides what can happen.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/chart-interaction.gif" alt="A CHART session: the dependency graph, an approval routed along the control edge, an agent-generated explanation, and a routed chat message"><figcaption><p>One session. The structure is not a description — it decides what can happen.</p></figcaption></figure>
 
 ## The graph
 

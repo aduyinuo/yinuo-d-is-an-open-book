@@ -1,8 +1,12 @@
+---
+icon: user-plus
+---
+
 # Team Defense Game
 
 Two defenders, one network, one attacker working against them. The question isn't which of them is better. It's what passes between them.
 
-<figure><img src="../../.gitbook/assets/tdg-interaction.gif" alt="A human and an agent defending one network: proposals, approvals, a shared pool, and the agent's memory updating"><figcaption>One episode. Watch the three channels connecting the two defenders.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/tdg-interaction.gif" alt="A human and an agent defending one network: proposals, approvals, a shared pool, and the agent&#x27;s memory updating"><figcaption><p>One episode. Watch the three channels connecting the two defenders.</p></figcaption></figure>
 
 ## Approval
 
