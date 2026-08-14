@@ -59,6 +59,7 @@
 * [Tools](overview-1/README.md)
   * [Nanny](overview-1/nanny.md)
 * [Teach](overview-2/README.md)
+  * [Learn w/ Me](overview-2/learn-w-me.md)
   * [CMU Future Faculty Program](overview-2/cmu-future-faculty-program.md)
   * [2025 Fall Guest Lectures at UTEP](overview-2/2025-fall-guest-lectures-at-utep.md)
 * [Mentor](mentor/README.md)
