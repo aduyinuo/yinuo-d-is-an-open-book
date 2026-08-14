@@ -1,7 +1,5 @@
 # Publications
 
-<figure><img src="../.gitbook/assets/publications-map.png" alt="Publications by year and research community"><figcaption></figcaption></figure>
-
 Full list on [Google Scholar](https://scholar.google.com/citations?user=XdY3VB0AAAAJ\&hl=en).
 
 ## Preprints
