@@ -12,7 +12,7 @@ Full list on [Google Scholar](https://scholar.google.com/citations?user=XdY3VB0A
 
 ## Posters
 
-<table><thead><tr><th width="102.5"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/badge-ccs.png" alt="ACM CCS" data-size="original"></td><td><mark style="color:green;">Realistic Enough for What? Metrion: A Multidimensional Framework for Evaluating Cyber Environments</mark><br>Poster, ACM CCS 2026</td><td><strong>Y. Du</strong>, <a href="https://mariarigaki.github.io/">M. Rigaki</a>, C. A. Catania</td><td></td></tr><tr><td></td><td></td><td></td><td><a href="https://doi.org/10.1609/aaaiss.v9i1.42950"><img src=".gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr></tbody></table>
+<table><thead><tr><th width="102.5"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src=".gitbook/assets/badge-ccs.png" alt="ACM CCS" data-size="original"></td><td><mark style="color:green;">Realistic Enough for What? Metrion: A Multidimensional Framework for Evaluating Cyber Environments</mark><br>Poster, ACM CCS 2026</td><td><a href="https://mariarigaki.github.io/">M. Rigaki</a>, <strong>Y. Du</strong>, C. A. Catania</td><td></td></tr><tr><td></td><td></td><td></td><td><a href="https://doi.org/10.1609/aaaiss.v9i1.42950"><img src=".gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr></tbody></table>
 
 ## 2026
 
