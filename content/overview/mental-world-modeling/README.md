@@ -4,7 +4,7 @@ icon: head-side-gear
 
 # Mental World Modeling
 
-People are the other half of the system, and they are not optimisers. Before an agent can work with a person or against one, it needs some model of the mind on the other side — and minds do not hand over their contents.
+People are the other half of the system, and they are not optimisers. Before an agent can work with a person or against one, it needs some model of the mind on the other side — its intent, its attention, the context it is reading — and minds do not hand over their contents.
 
 ## The puzzle
 
