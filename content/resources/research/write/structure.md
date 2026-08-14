@@ -4,7 +4,7 @@
 
 **[Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) — Brett Mensh & Konrad Kording** (PLOS Computational Biology, 2017).
 
-[Download](../../../.gitbook/assets/ten-simple-rules-structuring-papers.pdf)
+[Download the PDF](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005619&#x26;type=printable)
 
 The rules that stuck with me:
 

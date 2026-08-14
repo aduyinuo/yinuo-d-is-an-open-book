@@ -6,7 +6,7 @@ Etiquette guides are useful for the same reason a systems handbook is useful: th
 
 ## Military etiquette guides
 
-[West Point social etiquette](../.gitbook/assets/west-point-social-etiquette.pdf) · [the government etiquette guide](../.gitbook/assets/government-etiquette-guide.pdf)
+[Protocol for the Modern Diplomat](https://www.govinfo.gov/content/pkg/GOVPUB-S-PURL-LPS81568/pdf/GOVPUB-S-PURL-LPS81568.pdf) — the State Department Transition Center's guide, and the most complete of these.
 
 The officers' guides and the West Point social etiquette manual are the most thorough written-down versions I've found. Much of the specific content belongs to its institution and its era. What survives translation is the underlying grammar:
 

@@ -2,7 +2,7 @@
 
 **[NASA Systems Engineering Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)** (NASA/SP-2016-6105 Rev 2).
 
-[Download](../../.gitbook/assets/nasa-systems-engineering-handbook.pdf)
+[Download the PDF](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)
 
 Wildly disproportionate to a research project, which is exactly why it's useful. It names every stage a complex build passes through, so you can decide deliberately which ones you're skipping rather than discovering later that you skipped them.
 
