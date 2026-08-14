@@ -12,4 +12,18 @@ The attacker begins with a permanent foothold on User0. Holding a user host pays
 
 **Use it for** comparable results — it is the closest thing the field has to a common baseline, and the B-line and Meander attackers are defined here.
 
+
+## Publications
+
+_Work of mine that runs on this environment._
+
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-chb.png" alt="CHB: AI" data-size="original"></td><td><mark style="color:green;">Experimental evaluation of cognitive agents for collaboration in human-autonomy cyber defense teams</mark><br>Computers in Human Behavior: Artificial Humans, 4, 100148</td><td><strong>Y. Du</strong>, <a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, <a href="https://scholar.google.com/citations?user=jktsx4EAAAAJ">T. Malloy</a>, <a href="https://feifang.info/">F. Fang</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td><a href="https://doi.org/10.1016/j.chbah.2025.100148"><img src="../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr><tr><td><img src="../../../.gitbook/assets/badge-tsc.png" alt="ACM TSC" data-size="original"></td><td><mark style="color:green;">A cyber-war between bots: cognitive attackers are more challenging for defenders than strategic attackers</mark><br>ACM Transactions on Social Computing, 8(3–4)</td><td><strong>Y. Du</strong>, <a href="https://sites.google.com/view/baptisteprebot">B. Prébot</a>, <a href="https://scholar.google.com/citations?user=jktsx4EAAAAJ">T. Malloy</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a></td><td><a href="https://doi.org/10.1145/3712672"><img src="../../../.gitbook/assets/badge-paper.png" alt="paper" data-size="original"></a></td></tr></tbody></table>
+
+## Collaborators
+
+* [Baptiste Prébot](https://sites.google.com/view/baptisteprebot) — Carnegie Mellon University
+* [Tyler Malloy](https://scholar.google.com/citations?user=jktsx4EAAAAJ) — University of Luxembourg
+* [Fei Fang](https://feifang.info/) — Carnegie Mellon University
+* [Cleotilde Gonzalez](https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/) — Carnegie Mellon University
+
 _Last updated: 2026-08_

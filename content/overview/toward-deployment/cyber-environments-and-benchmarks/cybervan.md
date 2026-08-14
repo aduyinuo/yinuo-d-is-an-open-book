@@ -10,4 +10,9 @@ Because the hosts are real, the instrumentation is real too: packet captures and
 
 **Use it for** questions where the answer depends on what a real operating system and a real protocol stack actually do — and where you can afford the setup.
 
+
+## Related
+
+A high-fidelity reference point rather than a training environment for this work. The fidelity question it raises is taken up on [When We Say "A Realistic Cyber Environment"](../when-we-say-a-realistic-cyber-environment.md).
+
 _Last updated: 2026-08_
