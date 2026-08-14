@@ -31,11 +31,11 @@ Tool selection is arguably its own first-class operation rather than something b
 
 ## Publications
 
-<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-sigcse.png" alt="SIGCSE" data-size="original"></td><td><mark style="color:green;">Capture-The-Flag Universe: Design Considerations, System Behavior, and Player Experiences</mark><br><em>Under review, SIGCSE Virtual 2026</em></td><td><strong>Y. Du</strong>, Yansi, <a href="https://expertise.utep.edu/profiles/apiplai">A. Piplai</a>, <a href="https://www.utep.edu/cs/people/faculty-websites/jacosta.html">J. Acosta</a>, <a href="https://anantaakotal.github.io/">A. Kotal</a></td><td></td></tr></tbody></table>
+<table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-sigcse.png" alt="SIGCSE" data-size="original"></td><td><mark style="color:green;">Capture-The-Flag Universe: Design Considerations, System Behavior, and Player Experiences</mark><br><em>Under review, SIGCSE Virtual 2026</em></td><td><strong>Y. Du</strong>, Y. Keim, <a href="https://expertise.utep.edu/profiles/apiplai">A. Piplai</a>, <a href="https://www.utep.edu/cs/people/faculty-websites/jacosta.html">J. Acosta</a>, <a href="https://anantaakotal.github.io/">A. Kotal</a></td><td></td></tr></tbody></table>
 
 ## Collaborators
 
-* Yansi — University of Texas at El Paso _(surname to confirm)_
+* Yansi Keim — University of Texas at El Paso
 * [Aritran Piplai](https://expertise.utep.edu/profiles/apiplai) — University of Texas at El Paso
 * [Jaime Acosta](https://www.utep.edu/cs/people/faculty-websites/jacosta.html) — University of Texas at El Paso / DEVCOM ARL
 * [Anantaa Kotal](https://anantaakotal.github.io/) — University of Texas at El Paso
