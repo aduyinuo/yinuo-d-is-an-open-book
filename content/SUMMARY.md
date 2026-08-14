@@ -10,7 +10,7 @@
     * [Adversary](overview/cyber-world-modeling/adversary.md)
     * [Strategic Structure](overview/cyber-world-modeling/strategic-structure.md)
   * [Mental World Modeling](overview/mental-world-modeling/README.md)
-    * [Iterated Strategic Interaction in Networks](overview/mental-world-modeling/social-intelligence.md)
+    * [Iterated Strategic Interaction](overview/mental-world-modeling/social-intelligence.md)
     * [Problem-Solving](overview/mental-world-modeling/problem-solving.md)
     * [Bias](overview/mental-world-modeling/bias.md)
   * [Human-AI Complementarity](overview/human-ai-complementarity/README.md)
