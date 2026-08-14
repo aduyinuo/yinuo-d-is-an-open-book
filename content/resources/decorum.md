@@ -6,7 +6,7 @@ Etiquette guides are useful for the same reason a systems handbook is useful: th
 
 ## Military etiquette guides
 
-Two of these are US government publications and are in the public domain, so I can hand them to you directly: [West Point social etiquette](../.gitbook/assets/west-point-social-etiquette.pdf) and [the government etiquette guide](../.gitbook/assets/government-etiquette-guide.pdf). The commercially published officers' guides are not mine to redistribute.
+[West Point social etiquette](../.gitbook/assets/west-point-social-etiquette.pdf) · [the government etiquette guide](../.gitbook/assets/government-etiquette-guide.pdf)
 
 The officers' guides and the West Point social etiquette manual are the most thorough written-down versions I've found. Much of the specific content belongs to its institution and its era. What survives translation is the underlying grammar:
 
