@@ -10,7 +10,7 @@ Most proposal experience is invisible from the outside. You see the awards on a 
 
 ## Awards
 
-<table><thead><tr><th width="120">Year</th><th width="320">Program</th><th>Role</th></tr></thead><tbody><tr><td>2023</td><td>Accelerating Foundation Models Research — advancing the development and application of foundation models in AI</td><td>Contributor; PI: Cleotilde Gonzalez</td></tr></tbody></table>
+<table><thead><tr><th width="120">Year</th><th width="320">Program</th><th>Role</th></tr></thead><tbody><tr><td>2026</td><td><a href="https://www.utep.edu/research/uri/">University Research Institute (URI)</a>, University of Texas at El Paso — internal, one year, with a report on outcomes and a pathway to external funding</td><td>PI</td></tr><tr><td>2023</td><td>Accelerating Foundation Models Research — advancing the development and application of foundation models in AI</td><td>Contributor; PI: Cleotilde Gonzalez</td></tr></tbody></table>
 
 ## Submissions
 

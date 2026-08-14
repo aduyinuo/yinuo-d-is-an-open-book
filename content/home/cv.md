@@ -20,7 +20,7 @@ I study human and AI decision-making in cybersecurity: computational models of p
 
 ## Honors and awards
 
-<table><thead><tr><th width="140">Year</th><th>Award</th></tr></thead><tbody><tr><td>2025</td><td>SCS Presidential Fellowship, Carnegie Mellon University</td></tr><tr><td>2023–2024</td><td>Women in Cybersecurity Student Scholarship</td></tr><tr><td>2023</td><td>Accelerating Foundation Models Research (PI: Cleotilde Gonzalez)</td></tr><tr><td>2018</td><td>Foho Technical Innovation Grant — 1 of 77 awarded</td></tr><tr><td>2016–2018</td><td>National Encouragement Scholarship, Xi'an Jiaotong University — 3 of 77 awarded</td></tr></tbody></table>
+<table><thead><tr><th width="140">Year</th><th>Award</th></tr></thead><tbody><tr><td>2026</td><td>University Research Institute (URI) award, University of Texas at El Paso</td></tr><tr><td>2025</td><td>SCS Presidential Fellowship, Carnegie Mellon University</td></tr><tr><td>2023–2024</td><td>Women in Cybersecurity Student Scholarship</td></tr><tr><td>2023</td><td>Accelerating Foundation Models Research (PI: Cleotilde Gonzalez)</td></tr><tr><td>2018</td><td>Foho Technical Innovation Grant — 1 of 77 awarded</td></tr><tr><td>2016–2018</td><td>National Encouragement Scholarship, Xi'an Jiaotong University — 3 of 77 awarded</td></tr></tbody></table>
 
 ## Invited talks and selected events
 
