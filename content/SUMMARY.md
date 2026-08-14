@@ -30,7 +30,7 @@
   * [Toward Deployment](overview/toward-deployment/README.md)
     * [When We Say "A Realistic Cyber Environment"](overview/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
     * [Training in "Realistic" Environments](overview/toward-deployment/training-in-realistic-environments.md)
-    * [Transfer to "Realistic" Environments](overview/toward-deployment/transfer-to-realistic-environments.md)
+    * [Sim2Sim before Sim2Real](overview/toward-deployment/transfer-to-realistic-environments.md)
     * [Cyber Environments & Benchmarks](overview/toward-deployment/cyber-environments-and-benchmarks/README.md)
       * [HackIT](overview/toward-deployment/cyber-environments-and-benchmarks/hackit.md)
       * [CybORG](overview/toward-deployment/cyber-environments-and-benchmarks/cyborg.md)
