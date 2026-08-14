@@ -8,7 +8,7 @@ icon: folder-user
 
 ## Academic employment
 
-<table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2025 –</td><td>Assistant Professor of Research, Computer Science Department, University of Texas at El Paso</td></tr></tbody></table>
+<table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2025 (– 2026)</td><td>Assistant Professor of Research, Computer Science Department, University of Texas at El Paso</td></tr></tbody></table>
 
 ## Education
 
