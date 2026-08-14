@@ -7,7 +7,7 @@ icon: creative-commons-remix
 
 I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis. If funded positions become available they will be listed on [Opportunities](../overview-4/). I am always happy for discussions if you happen to be working on similar ideas.
 
-What I can offer is a defined question with a well thought-out project plan, credit that reflects what you contributed, including authorship where it is warranted, and time from me. Research projects work on an open question from one of the research threads. Engineering projects work on an artifact, such as an environment, a testbed, or an instrumentation layer, that other projects depend on.
+What I can offer is a defined question with a well thought-out project plan and ethical credit assignment. Research projects work on an open question from one of the research threads. Engineering projects work on an artifact, such as an environment, a testbed, or an instrumentation layer, that other projects depend on.
 
 Each project below names the thread it belongs to, the question it works on, what you would do, and what you need to be able to do. Read the linked thread page first, then write to me about the one you are interested in.
 
