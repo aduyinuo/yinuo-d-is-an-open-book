@@ -4,14 +4,34 @@ from PIL import Image, ImageDraw, ImageFont
 ROOT = "/sessions/festive-hopeful-edison/mnt/GitHub/content"
 ASSETS = os.path.join(ROOT, ".gitbook/assets")
 SIZE = 320                      # stored resolution
-DISPLAY = 104                   # rendered width
+DISPLAY = 72                   # rendered width
 
 # green palette
 TINTS = [("#22452f", "#ffffff"), ("#4a7c59", "#ffffff"),
          ("#3a6347", "#ffffff"), ("#5c8f6b", "#ffffff")]
 
 # real photos already in the repo, keyed by collaborator name
-REAL = {"Palvi Aggarwal": "palvi-aggarwal.jpg"}
+PHOTO_DIR = "/tmp/heads"
+REAL = {"Palvi Aggarwal": "/sessions/festive-hopeful-edison/mnt/GitHub/content/.gitbook/assets/palvi-aggarwal.jpg"}
+for _n, _f in {
+    "Christopher Kiekintveld": "christopher-kiekintveld",
+    "Cleotilde Gonzalez": "cleotilde-gonzalez",
+    "Fei Fang": "fei-fang",
+    "Baptiste Prebot": "baptiste-prebot",
+    "Maria Jose Ferreira": "maria-jose-ferreira",
+    "Tyler Malloy": "tyler-malloy",
+    "Stephanie Milani": "stephanie-milani",
+    "Prashanth Rajivan": "prashanth-rajivan",
+    "Antti Oulasvirta": "antti-oulasvirta",
+    "Maria Rigaki": "maria-rigaki",
+    "Carlos A. Catania": "carlos-a-catania",
+    "Volodymyr (Vlad) Miloserdov": "volodymyr-vlad-miloserdov",
+    "Aritran Piplai": "aritran-piplai",
+    "Jaime Acosta": "jaime-acosta",
+    "Anantaa Kotal": "anantaa-kotal",
+    "Kuldeep Singh": "kuldeep-singh",
+}.items():
+    REAL[_n] = os.path.join(PHOTO_DIR, _f + ".bin")
 
 def slug(name):
     s = unicodedata.normalize("NFKD", name)
@@ -42,12 +62,16 @@ def font(px):
 def make_avatar(name):
     out = os.path.join(ASSETS, f"collab-{slug(name)}.png")
     mask = circle_mask(SIZE)
-    src = REAL.get(name)
-    if src and os.path.exists(os.path.join(ASSETS, src)):
-        im = Image.open(os.path.join(ASSETS, src)).convert("RGB")
+    key = unicodedata.normalize("NFKD", name)
+    key = "".join(c for c in key if not unicodedata.combining(c))
+    src = REAL.get(key) or REAL.get(name)
+    if src and os.path.exists(src):
+        im = Image.open(src).convert("RGB")
         w, h = im.size
         side = min(w, h)
-        im = im.crop(((w-side)//2, (h-side)//2, (w-side)//2+side, (h-side)//2+side))
+        left = (w - side) // 2
+        top = int((h - side) * 0.28) if h > w else (h - side) // 2   # bias toward the face
+        im = im.crop((left, top, left + side, top + side))
         im = im.resize((SIZE, SIZE), Image.LANCZOS)
     else:
         bg, fg = TINTS[int(hashlib.md5(name.encode()).hexdigest(), 16) % len(TINTS)]

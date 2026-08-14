@@ -1,0 +1,16 @@
+christopher-kiekintveld|https://www.cs.utep.edu/kiekintveld/images/Chris_Kiekintveld.jpg
+cleotilde-gonzalez|https://www.cmu.edu/dietrich/sds/ddmlab/imgs/members/coty-gonzalez-2026headshot.jpg
+fei-fang|https://feifang.info/wp-content/uploads/2024/08/img_5990.jpg
+baptiste-prebot|https://www.cmu.edu/dietrich/sds/ddmlab/imgs/pastmembers/baptiste.jpg
+maria-jose-ferreira|https://www.cmu.edu/dietrich/sds/ddmlab/imgs/pastmembers/maria.png
+tyler-malloy|https://www.cmu.edu/dietrich/sds/ddmlab/imgs/pastmembers/tailiamalloy.jpg
+stephanie-milani|https://stephmilani.github.io/images/me2025.jpeg
+prashanth-rajivan|https://facultydb.engr.washington.edu/api/profile-photo/prashanth-rajivan
+antti-oulasvirta|https://users.aalto.fi/~oulasvir/parsta-small.jpg
+maria-rigaki|https://mariarigaki.github.io/authors/admin/avatar_hu05e5fa2bcb66eb5966b10fb91d4a29b2_925200_270x270_fill_lanczos_center_3.png
+carlos-a-catania|https://images.squarespace-cdn.com/content/v1/5a01100f692ebe0459a1859f/1773673125286-5JN68M91N1NC0GER9LIT/Carlos+Catania.jpeg
+volodymyr-vlad-miloserdov|https://www.cmu.edu/dietrich/sds/ddmlab/imgs/members/vlad.jpg
+aritran-piplai|https://www.utep.edu/aaii/_Files/images/people/piplai.jpg
+jaime-acosta|https://hb2504.utep.edu/photos/jcacosta.jpg
+anantaa-kotal|https://anantaakotal.github.io/images/anantaa_profile.png
+kuldeep-singh|https://hb2504.utep.edu/photos/ksingh2.jpg
