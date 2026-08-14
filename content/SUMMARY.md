@@ -55,6 +55,7 @@
     * [2026 Fall](overview-3/cyberai-reading-group/2026-fall.md)
     * [2026 Spring](overview-3/cyberai-reading-group/cyberai-reading-group.md)
     * [2025 Fall](overview-3/cyberai-reading-group/cyberai-reading-group-1.md)
+* [Talks](talks.md)
 * [Opportunities](overview-4/README.md)
   * [Postdoc/faculty opportunities](overview-4/postdoc-faculty-opportunities.md)
   * [Funding opportunities](overview-4/funding-opportunities.md)
