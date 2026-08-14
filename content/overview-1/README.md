@@ -1,10 +1,14 @@
+---
+icon: git
+---
+
 # Tools
 
 ### Research
 
-* Astrolabe&#x20;
-* Agentic Laboratory&#x20;
-* Logographer&#x20;
+* Astrolabe
+* Agentic Laboratory
+* Logographer
 
 ### Wellbeing
 
@@ -19,4 +23,3 @@
 * Opportunity Scout - Micro Opportunities
 * LinkedIn Notes Processor
 * Omni Message Hub
-
