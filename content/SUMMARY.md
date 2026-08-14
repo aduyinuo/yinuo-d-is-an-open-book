@@ -12,7 +12,7 @@
   * [Mental World Modeling](overview/mental-world-modeling/README.md)
     * [Iterated Strategic Interaction](overview/mental-world-modeling/social-intelligence.md)
     * [Problem-Solving](overview/mental-world-modeling/problem-solving.md)
-    * [Bias](overview/mental-world-modeling/bias.md)
+    * [Biased Sequential Decision Making](overview/mental-world-modeling/bias.md)
   * [Human-AI Complementarity](overview/human-ai-complementarity/README.md)
     * [Team Defense Game](overview/human-ai-complementarity/team-defense-game.md)
     * [CyberAgentTrace](overview/human-ai-complementarity/cyberagenttrace.md)
