@@ -148,8 +148,6 @@ Feeds *Human-AI Complementarity*, *CHART*, and *Team Defense Game*.
 
 {% file src="../.gitbook/assets/reading-5-complementarity.zip" %}
 
-Two items only — most of this group is behind publisher walls. Free links are in the table.
-
 **Insight**
 
 | Paper | Where | What it contains |
@@ -177,8 +175,6 @@ Two items only — most of this group is behind publisher walls. Free links are 
 Feeds the competitive-learning vista and the capture-the-flag work.
 
 {% file src="../.gitbook/assets/reading-6-difficulty-and-expertise.zip" %}
-
-Two items only — the psychometrics and expertise foundations are behind publisher walls. Free links are in the table.
 
 **Insight**
 
@@ -226,7 +222,7 @@ Cross-cutting. Feeds any claim about progress, including the RREP report.
 
 ## 8 · Getting reasoning out of an expert
 
-Feeds the problem-solving and capture-the-flag protocols. All three are free at the links below.
+Feeds the problem-solving and capture-the-flag protocols.
 
 | Paper | Where | What it contains |
 | ----- | ----- | ---------------- |
