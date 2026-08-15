@@ -1,0 +1,16 @@
+{
+  "_comment": "Anchors for turning GPS into a place name, offline. Add a line per place you shoot in; nearest anchor within radius_km wins.",
+  "radius_km": 60,
+  "anchors": [
+    {"name": "El Paso",            "lat": 31.7619,  "lon": -106.4850},
+    {"name": "Las Cruces",         "lat": 32.3199,  "lon": -106.7637},
+    {"name": "White Sands",        "lat": 32.7872,  "lon": -106.3257},
+    {"name": "Big Bend",           "lat": 29.2498,  "lon": -103.2502},
+    {"name": "Pittsburgh",         "lat": 40.4406,  "lon":  -79.9959},
+    {"name": "Seoul",              "lat": 37.5665,  "lon":  126.9780},
+    {"name": "Vancouver",          "lat": 49.2827,  "lon": -123.1207},
+    {"name": "Prague",             "lat": 50.0755,  "lon":   14.4378},
+    {"name": "Phoenix",            "lat": 33.4484,  "lon": -112.0740},
+    {"name": "Xi'an",              "lat": 34.3416,  "lon":  108.9398}
+  ]
+}
