@@ -10,13 +10,15 @@ Two layers run through each section:
 
 Papers only. No books.
 
-Links go to a free full text wherever one exists, and to the DOI otherwise. Everything with an arXiv link, plus both CyLab papers, is downloaded to `internal/reading/pdfs/` in the site repo.
+Links go to a free full text wherever one exists, and to the DOI otherwise. Each section below opens with a download box holding the PDFs for that section.
 
 ***
 
 ## The two CyLab papers
 
 ### [Creating a Scientific Foundation for Cyber Autonomy](https://kilthub.cmu.edu/articles/report/Creating_a_Scientific_Foundation_for_Cyber_Autonomy/31769038)
+
+{% file src="../.gitbook/assets/cylab-cyber-autonomy-foundation.pdf" %}
 
 Bauer, Brumley, Calandrino, Christin, Fanti, Gligor, Parno, Patel, Sekar, Sherry — CyLab, v1.0.0, March 2026. 22 pages.
 
@@ -25,6 +27,8 @@ Self-described as manifesto-style, with "more questions than answers." The argum
 Bears directly on *Toward Deployment*, the realism taxonomy, and the operational-world-model vista.
 
 ### [Skill or Shortcut? AI, Competitive Cybersecurity Learning, and the Growing Gap Between Performance and Expertise](https://cylabacademy.org/pdfs/Skill_or_Shortcut_WhitePaper.pdf)
+
+{% file src="../.gitbook/assets/cylab-skill-or-shortcut.pdf" %}
 
 Kearns, Jones, Liang, Yin — CyLab Security and Privacy Institute, April 2026. 21 pages.
 
@@ -37,6 +41,8 @@ Bears directly on the competitive-learning vista and the capture-the-flag work. 
 ## 1 · Realism and the deployment gap
 
 Feeds *Toward Deployment*, *Sim2Sim before Sim2Real*, the operational-world-model vista, and the RREP report.
+
+{% file src="../.gitbook/assets/reading-1-realism-and-deployment.zip" %}
 
 **Insight**
 
@@ -65,6 +71,8 @@ Feeds *Toward Deployment*, *Sim2Sim before Sim2Real*, the operational-world-mode
 
 Feeds *Cyber World Modeling* and the operational-world-model vista.
 
+{% file src="../.gitbook/assets/reading-2-what-a-world-model-contains.zip" %}
+
 **Insight**
 
 | Paper | Where | What it contains |
@@ -90,6 +98,8 @@ Feeds *Cyber World Modeling* and the operational-world-model vista.
 
 Feeds *FOE-Dreamer* and *Learn Structure*.
 
+{% file src="../.gitbook/assets/reading-3-factorization-and-opponent-latent.zip" %}
+
 **Insight**
 
 | Paper | Where | What it contains |
@@ -112,6 +122,8 @@ Feeds *FOE-Dreamer* and *Learn Structure*.
 
 Feeds *Learn Structure* and *Opponent (Agent) Modeling*.
 
+{% file src="../.gitbook/assets/reading-4-strategic-structure.zip" %}
+
 **Insight**
 
 | Paper | Where | What it contains |
@@ -133,6 +145,10 @@ Feeds *Learn Structure* and *Opponent (Agent) Modeling*.
 ## 5 · Complementarity: definition and measurement
 
 Feeds *Human-AI Complementarity*, *CHART*, and *Team Defense Game*.
+
+{% file src="../.gitbook/assets/reading-5-complementarity.zip" %}
+
+Two items only — most of this group is behind publisher walls. Free links are in the table.
 
 **Insight**
 
@@ -159,6 +175,10 @@ Feeds *Human-AI Complementarity*, *CHART*, and *Team Defense Game*.
 ## 6 · Difficulty, expertise, and the skill/shortcut question
 
 Feeds the competitive-learning vista and the capture-the-flag work.
+
+{% file src="../.gitbook/assets/reading-6-difficulty-and-expertise.zip" %}
+
+Two items only — the psychometrics and expertise foundations are behind publisher walls. Free links are in the table.
 
 **Insight**
 
@@ -190,6 +210,8 @@ Feeds the competitive-learning vista and the capture-the-flag work.
 
 Cross-cutting. Feeds any claim about progress, including the RREP report.
 
+{% file src="../.gitbook/assets/reading-7-evaluation-validity.zip" %}
+
 | Paper | Where | What it contains |
 | ----- | ----- | ---------------- |
 | [Position: Benchmarking is Limited in Reinforcement Learning Research](https://arxiv.org/abs/2406.16241) — Jordan, White, Castro da Silva, White, Thomas | ICML 2024 Position Track | Argues RL benchmark comparisons yield unreliable conclusions; proposes alternative experiment designs. |
@@ -204,7 +226,7 @@ Cross-cutting. Feeds any claim about progress, including the RREP report.
 
 ## 8 · Getting reasoning out of an expert
 
-Feeds the problem-solving and capture-the-flag protocols.
+Feeds the problem-solving and capture-the-flag protocols. All three are free at the links below.
 
 | Paper | Where | What it contains |
 | ----- | ----- | ---------------- |
