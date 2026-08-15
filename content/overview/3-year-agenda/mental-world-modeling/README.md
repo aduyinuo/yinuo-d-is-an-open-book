@@ -14,11 +14,11 @@ icon: head-side-gear
 
 [**Problem-Solving**](problem-solving/) — small groups, general computing work, and capture-the-flag — builds a deliberately coarse, reliability-first account of how people solve, and pairs it with elicitation that survives a live competition: stimulated recall anchored to submission logs, rather than think-aloud that would distort the thing it measures.
 
-[**Opponent (Agent) Modeling**](opponent-agent-modeling/) is the adversarial half — how agents read each other into kinds across repeated interaction, and how to model an attacker whose biases are built into the reward, so that the defender it trains faces a realistic opponent instead of an idealized one.
+[**Opponent (Agent) Modeling**](../opponent-agent-modeling/) is the adversarial half — how agents read each other into kinds across repeated interaction, and how to model an attacker whose biases are built into the reward, so that the defender it trains faces a realistic opponent instead of an idealized one.
 
 ## Ongoing & Future Work
 
-Existing work in both agent-based modeling and human subject studies signals the necessity to find a consensus on the definition of mental operations, and that should be _learned_ rather than fixed — mental operations treated as reusable actions an agent discovers and composes, with a separate account of the control that decides which to use and when to quit.&#x20;
+Existing work in both agent-based modeling and human subject studies signals the necessity to find a consensus on the definition of mental operations, and that should be _learned_ rather than fixed — mental operations treated as reusable actions an agent discovers and composes, with a separate account of the control that decides which to use and when to quit.
 
 We attempt to tackle this problem [next](next.md).
 
