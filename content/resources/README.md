@@ -1,4 +1,5 @@
 ---
+description: Pro-Tips are insightful. Dummy-Tips are actionable.
 icon: drupal
 ---
 
