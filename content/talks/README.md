@@ -1,4 +1,5 @@
 ---
+description: Live slides for public talks.
 icon: file-ppt
 ---
 
