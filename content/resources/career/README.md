@@ -1,14 +1,21 @@
+---
+description: >-
+  I have yet to figure out how to use advice to preemptively avoid pitfalls. But
+  if it’s any consolation, it does improve the accuracy of credit assignment in
+  the autopsy.
+---
+
 # Career
 
 ## Terence Tao, [Career advice](https://terrytao.wordpress.com/career-advice/)
 
 A collection arranged by career stage, unusually free of mystique. Written for mathematicians; almost none of it is field-specific.
 
-_talk to your advisor_ — they are the single highest-bandwidth source you have, and most students underuse them out of embarrassment.&#x20;
+_talk to your advisor_ — they are the single highest-bandwidth source you have, and most students underuse them out of embarrassment.
 
-_Make your work available_ — put the CV and publication list somewhere public and keep it current.&#x20;
+_Make your work available_ — put the CV and publication list somewhere public and keep it current.
 
-_Learn the limitations of your tools_, and _ask yourself dumb questions_, which is the same advice twice: the questions you're embarrassed to ask are the ones where your model is actually broken.&#x20;
+_Learn the limitations of your tools_, and _ask yourself dumb questions_, which is the same advice twice: the questions you're embarrassed to ask are the ones where your model is actually broken.
 
 _Enjoy your work_ — not as sentiment, but because the effort required is not sustainable otherwise.
 
@@ -16,9 +23,9 @@ _Enjoy your work_ — not as sentiment, but because the effort required is not s
 
 Four pages, Notices of the AMS, 1997. Cheerfully unsentimental.
 
-_Every lecture should make only one main point_, and you should say it at least three times — beginning, middle, end. Never run over time.&#x20;
+_Every lecture should make only one main point_, and you should say it at least three times — beginning, middle, end. Never run over time.
 
-_Publish the same result several times_, in different framings, because nobody read it the first time.&#x20;
+_Publish the same result several times_, in different framings, because nobody read it the first time.
 
 _Write informative introductions_: most people read only the introduction, and if it's a summary of the sections they learn nothing. Be prepared for old age, and note that mathematicians are judged on a small number of results, not on the pile.
 
@@ -28,9 +35,9 @@ The uncomfortable one: you are more likely to be remembered for an expository pa
 
 Written for economists but transferable.
 
-how to choose a problem that can actually be finished,&#x20;
+how to choose a problem that can actually be finished,
 
-what a supervisor is and is not for, and&#x20;
+what a supervisor is and is not for, and
 
 how to tell the difference between a project that is hard and a project that is stuck.
 
