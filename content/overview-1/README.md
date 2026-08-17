@@ -10,20 +10,21 @@ icon: git
 
 ### Research
 
-* Astrolabe
-* Agentic Laboratory
-* Logographer
+* [Astrolabe](../artifacts/astrolabe/)
+* [Agentic Laboratory](../artifacts/agentic-lab/)
+* <mark style="color:$info;">Logographer</mark>
+* <mark style="color:$info;">Butcher: a paper reading agent that carve out the "meat" of papers based on my customized reading preferences.</mark>&#x20;
 
-### Wellbeing
+### <mark style="color:$info;">Wellbeing</mark>
 
-* Gavel
-* Nanny
+* <mark style="color:$info;">Gavel</mark>
+* <mark style="color:$info;">Nanny</mark>
 
-### Career
+### <mark style="color:$info;">Career</mark>
 
-* Opportunity Scout - Postdoc Faculty
-* Opportunity Scout - Funding
-* Opportunity Scout - Conferences
-* Opportunity Scout - Micro Opportunities
-* LinkedIn Notes Processor
-* Omni Message Hub
+* <mark style="color:$info;">Opportunity Scout - Postdoc Faculty</mark>
+* <mark style="color:$info;">Opportunity Scout - Funding</mark>
+* <mark style="color:$info;">Opportunity Scout - Conferences</mark>
+* <mark style="color:$info;">Opportunity Scout - Micro Opportunities</mark>
+* <mark style="color:$info;">LinkedIn Notes Processor</mark>
+* <mark style="color:$info;">Omni Message Hub</mark>
