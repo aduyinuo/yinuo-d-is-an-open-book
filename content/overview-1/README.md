@@ -1,5 +1,8 @@
 ---
-description: Other tools
+description: >-
+  New techniques like Copilot have amplified the impact of disparities in
+  compute resources, making it all the more important that we open-source our
+  tools to democratize AI.
 icon: git
 ---
 
