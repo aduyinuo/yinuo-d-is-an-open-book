@@ -1,4 +1,6 @@
 # What is she thinking?
 
-daily thoughts&#x20;
+What is "Human-Centered" Cybersecurity?
+
+* [NIST concept paper ](https://tsapps.nist.gov/publication/get_pdf.cfm?pub_id=962460)
 
