@@ -1,4 +1,5 @@
 ---
+description: Questions on my mind and others' opinions
 icon: face-thinking
 ---
 
