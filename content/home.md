@@ -11,7 +11,7 @@ icon: house-chimney-user
 
 I study <mark style="color:$primary;">Human and AI Decision-Making in Cybersecurity</mark>:&#x20;
 
-* <mark style="color:$primary;">Computational models of Human</mark> (attacker, defender, and end-user) C<mark style="color:$primary;">ognition</mark>,&#x20;
+* <mark style="color:$primary;">Computational models of Human</mark> (attacker, defender, and end-user) <mark style="color:$primary;">Cognition</mark>,&#x20;
 * <mark style="color:$primary;">Practical AI agents</mark> (for autonomous cyber defense and adversary emulation), &#x20;
 * <mark style="color:$primary;">Complementary Human-AI Teaming paradigms</mark> that bring together the best of both worlds.&#x20;
 
