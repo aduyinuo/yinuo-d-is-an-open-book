@@ -12,8 +12,6 @@ icon: hand-holding-hand
 
 ## Where We Are at Year-1
 
-Three instruments, each turning a piece of the structure into something you can set and observe.
-
 [**Team Defense Game**](team-defense-game.md) — one human, one agent, one network, coupled by approval, a shared pool, and an agent that learns from moves the human made and it did not. The team structure is the manipulation, not the backdrop.
 
 [**CyberAgentFlow**](cyberagenttrace.md) instruments agent workflows so their behaviour can be examined rather than inferred — the traces you need before you can attribute a failure to anything at all.
