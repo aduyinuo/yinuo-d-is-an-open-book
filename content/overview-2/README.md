@@ -4,7 +4,7 @@ icon: person-chalkboard
 
 # Teach
 
-I came to teaching the way most researchers do — by TA-ing — and then took it seriously enough to train for it. What I care about is the thing that doesn't show up on a syllabus: whether a student can reconstruct *why* a method works, not just run it.
+## TLDR
 
 * [CMU Future Faculty Program](cmu-future-faculty-program.md) — the pedagogy training, and the courses I taught along the way
 * [2025 Fall Guest Lectures at UTEP](2025-fall-guest-lectures-at-utep.md) — two guest lectures, on presenting and on deep reinforcement learning
