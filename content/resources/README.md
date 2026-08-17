@@ -7,6 +7,7 @@ icon: drupal
 
 When you feel like you are the only one who didn't get the memo, there's usually a literary memo.
 
+* Upskill
 * [Career](career/) &#x20;
   * [Individual Development Plan](career/individual-development-plan.md)
 * [Research](research/)&#x20;

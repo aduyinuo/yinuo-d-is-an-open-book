@@ -100,6 +100,7 @@
   * [El Paso](resources/el-paso.md)
   * [Decorum](resources/decorum.md)
   * [Finance](resources/finance.md)
+  * [Upskill](resources/upskill.md)
 * [Personal](personal/README.md)
   * [Writing MISC](personal/writing-misc/README.md)
     * [RREP Year-1 Report](personal/writing-misc/rrep-year-1-report.md)
