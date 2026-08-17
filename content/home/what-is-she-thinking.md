@@ -1,4 +1,8 @@
-# What to think?
+---
+icon: face-thinking
+---
+
+# Headspace
 
 What is "Human-Centered Cybersecurity"?
 
@@ -8,6 +12,10 @@ If there's a genie of world modeling, what wishes should I make?
 
 * [Introspective Interpretability](https://lingo.csail.mit.edu/blog/introspective_interpretability/) (by _Belinda Z. Li)_
 * [Failure-aware Causal Training](https://arxiv.org/pdf/2608.10232) _(by Nicklas Hansen)_
+
+How can we rethink problems from a multi-agent perspective?
+
+* [Taesoo Kim](https://taesoo.kim/)'s [interview ](https://commandline.microsoft.com/taesoo-kim-interview-mdash-security-research/)for FORGE
 
 How much "human" do we want "in the loop" of cybersecurity decision-making?
 
