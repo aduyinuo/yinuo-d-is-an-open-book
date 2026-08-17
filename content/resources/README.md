@@ -1,13 +1,13 @@
 ---
-description: Pro-Tips are insightful. Dummy-Tips are actionable.
+description: >-
+  Pro-Tips are insightful. Dummy-Tips are actionable. When you feel like you are
+  the only one who didn't get the memo, there's usually a literary memo.
 icon: drupal
 ---
 
 # Resources
 
-When you feel like you are the only one who didn't get the memo, there's usually a literary memo.
-
-* Upskill
+* [Upskill](upskill.md)
 * [Career](career/) &#x20;
   * [Individual Development Plan](career/individual-development-plan.md)
 * [Research](research/)&#x20;
