@@ -34,7 +34,7 @@ More on [Teach](../overview-2/); students on [Mentor](../mentor/); committees an
 
 ## Other research and industry experience
 
-<table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2020</td><td>Independent study, Dynamic Decision Making Lab, Carnegie Mellon University (advisor: Palvi Aggarwal)</td></tr><tr><td>2020</td><td>Research student, Mobile, Embedded &#x26; Wireless Security Lab, Carnegie Mellon University (advisor: Patrick Tague)</td></tr><tr><td>2020</td><td>Software engineer intern, BlockApps Inc.</td></tr><tr><td>2018</td><td>Research intern, Key Lab for Intelligent Networks and Network Security, Xi'an Jiaotong University (advisor: Jing Tao)</td></tr></tbody></table>
+<table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2020</td><td>Independent study, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/">Dynamic Decision Making Lab, Carnegie Mellon University</a> (advisor: <a href="https://hb2504.utep.edu/Home/Profile?username=paggarwal">Palvi Aggarwal</a>)</td></tr><tr><td>2020</td><td>Research student, <a href="https://mews.sv.cmu.edu/">Mobile, Embedded &#x26; Wireless Security Lab</a>, Carnegie Mellon University (advisor: <a href="https://www.cmu.edu/ini/about/team/tague.html">Patrick Tague</a>)</td></tr><tr><td>2020</td><td>Software engineer intern, BlockApps Inc.</td></tr><tr><td>2018</td><td>Research intern, <a href="https://www.xjtu.edu.cn/xynr.jsp?urltype=tree.TreeTempUrl&#x26;wbtreeid=1634&#x26;wbxjtucollegeid=241">Key Lab for Intelligent Networks and Network Security, Xi'an Jiaotong University</a> (advisor: Jing Tao)</td></tr></tbody></table>
 
 
 
