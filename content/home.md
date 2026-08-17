@@ -8,7 +8,7 @@ icon: house-chimney-user
 
 
 
-I study human and AI decision-making in cybersecurity: computational models of human cognition, practical AI agents for autonomous cyber defense, and the complementary teaming paradigms that bring together the best of both worlds. My research is driven by real-world network security challenges and fueled with interdisciplinary methods from game theory, reinforcement learning, cognitive modeling, and user research.
+I study <mark style="color:$primary;">human and AI decision-making in cybersecurity</mark>: <mark style="color:$primary;">computational models of human</mark> (attacker, defender, and end-user) <mark style="color:$primary;">cognition</mark>, <mark style="color:$primary;">practical AI agents</mark> (for autonomous cyber defense and adversary emulation), and the <mark style="color:$primary;">complementary human-AI teaming paradigms</mark> that bring together the best of both worlds. My research is driven by real-world network security challenges and fueled with interdisciplinary methods from game theory, reinforcement learning, cognitive science, and user research.
 
 ## Latest news
 
