@@ -14,7 +14,7 @@ icon: head-side-gear
 
 [**Problem-Solving**](problem-solving/) — small groups, general computing work, and capture-the-flag — builds a deliberately coarse, reliability-first account of how people solve, and pairs it with elicitation that survives a live competition: stimulated recall anchored to submission logs, rather than think-aloud that would distort the thing it measures.
 
-[**Opponent (Agent) Modeling**](../opponent-agent-modeling/) is the adversarial half — how agents read each other into kinds across repeated interaction, and how to model an attacker whose biases are built into the reward, so that the defender it trains faces a realistic opponent instead of an idealized one.
+[**Opponent (Agent) Modeling**](opponent-agent-modeling/) is the adversarial half — how agents read each other into kinds across repeated interaction, and how to model an attacker whose biases are built into the reward, so that the defender it trains faces a realistic opponent instead of an idealized one.
 
 ## Ongoing & Future Work
 
