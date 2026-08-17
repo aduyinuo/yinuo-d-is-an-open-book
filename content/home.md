@@ -8,7 +8,13 @@ icon: house-chimney-user
 
 <p align="center"><a href="https://scholar.google.com/citations?user=XdY3VB0AAAAJ">Google Scholar</a> · <a href="https://www.linkedin.com/in/yinuo-du">LinkedIn</a> · <a href="https://orcid.org/0000-0003-0042-3401">ORCID</a> · <a href="https://github.com/">GitHub</a></p>
 
-I study <mark style="color:$primary;">human and AI decision-making in cybersecurity</mark>: <mark style="color:$primary;">computational models of human</mark> (attacker, defender, and end-user) <mark style="color:$primary;">cognition</mark>, <mark style="color:$primary;">practical AI agents</mark> (for autonomous cyber defense and adversary emulation), and the <mark style="color:$primary;">complementary human-AI teaming paradigms</mark> that bring together the best of both worlds. My research is driven by <mark style="color:$primary;">real-world network security challenges</mark> and fueled with <mark style="color:$primary;">interdisciplinary</mark> methods from game theory, reinforcement learning, cognitive science, and user research.
+I study <mark style="color:$primary;">human and AI decision-making in cybersecurity</mark>:&#x20;
+
+* <mark style="color:$primary;">computational models of human</mark> (attacker, defender, and end-user) <mark style="color:$primary;">cognition</mark>,&#x20;
+* <mark style="color:$primary;">practical AI agents</mark> (for autonomous cyber defense and adversary emulation), and the&#x20;
+* <mark style="color:$primary;">complementary human-AI teaming paradigms</mark> that bring together the best of both worlds.&#x20;
+
+My research is driven by <mark style="color:$primary;">real-world network security challenges</mark> and fueled with <mark style="color:$primary;">interdisciplinary</mark> methods from game theory, reinforcement learning, cognitive science, and user research.
 
 ## Latest news
 
