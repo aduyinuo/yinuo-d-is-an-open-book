@@ -1,10 +1,11 @@
 ---
+description: A track record of failures and lessons learned.
 icon: sack-dollar
 ---
 
 # Funding
 
-A track record of failures and lessons learned.
+
 
 ## Awards
 
