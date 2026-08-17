@@ -23,3 +23,7 @@ How much "human" do we want "in the loop" of cybersecurity decision-making?
 
 * A [LinkedIn post](https://www.linkedin.com/feed/update/urn:li:activity:7485366207047692288/) (&#x62;_&#x79; Hui Zhang_)
 
+What is mind and what is muscle?
+
+* [Tricki](https://gowers.wordpress.com/2008/11/28/very-brief-tricki-update/)
+
