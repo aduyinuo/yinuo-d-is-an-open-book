@@ -8,4 +8,5 @@ If you work on AI agents, cybersecurity, or the human side of either, and want t
 
 ## Tips&#x20;
 
-* [Lead a discussion in a reading group (Cathy Wu)](https://www.wucathy.com/assets/pdfs/wu2012how.pdf)
+* [Lead a discussion in a reading group _(by Cathy Wu)_](https://www.wucathy.com/assets/pdfs/wu2012how.pdf)
+
