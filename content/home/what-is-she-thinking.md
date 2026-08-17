@@ -17,6 +17,7 @@ If there's a genie of world modeling, what wishes should I make?
 How can we rethink problems from a multi-agent perspective?
 
 * [Taesoo Kim](https://taesoo.kim/)'s [interview ](https://commandline.microsoft.com/taesoo-kim-interview-mdash-security-research/)for FORGE
+* [Communicative World Model](https://arxiv.org/abs/2508.06659) for Adaptive RL
 
 How much "human" do we want "in the loop" of cybersecurity decision-making?
 
