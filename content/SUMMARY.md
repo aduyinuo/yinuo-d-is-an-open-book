@@ -39,6 +39,8 @@
         * [Cyber Wheel](overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/cyber-wheel.md)
         * [Cyber Battle Field](overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/cyber-battle-field.md)
         * [CyberVAN](overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/cybervan.md)
+        * [CyGym](overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/cygym.md)
+        * [FireWheel](overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/firewheel.md)
       * [Next](overview/3-year-agenda/toward-deployment/next.md)
   * [5-Year Vista](overview/5-year-vista/README.md)
     * [Trustworthy, Controllable, Causal World Model for Operational Network Defense](overview/5-year-vista/trustworthy-controllable-causal-world-model-for-operational-network-defense.md)

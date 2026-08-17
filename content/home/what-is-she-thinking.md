@@ -13,6 +13,9 @@ If there's a genie of world modeling, what wishes should I make?
 
 * [Introspective Interpretability](https://lingo.csail.mit.edu/blog/introspective_interpretability/) (by _Belinda Z. Li)_
 * [Failure-aware Causal Training](https://arxiv.org/pdf/2608.10232) _(by Nicklas Hansen)_
+* When does an agent have the need to model the world in the first place?&#x20;
+  * [World Model as Intermediary](https://github.com/aduyinuo/yinuo-d-is-an-open-book/blob/main/content/.gitbook/assets/world-models-as-intermediary.pdf) _(by Sherry Yang)_
+  * [The Self Requires Learning ](https://philpapers.org/archive/RENTSR.pdf)_(by Mengye Ren)_
 
 How can we rethink problems from a multi-agent perspective?
 
@@ -26,4 +29,6 @@ How much "human" do we want "in the loop" of cybersecurity decision-making?
 What is mind and what is muscle?
 
 * [Tricki](https://gowers.wordpress.com/2008/11/28/very-brief-tricki-update/)
+
+What are the relationship between cyber agents and physical agents? What are their respective unique challenges? What are transferable across these two domains?
 
