@@ -6,7 +6,9 @@ icon: house-chimney-user
 
 <figure><img src=".gitbook/assets/yinuo-du.png" alt="Yinuo Du" width="180"><figcaption></figcaption></figure>
 
-I study human and AI decision-making in cybersecurity: computational models of people, AI agents for autonomous defense, and the teaming paradigms that put the two together. The methods come from game theory, reinforcement learning, cognitive modeling, and behavioral experiments.
+
+
+I study human and AI decision-making in cybersecurity: computational models of human cognition, practical AI agents for autonomous cyber defense, and the complementary teaming paradigms that bring together the best of both worlds. My research is driven by real-world network security challenges and fueled with interdisciplinary methods from game theory, reinforcement learning, cognitive modeling, and user research.
 
 ## Latest news
 
@@ -19,7 +21,7 @@ I study human and AI decision-making in cybersecurity: computational models of p
 
 <summary>Earlier</summary>
 
-* **2025-09** — Joining UTEP CS Department
+* **2025-09** — Joined UTEP CS Department
 * **2025-05** — PhD dissertation defense
 
 </details>
