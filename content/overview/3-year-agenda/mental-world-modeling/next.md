@@ -4,8 +4,6 @@ icon: crystal-ball
 
 # Next
 
-The thread's two halves — modeling how people solve, and modeling the agents they face — leave the same thing unfinished: the units are still handed in rather than discovered, and the part that decides which unit to use is barely modeled at all.
-
 ## Operations as learned actions, not a fixed taxonomy
 
 Every account here so far takes its operations as given — named in advance, then looked for in the data. The open question is whether an agent could instead _discover_ its operations: learn a vocabulary of reusable moves the way hierarchical reinforcement learning learns options, or the way program-synthesis systems build a library of subroutines and reuse it. If mental operations are learned, composable actions rather than a canonical list, the grain problem softens — the agent finds the grain that pays — and the model stops depending on a taxonomy no one has agreed on.
