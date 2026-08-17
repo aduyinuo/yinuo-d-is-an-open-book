@@ -1,11 +1,11 @@
 ---
-description: A track record of failures and lessons learned.
+description: >-
+  I am beyond grateful for all the support I received for my research efforts.
+  Here's a track record of failures and lessons learned.
 icon: sack-dollar
 ---
 
 # Funding
-
-
 
 ## Awards
 
