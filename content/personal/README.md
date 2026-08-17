@@ -1,4 +1,5 @@
 ---
+description: TMI alert. Consume with precaution.
 icon: blog
 ---
 
