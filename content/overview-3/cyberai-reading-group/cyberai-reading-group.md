@@ -1,7 +1,5 @@
 # 2026 Spring
 
-The group meets on Fridays through the spring term, which runs from January 20 to May 8, 2026, with a break the week of March 16–20. A few speakers without a public headshot show a placeholder tile — drop a photo into the matching asset file to replace one.
-
 ## Guest talks
 
 |                                                                                                                                                                        | Date         | Speaker                                                                         | Affiliation                          | Talk                                                   |
