@@ -36,10 +36,6 @@ More on [Teach](../overview-2/); students on [Mentor](../mentor/); committees an
 
 <table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2020</td><td>Independent study, Dynamic Decision Making Lab, Carnegie Mellon University (advisor: Palvi Aggarwal)</td></tr><tr><td>2020</td><td>Research student, Mobile, Embedded &#x26; Wireless Security Lab, Carnegie Mellon University (advisor: Patrick Tague)</td></tr><tr><td>2020</td><td>Software engineer intern, BlockApps Inc.</td></tr><tr><td>2018</td><td>Research intern, Key Lab for Intelligent Networks and Network Security, Xi'an Jiaotong University (advisor: Jing Tao)</td></tr></tbody></table>
 
-## References
 
-<table><thead><tr><th width="240">Name</th><th>Position</th></tr></thead><tbody><tr><td>Cleotilde Gonzalez</td><td>Full Research Professor, Carnegie Mellon University</td></tr><tr><td>Prashanth Rajivan</td><td>Assistant Professor, University of Washington</td></tr><tr><td>Fei Fang</td><td>Associate Professor, Carnegie Mellon University</td></tr><tr><td>Palvi Aggarwal</td><td>Assistant Professor, University of Texas at El Paso</td></tr><tr><td>Christian Lebiere</td><td>Research Scientist, Carnegie Mellon University</td></tr></tbody></table>
-
-_Contact details for references available on request._
 
 _Last updated: 2026-08_
