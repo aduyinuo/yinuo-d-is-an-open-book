@@ -4,10 +4,10 @@ icon: brain-arrow-curved-right
 
 # Problem-Solving
 
-Three settings, one question: what is actually going on in someone's head while they solve a hard problem, and can it be observed well enough to model?
+Three settings, one question: what is actually going on in someone's head while they solve a hard problem, and can it be modeled in a practically useful way?
 
-* [Small Groups](small-groups.md) — a group ranking task, and whether the group beats its own members
-* [General CS Problem-Solving](general-cs.md) — mental operations in computing work, and whether coders can agree on them
-* [Capture-the-Flag](capture-the-flag.md) — the six phases of a CTF solve, and the belief layer under them
+* [General CS Problem-Solving](general-cs.md) — what mental operations does it take to solve generic problems in computer science?&#x20;
+* [Small Groups](small-groups.md) — how do people reach consensus on deliberation tasks in small groups? how can we make it more efficient?
+* [Capture-the-Flag](capture-the-flag.md) — what makes a CTF challenge difficult? how can we ensure the effectiveness of competitive cybersecurity training in the era of agent solvers?
 
 _Last updated: 2026-08_
