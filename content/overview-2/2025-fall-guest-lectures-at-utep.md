@@ -10,4 +10,8 @@ For graduate students, a lecture on the talk as its own craft: one main point sa
 
 For undergraduates, the step from tabular methods to function approximation: why a Q-table stops working when the state space is large, what a neural network buys you as an approximator, and how that turns Q-learning into deep Q-learning. The aim was that a student could say _why_ deep RL is the same idea as the tabular version they already knew, not a different animal.
 
+### Student feedback
+
+Stay tuned...
+
 _Last updated: 2026-08_
