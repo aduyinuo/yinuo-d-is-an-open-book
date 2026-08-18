@@ -4,6 +4,8 @@ icon: connectdevelop
 
 # Cyber World Modeling
 
+##
+
 ## **Challenges**
 
 <mark style="color:$primary;">**I — multiple sources of change, one stream of observation.**</mark> Everything a world model has to explain between one step and the next comes from more than one processes that behave nothing alike. The network's own dynamics are close to stationary and roughly causal: reachability, topology, load. The adversary's contribution is strategic and non-stationary — it adapts to the defender, it hides, and it shifts precisely when the defender starts to model it well. Fold both into a single latent and they contaminate each other: an error in the opponent model bleeds into the estimate of the network, and an ordinary change in the network gets read as the adversary doing something deliberate.&#x20;

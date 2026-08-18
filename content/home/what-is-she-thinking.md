@@ -5,12 +5,13 @@ icon: face-thinking
 
 # Headspace
 
-<mark style="color:$primary;">When is a cybersecurity decision an RL problem?</mark> How to find <mark style="color:$primary;">interesting cybersecurity challenges</mark> that can motivate methodological innovations in (model-based) reinforcement learning (i.e., impose pressure on the central challenges in RL, for ex, distributional shift)?
+<mark style="color:$primary;">When is a cybersecurity decision an RL problem?</mark> How to find <mark style="color:$primary;">interesting cybersecurity challenges</mark> that can motivate methodological innovations in <mark style="color:$primary;">(model-based) reinforcement learning</mark> (i.e., impose pressure on the central challenges in RL, for ex, distributional shift)?
 
 * [A rule of thumb: is counterfactual reasoning hard and non-obvious?](https://nanjiang.cs.illinois.edu/applied/) _(by Nan Jiang)_
 * [Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/system/files/sec22-arp.pdf)&#x20;
 * [Position: RL Researchers Need to Distinguish Between Solving Simulators and Using Simulators as a Proxy](https://arxiv.org/abs/2606.28433)
 * [SoK: The Pitfalls of Deep Reinforcement Learning for Cybersecurity](https://arxiv.org/abs/2602.08690)
+* [World Models: Understanding, Modeling, and Scaling ](https://openreview.net/pdf?id=KR1PsFVRYo)
 
 What is "<mark style="color:$primary;">Human-Centered</mark> Cybersecurity"?
 
