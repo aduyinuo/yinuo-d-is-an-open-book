@@ -40,6 +40,7 @@
     * [Future of Work in Agentic Laboratories: Open Science, Health Scientists](overview/5-year-vista/future-of-work-in-agentic-laboratories-open-science-health-scientists.md)
   * [Blogs](overview/blogs/README.md)
     * [Cyber Environments & Benchmarks](overview/blogs/cyber-environments-and-benchmarks/README.md)
+      * [MDP Profiling of Cyber Environments](overview/blogs/cyber-environments-and-benchmarks/mdp-profiling-of-cyber-environments.md)
       * [HackIT](overview/blogs/cyber-environments-and-benchmarks/hackit.md)
       * [CybORG](overview/blogs/cyber-environments-and-benchmarks/cyborg.md)
       * [Daedelus](overview/blogs/cyber-environments-and-benchmarks/daedelus.md)
