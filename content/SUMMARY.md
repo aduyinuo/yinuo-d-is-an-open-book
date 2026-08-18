@@ -130,3 +130,4 @@
   * [Photo Collections](personal/photo-collections/README.md)
     * [El Paso](personal/photo-collections/el-paso.md)
     * [Pittsburgh](personal/photo-collections/pittsburgh.md)
+* [Site Dev Log](site-dev-log.md)
