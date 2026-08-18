@@ -35,7 +35,7 @@
       * [Sim2Sim before Sim2Real](overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
       * [Next](overview/3-year-agenda/toward-deployment/next.md)
   * [5-Year Vista](overview/5-year-vista/README.md)
-    * [Trustworthy, Controllable, Causal World Model for Operational Network Defense](overview/5-year-vista/trustworthy-controllable-causal-world-model-for-operational-network-defense.md)
+    * [Many Trustworthy, Controllable, Causal Models for Operational Network Defense](overview/5-year-vista/trustworthy-controllable-causal-world-model-for-operational-network-defense.md)
     * [What Makes it So Difficult? Competitive Cybersecurity Learning and Workforce Expertise Maintenance](overview/5-year-vista/what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance.md)
     * [Future of Work in Agentic Laboratories: Open Science, Health Scientists](overview/5-year-vista/future-of-work-in-agentic-laboratories-open-science-health-scientists.md)
   * [Blogs](overview/blogs/README.md)
