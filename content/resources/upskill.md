@@ -6,3 +6,5 @@
 
 CISA [Cybersecurity Career Development Program](https://www.cisa.gov/resources-tools/programs/cybersecurity-education-career-development)
 
+[Statistical Reinforcement Learning](https://nanjiang.cs.illinois.edu/cs542f25/) by [Nan Jiang](https://nanjiang.cs.illinois.edu/) from UIUC
+
