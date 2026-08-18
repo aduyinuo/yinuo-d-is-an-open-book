@@ -46,3 +46,7 @@ What is <mark style="color:$primary;">mind</mark> and what is <mark style="color
 What are the relationship between <mark style="color:$primary;">cyber agents</mark> and <mark style="color:$primary;">physical agents</mark>? What are their respective unique challenges? What are transferable across these two domains?
 
 * What are the agentic methods/tricks embraced by the industry so far? Can we observe any patterns?
+* What agentic approaches does current SOC stack involve? What ML approaches does current SOC stack involve?&#x20;
+  * [NSF CyberAI Innovation: Adversarial Causal Reasoning for SOC](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2622986) (by [Wajih Ul Hassan](https://www.linkedin.com/in/wajihulhassan/?skipRedirect=true))
+* What telemetry should a defense agent engage with? Is it feasible/beneficial to reform the stack?&#x20;
+
