@@ -1,3 +1,7 @@
+---
+icon: share-nodes
+---
+
 # Decorum
 
 Nobody sits you down and explains the conventions. They are learned by violating them, usually in front of the people who matter most.

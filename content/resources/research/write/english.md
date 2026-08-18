@@ -1,6 +1,10 @@
+---
+icon: spell-check
+---
+
 # English
 
-**[Garner's Modern English Usage](https://global.oup.com/academic/product/garners-modern-english-usage-9780190491482) — Bryan Garner.**
+[**Garner's Modern English Usage**](https://global.oup.com/academic/product/garners-modern-english-usage-9780190491482) **— Bryan Garner.**
 
 A usage dictionary, not a style manual. You look things up in it.
 
@@ -8,6 +12,6 @@ What makes it more useful than the alternatives is the **Language-Change Index**
 
 The practical value for a non-native or a hurried writer is knowing which battles exist. Some rules are real and worth following. Some are superstitions — the ban on splitting infinitives, on ending a sentence with a preposition, on beginning one with "however" — that were never rules and cost clarity to obey. Garner tells you which is which, with citations.
 
-For academic prose specifically, the entries worth reading in advance rather than looking up: the ones on *which* versus *that*, on *comprise*, on nominalizations (writing "made an assessment of" for "assessed"), and on the passive — which is not banned, and is right whenever the actor is genuinely unimportant.
+For academic prose specifically, the entries worth reading in advance rather than looking up: the ones on _which_ versus _that_, on _comprise_, on nominalizations (writing "made an assessment of" for "assessed"), and on the passive — which is not banned, and is right whenever the actor is genuinely unimportant.
 
 _Last updated: 2026-08_

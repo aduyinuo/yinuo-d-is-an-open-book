@@ -1,3 +1,7 @@
+---
+icon: researchgate
+---
+
 # Research
 
 The craft parts of the job, which are taught by osmosis if at all.

@@ -1,10 +1,14 @@
+---
+icon: keynote
+---
+
 # Conferences
 
 Venue fit is a property of the pair — the paper and the track — not of the paper alone. And an increasing amount of what decides a paper's fate happens before review begins, in the registration metadata.
 
 ## Where an ML-for-security paper belongs
 
-**Source: [USENIX Security '26 call for papers](https://www.usenix.org/conference/usenixsecurity26/call-for-papers), "Submitting ML Work"; mirrored by the [CCS 2026 CfP](https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html).**
+**Source:** [**USENIX Security '26 call for papers**](https://www.usenix.org/conference/usenixsecurity26/call-for-papers)**, "Submitting ML Work"; mirrored by the** [**CCS 2026 CfP**](https://www.sigsac.org/ccs/CCS2026/call-for/call-for-papers.html)**.**
 
 Mark the paper's primary field as **the field of the problem you are solving**, not the technique you solved it with. A novel ML method for intrusion detection is a Network Security paper, not a Security-and-Privacy-of-ML paper.
 
@@ -16,7 +20,7 @@ Two consequences worth internalizing. **Robustness alone is not a security contr
 
 ## What the registration metadata is actually for
 
-**Source: [ACM CCS 2026 Between-Cycle Transparency Report](https://github.com/ACM-CCS-2026/Transparency-Report), Véronique Cortier and Zhiqiang Lin, 20 April 2026.**
+**Source:** [**ACM CCS 2026 Between-Cycle Transparency Report**](https://github.com/ACM-CCS-2026/Transparency-Report)**, Véronique Cortier and Zhiqiang Lin, 20 April 2026.**
 
 The chairs are explicit that title, abstract, track and track justification "are used operationally for reviewer assignment and conflict handling." Assignment ran through an AI-assisted matcher generating roughly twenty candidate papers per PC member for bidding, built from submitted abstracts and PC members' own representative publications.
 

@@ -100,7 +100,7 @@
       * [Mathematical Writing](resources/research/write/mathematical-writing.md)
       * [Rigor](resources/research/write/rigor.md)
       * [English](resources/research/write/english.md)
-    * [Present](resources/research/present.md)
+    * [Presentation](resources/research/present.md)
     * [Project Management](resources/research/project-management.md)
     * [Conferences](resources/research/conferences.md)
   * [Mental](resources/mental.md)

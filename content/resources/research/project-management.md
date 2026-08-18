@@ -1,6 +1,10 @@
+---
+icon: trello
+---
+
 # Project Management
 
-**[NASA Systems Engineering Handbook](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)** (NASA/SP-2016-6105 Rev 2).
+[**NASA Systems Engineering Handbook**](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf) (NASA/SP-2016-6105 Rev 2).
 
 [Download the PDF](https://www.nasa.gov/wp-content/uploads/2018/09/nasa_systems_engineering_handbook_0.pdf)
 

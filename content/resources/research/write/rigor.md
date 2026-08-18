@@ -1,6 +1,10 @@
+---
+icon: shield-quartered
+---
+
 # Rigor
 
-**[The Craft of Research](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23576265.html) — Booth, Colomb, Williams, Bizup & Fitzgerald.**
+[**The Craft of Research**](https://press.uchicago.edu/ucp/books/book/chicago/C/bo23576265.html) **— Booth, Colomb, Williams, Bizup & Fitzgerald.**
 
 Not a style guide, and not a methods textbook. It is about what an argument is made of, and it is the book I'd hand to anyone who can produce results but can't yet turn them into a paper someone should believe.
 

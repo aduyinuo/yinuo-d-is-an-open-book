@@ -1,3 +1,7 @@
+---
+icon: face-thinking
+---
+
 # Think
 
 [**How to Solve It**](https://press.princeton.edu/books/paperback/9780691164076/how-to-solve-it) **— George Pólya.**

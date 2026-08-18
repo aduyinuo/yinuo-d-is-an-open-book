@@ -3,6 +3,7 @@ description: >-
   I have yet to figure out how to use advice to preemptively avoid pitfalls. But
   if it’s any consolation, it does improve the accuracy of credit assignment in
   the autopsy.
+icon: linkedin
 ---
 
 # Career

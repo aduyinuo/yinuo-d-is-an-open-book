@@ -1,3 +1,7 @@
+---
+icon: arrow-trend-up
+---
+
 # Individual Development Plan
 
 An IDP is a document you write for yourself: where you want to be, what skills that requires, what you will do in the next year to close the gap, and how you'll know. It is most useful precisely when you feel too busy to write one.
@@ -7,7 +11,5 @@ An IDP is a document you write for yourself: where you want to be, what skills t
 **Institutional templates.** Most universities publish their own — Yale and CMU both have short versions worth reading side by side with myIDP's, because they ask different questions. The institutional ones are structured around the advisor conversation; myIDP is structured around you.
 
 **The skills assessment on its own.** Even detached from the rest, the self-assessment is a useful annual exercise: rate the skills, note which ratings you would be embarrassed to defend, and turn those into the year's goals.
-
-
 
 _Last updated: 2026-08_

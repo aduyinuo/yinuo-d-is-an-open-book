@@ -1,3 +1,7 @@
+---
+icon: book-skull
+---
+
 # Upskill
 
 [Generative AI](https://www.cs.cmu.edu/~mgormley/courses/10423/schedule.html) by [Aran Nayebi](https://anayebi.github.io/) and [Matt Gormley](http://www.cs.cmu.edu/~mgormley/) from Carnegie Mellon

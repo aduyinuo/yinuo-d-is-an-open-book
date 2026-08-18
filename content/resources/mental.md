@@ -1,3 +1,7 @@
+---
+icon: laptop-medical
+---
+
 # Mental
 
 ## Dialectical behavior therapy skills

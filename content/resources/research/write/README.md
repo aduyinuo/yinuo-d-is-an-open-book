@@ -1,3 +1,7 @@
+---
+icon: feather-pointed
+---
+
 # Write
 
 Writing is not the transcription step at the end. It is where you find out whether the argument holds — which is why free-writing to clarify, outlining, sketching an argument, formalizing it and drafting a section are five different activities and should not be attempted at once.

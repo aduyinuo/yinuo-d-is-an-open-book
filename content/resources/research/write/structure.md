@@ -1,28 +1,32 @@
+---
+icon: list-ol
+---
+
 # Structure
 
 ## Three scales
 
-**[Ten simple rules for structuring papers](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) — Brett Mensh & Konrad Kording** (PLOS Computational Biology, 2017).
+[**Ten simple rules for structuring papers**](https://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619) **— Brett Mensh & Konrad Kording** (PLOS Computational Biology, 2017).
 
-[Download the PDF](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005619&#x26;type=printable)
+[Download the PDF](https://journals.plos.org/ploscompbiol/article/file?id=10.1371/journal.pcbi.1005619\&type=printable)
 
 The rules that stuck with me:
 
-*One paper, one central contribution.* If you can't say it in one sentence, the paper is two papers or none.
+_One paper, one central contribution._ If you can't say it in one sentence, the paper is two papers or none.
 
-*Write for the reader you have, not the one you want.* Their attention is finite and it is the resource you're spending.
+_Write for the reader you have, not the one you want._ Their attention is finite and it is the resource you're spending.
 
-*Context–content–conclusion*, at every scale. The abstract has all three. So does each section. So does each paragraph: first sentence sets the context, the middle carries the content, the last sentence draws the conclusion and hands off to the next paragraph.
+_Context–content–conclusion_, at every scale. The abstract has all three. So does each section. So does each paragraph: first sentence sets the context, the middle carries the content, the last sentence draws the conclusion and hands off to the next paragraph.
 
-*The abstract is not a summary — it's the argument in miniature*, and it is the only part most people read.
+_The abstract is not a summary — it's the argument in miniature_, and it is the only part most people read.
 
-*Put the results in a logical order, not the chronological one.* What you tried first is not information.
+_Put the results in a logical order, not the chronological one._ What you tried first is not information.
 
 ## Papers with a method in them
 
-**[Crafting Papers on Machine Learning](https://www.semanticscholar.org/paper/Crafting-Papers-on-Machine-Learning-Langley/3efcb97c1de1c87832a7a1d99e91801992a938ec) — Pat Langley** (ICML 2000).
+[**Crafting Papers on Machine Learning**](https://www.semanticscholar.org/paper/Crafting-Papers-on-Machine-Learning-Langley/3efcb97c1de1c87832a7a1d99e91801992a938ec) **— Pat Langley** (ICML 2000).
 
-What a balanced paper contains, and — the useful part — the different shapes an evaluation can legitimately take depending on the claim. A paper claiming a new capability, a paper claiming better performance, and a paper claiming an explanation of *why* something works owe the reader different experiments. Most weak evaluation sections are an evaluation designed for a claim the paper isn't making.
+What a balanced paper contains, and — the useful part — the different shapes an evaluation can legitimately take depending on the claim. A paper claiming a new capability, a paper claiming better performance, and a paper claiming an explanation of _why_ something works owe the reader different experiments. Most weak evaluation sections are an evaluation designed for a claim the paper isn't making.
 
 ## Headings
 

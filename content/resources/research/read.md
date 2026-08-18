@@ -1,3 +1,7 @@
+---
+icon: goodreads
+---
+
 # Read
 
 [How to Read a Paper](http://svr-sk818-web.cl.cam.ac.uk/keshav/papers/07/paper-reading.pdf) by S. Keshav (ACM SIGCOMM CCR, 2007).

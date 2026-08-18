@@ -1,3 +1,7 @@
+---
+icon: cactus
+---
+
 # El Paso
 
 Local and practical. Things that took me a while to find out, kept here so the next person spends less time on it.

@@ -1,4 +1,8 @@
-# Present
+---
+icon: file-ppt
+---
+
+# Presentation
 
 ## The reading group is its own genre
 
