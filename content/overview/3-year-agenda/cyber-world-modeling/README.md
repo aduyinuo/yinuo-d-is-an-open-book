@@ -23,6 +23,7 @@ icon: connectdevelop
 1. A learned world model is always wrong somewhere, and a factored model that is confidently wrong about the opponent's latent may be worse than an honest monolith. How can we decide if a world model is "reasonably accurate"? What types of "errors" are more or less acceptable for a defense agent in operational networks?
 2. Once a "reasonably accurate" model exists, can we use to expedite the search for strategic responses rather than only to roll the world forward?
 3. How do we best factorize the model so that it is maximally generalizable to novel scenarios with zero/few-shot training?
+4. Given a set of world model component, how can we compose the most \`\`suitable'' model for the target operational environments?
 
 Those are the questions the thread turns on [next](next.md).
 

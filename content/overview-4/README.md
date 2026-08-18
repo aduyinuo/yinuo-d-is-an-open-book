@@ -1,5 +1,5 @@
 ---
-hidden: true
+description: Stay tuned...
 icon: arrow-pointer
 ---
 
