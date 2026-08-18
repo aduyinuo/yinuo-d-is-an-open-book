@@ -51,3 +51,7 @@ What are the relationship between <mark style="color:$primary;">cyber agents</ma
   * [NSF CyberAI Innovation: Adversarial Causal Reasoning for SOC](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2622986) (by [Wajih Ul Hassan](https://www.linkedin.com/in/wajihulhassan/?skipRedirect=true))
 * What telemetry should a defense agent engage with? Is it feasible/beneficial to reform the stack?&#x20;
 
+What are the existing ways to determine the exit condition in an algorithm? In general, how to make the judgement that "enough is enough"?
+
+* How many use-cases are needed to design the taxonomy of realism?
+* How many human-subjects are needed to ensure the power of statistic significance?
