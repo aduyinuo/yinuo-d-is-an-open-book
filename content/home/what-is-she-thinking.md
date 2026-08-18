@@ -21,6 +21,7 @@ If there's <mark style="color:$primary;">a genie of world modeling</mark>, what 
 * [Introspective Interpretability](https://lingo.csail.mit.edu/blog/introspective_interpretability/) (by _Belinda Z. Li)_
 * [Failure-aware Causal Training](https://arxiv.org/pdf/2608.10232) _(by Nicklas Hansen)_
 * [Factored Latent Action World Models](https://arxiv.org/abs/2602.16229)&#x20;
+* [Generalizable Action-Conditioned World Models](https://arxiv.org/pdf/2607.27599) _(by Yilun Du)_
 * [Critique of World Model](https://arxiv.org/abs/2507.05169)
 * When does an <mark style="color:$primary;">agent</mark> have the need to model the world in the first place?&#x20;
   * [World Model as Intermediary](https://github.com/aduyinuo/yinuo-d-is-an-open-book/blob/main/content/.gitbook/assets/world-models-as-intermediary.pdf) _(by Sherry Yang)_
