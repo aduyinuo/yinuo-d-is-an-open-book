@@ -2,5 +2,13 @@
 icon: hexagon-nodes-bolt
 ---
 
-# Trustworthy, Controllable, Causal World Model for Operational Network Defense
+# Many Trustworthy, Controllable, Causal Models for Operational Network Defense
+
+
+
+
+
+
+
+## Stewing...
 
