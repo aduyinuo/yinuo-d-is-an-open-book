@@ -42,6 +42,7 @@ How can we rethink problems from <mark style="color:$primary;">a multi-model/age
 What is <mark style="color:$primary;">mind</mark> and what is <mark style="color:$primary;">muscle</mark>?
 
 * [Tricki](https://gowers.wordpress.com/2008/11/28/very-brief-tricki-update/)
+* When does a \`\`trick'' become domain-specific? At a larger scale, how does academic/professional training shape a person's thinking style?
 
 What are the relationship between <mark style="color:$primary;">cyber agents</mark> and <mark style="color:$primary;">physical agents</mark>? What are their respective unique challenges? What are transferable across these two domains?
 
