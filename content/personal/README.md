@@ -1,6 +1,6 @@
 ---
 description: TMI alert. Consume with precaution.
-icon: blog
+icon: wordpress-simple
 ---
 
 # Personal
