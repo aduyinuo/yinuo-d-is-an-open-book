@@ -109,6 +109,7 @@
     * [Presentation](resources/research/present.md)
     * [Project Management](resources/research/project-management.md)
     * [Conferences](resources/research/conferences.md)
+    * [A List of Researchers in CyberAI](resources/research/a-list-of-researchers-in-cyberai.md)
   * [Mental](resources/mental.md)
   * [El Paso](resources/el-paso.md)
   * [Decorum](resources/decorum.md)
