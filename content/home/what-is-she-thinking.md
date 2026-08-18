@@ -45,3 +45,4 @@ What is <mark style="color:$primary;">mind</mark> and what is <mark style="color
 
 What are the relationship between <mark style="color:$primary;">cyber agents</mark> and <mark style="color:$primary;">physical agents</mark>? What are their respective unique challenges? What are transferable across these two domains?
 
+* What are the agentic methods/tricks embraced by the industry so far? Can we observe any patterns?

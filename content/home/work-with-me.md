@@ -105,7 +105,7 @@ Until there is unlimited access to operational environments for training, the me
 
 ### Cyber environments and benchmarks
 
-**Role:** engineering assistant · **Thread:** [Toward Deployment](../overview/3-year-agenda/toward-deployment/) → [Cyber Environments & Benchmarks](../overview/3-year-agenda/toward-deployment/cyber-environments-and-benchmarks/)
+**Role:** engineering assistant · **Thread:** [Toward Deployment](../overview/3-year-agenda/toward-deployment/) → [Cyber Environments & Benchmarks](../overview/blogs/cyber-environments-and-benchmarks/)
 
 Claims about transfer are only meaningful if the same agent can actually be run across the environments being compared. This project maintains the collection of environments used, adapted, and built across the projects, the harness that runs agents across them, and the record of what each environment does and does not represent.
 

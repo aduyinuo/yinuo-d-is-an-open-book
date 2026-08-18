@@ -37,9 +37,9 @@ Encoder pretraining needs only observations from a random policy in each environ
 
 ## Where it runs
 
-Evaluated across [CyberWheel](cyber-environments-and-benchmarks/cyber-wheel.md) as the source, with NetSecGame and [CyberBattleSim](cyber-environments-and-benchmarks/cyber-battle-field.md) as targets at different distances from it, and NASim's emulation mode — Docker containers, live services, real exploit execution — as a proxy for deployment.
+Evaluated across [CyberWheel](../../blogs/cyber-environments-and-benchmarks/cyber-wheel.md) as the source, with NetSecGame and [CyberBattleSim](../../blogs/cyber-environments-and-benchmarks/cyber-battle-field.md) as targets at different distances from it, and NASim's emulation mode — Docker containers, live services, real exploit execution — as a proxy for deployment.
 
-**Related:** [Toward Deployment](./) | [Training in Realistic Environments](training-in-realistic-environments.md) | [Cyber Environments & Benchmarks](cyber-environments-and-benchmarks/)
+**Related:** [Toward Deployment](./) | [Training in Realistic Environments](training-in-realistic-environments.md) | [Cyber Environments & Benchmarks](../../blogs/cyber-environments-and-benchmarks/)
 
 ## Publications
 
@@ -47,6 +47,6 @@ Evaluated across [CyberWheel](cyber-environments-and-benchmarks/cyber-wheel.md) 
 
 ## Collaborators
 
-<table><thead><tr><th width="150"></th><th width="150"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-sabrina-saika.png" alt="Sabrina Saika" width="48"><br><strong>Sabrina Saika</strong><br>University of Texas at El Paso</td><td><img src="../../../.gitbook/assets/collab-aritran-piplai.png" alt="Aritran Piplai" width="48"><br><a href="https://expertise.utep.edu/profiles/apiplai"><strong>Aritran Piplai</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
+<table><thead><tr><th width="150"></th><th width="150"></th></tr></thead><tbody><tr><td><p><img src="../../../.gitbook/assets/collab-sabrina-saika.png" alt="Sabrina Saika" data-size="original"></p><p><br><strong>Sabrina Saika</strong><br>University of Texas at El Paso</p></td><td><p><img src="../../../.gitbook/assets/collab-aritran-piplai.png" alt="Aritran Piplai" data-size="original"></p><p><br><a href="https://expertise.utep.edu/profiles/apiplai"><strong>Aritran Piplai</strong></a><br>University of Texas at El Paso</p></td></tr></tbody></table>
 
 _Last updated: 2026-08_
