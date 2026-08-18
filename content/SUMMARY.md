@@ -26,7 +26,7 @@
     * [Human-AI Complementarity](overview/3-year-agenda/human-ai-complementarity/README.md)
       * [CHART](overview/3-year-agenda/human-ai-complementarity/chart.md)
       * [Team Defense Game](overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
-      * [CyberAgentFlow](overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md)
+      * [Cyber AgentFlow](overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md)
       * [Next](overview/3-year-agenda/human-ai-complementarity/next.md)
     * [Toward Deployment](overview/3-year-agenda/toward-deployment/README.md)
       * [When We Say "A Realistic Cyber Environment"](overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
