@@ -1,5 +1,5 @@
 {
-  "generated": 1787181290,
+  "generated": 1787181476,
   "here": null,
   "here_folder": null,
   "range": "6m",
@@ -364,7 +364,7 @@
       "name": "AcceleratePSRO",
       "thread": "Cyber World Modeling",
       "group": "2025-2026 PickYourBattles",
-      "page": "overview/blogs/a-unified-perspective-of-advancements-in-the-unified-perspective-revisiting-psro.md",
+      "page": "research/projects/pick-your-battles/accelerate-psro-track.md",
       "heatmap": true,
       "at": 1782102682,
       "state": "idle",
@@ -462,10 +462,10 @@
     },
     {
       "folder": "2026 BeRealistic\\2026 PaloAltoNetwork_emulators",
-      "name": "Cyber Environments and Benchmarks",
+      "name": "Emulators",
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
-      "page": "overview/blogs/cyber-environments-and-benchmarks/README.md",
+      "page": "research/projects/be-realistic/emulator-track.md",
       "heatmap": true,
       "at": null,
       "state": "idle",
@@ -478,6 +478,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787181329,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787181314,
+      "what": "Point projects at their real pages on the 3-year agenda"
+    },
+    {
+      "at": 1787181155,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787181122,
       "what": "Re-render the board"
