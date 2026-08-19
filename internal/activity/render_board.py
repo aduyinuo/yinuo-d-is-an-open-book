@@ -116,7 +116,7 @@ def _project(p, rng, custom):
     if p.get("hours_total"):
         out.append("* %s hours logged in this window" % p["hours_total"])
     if p.get("page"):
-        out += ["", "[%s](../%s)" % (esc(p.get("thread") or "the project page"), p["page"])]
+        out += ["", "[%s on the site](../%s)" % (esc(p["name"]), p["page"])]
     out += ["", "</details>", ""]
     return out
 

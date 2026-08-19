@@ -12,14 +12,14 @@ Away from the desk right now.
 
 <details>
 
-<summary>READING NOTES — nothing recorded yet</summary>
+<summary>Reading Notes — nothing recorded yet</summary>
 
 _warm · 4 days ago_
 
-<figure><img src="../.gitbook/assets/heat-reading-notes.png" alt="Daily work on READING NOTES"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-reading-notes.png" alt="Daily work on Reading Notes"><figcaption></figcaption></figure>
 
 
-[Across threads](../personal/overview.md)
+[Reading Notes on the site](../personal/overview.md)
 
 </details>
 
@@ -28,107 +28,107 @@ _warm · 4 days ago_
 
 <details>
 
-<summary>Learn structure — nothing recorded yet</summary>
+<summary>Learn Structure — nothing recorded yet</summary>
 
 _warm · 6 days ago_
 
-<figure><img src="../.gitbook/assets/heat-learn-structure.png" alt="Daily work on Learn structure"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-learn-structure.png" alt="Daily work on Learn Structure"><figcaption></figcaption></figure>
 
 
-[Cyber World Modeling](../overview/3-year-agenda/cyber-world-modeling/)
-
-</details>
-
-<details>
-
-<summary>When world model defend agent fail — nothing recorded yet</summary>
-
-_resting · Aug 10_
-
-<figure><img src="../.gitbook/assets/heat-when-world-model-defend-agent-fail.png" alt="Daily work on When world model defend agent fail"><figcaption></figcaption></figure>
-
-
-[Cyber World Modeling](../overview/3-year-agenda/cyber-world-modeling/)
+[Learn Structure on the site](../research/projects/lucid-world/learn-structure-flagship.md)
 
 </details>
 
 <details>
 
-<summary>Sample efficient FOEDreamer — nothing recorded yet</summary>
-
-_resting · Aug 08_
-
-<figure><img src="../.gitbook/assets/heat-sample-efficient-foedreamer.png" alt="Daily work on Sample efficient FOEDreamer"><figcaption></figcaption></figure>
-
-
-[Cyber World Modeling](../overview/3-year-agenda/cyber-world-modeling/)
-
-</details>
-
-
-## Mental World Modeling
-
-<details>
-
-<summary>Coty Palvi how do human handle relationships in networks — nothing recorded yet</summary>
-
-_resting · Aug 10_
-
-<figure><img src="../.gitbook/assets/heat-coty-palvi-how-do-human-handle-relationships-in-.png" alt="Daily work on Coty Palvi how do human handle relationships in networks"><figcaption></figcaption></figure>
-
-
-[Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/)
-
-</details>
-
-<details>
-
-<summary>Antti Palvi RL based attacker behavior modeling — nothing recorded yet</summary>
-
-_resting · —_
-
-
-[Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/)
-
-</details>
-
-
-## Mental World Modeling
-
-<details>
-
-<summary>Yansi Ana but what is difficult — nothing recorded yet</summary>
-
-_resting · Aug 10_
-
-<figure><img src="../.gitbook/assets/heat-yansi-ana-but-what-is-difficult.png" alt="Daily work on Yansi Ana but what is difficult"><figcaption></figcaption></figure>
-
-
-[Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/problem-solving/)
-
-</details>
-
-<details>
-
-<summary>Ana concensus on mental operations in cs problem solving — nothing recorded yet</summary>
+<summary>World Model Failure — nothing recorded yet</summary>
 
 _resting · Aug 09_
 
-<figure><img src="../.gitbook/assets/heat-ana-concensus-on-mental-operations-in-cs-problem.png" alt="Daily work on Ana concensus on mental operations in cs problem solving"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
 
-[Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/problem-solving/)
+[World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
 
 </details>
 
 <details>
 
-<summary>Aritran Jaime progressively more difficult — nothing recorded yet</summary>
+<summary>FOE-Dreamer — nothing recorded yet</summary>
+
+_resting · Aug 08_
+
+<figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
+
+
+[FOE-Dreamer on the site](../research/projects/lucid-world/foe-dreamer-track.md)
+
+</details>
+
+
+## Mental World Modeling
+
+<details>
+
+<summary>Human Relationships in Networks — nothing recorded yet</summary>
+
+_resting · Aug 10_
+
+<figure><img src="../.gitbook/assets/heat-human-relationships-in-networks.png" alt="Daily work on Human Relationships in Networks"><figcaption></figcaption></figure>
+
+
+[Human Relationships in Networks on the site](../research/projects/read-the-room/human-relationships-in-networks-line.md)
+
+</details>
+
+<details>
+
+<summary>Attacker Behavior Modeling — nothing recorded yet</summary>
 
 _resting · —_
 
 
-[Mental World Modeling](../overview/3-year-agenda/mental-world-modeling/problem-solving/)
+[Attacker Behavior Modeling on the site](../research/projects/read-the-room/attacker-behavior-line.md)
+
+</details>
+
+
+## Mental World Modeling
+
+<details>
+
+<summary>Difficulty Lineage — nothing recorded yet</summary>
+
+_resting · Aug 09_
+
+<figure><img src="../.gitbook/assets/heat-difficulty-lineage.png" alt="Daily work on Difficulty Lineage"><figcaption></figcaption></figure>
+
+
+[Difficulty Lineage on the site](../research/projects/design-the-game/difficulty-lineage.md)
+
+</details>
+
+<details>
+
+<summary>Mental Operations Consensus — nothing recorded yet</summary>
+
+_resting · Aug 09_
+
+<figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
+
+
+[Mental Operations Consensus on the site](../research/projects/design-the-game/mental-operations-consensus-line.md)
+
+</details>
+
+<details>
+
+<summary>Progressive Difficulty — nothing recorded yet</summary>
+
+_resting · —_
+
+
+[Progressive Difficulty on the site](../research/projects/design-the-game/overview.md)
 
 </details>
 
@@ -137,14 +137,14 @@ _resting · —_
 
 <details>
 
-<summary>RESEARCH STATEMENT — nothing recorded yet</summary>
+<summary>Research Statement — nothing recorded yet</summary>
 
 _resting · Aug 09_
 
-<figure><img src="../.gitbook/assets/heat-research-statement.png" alt="Daily work on RESEARCH STATEMENT"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-research-statement.png" alt="Daily work on Research Statement"><figcaption></figcaption></figure>
 
 
-[Across threads](../research/overview.md)
+[Research Statement on the site](../research/projects/research-statement/overview.md)
 
 </details>
 
@@ -153,38 +153,38 @@ _resting · Aug 09_
 
 <details>
 
-<summary>CTU UTEP sok what is real — nothing recorded yet</summary>
+<summary>Realism SoK — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
-<figure><img src="../.gitbook/assets/heat-ctu-utep-sok-what-is-real.png" alt="Daily work on CTU UTEP sok what is real"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-realism-sok.png" alt="Daily work on Realism SoK"><figcaption></figcaption></figure>
 
 
-[Toward Deployment](../overview/3-year-agenda/toward-deployment/)
+[Realism SoK on the site](../research/projects/be-realistic/realism-sok-track.md)
 
 </details>
 
 <details>
 
-<summary>Aritran sim2sim2real — nothing recorded yet</summary>
+<summary>Sim2Sim2Real — nothing recorded yet</summary>
 
 _resting · Aug 06_
 
-<figure><img src="../.gitbook/assets/heat-aritran-sim2sim2real.png" alt="Daily work on Aritran sim2sim2real"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-sim2sim2real.png" alt="Daily work on Sim2Sim2Real"><figcaption></figcaption></figure>
 
 
-[Toward Deployment](../overview/3-year-agenda/toward-deployment/)
+[Sim2Sim2Real on the site](../research/projects/be-realistic/sim2sim2real-track.md)
 
 </details>
 
 <details>
 
-<summary>PaloAltoNetwork emulators — nothing recorded yet</summary>
+<summary>Emulators — nothing recorded yet</summary>
 
 _resting · —_
 
 
-[Toward Deployment](../overview/3-year-agenda/toward-deployment/)
+[Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
 
@@ -193,53 +193,53 @@ _resting · —_
 
 <details>
 
-<summary>Chart-human-ai-team-defense — nothing recorded yet</summary>
+<summary>Human-AI Team Defense — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
-<figure><img src="../.gitbook/assets/heat-chart-human-ai-team-defense.png" alt="Daily work on Chart-human-ai-team-defense"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-human-ai-team-defense.png" alt="Daily work on Human-AI Team Defense"><figcaption></figcaption></figure>
 
 
-[Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/)
+[Human-AI Team Defense on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
 </details>
 
 <details>
 
-<summary>Grace team dependencies — nothing recorded yet</summary>
+<summary>Team Dependencies — nothing recorded yet</summary>
 
 _resting · Jul 21_
 
-<figure><img src="../.gitbook/assets/heat-grace-team-dependencies.png" alt="Daily work on Grace team dependencies"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-team-dependencies.png" alt="Daily work on Team Dependencies"><figcaption></figcaption></figure>
 
 
-[Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/)
+[Team Dependencies on the site](../research/projects/united-forces/team-dependencies-track.md)
 
 </details>
 
 <details>
 
-<summary>Testbed CHART — nothing recorded yet</summary>
+<summary>CHART Testbed — nothing recorded yet</summary>
 
 _resting · Jul 15_
 
-<figure><img src="../.gitbook/assets/heat-testbed-chart.png" alt="Daily work on Testbed CHART"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-chart-testbed.png" alt="Daily work on CHART Testbed"><figcaption></figcaption></figure>
 
 
-[Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/)
+[CHART Testbed on the site](../research/projects/united-forces/chart-testbed-track.md)
 
 </details>
 
 <details>
 
-<summary>Jaime AgentFlow for pentesters — nothing recorded yet</summary>
+<summary>AgentFlow for Pentesters — nothing recorded yet</summary>
 
 _resting · Jan 11_
 
-<figure><img src="../.gitbook/assets/heat-jaime-agentflow-for-pentesters.png" alt="Daily work on Jaime AgentFlow for pentesters"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-agentflow-for-pentesters.png" alt="Daily work on AgentFlow for Pentesters"><figcaption></figcaption></figure>
 
 
-[Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/)
+[AgentFlow for Pentesters on the site](../research/projects/united-forces/agentflow-track.md)
 
 </details>
 
@@ -248,14 +248,14 @@ _resting · Jan 11_
 
 <details>
 
-<summary>Utep irb logistics — nothing recorded yet</summary>
+<summary>IRB Logistics — nothing recorded yet</summary>
 
 _resting · Aug 04_
 
-<figure><img src="../.gitbook/assets/heat-utep-irb-logistics.png" alt="Daily work on Utep irb logistics"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-irb-logistics.png" alt="Daily work on IRB Logistics"><figcaption></figcaption></figure>
 
 
-[Across threads](../overview/3-year-agenda/)
+[IRB Logistics on the site](../research/projects/irb-applications/overview.md)
 
 </details>
 
@@ -264,39 +264,27 @@ _resting · Aug 04_
 
 <details>
 
-<summary>Chris AcceleratePSRO — nothing recorded yet</summary>
+<summary>AcceleratePSRO — nothing recorded yet</summary>
 
-_resting · Jun 22_
+_resting · Jun 21_
 
-<figure><img src="../.gitbook/assets/heat-chris-acceleratepsro.png" alt="Daily work on Chris AcceleratePSRO"><figcaption></figcaption></figure>
-
-
-[Cyber World Modeling](../overview/3-year-agenda/cyber-world-modeling/next.md)
-
-</details>
+<figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 
-## testgit
-
-<details>
-
-<summary>Testgit — nothing recorded yet</summary>
-
-_resting · —_
-
+[AcceleratePSRO on the site](../research/projects/pick-your-battles/accelerate-psro-track.md)
 
 </details>
 
 
 ## What changed on this site
 
-* **10 minutes ago** — activity board
+* **12 minutes ago** — Re-render the board
+* **13 minutes ago** — Activity board: subfolder projects, heatmaps, Clockify, settings window
+* **22 minutes ago** — Refresh the activity board
+* **23 minutes ago** — activity board
 * **2 days ago** — Create capture_changes.py
 * **4 days ago** — slides integration: one-step publish
 * **4 days ago** — ASU talk: embed the live slide viewer
 * **4 days ago** — ASU talk: keep multiple rows with arrows; add eager loading
-* **4 days ago** — ASU talk: keep tabs, WebP images, eager loading
-* **4 days ago** — ASU talk: drop tabs for anchored slides with prev/next, JPG to WebP
-* **4 days ago** — Reading page: one table, per-row download links
 
-_Last looked at Aug 19, 22:53_
+_Last looked at Aug 19, 17:10_
