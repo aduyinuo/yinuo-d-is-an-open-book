@@ -1,5 +1,5 @@
 {
-  "generated": 1787181599,
+  "generated": 1787181956,
   "here": null,
   "here_folder": null,
   "range": "6m",
@@ -67,7 +67,7 @@
       "heatmap": true,
       "at": 1786349704,
       "state": "idle",
-      "update": "",
+      "update": "Created a template that I am satisfied with. Now finally back to track on the progression of the meeting. The missing part is for my anxiety analysis. Will think more about it when I have the time.",
       "details": [],
       "days": {
         "2026-03-31": 21,
@@ -89,9 +89,21 @@
         "2026-06-16": 1,
         "2025-11-17": 1
       },
-      "hours": {},
+      "hours": {
+        "2026-06-01": 2.56,
+        "2026-05-29": 4.12,
+        "2026-05-28": 5.62,
+        "2026-04-01": 5.34,
+        "2026-03-31": 2.08,
+        "2026-03-30": 6.71,
+        "2026-03-25": 0.83,
+        "2026-03-22": 4.19,
+        "2026-03-19": 1.68,
+        "2026-03-18": 2.06,
+        "2026-02-18": 3.12
+      },
       "hours_week": 0,
-      "hours_total": 0
+      "hours_total": 38.3
     },
     {
       "folder": "2025-2026 LucidWorld\\[3] 2026 when_world_model_defend_agent_fail",
@@ -184,36 +196,6 @@
       "hours_total": 0
     },
     {
-      "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
-      "name": "What Is a Realistic Cyber Environment",
-      "thread": "Toward Deployment",
-      "group": "2026 BeRealistic",
-      "page": "overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md",
-      "heatmap": true,
-      "at": 1786251050,
-      "state": "idle",
-      "update": "",
-      "details": [],
-      "days": {
-        "2026-08-04": 10,
-        "2026-06-16": 32,
-        "2026-03-19": 4,
-        "2026-07-06": 20,
-        "2026-07-15": 16,
-        "2026-02-21": 1,
-        "2026-06-24": 1,
-        "2026-07-07": 5,
-        "2026-07-08": 18,
-        "2026-07-10": 6,
-        "2026-07-11": 1,
-        "2026-07-23": 3,
-        "2026-08-08": 1606
-      },
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
-    },
-    {
       "folder": "2025-2026 UnitedForces\\chart-human-ai-team-defense",
       "name": "Team Defense Game",
       "thread": "Human-AI Complementarity",
@@ -273,7 +255,7 @@
       "heatmap": true,
       "at": 1786048709,
       "state": "idle",
-      "update": "",
+      "update": "01.23 Weekly Meeting. Debug Encoder. The most likely cause is mismatch between source and target observations. Another point to be mindful about is the termination criteria of GAN training.",
       "details": [],
       "days": {
         "2026-06-23": 5,
@@ -282,9 +264,23 @@
         "2026-02-22": 82,
         "2026-05-27": 581
       },
-      "hours": {},
+      "hours": {
+        "2026-07-30": 0.45,
+        "2026-07-23": 0.66,
+        "2026-07-17": 0.4,
+        "2026-04-09": 0.83,
+        "2026-04-02": 1.25,
+        "2026-03-12": 1.75,
+        "2026-03-06": 3.08,
+        "2026-03-05": 1.0,
+        "2026-02-19": 1.41,
+        "2026-01-23": 0.77,
+        "2026-01-15": 3.84,
+        "2026-01-08": 0.74,
+        "2026-01-06": 0.43
+      },
       "hours_week": 0,
-      "hours_total": 0
+      "hours_total": 16.6
     },
     {
       "folder": "IRB Applications\\utep irb logistics",
@@ -299,35 +295,6 @@
       "details": [],
       "days": {
         "2026-08-04": 1
-      },
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
-    },
-    {
-      "folder": "2025-2026 UnitedForces\\[2] 2026 Grace_team_dependencies",
-      "name": "Team Dependencies",
-      "thread": "Human-AI Complementarity",
-      "group": "2025-2026 UnitedForces",
-      "page": "research/projects/united-forces/team-dependencies-track.md",
-      "heatmap": true,
-      "at": 1784614488,
-      "state": "idle",
-      "update": "",
-      "details": [],
-      "days": {
-        "2026-07-21": 1,
-        "2026-03-23": 10,
-        "2026-07-13": 1,
-        "2026-04-24": 1,
-        "2026-01-12": 1,
-        "2026-04-06": 1,
-        "2026-04-16": 5,
-        "2026-04-17": 3,
-        "2026-04-15": 1,
-        "2026-04-19": 7,
-        "2026-04-03": 1,
-        "2025-11-22": 1
       },
       "hours": {},
       "hours_week": 0,
@@ -358,6 +325,96 @@
       "hours": {},
       "hours_week": 0,
       "hours_total": 0
+    },
+    {
+      "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
+      "name": "What Is a Realistic Cyber Environment",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md",
+      "heatmap": true,
+      "at": 1783969591,
+      "state": "idle",
+      "update": "diagram",
+      "details": [
+        {
+          "at": 1783969591,
+          "what": "logged 2.0h — diagram"
+        },
+        {
+          "at": 1783811032,
+          "what": "logged 1.8h — diagram"
+        },
+        {
+          "at": 1783540503,
+          "what": "logged 0.4h — fix the compile error"
+        }
+      ],
+      "days": {
+        "2026-08-04": 10,
+        "2026-06-16": 32,
+        "2026-03-19": 4,
+        "2026-07-06": 20,
+        "2026-07-15": 16,
+        "2026-02-21": 1,
+        "2026-06-24": 1,
+        "2026-07-07": 5,
+        "2026-07-08": 18,
+        "2026-07-10": 6,
+        "2026-07-11": 1,
+        "2026-07-23": 3,
+        "2026-08-08": 1606
+      },
+      "hours": {
+        "2026-08-04": 1.42,
+        "2026-07-23": 1.25,
+        "2026-07-21": 2.0,
+        "2026-07-13": 1.99,
+        "2026-07-11": 1.83,
+        "2026-07-08": 0.36,
+        "2026-07-06": 29.59,
+        "2026-03-26": 1.18,
+        "2026-03-24": 2.91,
+        "2026-03-21": 2.33,
+        "2026-03-19": 5.65,
+        "2026-03-17": 4.48,
+        "2026-03-10": 2.67,
+        "2026-03-06": 1.0
+      },
+      "hours_week": 0,
+      "hours_total": 58.7
+    },
+    {
+      "folder": "2022-2026 ReadTheRoom\\[2] 2025-2026 Antti_Palvi_RL_based_attacker_behavior_modeling",
+      "name": "Attacker Behavior Modeling",
+      "thread": "Mental World Modeling",
+      "group": "2022-2026 ReadTheRoom",
+      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md",
+      "heatmap": true,
+      "at": 1783349621,
+      "state": "idle",
+      "update": "Working in VS Code",
+      "details": [
+        {
+          "at": 1783349621,
+          "what": "logged 0.2h — Working in VS Code"
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-07-06": 0.19,
+        "2026-04-07": 1.01,
+        "2026-03-31": 1.16,
+        "2026-03-23": 1.03,
+        "2026-03-16": 1.73,
+        "2026-03-09": 0.75,
+        "2026-03-02": 1.0,
+        "2026-01-26": 0.5,
+        "2026-01-12": 0.48,
+        "2026-01-05": 0.38
+      },
+      "hours_week": 0,
+      "hours_total": 8.2
     },
     {
       "folder": "2025-2026 PickYourBattles\\2026 Chris_AcceleratePSRO",
@@ -411,38 +468,80 @@
       "hours_total": 0
     },
     {
+      "folder": "2025-2026 UnitedForces\\[2] 2026 Grace_team_dependencies",
+      "name": "Team Dependencies",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "research/projects/united-forces/team-dependencies-track.md",
+      "heatmap": true,
+      "at": 1774303500,
+      "state": "idle",
+      "update": "Updated a few todo items",
+      "details": [
+        {
+          "at": 1774303500,
+          "what": "logged 0.3h — Updated a few todo items"
+        }
+      ],
+      "days": {
+        "2026-07-21": 1,
+        "2026-03-23": 10,
+        "2026-07-13": 1,
+        "2026-04-24": 1,
+        "2026-01-12": 1,
+        "2026-04-06": 1,
+        "2026-04-16": 5,
+        "2026-04-17": 3,
+        "2026-04-15": 1,
+        "2026-04-19": 7,
+        "2026-04-03": 1,
+        "2025-11-22": 1
+      },
+      "hours": {
+        "2026-04-06": 1.25,
+        "2026-03-23": 2.52,
+        "2026-03-09": 1.08,
+        "2026-02-24": 0.0,
+        "2026-02-23": 1.1,
+        "2026-01-26": 1.33
+      },
+      "hours_week": 0,
+      "hours_total": 7.3
+    },
+    {
       "folder": "2025-2026 UnitedForces\\[3] 2025-2026 Jaime_AgentFlow_for_pentesters",
       "name": "CyberAgentFlow",
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md",
       "heatmap": true,
-      "at": 1768163276,
+      "at": 1773438060,
       "state": "idle",
-      "update": "",
-      "details": [],
+      "update": "Thomas's talk",
+      "details": [
+        {
+          "at": 1773438060,
+          "what": "logged 0.8h — Thomas's talk"
+        }
+      ],
       "days": {
         "2026-01-11": 1
       },
-      "hours": {},
+      "hours": {
+        "2026-04-07": 1.12,
+        "2026-03-31": 1.56,
+        "2026-03-17": 0.4,
+        "2026-03-16": 3.86,
+        "2026-03-13": 0.75,
+        "2026-03-10": 0.92,
+        "2026-03-05": 0.75,
+        "2026-03-03": 1.96,
+        "2026-02-24": 0.75,
+        "2026-01-27": 0.58,
+        "2026-01-21": 0.55
+      },
       "hours_week": 0,
-      "hours_total": 0
-    },
-    {
-      "folder": "2022-2026 ReadTheRoom\\[2] 2025-2026 Antti_Palvi_RL_based_attacker_behavior_modeling",
-      "name": "Attacker Behavior Modeling",
-      "thread": "Mental World Modeling",
-      "group": "2022-2026 ReadTheRoom",
-      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md",
-      "heatmap": true,
-      "at": null,
-      "state": "idle",
-      "update": "",
-      "details": [],
-      "days": {},
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
+      "hours_total": 13.2
     },
     {
       "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
@@ -478,6 +577,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787181620,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787181615,
+      "what": "Add an AcceleratePSRO page under Cyber World Modeling"
+    },
+    {
+      "at": 1787181530,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787181505,
       "what": "Re-render the board"

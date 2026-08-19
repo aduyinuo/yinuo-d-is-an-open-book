@@ -49,13 +49,25 @@ def _tally(projects, first, last):
     return {d: v for d, v in out.items() if lo <= d <= hi}
 
 
-def _level(v, top):
+def _cuts(tally):
+    """Quartile thresholds over the days that have anything on them.
+
+    Scaling against the single busiest day flattens every ordinary day into
+    the lightest shade. GitHub splits the active days into quarters instead,
+    which is what makes a normal week readable.
+    """
+    vals = sorted(v for v in tally.values() if v > 0)
+    if not vals:
+        return [0, 0, 0]
+    return [vals[int(len(vals) * q)] if int(len(vals) * q) < len(vals)
+            else vals[-1] for q in (0.25, 0.5, 0.75)]
+
+
+def _level(v, cuts):
     if v <= 0:
         return 0
-    if top <= 0:
-        return 1
-    q = v / top
-    return 1 if q <= 0.25 else 2 if q <= 0.5 else 3 if q <= 0.75 else 4
+    a, b, c = cuts
+    return 1 if v <= a else 2 if v <= b else 3 if v <= c else 4
 
 
 def draw(projects, out_path, range_key="6m", custom=None, cell=11, gap=3,
@@ -67,7 +79,7 @@ def draw(projects, out_path, range_key="6m", custom=None, cell=11, gap=3,
 
     start = first - datetime.timedelta(days=(first.weekday() + 1) % 7)   # back to Sunday
     weeks = ((last - start).days // 7) + 1
-    top = max(tally.values(), default=0.0)
+    cuts = _cuts(tally)
 
     unit = (cell + gap) / 72.0
     fig_w = weeks * unit + (0.75 if labels else 0.1)
@@ -84,7 +96,7 @@ def draw(projects, out_path, range_key="6m", custom=None, cell=11, gap=3,
             day = start + datetime.timedelta(days=w * 7 + d)
             if day < first or day > last:
                 continue
-            lv = _level(tally.get(day.isoformat(), 0.0), top)
+            lv = _level(tally.get(day.isoformat(), 0.0), cuts)
             y = d + (1.15 if labels else 0)
             ax.add_patch(FancyBboxPatch(
                 (w + 0.08, y + 0.08), 0.84, 0.84,

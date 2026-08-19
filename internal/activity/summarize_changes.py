@@ -164,8 +164,9 @@ def main():
         headline = ""
         if answers.get(folder, {}).get("text"):
             headline = answers[folder]["text"]
-        elif logged and logged[0]["what"]:
-            headline = logged[0]["what"]
+        elif any(e["what"] for e in logged):
+            # the most recent entry you actually typed something into
+            headline = next(e["what"] for e in logged if e["what"])
         elif details:
             headline = details[0]["what"]
 

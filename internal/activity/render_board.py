@@ -99,6 +99,8 @@ def _project(p, rng, custom):
     bits = [STATE_WORD.get(state, state), ago(p.get("at"))]
     if p.get("hours_week"):
         bits.append("%sh this week" % p["hours_week"])
+    if len(head) > 96:                       # long Clockify notes keep their
+        head = head[:95].rsplit(" ", 1)[0] + "…"   # full text in the detail list
     summary = "%s — %s" % (esc(p["name"]), esc(head))
 
     out = ["<details>", "", "<summary>%s</summary>" % summary, ""]

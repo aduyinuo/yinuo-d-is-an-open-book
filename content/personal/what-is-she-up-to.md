@@ -6,7 +6,7 @@ description: What I am working on, and what changed.
 
 Away from the desk right now.
 
-<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects"><figcaption><p>Work across the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects"><figcaption><p>142 hours logged in the last six months</p></figcaption></figure>
 
 ## Across threads
 
@@ -43,7 +43,7 @@ _warm · 6 days ago_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -70,12 +70,13 @@ _resting · Aug 08_
 
 <details>
 
-<summary>Human Relationships in Networks — nothing recorded yet</summary>
+<summary>Human Relationships in Networks — Created a template that I am satisfied with. Now finally back to track on the progression of…</summary>
 
 _resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-human-relationships-in-networks.png" alt="Daily work on Human Relationships in Networks"><figcaption></figcaption></figure>
 
+* 38.3 hours logged in this window
 
 [Human Relationships in Networks on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/social-intelligence.md)
 
@@ -83,10 +84,14 @@ _resting · Aug 10_
 
 <details>
 
-<summary>Attacker Behavior Modeling — nothing recorded yet</summary>
+<summary>Attacker Behavior Modeling — Working in VS Code</summary>
 
-_resting · —_
+_resting · Jul 06_
 
+<figure><img src="../.gitbook/assets/heat-attacker-behavior-modeling.png" alt="Daily work on Attacker Behavior Modeling"><figcaption></figcaption></figure>
+
+* **Jul 06** — logged 0.2h — Working in VS Code
+* 8.2 hours logged in this window
 
 [Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
 
@@ -99,7 +104,7 @@ _resting · —_
 
 <summary>What Makes a Problem Difficult — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
 
@@ -149,71 +154,18 @@ _resting · Aug 09_
 </details>
 
 
-## Toward Deployment
-
-<details>
-
-<summary>What Is a Realistic Cyber Environment — nothing recorded yet</summary>
-
-_resting · Aug 09_
-
-<figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
-
-
-[What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
-
-</details>
-
-<details>
-
-<summary>Sim2Sim before Sim2Real — nothing recorded yet</summary>
-
-_resting · Aug 06_
-
-<figure><img src="../.gitbook/assets/heat-sim2sim-before-sim2real.png" alt="Daily work on Sim2Sim before Sim2Real"><figcaption></figcaption></figure>
-
-
-[Sim2Sim before Sim2Real on the site](../overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
-
-</details>
-
-<details>
-
-<summary>Emulators — nothing recorded yet</summary>
-
-_resting · —_
-
-
-[Emulators on the site](../research/projects/be-realistic/emulator-track.md)
-
-</details>
-
-
 ## Human-AI Complementarity
 
 <details>
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
 
 [Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
-
-</details>
-
-<details>
-
-<summary>Team Dependencies — nothing recorded yet</summary>
-
-_resting · Jul 21_
-
-<figure><img src="../.gitbook/assets/heat-team-dependencies.png" alt="Daily work on Team Dependencies"><figcaption></figcaption></figure>
-
-
-[Team Dependencies on the site](../research/projects/united-forces/team-dependencies-track.md)
 
 </details>
 
@@ -232,14 +184,76 @@ _resting · Jul 15_
 
 <details>
 
-<summary>CyberAgentFlow — nothing recorded yet</summary>
+<summary>Team Dependencies — Updated a few todo items</summary>
 
-_resting · Jan 11_
+_resting · Mar 23_
+
+<figure><img src="../.gitbook/assets/heat-team-dependencies.png" alt="Daily work on Team Dependencies"><figcaption></figcaption></figure>
+
+* **Mar 23** — logged 0.3h — Updated a few todo items
+* 7.3 hours logged in this window
+
+[Team Dependencies on the site](../research/projects/united-forces/team-dependencies-track.md)
+
+</details>
+
+<details>
+
+<summary>CyberAgentFlow — Thomas's talk</summary>
+
+_resting · Mar 13_
 
 <figure><img src="../.gitbook/assets/heat-cyberagentflow.png" alt="Daily work on CyberAgentFlow"><figcaption></figcaption></figure>
 
+* **Mar 13** — logged 0.8h — Thomas's talk
+* 13.2 hours logged in this window
 
 [CyberAgentFlow on the site](../overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md)
+
+</details>
+
+
+## Toward Deployment
+
+<details>
+
+<summary>Sim2Sim before Sim2Real — 01.23 Weekly Meeting. Debug Encoder. The most likely cause is mismatch between source and…</summary>
+
+_resting · Aug 06_
+
+<figure><img src="../.gitbook/assets/heat-sim2sim-before-sim2real.png" alt="Daily work on Sim2Sim before Sim2Real"><figcaption></figcaption></figure>
+
+* 16.6 hours logged in this window
+
+[Sim2Sim before Sim2Real on the site](../overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
+
+</details>
+
+<details>
+
+<summary>What Is a Realistic Cyber Environment — diagram</summary>
+
+_resting · Jul 13_
+
+<figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
+
+* **Jul 13** — logged 2.0h — diagram
+* **Jul 11** — logged 1.8h — diagram
+* **Jul 08** — logged 0.4h — fix the compile error
+* 58.7 hours logged in this window
+
+[What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
+
+</details>
+
+<details>
+
+<summary>Emulators — nothing recorded yet</summary>
+
+_resting · —_
+
+
+[Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
 
@@ -266,7 +280,7 @@ _resting · Aug 04_
 
 <summary>AcceleratePSRO — nothing recorded yet</summary>
 
-_resting · Jun 22_
+_resting · Jun 21_
 
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
@@ -278,13 +292,13 @@ _resting · Jun 22_
 
 ## What changed on this site
 
-* **2 minutes ago** — Re-render the board
-* **2 minutes ago** — Keep projects off the blog pages
-* **4 minutes ago** — Refresh the activity board
 * **5 minutes ago** — Re-render the board
-* **5 minutes ago** — Point projects at their real pages on the 3-year agenda
-* **8 minutes ago** — Refresh the activity board
-* **8 minutes ago** — Re-render the board
-* **9 minutes ago** — Name projects after their pages on the site
+* **6 minutes ago** — Add an AcceleratePSRO page under Cyber World Modeling
+* **7 minutes ago** — Refresh the activity board
+* **7 minutes ago** — Re-render the board
+* **8 minutes ago** — Keep projects off the blog pages
+* **10 minutes ago** — Refresh the activity board
+* **10 minutes ago** — Re-render the board
+* **11 minutes ago** — Point projects at their real pages on the 3-year agenda
 
-_Last looked at Aug 19, 23:19_
+_Last looked at Aug 19, 17:25_
