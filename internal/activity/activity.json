@@ -1,12 +1,12 @@
 {
-  "generated": 1787181032,
+  "generated": 1787181290,
   "here": null,
   "here_folder": null,
   "range": "6m",
   "projects": [
     {
       "folder": "READING NOTES",
-      "name": "Reading Notes",
+      "name": "What to Read",
       "thread": "Across threads",
       "group": "READING NOTES",
       "page": "personal/overview.md",
@@ -27,7 +27,7 @@
       "name": "Learn Structure",
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
-      "page": "research/projects/lucid-world/learn-structure-flagship.md",
+      "page": "overview/3-year-agenda/cyber-world-modeling/strategic-structure.md",
       "heatmap": true,
       "at": 1786657999,
       "state": "recent",
@@ -63,7 +63,7 @@
       "name": "Human Relationships in Networks",
       "thread": "Mental World Modeling",
       "group": "2022-2026 ReadTheRoom",
-      "page": "research/projects/read-the-room/human-relationships-in-networks-line.md",
+      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/social-intelligence.md",
       "heatmap": true,
       "at": 1786349704,
       "state": "idle",
@@ -113,7 +113,7 @@
     },
     {
       "folder": "2025-2026 DesignTheGame\\[2] 2026 Yansi_Ana_but_what_is_difficult",
-      "name": "Difficulty Lineage",
+      "name": "What Makes a Problem Difficult",
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "research/projects/design-the-game/difficulty-lineage.md",
@@ -145,7 +145,7 @@
       "name": "Mental Operations Consensus",
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
-      "page": "research/projects/design-the-game/mental-operations-consensus-line.md",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md",
       "heatmap": true,
       "at": 1786297376,
       "state": "idle",
@@ -185,10 +185,10 @@
     },
     {
       "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
-      "name": "Realism SoK",
+      "name": "What Is a Realistic Cyber Environment",
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
-      "page": "research/projects/be-realistic/realism-sok-track.md",
+      "page": "overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md",
       "heatmap": true,
       "at": 1786251050,
       "state": "idle",
@@ -215,7 +215,7 @@
     },
     {
       "folder": "2025-2026 UnitedForces\\chart-human-ai-team-defense",
-      "name": "Human-AI Team Defense",
+      "name": "Team Defense Game",
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "overview/3-year-agenda/human-ai-complementarity/team-defense-game.md",
@@ -236,7 +236,7 @@
       "name": "FOE-Dreamer",
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
-      "page": "research/projects/lucid-world/foe-dreamer-track.md",
+      "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
       "heatmap": true,
       "at": 1786231785,
       "state": "idle",
@@ -266,10 +266,10 @@
     },
     {
       "folder": "2026 BeRealistic\\2025-2026 Aritran_sim2sim2real",
-      "name": "Sim2Sim2Real",
+      "name": "Sim2Sim before Sim2Real",
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
-      "page": "research/projects/be-realistic/sim2sim2real-track.md",
+      "page": "overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md",
       "heatmap": true,
       "at": 1786048709,
       "state": "idle",
@@ -335,10 +335,10 @@
     },
     {
       "folder": "2025-2026 UnitedForces\\[1] 2025-2026 testbed_CHART",
-      "name": "CHART Testbed",
+      "name": "CHART",
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
-      "page": "research/projects/united-forces/chart-testbed-track.md",
+      "page": "overview/3-year-agenda/human-ai-complementarity/chart.md",
       "heatmap": true,
       "at": 1784156686,
       "state": "idle",
@@ -364,7 +364,7 @@
       "name": "AcceleratePSRO",
       "thread": "Cyber World Modeling",
       "group": "2025-2026 PickYourBattles",
-      "page": "research/projects/pick-your-battles/accelerate-psro-track.md",
+      "page": "overview/blogs/a-unified-perspective-of-advancements-in-the-unified-perspective-revisiting-psro.md",
       "heatmap": true,
       "at": 1782102682,
       "state": "idle",
@@ -412,10 +412,10 @@
     },
     {
       "folder": "2025-2026 UnitedForces\\[3] 2025-2026 Jaime_AgentFlow_for_pentesters",
-      "name": "AgentFlow for Pentesters",
+      "name": "CyberAgentFlow",
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
-      "page": "research/projects/united-forces/agentflow-track.md",
+      "page": "overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md",
       "heatmap": true,
       "at": 1768163276,
       "state": "idle",
@@ -433,7 +433,7 @@
       "name": "Attacker Behavior Modeling",
       "thread": "Mental World Modeling",
       "group": "2022-2026 ReadTheRoom",
-      "page": "research/projects/read-the-room/attacker-behavior-line.md",
+      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md",
       "heatmap": true,
       "at": null,
       "state": "idle",
@@ -446,10 +446,10 @@
     },
     {
       "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
-      "name": "Progressive Difficulty",
+      "name": "Progressive Problem Design",
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
-      "page": "research/projects/design-the-game/overview.md",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md",
       "heatmap": true,
       "at": null,
       "state": "idle",
@@ -462,10 +462,10 @@
     },
     {
       "folder": "2026 BeRealistic\\2026 PaloAltoNetwork_emulators",
-      "name": "Emulators",
+      "name": "Cyber Environments and Benchmarks",
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
-      "page": "research/projects/be-realistic/emulator-track.md",
+      "page": "overview/blogs/cyber-environments-and-benchmarks/README.md",
       "heatmap": true,
       "at": null,
       "state": "idle",
@@ -478,6 +478,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787181122,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787181094,
+      "what": "Name projects after their pages on the site"
+    },
+    {
+      "at": 1787180339,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787180314,
       "what": "Re-render the board"

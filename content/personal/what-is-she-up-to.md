@@ -12,14 +12,14 @@ Away from the desk right now.
 
 <details>
 
-<summary>Reading Notes — nothing recorded yet</summary>
+<summary>What to Read — nothing recorded yet</summary>
 
 _warm · 4 days ago_
 
-<figure><img src="../.gitbook/assets/heat-reading-notes.png" alt="Daily work on Reading Notes"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
 
 
-[Reading Notes on the site](../personal/overview.md)
+[What to Read on the site](../personal/overview.md)
 
 </details>
 
@@ -35,7 +35,7 @@ _warm · 6 days ago_
 <figure><img src="../.gitbook/assets/heat-learn-structure.png" alt="Daily work on Learn Structure"><figcaption></figcaption></figure>
 
 
-[Learn Structure on the site](../research/projects/lucid-world/learn-structure-flagship.md)
+[Learn Structure on the site](../overview/3-year-agenda/cyber-world-modeling/strategic-structure.md)
 
 </details>
 
@@ -43,7 +43,7 @@ _warm · 6 days ago_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -61,7 +61,7 @@ _resting · Aug 08_
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
 
-[FOE-Dreamer on the site](../research/projects/lucid-world/foe-dreamer-track.md)
+[FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
 
 </details>
 
@@ -77,7 +77,7 @@ _resting · Aug 10_
 <figure><img src="../.gitbook/assets/heat-human-relationships-in-networks.png" alt="Daily work on Human Relationships in Networks"><figcaption></figcaption></figure>
 
 
-[Human Relationships in Networks on the site](../research/projects/read-the-room/human-relationships-in-networks-line.md)
+[Human Relationships in Networks on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/social-intelligence.md)
 
 </details>
 
@@ -88,7 +88,7 @@ _resting · Aug 10_
 _resting · —_
 
 
-[Attacker Behavior Modeling on the site](../research/projects/read-the-room/attacker-behavior-line.md)
+[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
 
 </details>
 
@@ -97,14 +97,14 @@ _resting · —_
 
 <details>
 
-<summary>Difficulty Lineage — nothing recorded yet</summary>
+<summary>What Makes a Problem Difficult — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
-<figure><img src="../.gitbook/assets/heat-difficulty-lineage.png" alt="Daily work on Difficulty Lineage"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
 
 
-[Difficulty Lineage on the site](../research/projects/design-the-game/difficulty-lineage.md)
+[What Makes a Problem Difficult on the site](../research/projects/design-the-game/difficulty-lineage.md)
 
 </details>
 
@@ -117,18 +117,18 @@ _resting · Aug 09_
 <figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
 
 
-[Mental Operations Consensus on the site](../research/projects/design-the-game/mental-operations-consensus-line.md)
+[Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
 </details>
 
 <details>
 
-<summary>Progressive Difficulty — nothing recorded yet</summary>
+<summary>Progressive Problem Design — nothing recorded yet</summary>
 
 _resting · —_
 
 
-[Progressive Difficulty on the site](../research/projects/design-the-game/overview.md)
+[Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
 
 </details>
 
@@ -153,38 +153,38 @@ _resting · Aug 09_
 
 <details>
 
-<summary>Realism SoK — nothing recorded yet</summary>
+<summary>What Is a Realistic Cyber Environment — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
-<figure><img src="../.gitbook/assets/heat-realism-sok.png" alt="Daily work on Realism SoK"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
 
 
-[Realism SoK on the site](../research/projects/be-realistic/realism-sok-track.md)
+[What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
 
 </details>
 
 <details>
 
-<summary>Sim2Sim2Real — nothing recorded yet</summary>
+<summary>Sim2Sim before Sim2Real — nothing recorded yet</summary>
 
 _resting · Aug 06_
 
-<figure><img src="../.gitbook/assets/heat-sim2sim2real.png" alt="Daily work on Sim2Sim2Real"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-sim2sim-before-sim2real.png" alt="Daily work on Sim2Sim before Sim2Real"><figcaption></figcaption></figure>
 
 
-[Sim2Sim2Real on the site](../research/projects/be-realistic/sim2sim2real-track.md)
+[Sim2Sim before Sim2Real on the site](../overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
 
 </details>
 
 <details>
 
-<summary>Emulators — nothing recorded yet</summary>
+<summary>Cyber Environments and Benchmarks — nothing recorded yet</summary>
 
 _resting · —_
 
 
-[Emulators on the site](../research/projects/be-realistic/emulator-track.md)
+[Cyber Environments and Benchmarks on the site](../overview/blogs/cyber-environments-and-benchmarks/README.md)
 
 </details>
 
@@ -193,14 +193,14 @@ _resting · —_
 
 <details>
 
-<summary>Human-AI Team Defense — nothing recorded yet</summary>
+<summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
-<figure><img src="../.gitbook/assets/heat-human-ai-team-defense.png" alt="Daily work on Human-AI Team Defense"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
 
-[Human-AI Team Defense on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
+[Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
 </details>
 
@@ -219,27 +219,27 @@ _resting · Jul 21_
 
 <details>
 
-<summary>CHART Testbed — nothing recorded yet</summary>
+<summary>CHART — nothing recorded yet</summary>
 
 _resting · Jul 15_
 
-<figure><img src="../.gitbook/assets/heat-chart-testbed.png" alt="Daily work on CHART Testbed"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-chart.png" alt="Daily work on CHART"><figcaption></figcaption></figure>
 
 
-[CHART Testbed on the site](../research/projects/united-forces/chart-testbed-track.md)
+[CHART on the site](../overview/3-year-agenda/human-ai-complementarity/chart.md)
 
 </details>
 
 <details>
 
-<summary>AgentFlow for Pentesters — nothing recorded yet</summary>
+<summary>CyberAgentFlow — nothing recorded yet</summary>
 
 _resting · Jan 11_
 
-<figure><img src="../.gitbook/assets/heat-agentflow-for-pentesters.png" alt="Daily work on AgentFlow for Pentesters"><figcaption></figcaption></figure>
+<figure><img src="../.gitbook/assets/heat-cyberagentflow.png" alt="Daily work on CyberAgentFlow"><figcaption></figcaption></figure>
 
 
-[AgentFlow for Pentesters on the site](../research/projects/united-forces/agentflow-track.md)
+[CyberAgentFlow on the site](../overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md)
 
 </details>
 
@@ -266,25 +266,25 @@ _resting · Aug 04_
 
 <summary>AcceleratePSRO — nothing recorded yet</summary>
 
-_resting · Jun 22_
+_resting · Jun 21_
 
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 
-[AcceleratePSRO on the site](../research/projects/pick-your-battles/accelerate-psro-track.md)
+[AcceleratePSRO on the site](../overview/blogs/a-unified-perspective-of-advancements-in-the-unified-perspective-revisiting-psro.md)
 
 </details>
 
 
 ## What changed on this site
 
-* **14 minutes ago** — Re-render the board
-* **15 minutes ago** — Activity board: subfolder projects, heatmaps, Clockify, settings window
-* **23 minutes ago** — Refresh the activity board
-* **24 minutes ago** — activity board
+* **3 minutes ago** — Re-render the board
+* **3 minutes ago** — Name projects after their pages on the site
+* **16 minutes ago** — Refresh the activity board
+* **16 minutes ago** — Re-render the board
+* **17 minutes ago** — Activity board: subfolder projects, heatmaps, Clockify, settings window
+* **26 minutes ago** — Refresh the activity board
+* **26 minutes ago** — activity board
 * **2 days ago** — Create capture_changes.py
-* **4 days ago** — slides integration: one-step publish
-* **4 days ago** — ASU talk: embed the live slide viewer
-* **4 days ago** — ASU talk: keep multiple rows with arrows; add eager loading
 
-_Last looked at Aug 19, 23:10_
+_Last looked at Aug 19, 17:14_
