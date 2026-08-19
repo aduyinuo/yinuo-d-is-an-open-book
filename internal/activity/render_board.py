@@ -1,146 +1,124 @@
 #!/usr/bin/env python3
 """
-Turn activity.json into the activity board image and the page that carries it.
+Turn activity.json into the heatmaps and the page that carries them.
 
     python internal/activity/render_board.py
 
-Writes  content/.gitbook/assets/activity-board.png
+Writes  content/.gitbook/assets/activity-heatmap.png
+        content/.gitbook/assets/heat-<project>.png
         content/personal/what-is-she-up-to.md
 """
-import os, json, time, datetime
-import matplotlib
-matplotlib.use("Agg")
-import matplotlib.pyplot as plt
-from matplotlib.patches import FancyBboxPatch, Circle
-from matplotlib.offsetbox import OffsetImage, AnnotationBbox
-from PIL import Image, ImageDraw
+import os, re, json, time, datetime
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.abspath(os.path.join(HERE, "..", ".."))
+from config import HERE, ROOT, load
+import heatmap
+
 DATA = os.path.join(HERE, "activity.json")
 ASSETS = os.path.join(ROOT, "content", ".gitbook", "assets")
-BOARD = os.path.join(ASSETS, "activity-board.png")
+BIG = os.path.join(ASSETS, "activity-heatmap.png")
 PAGE = os.path.join(ROOT, "content", "personal", "what-is-she-up-to.md")
-AVATAR = os.path.join(ASSETS, "yinuo-du.png")
 
-D="#22452f"; M="#4a7c59"; L="#93b294"; VL="#e6efe4"; OFF="#e7ece7"
-INK="#1f2430"; MUTE="#8a9199"; OCH="#a8843c"
-
-STATE_COLOR = {"active": D, "recent": M, "idle": OFF, "unknown": OFF}
-STATE_WORD  = {"active": "at the desk", "recent": "warm",
-               "idle": "resting", "unknown": "not scanned"}
+STATE_WORD = {"active": "at the desk", "recent": "warm", "idle": "resting",
+              "missing": "folder missing"}
 
 
 def ago(ts):
     if not ts:
         return "—"
     d = time.time() - ts
-    if d < 3600:   return "%d minutes ago" % max(1, d // 60)
-    if d < 86400:  return "%d hours ago" % (d // 3600)
-    if d < 7*86400: return "%d days ago" % (d // 86400)
+    if d < 3600:
+        return "%d minutes ago" % max(1, d // 60)
+    if d < 86400:
+        return "%d hours ago" % (d // 3600)
+    if d < 7 * 86400:
+        return "%d days ago" % (d // 86400)
     return datetime.datetime.fromtimestamp(ts).strftime("%b %d")
 
 
-def round_avatar(path, px=150):
-    im = Image.open(path).convert("RGB")
-    s = min(im.size)
-    im = im.crop(((im.width-s)//2, (im.height-s)//2,
-                  (im.width-s)//2+s, (im.height-s)//2+s)).resize((px, px), Image.LANCZOS)
-    mask = Image.new("L", (px*4, px*4), 0)
-    ImageDraw.Draw(mask).ellipse((0, 0, px*4-1, px*4-1), fill=255)
-    out = Image.new("RGBA", (px, px), (0, 0, 0, 0))
-    out.paste(im, (0, 0), mask.resize((px, px), Image.LANCZOS))
-    return out
+def slug(s):
+    return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:48]
 
 
-def render(doc):
-    items = doc["projects"]
-    n = len(items)
-    fig, ax = plt.subplots(figsize=(9.6, 0.86*n + 2.2), dpi=170)
-    ax.set_xlim(0, 10); ax.set_ylim(-1.5, n + 0.9); ax.axis("off")
-
-    here = doc.get("here")
-    ax.text(0, n + 0.55, "What is she up to?", fontsize=16, fontweight="bold", color=D)
-    sub = ("At the desk on %s" % here) if here else "Away from the desk"
-    ax.text(0, n + 0.16, sub, fontsize=10.5, color=MUTE, style="italic")
-
-    av = None
-    if os.path.exists(AVATAR):
-        try: av = round_avatar(AVATAR, 150)
-        except Exception: av = None
-
-    for i, it in enumerate(items):
-        y = n - 1 - i
-        st = it.get("state", "idle")
-        ax.add_patch(FancyBboxPatch((0.9, y + 0.12), 8.9, 0.72,
-                     boxstyle="round,pad=0,rounding_size=0.16",
-                     fc=VL if st == "active" else "#f6f8f6", ec="none"))
-        ax.add_patch(Circle((0.62, y + 0.48), 0.16, fc=STATE_COLOR.get(st, OFF),
-                            ec="none", zorder=3))
-        ax.text(1.15, y + 0.62, it["project"], fontsize=11,
-                fontweight="bold" if st == "active" else "normal", color=D, va="center")
-        ax.text(1.15, y + 0.30, it["thread"], fontsize=8.4, color=MUTE, va="center")
-        what = it.get("what") or "nothing recorded yet"
-        ax.text(4.15, y + 0.62, what[:74], fontsize=9.2, color=INK, va="center")
-        ax.text(4.15, y + 0.30, "%s · %s" % (STATE_WORD.get(st, st), ago(it.get("at"))),
-                fontsize=8.4, color=OCH if st == "active" else MUTE, va="center")
-        if st == "active" and av is not None:
-            ax.add_artist(AnnotationBbox(OffsetImage(av, zoom=0.20),
-                          (0.30, y + 0.48), frameon=False, zorder=4))
-
-    stamp = datetime.datetime.fromtimestamp(doc.get("generated", time.time()))
-    ax.text(0, -1.0, "last looked at %s · each row is the most recent piece of real work, "
-            "not a count of events" % stamp.strftime("%b %d, %H:%M"),
-            fontsize=8.2, color=MUTE)
-    plt.tight_layout()
-    os.makedirs(ASSETS, exist_ok=True)
-    fig.savefig(BOARD, transparent=True, bbox_inches="tight", pad_inches=0.16)
-    plt.close(fig)
-
-
-def write_page(doc):
-    here = doc.get("here")
-    lines = ["---", "description: An Activity Board...", "---", "",
-             "# What is she up to?", ""]
-    lines.append("At the desk on **%s**." % here if here
-                 else "Away from the desk right now.")
-    lines.append("")
-    lines.append('<figure><img src="../.gitbook/assets/activity-board.png" '
-                 'alt="Activity board: each project with the last piece of work on it">'
-                 '<figcaption><p>Where the work actually is.</p></figcaption></figure>')
-    lines.append("")
-    lines.append("<table><thead><tr><th width=\"170\">Project</th>"
-                 "<th width=\"120\">State</th><th>Last piece of work</th></tr></thead><tbody>")
-    for it in doc["projects"]:
-        st = it.get("state", "idle")
-        link = '<a href="../%s">%s</a>' % (it["page"], it["project"]) if it.get("page") else it["project"]
-        mark = {"active": "at the desk", "recent": "warm",
-                "idle": "resting", "unknown": "not scanned"}.get(st, st)
-        what = it.get("what") or "—"
-        lines.append("<tr><td>%s<br><em>%s</em></td><td>%s</td><td>%s<br><em>%s</em></td></tr>"
-                     % (link, it["thread"], mark, what, ago(it.get("at"))))
-    lines.append("</tbody></table>")
-    lines.append("")
-    site = doc.get("site") or []
-    if site:
-        lines.append("## What changed on this site")
-        lines.append("")
-        for s in site[:8]:
-            lines.append("* **%s** — %s" % (ago(s["at"]), s["what"]))
-        lines.append("")
-    lines.append("_Last updated: %s_" %
-                 datetime.datetime.fromtimestamp(doc.get("generated", time.time())).strftime("%Y-%m"))
-    lines.append("")
-    open(PAGE, "w", encoding="utf-8", newline="\n").write("\n".join(lines))
+def esc(s):
+    return (s or "").replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
 def main():
     if not os.path.exists(DATA):
         raise SystemExit("No activity.json yet. Run collect_activity.py first.")
     doc = json.load(open(DATA, encoding="utf-8"))
-    render(doc)
-    write_page(doc)
-    print("board and page written")
+    cfg = load()
+    rng = doc.get("range", "6m")
+    custom = cfg.get("heatmap_custom")
+    projects = doc["projects"]
+
+    ticked = [p for p in projects if p.get("heatmap", True)]
+    total = heatmap.draw(ticked, BIG, rng, custom, title=None)
+
+    lines = ["---", "description: What I am working on, and what changed.", "---", "",
+             "# What is she up to?", ""]
+    here = doc.get("here")
+    lines.append("At the desk on **%s**." % esc(here) if here
+                 else "Away from the desk right now.")
+    lines += ["", '<figure><img src="../.gitbook/assets/activity-heatmap.png" '
+              'alt="Daily activity across projects"><figcaption><p>%s</p></figcaption>'
+              '</figure>' % heatmap.legend_line(total, rng, custom), ""]
+
+    group_of = {}
+    for p in projects:
+        group_of.setdefault(p.get("group") or "Other", []).append(p)
+    order = sorted(group_of, key=lambda g: -max(
+        (q["at"] or 0) for q in group_of[g]))
+
+    for g in order:
+        rows = sorted(group_of[g], key=lambda q: q["at"] or 0, reverse=True)
+        thread = rows[0].get("thread") or g
+        lines += ["## %s" % esc(thread), ""]
+        for p in rows:
+            lines += _project(p, rng, custom)
+        lines.append("")
+
+    site = doc.get("site") or []
+    if site:
+        lines += ["## What changed on this site", ""]
+        for s in site[:8]:
+            lines.append("* **%s** — %s" % (ago(s["at"]), esc(s["what"])))
+        lines.append("")
+
+    lines.append("_Last looked at %s_" % datetime.datetime.fromtimestamp(
+        doc.get("generated", time.time())).strftime("%b %d, %H:%M"))
+    lines.append("")
+    open(PAGE, "w", encoding="utf-8", newline="\n").write("\n".join(lines))
+    print("heatmaps and page written")
+
+
+def _project(p, rng, custom):
+    state = p.get("state", "idle")
+    head = p.get("update") or ("nothing recorded yet" if state != "missing"
+                               else "the folder is not where it was")
+    bits = [STATE_WORD.get(state, state), ago(p.get("at"))]
+    if p.get("hours_week"):
+        bits.append("%sh this week" % p["hours_week"])
+    summary = "%s — %s" % (esc(p["name"]), esc(head))
+
+    out = ["<details>", "", "<summary>%s</summary>" % summary, ""]
+    out.append("_%s_" % " · ".join(bits))
+    out.append("")
+
+    if (p.get("days") or p.get("hours")) and state != "missing":
+        mini = os.path.join(ASSETS, "heat-%s.png" % slug(p["name"]))
+        heatmap.draw([p], mini, rng, custom, cell=7, gap=2, labels=False)
+        out += ['<figure><img src="../.gitbook/assets/heat-%s.png" alt="Daily work on %s">'
+                '<figcaption></figcaption></figure>' % (slug(p["name"]), esc(p["name"])), ""]
+
+    for d in p.get("details", [])[:6]:
+        out.append("* **%s** — %s" % (ago(d["at"]), esc(d["what"])))
+    if p.get("hours_total"):
+        out.append("* %s hours logged in this window" % p["hours_total"])
+    if p.get("page"):
+        out += ["", "[%s](../%s)" % (esc(p.get("thread") or "the project page"), p["page"])]
+    out += ["", "</details>", ""]
+    return out
 
 
 if __name__ == "__main__":

@@ -1,71 +1,966 @@
 {
-  "generated": 1786751379,
+  "generated": 1787179453,
   "here": null,
+  "here_folder": null,
+  "range": "6m",
   "projects": [
     {
-      "project": "LucidWorld",
+      "folder": "READING NOTES",
+      "name": "READING NOTES",
+      "thread": "Across threads",
+      "group": "READING NOTES",
+      "page": "personal/overview.md",
+      "heatmap": true,
+      "at": 1786752809,
+      "state": "recent",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-08-14": 4
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 LucidWorld\\[2] 2026 learn_structure",
+      "name": "Learn structure",
       "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
       "page": "overview/3-year-agenda/cyber-world-modeling/",
-      "state": "unknown",
-      "what": "",
-      "at": null
+      "heatmap": true,
+      "at": 1786657999,
+      "state": "recent",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-07-05": 160,
+        "2026-07-24": 17,
+        "2026-07-06": 48,
+        "2026-07-21": 20,
+        "2026-07-28": 20,
+        "2026-07-29": 12,
+        "2026-08-03": 26,
+        "2026-06-24": 2,
+        "2026-06-26": 2,
+        "2026-07-01": 8,
+        "2026-07-25": 1,
+        "2026-07-26": 1,
+        "2026-08-05": 16,
+        "2026-08-06": 11,
+        "2026-08-09": 48,
+        "2026-08-13": 1,
+        "2026-08-10": 8,
+        "2026-08-04": 2,
+        "2026-08-08": 19
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
     },
     {
-      "project": "PickYourBattles",
-      "thread": "Cyber World Modeling",
-      "page": "overview/3-year-agenda/cyber-world-modeling/next.md",
-      "state": "unknown",
-      "what": "",
-      "at": null
-    },
-    {
-      "project": "DesignTheGame",
+      "folder": "2022-2026 ReadTheRoom\\[1] 2020-2026 Coty_Palvi_how_do_human_handle_relationships_in_networks",
+      "name": "Coty Palvi how do human handle relationships in networks",
       "thread": "Mental World Modeling",
-      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
-      "state": "unknown",
-      "what": "",
-      "at": null
-    },
-    {
-      "project": "ReadTheRoom",
-      "thread": "Mental World Modeling",
+      "group": "2022-2026 ReadTheRoom",
       "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/",
-      "state": "unknown",
-      "what": "",
-      "at": null
+      "heatmap": true,
+      "at": 1786349704,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-03-31": 21,
+        "2025-07-17": 8,
+        "2025-07-21": 9,
+        "2025-08-02": 4,
+        "2025-08-11": 8,
+        "2025-08-17": 26,
+        "2026-03-30": 14,
+        "2025-08-04": 10,
+        "2025-07-22": 24,
+        "2025-07-23": 8,
+        "2026-04-01": 7,
+        "2026-08-10": 126,
+        "2026-08-09": 6,
+        "2026-05-31": 1,
+        "2026-05-27": 1,
+        "2026-05-28": 7,
+        "2026-06-16": 1,
+        "2025-11-17": 1
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
     },
     {
-      "project": "UnitedForces",
-      "thread": "Human-AI Complementarity",
-      "page": "overview/3-year-agenda/human-ai-complementarity/",
-      "state": "unknown",
-      "what": "",
-      "at": null
+      "folder": "2025-2026 LucidWorld\\[3] 2026 when_world_model_defend_agent_fail",
+      "name": "When world model defend agent fail",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/",
+      "heatmap": true,
+      "at": 1786336126,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-08-09": 35
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
     },
     {
-      "project": "BeRealistic",
-      "thread": "Toward Deployment",
-      "page": "overview/3-year-agenda/toward-deployment/",
-      "state": "unknown",
-      "what": "",
-      "at": null
+      "folder": "2025-2026 DesignTheGame\\[2] 2026 Yansi_Ana_but_what_is_difficult",
+      "name": "Yansi Ana but what is difficult",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
+      "heatmap": true,
+      "at": 1786332725,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-07-18": 2,
+        "2026-07-15": 19,
+        "2026-07-16": 10,
+        "2026-07-17": 3,
+        "2026-02-03": 1,
+        "2026-03-03": 2,
+        "2026-05-29": 2,
+        "2026-08-03": 1,
+        "2026-08-06": 657,
+        "2026-08-09": 21,
+        "2026-08-07": 12,
+        "2026-07-06": 5
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
     },
     {
-      "project": "IRB",
+      "folder": "2025-2026 DesignTheGame\\[3] 2026 Ana_concensus_on_mental_operations_in_cs_problem_solving",
+      "name": "Ana concensus on mental operations in cs problem solving",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
+      "heatmap": true,
+      "at": 1786297376,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-08-09": 49,
+        "2026-08-07": 25,
+        "2026-07-06": 5,
+        "2026-07-15": 4
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "RESEARCH STATEMENT",
+      "name": "RESEARCH STATEMENT",
       "thread": "Across threads",
-      "page": "overview/3-year-agenda/",
-      "state": "unknown",
-      "what": "",
-      "at": null
-    },
-    {
-      "project": "Research statement",
-      "thread": "Across threads",
+      "group": "RESEARCH STATEMENT",
       "page": "research/overview.md",
-      "state": "unknown",
-      "what": "",
-      "at": null
+      "heatmap": true,
+      "at": 1786291660,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-06-22": 2,
+        "2026-07-06": 5,
+        "2026-07-15": 3,
+        "2026-08-09": 6,
+        "2026-08-08": 2
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
+      "name": "CTU UTEP sok what is real",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/",
+      "heatmap": true,
+      "at": 1786251050,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-08-04": 10,
+        "2026-06-16": 32,
+        "2026-03-19": 4,
+        "2026-07-06": 20,
+        "2026-07-15": 16,
+        "2026-02-21": 1,
+        "2026-06-24": 1,
+        "2026-07-07": 5,
+        "2026-07-08": 18,
+        "2026-07-10": 6,
+        "2026-07-11": 1,
+        "2026-07-23": 3,
+        "2026-08-08": 1606
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\chart-human-ai-team-defense",
+      "name": "Chart-human-ai-team-defense",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "heatmap": true,
+      "at": 1786250996,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-08-08": 13
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 LucidWorld\\[1] 2025-2026 sample_efficient_FOEDreamer",
+      "name": "Sample efficient FOEDreamer",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/",
+      "heatmap": true,
+      "at": 1786231785,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-05-03": 157,
+        "2026-08-08": 102,
+        "2026-02-21": 2,
+        "2026-04-03": 1,
+        "2025-11-05": 1,
+        "2025-11-06": 15,
+        "2026-04-22": 4,
+        "2025-12-06": 6,
+        "2025-10-21": 42,
+        "2026-06-18": 2,
+        "2026-04-23": 2,
+        "2026-05-27": 53,
+        "2026-04-30": 39,
+        "2026-04-29": 2,
+        "2026-05-01": 4,
+        "2026-05-26": 3
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2026 BeRealistic\\2025-2026 Aritran_sim2sim2real",
+      "name": "Aritran sim2sim2real",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/",
+      "heatmap": true,
+      "at": 1786048709,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-06-23": 5,
+        "2026-08-06": 1,
+        "2026-06-22": 1,
+        "2026-02-22": 82,
+        "2026-05-27": 581
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "IRB Applications\\utep irb logistics",
+      "name": "Utep irb logistics",
+      "thread": "Across threads",
+      "group": "IRB Applications",
+      "page": "overview/3-year-agenda/",
+      "heatmap": true,
+      "at": 1785866723,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-08-04": 1
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[2] 2026 Grace_team_dependencies",
+      "name": "Grace team dependencies",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "heatmap": true,
+      "at": 1784614488,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-07-21": 1,
+        "2026-03-23": 10,
+        "2026-07-13": 1,
+        "2026-04-24": 1,
+        "2026-01-12": 1,
+        "2026-04-06": 1,
+        "2026-04-16": 5,
+        "2026-04-17": 3,
+        "2026-04-15": 1,
+        "2026-04-19": 7,
+        "2026-04-03": 1,
+        "2025-11-22": 1
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[1] 2025-2026 testbed_CHART",
+      "name": "Testbed CHART",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "heatmap": true,
+      "at": 1784156686,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-03-28": 204,
+        "2025-11-11": 1,
+        "2026-03-08": 2,
+        "2026-03-12": 1,
+        "2026-03-16": 11,
+        "2026-03-22": 2,
+        "2026-03-09": 8,
+        "2026-07-06": 5,
+        "2026-07-15": 4
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 PickYourBattles\\2026 Chris_AcceleratePSRO",
+      "name": "Chris AcceleratePSRO",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 PickYourBattles",
+      "page": "overview/3-year-agenda/cyber-world-modeling/next.md",
+      "heatmap": true,
+      "at": 1782102682,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2025-09-13": 1,
+        "2025-09-25": 1,
+        "2025-10-02": 1,
+        "2025-10-03": 1,
+        "2025-10-09": 1,
+        "2025-10-20": 1,
+        "2025-11-03": 3,
+        "2025-11-04": 2,
+        "2025-11-06": 2,
+        "2025-11-10": 7,
+        "2025-11-16": 1,
+        "2025-11-20": 1,
+        "2025-11-21": 1,
+        "2025-12-02": 2,
+        "2025-12-11": 2,
+        "2025-12-15": 1,
+        "2025-12-16": 1,
+        "2025-12-30": 3,
+        "2025-12-31": 1,
+        "2026-01-03": 1,
+        "2026-01-05": 1,
+        "2026-01-07": 1,
+        "2026-02-17": 4,
+        "2026-03-09": 14,
+        "2026-03-13": 3,
+        "2025-09-16": 1,
+        "2025-09-17": 2,
+        "2025-09-15": 1,
+        "2026-03-29": 2,
+        "2026-02-22": 4,
+        "2026-03-15": 2,
+        "2026-03-16": 1,
+        "2026-03-23": 1,
+        "2026-06-21": 1
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[3] 2025-2026 Jaime_AgentFlow_for_pentesters",
+      "name": "Jaime AgentFlow for pentesters",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "heatmap": true,
+      "at": 1768163276,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {
+        "2026-01-11": 1
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2022-2026 ReadTheRoom\\[2] 2025-2026 Antti_Palvi_RL_based_attacker_behavior_modeling",
+      "name": "Antti Palvi RL based attacker behavior modeling",
+      "thread": "Mental World Modeling",
+      "group": "2022-2026 ReadTheRoom",
+      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/",
+      "heatmap": true,
+      "at": null,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {},
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
+      "name": "Aritran Jaime progressively more difficult",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
+      "heatmap": true,
+      "at": null,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {},
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "2026 BeRealistic\\2026 PaloAltoNetwork_emulators",
+      "name": "PaloAltoNetwork emulators",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/",
+      "heatmap": true,
+      "at": null,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {},
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
+    {
+      "folder": "testgit",
+      "name": "Testgit",
+      "thread": "testgit",
+      "group": "testgit",
+      "page": "",
+      "heatmap": true,
+      "at": null,
+      "state": "idle",
+      "update": "",
+      "details": [],
+      "days": {},
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
     }
   ],
-  "site": []
+  "site": [
+    {
+      "at": 1786998684,
+      "what": "Create capture_changes.py"
+    },
+    {
+      "at": 1786779372,
+      "what": "slides integration: one-step publish"
+    },
+    {
+      "at": 1786778596,
+      "what": "ASU talk: embed the live slide viewer"
+    },
+    {
+      "at": 1786778380,
+      "what": "ASU talk: keep multiple rows with arrows; add eager loading"
+    },
+    {
+      "at": 1786778146,
+      "what": "ASU talk: keep tabs, WebP images, eager loading"
+    },
+    {
+      "at": 1786777773,
+      "what": "ASU talk: drop tabs for anchored slides with prev/next, JPG to WebP"
+    },
+    {
+      "at": 1786777075,
+      "what": "Reading page: one table, per-row download links"
+    },
+    {
+      "at": 1786774125,
+      "what": "Reading page: list and download links only"
+    },
+    {
+      "at": 1786773823,
+      "what": "Reading page: remove unsolicited commentary under the download boxes"
+    },
+    {
+      "at": 1786773569,
+      "what": "Reading page: download boxes with the actual PDFs"
+    },
+    {
+      "at": 1786762486,
+      "what": "Reading page: mark two entries whose free-access status is unconfirmed; add diagram references to internal"
+    },
+    {
+      "at": 1786761972,
+      "what": "Reading bundle: 63 verified papers on the reading page, two-tier by argument"
+    },
+    {
+      "at": 1786752548,
+      "what": "Record the language rule for decks: source wording from notes, drafts, and cited papers"
+    },
+    {
+      "at": 1786752526,
+      "what": "Add the photo pipeline: ingest, curate, and build photo walls"
+    },
+    {
+      "at": 1786751411,
+      "what": "Add the activity board: collector, renderer, refresh script, and workflow"
+    },
+    {
+      "at": 1786751239,
+      "what": "Remove the duplicated projects table on Work With Me"
+    },
+    {
+      "at": 1786750876,
+      "what": "Add a double-clickable script that publishes the slides integration"
+    },
+    {
+      "at": 1786750655,
+      "what": "Show the ASU talk as a click-through tab block: one slide per tab with its narration"
+    },
+    {
+      "at": 1786750507,
+      "what": "Render the ASU talk into the page itself: slide images with narration, no embed needed"
+    },
+    {
+      "at": 1786749878,
+      "what": "Complete the GitBook integration: url unfurl, webframe render, manifest and build config"
+    },
+    {
+      "at": 1786749752,
+      "what": "Declare oEmbed and player metadata so the deck renders as a live embed"
+    },
+    {
+      "at": 1786749176,
+      "what": "Publish slide decks into the gh-pages branch that Pages actually serves"
+    },
+    {
+      "at": 1786748727,
+      "what": "Publish the ASU brown bag talk as annotated slides; write deck images as separate files"
+    },
+    {
+      "at": 1786748480,
+      "what": "Add PowerPoint-to-annotated-slides pipeline: drop a .pptx in slides-source and push"
+    },
+    {
+      "at": 1786748334,
+      "what": "Remove auto-generated slide decks and their page sections"
+    },
+    {
+      "at": 1786748251,
+      "what": "Enable and deploy GitHub Pages from docs/ via Actions, no manual setting"
+    },
+    {
+      "at": 1786747874,
+      "what": "Add annotated slide decks per project, embedded via a GitBook webframe integration"
+    },
+    {
+      "at": 1786745881,
+      "what": "Use the repo's standard table markup for collaborator panels so cells stay in one row"
+    },
+    {
+      "at": 1786745697,
+      "what": "Shrink collaborator avatars to 48px; resolve Anantaa Kotal and Thomas Guerra"
+    },
+    {
+      "at": 1786745237,
+      "what": "Use real headshots in collaborator panels and reduce avatar size"
+    },
+    {
+      "at": 1786744518,
+      "what": "Render collaborator panels as a row of circular headshots with affiliation"
+    },
+    {
+      "at": 1786744158,
+      "what": "Point the CV download at the provided CV file instead of a generated one"
+    },
+    {
+      "at": 1786743966,
+      "what": "Work With Me: add the meta-learning, factored world model, and PSRO project"
+    },
+    {
+      "at": 1786743900,
+      "what": "Re-derive Work With Me project blurbs from the restored thread pages"
+    },
+    {
+      "at": 1786743763,
+      "what": "Restore the thread synthesis and Next pages, and research overview, to the authored versions"
+    },
+    {
+      "at": 1786743698,
+      "what": "Add downloadable CV PDF and file block on the CV page"
+    },
+    {
+      "at": 1786743000,
+      "what": "Work With Me: state up front that positions are unpaid volunteer roles"
+    },
+    {
+      "at": 1786742806,
+      "what": "Fill Work With Me: openings table plus per-project blurbs with role and skill expectations"
+    },
+    {
+      "at": 1786742353,
+      "what": "Latest news: show four recent entries, collapse older ones into an expandable"
+    },
+    {
+      "at": 1786742191,
+      "what": "Make Latest news a fixed-width scrolling window showing ~4 entries"
+    },
+    {
+      "at": 1786708137,
+      "what": "Rewrite research overview and four thread syntheses in plain register"
+    },
+    {
+      "at": 1786708102,
+      "what": "Rewrite research overview and thread syntheses in plain register; remove trajectory diagram"
+    },
+    {
+      "at": 1786705844,
+      "what": "Weave physical-world/mental-world framing (intent, attention, context) into overview + mental thread"
+    },
+    {
+      "at": 1786705217,
+      "what": "Rewrite research overview + thread syntheses: puzzle -> work so far -> open questions"
+    },
+    {
+      "at": 1786703229,
+      "what": "Tag the AAAI Symposium Series paper as a workshop; venue lines already carry the rest"
+    },
+    {
+      "at": 1786702805,
+      "what": "Relabel the badge IJCAI-W so a workshop reads distinct from the IJCAI main conference"
+    },
+    {
+      "at": 1786702717,
+      "what": "Decoys paper is an IJCAI 2021 workshop; Evidence paper is HICSS â€” fix venue badges everywhere"
+    },
+    {
+      "at": 1786702573,
+      "what": "Yansi is Yansi Keim"
+    },
+    {
+      "at": 1786702230,
+      "what": "SIGCSE-V CTF: Ana is Anantaa Kotal; complete author list on publications and the CTF page"
+    },
+    {
+      "at": 1786702124,
+      "what": "SIGCSE-V poster: add Aritran Piplai and Jaime Acosta to the author list"
+    },
+    {
+      "at": 1786702102,
+      "what": "You are first author on the SIGCSE-V poster"
+    },
+    {
+      "at": 1786702048,
+      "what": "Kaizen proposal is to TRI; add the known author list to the SIGCSE-V poster"
+    },
+    {
+      "at": 1786701891,
+      "what": "Add the SIGCSE-V CTF poster to the Posters table; stub the Kaizen row in the proposal table"
+    },
+    {
+      "at": 1786701224,
+      "what": "Add real photos for Mingming Chen and Xin Fan Guo; correct Mingming's affiliation to UT Dallas"
+    },
+    {
+      "at": 1786701066,
+      "what": "Hotlink real speaker headshots for the spring lineup; correct affiliations from source pages"
+    },
+    {
+      "at": 1786700602,
+      "what": "Move Jeongkeun Shin to guest talks (CMU)"
+    },
+    {
+      "at": 1786700573,
+      "what": "Remove the five unconfirmed spring speakers"
+    },
+    {
+      "at": 1786700528,
+      "what": "Add Mingming Chen and Yongzhao Wang profile links to the spring lineup"
+    },
+    {
+      "at": 1786700459,
+      "what": "2026 Spring: weekly Friday dates from the UTEP calendar, photo column with tiles, Siyu Liu link"
+    },
+    {
+      "at": 1786700038,
+      "what": "Reformat the 2026 Spring reading group into the Fall guest-talks / student-presentations layout"
+    },
+    {
+      "at": 1786699899,
+      "what": "Fill the Teach section: overview, CMU Future Faculty Program, 2025 Fall guest lectures"
+    },
+    {
+      "at": 1786699831,
+      "what": "Rebuild venue badges at fixed width with wrapping so the font size is uniform"
+    },
+    {
+      "at": 1786699741,
+      "what": "Add publication and collaborator panels to the environment pages that host my work; a Related pointer on CyberVAN"
+    },
+    {
+      "at": 1786699626,
+      "what": "Drop the status column from the 2026 Spring schedule"
+    },
+    {
+      "at": 1786699563,
+      "what": "Turn the 2026 Spring reading group into a full schedule with status column"
+    },
+    {
+      "at": 1786697765,
+      "what": "Fill the 2026 Spring reading group with the confirmed speaker lineup"
+    },
+    {
+      "at": 1786696954,
+      "what": "Expand each Artifact into a section with a mockup, design, and use, built from the code"
+    },
+    {
+      "at": 1786696291,
+      "what": "Add journal reviewing and the AI Challenge judging to Service"
+    },
+    {
+      "at": 1786696058,
+      "what": "Add the proposal submissions table and two more mentee links"
+    },
+    {
+      "at": 1786695862,
+      "what": "Link the mentees I could verify"
+    },
+    {
+      "at": 1786695655,
+      "what": "Point the downloads at live public copies instead of hosted assets"
+    },
+    {
+      "at": 1786695380,
+      "what": "Plain download links"
+    },
+    {
+      "at": 1786695295,
+      "what": "Wire download links for the redistributable PDFs"
+    },
+    {
+      "at": 1786694818,
+      "what": "Build out the Resources shelf from the growth folder into subpages, and record the URI award"
+    },
+    {
+      "at": 1786694415,
+      "what": "Add a figure to each of the six cyber environment pages"
+    },
+    {
+      "at": 1786693817,
+      "what": "Build the activity board for What is she up to?"
+    },
+    {
+      "at": 1786693641,
+      "what": "Fill Mentor, Service, CV, Resources and Funding pages from the application package and the growth shelf"
+    },
+    {
+      "at": 1786693423,
+      "what": "Rewrite CHART from the book chapter, add publication and collaborator panels to every project page, polish the research overview"
+    },
+    {
+      "at": 1786692674,
+      "what": "Rewrite the realism page from the Metrion poster and animate its methodology figure"
+    },
+    {
+      "at": 1786692344,
+      "what": "CyberAgentTrace: animate the pivoting engagement and the recorded inefficiencies"
+    },
+    {
+      "at": 1786691879,
+      "what": "Fill the six environment pages and the benchmarks index with a comparison animation"
+    },
+    {
+      "at": 1786691026,
+      "what": "Fill the Research overview and the five section landing pages"
+    },
+    {
+      "at": 1786690853,
+      "what": "Biased Attacker and Training in Realistic Environments: animations and pages"
+    },
+    {
+      "at": 1786689689,
+      "what": "When We Say A Realistic Cyber Environment: animate the key-idea domain-gap figure"
+    },
+    {
+      "at": 1786688602,
+      "what": "CHART page: animate the dependency graph, approval routing, explanation panel, and routed chat"
+    },
+    {
+      "at": 1786688185,
+      "what": "Team Defense Game: animate the human-agent interaction channels"
+    },
+    {
+      "at": 1786687401,
+      "what": "Contact page: compose-style block with a prefilled mail link; drop the broken Statements link"
+    },
+    {
+      "at": 1786687276,
+      "what": "Winter survival: show the discussion and the CogSci findings; General CS: add a live problem-solving graph"
+    },
+    {
+      "at": 1786686647,
+      "what": "Split Problem-Solving into three subpages, each with its own animation"
+    },
+    {
+      "at": 1786686200,
+      "what": "Social Intelligence page: IPD network and partner categorisation animations"
+    },
+    {
+      "at": 1786685954,
+      "what": "Strategic Structure page: animated dependence map and opponent probe"
+    },
+    {
+      "at": 1786685679,
+      "what": "Adversary page: B-line and Meander animated side by side"
+    },
+    {
+      "at": 1786685445,
+      "what": "Move the FOE-Dreamer animation onto the Environment page; drop the extra page"
+    },
+    {
+      "at": 1786685282,
+      "what": "Add FOE-Dreamer page with an animated version of the paper architecture"
+    },
+    {
+      "at": 1786683651,
+      "what": "Publications: resolve the merge, set columns to 100/400, ACSAC review status, correct the Psych Review title"
+    },
+    {
+      "at": 1786683434,
+      "what": "Publications: keep the 2023 AAAI entry on a generic AAAI Symposium badge"
+    },
+    {
+      "at": 1786683350,
+      "what": "Publications: link K. Singh; mark the AAAI entry as an extended abstract"
+    },
+    {
+      "at": 1786683113,
+      "what": "Publications: link T. Malloy and J. Acosta"
+    },
+    {
+      "at": 1786682929,
+      "what": "Publications: restore the per-year tables, with the book chapter included"
+    },
+    {
+      "at": 1786682824,
+      "what": "Publications: drop the table, one stacked entry per paper; add the book chapter"
+    },
+    {
+      "at": 1786682664,
+      "what": "Publications: green only, venue and link badges, your name bolded, preprint co-authors"
+    },
+    {
+      "at": 1786682390,
+      "what": "Publications: single table, no inline image badges"
+    },
+    {
+      "at": 1786682161,
+      "what": "Publications: venue badges, coloured titles, co-author links, paper links, real preprint titles"
+    },
+    {
+      "at": 1786681623,
+      "what": "Publications: coloured cards with short venue labels, preprints section, RAISE paper and book chapter"
+    },
+    {
+      "at": 1786680820,
+      "what": "Fill Publications and the transfer page; add a publications map and an animated transfer diagram"
+    },
+    {
+      "at": 1786679798,
+      "what": "Set a uniform 90px width on the reading-group photos"
+    },
+    {
+      "at": 1786679775,
+      "what": "Normalize speaker and organizer photos to square 220px thumbnails"
+    },
+    {
+      "at": 1786679428,
+      "what": "Fix reading-group image paths after the page move; put the 2025 Fall sessions on the 2025 Fall page"
+    },
+    {
+      "at": 1786678942,
+      "what": "Complete the 2025-2026 reading group sessions from the shared calendar; show all three calendars on the Calendar page"
+    },
+    {
+      "at": 1786678533,
+      "what": "Home: scrollable Latest news, transparent photo background, drop Start here"
+    },
+    {
+      "at": 1786678295,
+      "what": "Add co-organizer and speaker photos, and the AAAI symposium paper"
+    },
+    {
+      "at": 1786673909,
+      "what": "Add AAAI Summer Symposium and CyberAI Reading Group pages under Community"
+    },
+    {
+      "at": 1786673451,
+      "what": "Use GitBook embed block for the Google Calendar on the Calendar page"
+    },
+    {
+      "at": 1786673328,
+      "what": "Add Calendar page with Google Calendar embed; add Latest news to the home page"
+    },
+    {
+      "at": 1786669534,
+      "what": "Remove internal-facing language from the public site; add photo and contact page"
+    },
+    {
+      "at": 1786666215,
+      "what": "Disable internal-facing GitBook content"
+    },
+    {
+      "at": 1786664915,
+      "what": "Clean: remove internal/private pages, keep only public research, tools, teaching, statements content"
+    }
+  ]
 }

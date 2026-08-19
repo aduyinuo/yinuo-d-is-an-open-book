@@ -20,3 +20,12 @@ npm-debug.log
 internal/reading/pdfs/
 __pycache__/
 *.pyc
+
+# Activity board working files (local only; snapshot holds unpublished text)
+internal/activity/snapshot.json
+internal/activity/changes.json
+internal/activity/answers.json
+internal/activity/updates.json
+internal/activity/clockify.json
+internal/activity/last_asked.json
+internal/activity/secrets.json

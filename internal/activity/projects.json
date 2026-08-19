@@ -1,0 +1,270 @@
+{
+  "research_root": "G:\\Other computers\\My Mac\\[2025-2026][postdoc][utep]\\[2] Research Projects",
+  "heatmap_range": "6m",
+  "projects": [
+    {
+      "folder": "2022-2026 ReadTheRoom\\[1] 2020-2026 Coty_Palvi_how_do_human_handle_relationships_in_networks",
+      "name": "Coty Palvi how do human handle relationships in networks",
+      "thread": "Mental World Modeling",
+      "group": "2022-2026 ReadTheRoom",
+      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2022-2026 ReadTheRoom\\[2] 2025-2026 Antti_Palvi_RL_based_attacker_behavior_modeling",
+      "name": "Antti Palvi RL based attacker behavior modeling",
+      "thread": "Mental World Modeling",
+      "group": "2022-2026 ReadTheRoom",
+      "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
+      "name": "Aritran Jaime progressively more difficult",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 DesignTheGame\\[2] 2026 Yansi_Ana_but_what_is_difficult",
+      "name": "Yansi Ana but what is difficult",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 DesignTheGame\\[3] 2026 Ana_concensus_on_mental_operations_in_cs_problem_solving",
+      "name": "Ana concensus on mental operations in cs problem solving",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 LucidWorld\\[1] 2025-2026 sample_efficient_FOEDreamer",
+      "name": "Sample efficient FOEDreamer",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 LucidWorld\\[2] 2026 learn_structure",
+      "name": "Learn structure",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 LucidWorld\\[3] 2026 when_world_model_defend_agent_fail",
+      "name": "When world model defend agent fail",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 PickYourBattles\\2026 Chris_AcceleratePSRO",
+      "name": "Chris AcceleratePSRO",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 PickYourBattles",
+      "page": "overview/3-year-agenda/cyber-world-modeling/next.md",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[1] 2025-2026 testbed_CHART",
+      "name": "Testbed CHART",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[2] 2026 Grace_team_dependencies",
+      "name": "Grace team dependencies",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[3] 2025-2026 Jaime_AgentFlow_for_pentesters",
+      "name": "Jaime AgentFlow for pentesters",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\[Proposal][April 2027] Microsoft Future of Work - Shortcut.lnk",
+      "name": "[Proposal][April 2027] Microsoft Future of Work",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "clockify": "",
+      "watch": false,
+      "heatmap": false,
+      "alias": true
+    },
+    {
+      "folder": "2025-2026 UnitedForces\\chart-human-ai-team-defense",
+      "name": "Chart-human-ai-team-defense",
+      "thread": "Human-AI Complementarity",
+      "group": "2025-2026 UnitedForces",
+      "page": "overview/3-year-agenda/human-ai-complementarity/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2026 BeRealistic\\2025-2026 Aritran_sim2sim2real",
+      "name": "Aritran sim2sim2real",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
+      "name": "CTU UTEP sok what is real",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "2026 BeRealistic\\2026 PaloAltoNetwork_emulators",
+      "name": "PaloAltoNetwork emulators",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "IRB Applications\\chart -- human-AI team defense",
+      "name": "Chart -- human-AI team defense",
+      "thread": "Across threads",
+      "group": "IRB Applications",
+      "page": "overview/3-year-agenda/",
+      "clockify": "",
+      "watch": false,
+      "heatmap": false,
+      "alias": true
+    },
+    {
+      "folder": "IRB Applications\\ctf designer and participants",
+      "name": "Ctf designer and participants",
+      "thread": "Across threads",
+      "group": "IRB Applications",
+      "page": "overview/3-year-agenda/",
+      "clockify": "",
+      "watch": false,
+      "heatmap": false,
+      "alias": true
+    },
+    {
+      "folder": "IRB Applications\\future of work - research assistants, postdocs, and professors",
+      "name": "Future of work - research assistants, postdocs, and professors",
+      "thread": "Across threads",
+      "group": "IRB Applications",
+      "page": "overview/3-year-agenda/",
+      "clockify": "",
+      "watch": false,
+      "heatmap": false,
+      "alias": true
+    },
+    {
+      "folder": "IRB Applications\\utep irb logistics",
+      "name": "Utep irb logistics",
+      "thread": "Across threads",
+      "group": "IRB Applications",
+      "page": "overview/3-year-agenda/",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "READING NOTES",
+      "name": "READING NOTES",
+      "thread": "Across threads",
+      "group": "READING NOTES",
+      "page": "personal/overview.md",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "RESEARCH STATEMENT",
+      "name": "RESEARCH STATEMENT",
+      "thread": "Across threads",
+      "group": "RESEARCH STATEMENT",
+      "page": "research/overview.md",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    },
+    {
+      "folder": "testgit",
+      "name": "Testgit",
+      "thread": "testgit",
+      "group": "testgit",
+      "page": "",
+      "clockify": "",
+      "watch": true,
+      "heatmap": true,
+      "alias": false
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 @echo off
 setlocal
 title Refresh the activity board
-cd /d "%~dp0"
+cd /d "%~dp0internal\activity"
 
 echo Looking at what you have been working on...
 echo.
@@ -13,12 +13,20 @@ if errorlevel 1 (
   exit /b 1
 )
 
-python -m pip install --quiet python-pptx matplotlib pillow >nul 2>&1
+python -m pip install --quiet matplotlib pillow >nul 2>&1
 
-python internal\activity\collect_activity.py
+python capture_changes.py
 if errorlevel 1 goto :fail
 
-python internal\activity\render_board.py
+python summarize_changes.py
+if errorlevel 1 goto :fail
+
+python ask_max.py
+
+python collect_activity.py
+if errorlevel 1 goto :fail
+
+python render_board.py
 if errorlevel 1 goto :fail
 
 echo.
@@ -29,6 +37,6 @@ exit /b 0
 
 :fail
 echo.
-echo Something went wrong above.
+echo Something went wrong above. Nothing was published.
 pause
 exit /b 1
