@@ -43,7 +43,7 @@ _warm · 6 days ago_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -99,7 +99,7 @@ _resting · —_
 
 <summary>What Makes a Problem Difficult — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
 
@@ -155,7 +155,7 @@ _resting · Aug 09_
 
 <summary>What Is a Realistic Cyber Environment — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
 
@@ -195,7 +195,7 @@ _resting · —_
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
@@ -266,25 +266,25 @@ _resting · Aug 04_
 
 <summary>AcceleratePSRO — nothing recorded yet</summary>
 
-_resting · Jun 22_
+_resting · Jun 21_
 
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 
-[AcceleratePSRO on the site](../research/projects/pick-your-battles/accelerate-psro-track.md)
+[AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
 
 </details>
 
 
 ## What changed on this site
 
-* **3 minutes ago** — Re-render the board
-* **3 minutes ago** — Point projects at their real pages on the 3-year agenda
-* **6 minutes ago** — Refresh the activity board
-* **6 minutes ago** — Re-render the board
-* **7 minutes ago** — Name projects after their pages on the site
-* **19 minutes ago** — Refresh the activity board
-* **20 minutes ago** — Re-render the board
-* **21 minutes ago** — Activity board: subfolder projects, heatmaps, Clockify, settings window
+* **1 minutes ago** — Re-render the board
+* **2 minutes ago** — Keep projects off the blog pages
+* **4 minutes ago** — Refresh the activity board
+* **4 minutes ago** — Re-render the board
+* **5 minutes ago** — Point projects at their real pages on the 3-year agenda
+* **7 minutes ago** — Refresh the activity board
+* **8 minutes ago** — Re-render the board
+* **8 minutes ago** — Name projects after their pages on the site
 
-_Last looked at Aug 19, 23:17_
+_Last looked at Aug 19, 17:19_

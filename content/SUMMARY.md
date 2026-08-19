@@ -11,6 +11,7 @@
     * [Cyber World Modeling](overview/3-year-agenda/cyber-world-modeling/README.md)
       * [FOE-Dreamer](overview/3-year-agenda/cyber-world-modeling/environment.md)
       * [Learn Structure](overview/3-year-agenda/cyber-world-modeling/strategic-structure.md)
+      * [AcceleratePSRO](overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
       * [Next](overview/3-year-agenda/cyber-world-modeling/next.md)
     * [Mental World Modeling](overview/3-year-agenda/mental-world-modeling/README.md)
       * [Problem-Solving](overview/3-year-agenda/mental-world-modeling/problem-solving/README.md)

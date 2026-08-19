@@ -1,5 +1,5 @@
 {
-  "generated": 1787181476,
+  "generated": 1787181599,
   "here": null,
   "here_folder": null,
   "range": "6m",
@@ -364,7 +364,7 @@
       "name": "AcceleratePSRO",
       "thread": "Cyber World Modeling",
       "group": "2025-2026 PickYourBattles",
-      "page": "research/projects/pick-your-battles/accelerate-psro-track.md",
+      "page": "overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md",
       "heatmap": true,
       "at": 1782102682,
       "state": "idle",
@@ -478,6 +478,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787181505,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787181493,
+      "what": "Keep projects off the blog pages"
+    },
+    {
+      "at": 1787181357,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787181329,
       "what": "Re-render the board"
