@@ -43,7 +43,7 @@ _warm · 6 days ago_
 
 <summary>When world model defend agent fail — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-when-world-model-defend-agent-fail.png" alt="Daily work on When world model defend agent fail"><figcaption></figcaption></figure>
 
@@ -99,7 +99,7 @@ _resting · —_
 
 <summary>Yansi Ana but what is difficult — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-yansi-ana-but-what-is-difficult.png" alt="Daily work on Yansi Ana but what is difficult"><figcaption></figcaption></figure>
 
@@ -155,7 +155,7 @@ _resting · Aug 09_
 
 <summary>CTU UTEP sok what is real — nothing recorded yet</summary>
 
-_resting · Aug 08_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-ctu-utep-sok-what-is-real.png" alt="Daily work on CTU UTEP sok what is real"><figcaption></figcaption></figure>
 
@@ -195,7 +195,7 @@ _resting · —_
 
 <summary>Chart-human-ai-team-defense — nothing recorded yet</summary>
 
-_resting · Aug 08_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-chart-human-ai-team-defense.png" alt="Daily work on Chart-human-ai-team-defense"><figcaption></figcaption></figure>
 
@@ -266,7 +266,7 @@ _resting · Aug 04_
 
 <summary>Chris AcceleratePSRO — nothing recorded yet</summary>
 
-_resting · Jun 21_
+_resting · Jun 22_
 
 <figure><img src="../.gitbook/assets/heat-chris-acceleratepsro.png" alt="Daily work on Chris AcceleratePSRO"><figcaption></figcaption></figure>
 
@@ -299,4 +299,4 @@ _resting · —_
 * **4 days ago** — ASU talk: drop tabs for anchored slides with prev/next, JPG to WebP
 * **4 days ago** — Reading page: one table, per-row download links
 
-_Last looked at Aug 19, 16:53_
+_Last looked at Aug 19, 22:53_
