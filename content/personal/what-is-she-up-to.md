@@ -279,7 +279,7 @@ _resting · Jun 21_
 ## What changed on this site
 
 * **2 minutes ago** — Re-render the board
-* **2 minutes ago** — Point projects at their real pages on the 3-year agenda
+* **3 minutes ago** — Point projects at their real pages on the 3-year agenda
 * **5 minutes ago** — Refresh the activity board
 * **6 minutes ago** — Re-render the board
 * **6 minutes ago** — Name projects after their pages on the site
