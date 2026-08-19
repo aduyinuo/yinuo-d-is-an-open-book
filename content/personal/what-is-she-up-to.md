@@ -43,7 +43,7 @@ _warm · 6 days ago_
 
 <summary>When world model defend agent fail — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-when-world-model-defend-agent-fail.png" alt="Daily work on When world model defend agent fail"><figcaption></figcaption></figure>
 
@@ -99,7 +99,7 @@ _resting · —_
 
 <summary>Yansi Ana but what is difficult — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-yansi-ana-but-what-is-difficult.png" alt="Daily work on Yansi Ana but what is difficult"><figcaption></figcaption></figure>
 
@@ -155,7 +155,7 @@ _resting · Aug 09_
 
 <summary>CTU UTEP sok what is real — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-ctu-utep-sok-what-is-real.png" alt="Daily work on CTU UTEP sok what is real"><figcaption></figcaption></figure>
 
@@ -195,7 +195,7 @@ _resting · —_
 
 <summary>Chart-human-ai-team-defense — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-chart-human-ai-team-defense.png" alt="Daily work on Chart-human-ai-team-defense"><figcaption></figcaption></figure>
 
@@ -266,7 +266,7 @@ _resting · Aug 04_
 
 <summary>Chris AcceleratePSRO — nothing recorded yet</summary>
 
-_resting · Jun 22_
+_resting · Jun 21_
 
 <figure><img src="../.gitbook/assets/heat-chris-acceleratepsro.png" alt="Daily work on Chris AcceleratePSRO"><figcaption></figcaption></figure>
 
@@ -290,6 +290,7 @@ _resting · —_
 
 ## What changed on this site
 
+* **5 minutes ago** — activity board
 * **2 days ago** — Create capture_changes.py
 * **4 days ago** — slides integration: one-step publish
 * **4 days ago** — ASU talk: embed the live slide viewer
@@ -297,6 +298,5 @@ _resting · —_
 * **4 days ago** — ASU talk: keep tabs, WebP images, eager loading
 * **4 days ago** — ASU talk: drop tabs for anchored slides with prev/next, JPG to WebP
 * **4 days ago** — Reading page: one table, per-row download links
-* **4 days ago** — Reading page: list and download links only
 
-_Last looked at Aug 19, 22:44_
+_Last looked at Aug 19, 16:53_
