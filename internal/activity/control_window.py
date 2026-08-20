@@ -14,8 +14,8 @@ from tkinter import ttk, filedialog, messagebox
 import config
 import clockify
 
-RANGE_LABELS = [("1 month", "1m"), ("3 months", "3m"), ("6 months", "6m"),
-                ("1 year", "1y"), ("All time", "all"), ("Custom…", "custom")]
+RANGE_LABELS = [("This week", "1w"), ("1 month", "1m"), ("3 months", "3m"),
+                ("6 months", "6m"), ("1 year", "1y"), ("Custom…", "custom")]
 
 
 class Window:

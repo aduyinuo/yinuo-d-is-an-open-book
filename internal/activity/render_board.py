@@ -56,8 +56,8 @@ def main():
 
     # One image per range, shown as GitBook tabs. GitBook runs no scripts on a
     # page, so tabs are the only way to change the range without a rebuild.
-    ranges = [("1 month", "1m"), ("6 months", "6m"), ("1 year", "1y"),
-              ("All time", "all")]
+    ranges = [("This week", "1w"), ("1 month", "1m"), ("6 months", "6m"),
+              ("1 year", "1y")]
     if rng not in [k for _l, k in ranges]:
         ranges.insert(0, ("Custom", rng))
     ranges.sort(key=lambda t: t[1] != rng)        # the chosen range leads

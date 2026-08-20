@@ -17,7 +17,7 @@ LEVELS = ["#ebedf0", "#9be9a8", "#40c463", "#30a14e", "#216e39"]
 LEVELS_DARK_EMPTY = "#ebedf0"
 MUTE = "#8a9199"
 
-RANGES = {"1m": 31, "3m": 92, "6m": 183, "1y": 365, "all": 1460}
+RANGES = {"1w": 7, "1m": 31, "3m": 92, "6m": 183, "1y": 365}
 
 
 def window(range_key, custom=None):
@@ -79,8 +79,12 @@ def _level(v, cuts):
 
 def draw(projects, out_path, range_key="6m", custom=None, cell=11, gap=3,
          labels=True, title=None):
-    """Write a heatmap PNG. Returns the total weight it drew."""
+    """Write a heatmap PNG. Returns the hours logged inside the window."""
     first, last = window(range_key, custom)
+    if (last - first).days <= 20:
+        # A fortnight in week-columns is one thin sliver. Lay the days out
+        # left to right instead, the way a week actually reads.
+        return _strip(projects, out_path, first, last, cell, gap, labels)
     tally = _tally(projects, first, last)
     total_hours = hours_in(projects, first, last)
 
@@ -127,11 +131,44 @@ def draw(projects, out_path, range_key="6m", custom=None, cell=11, gap=3,
 
 def legend_line(total_hours, range_key, custom=None):
     first, last = window(range_key, custom)
-    span = {"1m": "the last month", "3m": "the last three months",
-            "6m": "the last six months", "1y": "the last year",
-            "all": "all time"}.get(range_key)
+    span = {"1w": "the last week", "1m": "the last month",
+            "3m": "the last three months", "6m": "the last six months",
+            "1y": "the last year"}.get(range_key)
     if not span:
         span = "%s to %s" % (first.strftime("%b %d, %Y"), last.strftime("%b %d, %Y"))
     if total_hours > 0:
         return "%d hours logged in %s" % (round(total_hours), span)
     return "Work across %s" % span
+
+
+def _strip(projects, out_path, first, last, cell, gap, labels):
+    """Short ranges: one row of days, left to right, named."""
+    tally = _tally(projects, first, last)
+    cuts = _cuts(tally)
+    days = [first + datetime.timedelta(days=i) for i in range((last - first).days + 1)]
+
+    box = cell * 2.2
+    unit = (box + gap * 2) / 72.0
+    fig, ax = plt.subplots(figsize=(len(days) * unit, unit + 0.5), dpi=170)
+    ax.set_xlim(0, len(days))
+    ax.set_ylim(0, 1.75)
+    ax.axis("off")
+    ax.invert_yaxis()
+
+    for i, day in enumerate(days):
+        lv = _level(tally.get(day.isoformat(), 0.0), cuts)
+        ax.add_patch(FancyBboxPatch(
+            (i + 0.06, 0.62), 0.88, 0.88,
+            boxstyle="round,pad=0,rounding_size=0.16",
+            fc=LEVELS[lv], ec="none"))
+        if labels:
+            ax.text(i + 0.5, 0.52, day.strftime("%a")[0], fontsize=7.6,
+                    color=MUTE, ha="center", va="bottom")
+            ax.text(i + 0.5, 0.24, day.strftime("%d"), fontsize=7.2,
+                    color=MUTE, ha="center", va="bottom")
+
+    plt.subplots_adjust(0, 0, 1, 1)
+    os.makedirs(os.path.dirname(out_path), exist_ok=True)
+    fig.savefig(out_path, transparent=True, bbox_inches="tight", pad_inches=0.05)
+    plt.close(fig)
+    return hours_in(projects, first, last)
