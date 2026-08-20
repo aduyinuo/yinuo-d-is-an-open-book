@@ -89,6 +89,23 @@ class Window:
         self.tree.tag_configure("off", foreground="#9a9a9a")
         self.tree.bind("<Double-1>", self.on_double)
 
+    def check_mappings(self):
+        """Warn about a Clockify name that no longer matches a real project.
+
+        Names carry a leading "* " on favourites; a mapping that drops it
+        matches nothing and the hours silently vanish.
+        """
+        if len(self.clock_names) <= 1:
+            return
+        real = set(self.clock_names)
+        bad = [p["name"] for p in self.doc["projects"]
+               if p.get("clockify") and p["clockify"] not in real]
+        if bad:
+            messagebox.showwarning(
+                "Clockify names",
+                "These map to a Clockify project that does not exist, so they "
+                "will show no hours:\n\n  " + "\n  ".join(bad))
+
     def reload_table(self):
         self.tree.delete(*self.tree.get_children())
         for i, p in enumerate(self.doc["projects"]):
@@ -212,6 +229,7 @@ class Window:
             self.clock_names = [""] + [n for _i, n in clockify.projects(key)]
             self.key_msg.set(msg + " %d projects available."
                              % (len(self.clock_names) - 1))
+            self.check_mappings()
 
     # ---------- save ----------
     def _buttons(self, parent):

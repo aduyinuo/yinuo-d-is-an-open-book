@@ -30,7 +30,7 @@
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md",
-      "clockify": "",
+      "clockify": "CORE - 2 - III - Progressive Problem Design",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -41,7 +41,7 @@
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "research/projects/design-the-game/difficulty-lineage.md",
-      "clockify": "",
+      "clockify": "CORE - 2 - IV - What Makes a Problem Difficult",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -52,7 +52,7 @@
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md",
-      "clockify": "CORE - 2 - II - Mental WM for Problem Solving",
+      "clockify": "* CORE - 2 - II - Mental WM for Problem Solving",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -63,7 +63,7 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
       "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
-      "clockify": "CORE - 1 - I : FOE-Dreamer",
+      "clockify": "* CORE - 1 - I : FOE-Dreamer",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -74,7 +74,7 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
       "page": "overview/3-year-agenda/cyber-world-modeling/strategic-structure.md",
-      "clockify": "CORE - 1 - II - Learn Structure",
+      "clockify": "* CORE - 1 - II - Learn Structure",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -85,7 +85,7 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
       "page": "research/projects/lucid-world/world-model-failure-track.md",
-      "clockify": "CORE - 1 - III - SecureCausalWM",
+      "clockify": "* CORE - 1 - III - SecureCausalWM",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -96,7 +96,7 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 PickYourBattles",
       "page": "overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md",
-      "clockify": "CORE - 1 - IV : Accelerate PSRO",
+      "clockify": "* CORE - 1 - IV : Accelerate PSRO",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -107,7 +107,7 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "overview/3-year-agenda/human-ai-complementarity/chart.md",
-      "clockify": "CORE - 4 - Human Experiment: CHART",
+      "clockify": "* CORE - 4 - Human Experiment: CHART",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -140,7 +140,7 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "research/proposals/proposal-portfolio-timeline.md",
-      "clockify": "",
+      "clockify": "OVERHEAD: Proposal - Microsoft Future of Work",
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -184,7 +184,7 @@
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
       "page": "research/projects/be-realistic/emulator-track.md",
-      "clockify": "",
+      "clockify": "COLLAB - I: Emulators (Palo Alto)",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -195,7 +195,7 @@
       "thread": "Across threads",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "",
+      "clockify": "OVERHEAD: IRB - CHART",
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -206,7 +206,7 @@
       "thread": "Across threads",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "",
+      "clockify": "OVERHEAD: IRB - CTF Study",
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -217,7 +217,7 @@
       "thread": "Across threads",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "",
+      "clockify": "OVERHEAD: IRB - Future of Work",
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -228,7 +228,7 @@
       "thread": "Across threads",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "",
+      "clockify": "OVERHEAD: IRB - UTEP Logistics",
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -250,7 +250,7 @@
       "thread": "Across threads",
       "group": "RESEARCH STATEMENT",
       "page": "research/projects/research-statement/overview.md",
-      "clockify": "CAREER: Research Agenda & Strategic Planning",
+      "clockify": "* CAREER: Research Agenda & Strategic Planning",
       "watch": true,
       "heatmap": true,
       "alias": false

@@ -1,5 +1,5 @@
 {
-  "generated": 1787181956,
+  "generated": 1787197602,
   "here": null,
   "here_folder": null,
   "range": "6m",
@@ -17,42 +17,6 @@
       "details": [],
       "days": {
         "2026-08-14": 4
-      },
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
-    },
-    {
-      "folder": "2025-2026 LucidWorld\\[2] 2026 learn_structure",
-      "name": "Learn Structure",
-      "thread": "Cyber World Modeling",
-      "group": "2025-2026 LucidWorld",
-      "page": "overview/3-year-agenda/cyber-world-modeling/strategic-structure.md",
-      "heatmap": true,
-      "at": 1786657999,
-      "state": "recent",
-      "update": "",
-      "details": [],
-      "days": {
-        "2026-07-05": 160,
-        "2026-07-24": 17,
-        "2026-07-06": 48,
-        "2026-07-21": 20,
-        "2026-07-28": 20,
-        "2026-07-29": 12,
-        "2026-08-03": 26,
-        "2026-06-24": 2,
-        "2026-06-26": 2,
-        "2026-07-01": 8,
-        "2026-07-25": 1,
-        "2026-07-26": 1,
-        "2026-08-05": 16,
-        "2026-08-06": 11,
-        "2026-08-09": 48,
-        "2026-08-13": 1,
-        "2026-08-10": 8,
-        "2026-08-04": 2,
-        "2026-08-08": 19
       },
       "hours": {},
       "hours_week": 0,
@@ -182,7 +146,7 @@
       "heatmap": true,
       "at": 1786291660,
       "state": "idle",
-      "update": "",
+      "update": "Next steps and key questions in HAT projects",
       "details": [],
       "days": {
         "2026-06-22": 2,
@@ -191,9 +155,19 @@
         "2026-08-09": 6,
         "2026-08-08": 2
       },
-      "hours": {},
+      "hours": {
+        "2026-05-05": 67.29,
+        "2026-04-18": 2.56,
+        "2026-04-11": 1.03,
+        "2026-04-10": 2.17,
+        "2026-04-07": 0.19,
+        "2026-04-06": 0.83,
+        "2026-04-02": 1.8,
+        "2026-03-29": 0.36,
+        "2026-03-11": 0.88
+      },
       "hours_week": 0,
-      "hours_total": 0
+      "hours_total": 77.1
     },
     {
       "folder": "2025-2026 UnitedForces\\chart-human-ai-team-defense",
@@ -208,39 +182,6 @@
       "details": [],
       "days": {
         "2026-08-08": 13
-      },
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
-    },
-    {
-      "folder": "2025-2026 LucidWorld\\[1] 2025-2026 sample_efficient_FOEDreamer",
-      "name": "FOE-Dreamer",
-      "thread": "Cyber World Modeling",
-      "group": "2025-2026 LucidWorld",
-      "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
-      "heatmap": true,
-      "at": 1786231785,
-      "state": "idle",
-      "update": "",
-      "details": [],
-      "days": {
-        "2026-05-03": 157,
-        "2026-08-08": 102,
-        "2026-02-21": 2,
-        "2026-04-03": 1,
-        "2025-11-05": 1,
-        "2025-11-06": 15,
-        "2026-04-22": 4,
-        "2025-12-06": 6,
-        "2025-10-21": 42,
-        "2026-06-18": 2,
-        "2026-04-23": 2,
-        "2026-05-27": 53,
-        "2026-04-30": 39,
-        "2026-04-29": 2,
-        "2026-05-01": 4,
-        "2026-05-26": 3
       },
       "hours": {},
       "hours_week": 0,
@@ -283,6 +224,61 @@
       "hours_total": 16.6
     },
     {
+      "folder": "2025-2026 LucidWorld\\[2] 2026 learn_structure",
+      "name": "Learn Structure",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/strategic-structure.md",
+      "heatmap": true,
+      "at": 1786013100,
+      "state": "idle",
+      "update": "first time using the touch screen of yoga, it frees up creativity.",
+      "details": [
+        {
+          "at": 1786013100,
+          "what": "logged 2.8h — first time using the touch screen of yoga, it frees up creativity."
+        }
+      ],
+      "days": {
+        "2026-07-05": 160,
+        "2026-07-24": 17,
+        "2026-07-06": 48,
+        "2026-07-21": 20,
+        "2026-07-28": 20,
+        "2026-07-29": 12,
+        "2026-08-03": 26,
+        "2026-06-24": 2,
+        "2026-06-26": 2,
+        "2026-07-01": 8,
+        "2026-07-25": 1,
+        "2026-07-26": 1,
+        "2026-08-05": 16,
+        "2026-08-06": 11,
+        "2026-08-09": 48,
+        "2026-08-13": 1,
+        "2026-08-10": 8,
+        "2026-08-04": 2,
+        "2026-08-08": 19
+      },
+      "hours": {
+        "2026-08-06": 5.5,
+        "2026-08-05": 18.1,
+        "2026-08-04": 6.74,
+        "2026-08-03": 3.34,
+        "2026-07-30": 7.71,
+        "2026-07-29": 7.37,
+        "2026-07-28": 6.4,
+        "2026-07-27": 17.28,
+        "2026-07-26": 6.02,
+        "2026-07-25": 4.93,
+        "2026-07-24": 15.25,
+        "2026-07-22": 2.69,
+        "2026-07-21": 13.52
+      },
+      "hours_week": 0,
+      "hours_total": 114.9
+    },
+    {
       "folder": "IRB Applications\\utep irb logistics",
       "name": "IRB Logistics",
       "thread": "Across threads",
@@ -309,7 +305,7 @@
       "heatmap": true,
       "at": 1784156686,
       "state": "idle",
-      "update": "",
+      "update": "Found out who is the mean editor and made a plan. Now I have to put this down to attend to another project. I will be done with that by 5 and be done with this by 6:30. So I can get another 4 hours on my core project and 1 hour to think about the collaboration with Maria.",
       "details": [],
       "days": {
         "2026-03-28": 204,
@@ -322,9 +318,34 @@
         "2026-07-06": 5,
         "2026-07-15": 4
       },
-      "hours": {},
+      "hours": {
+        "2026-04-07": 1.07,
+        "2026-04-01": 1.0,
+        "2026-03-31": 0.5,
+        "2026-03-25": 3.53,
+        "2026-03-22": 5.24,
+        "2026-03-19": 1.95,
+        "2026-03-16": 3.25,
+        "2026-03-13": 3.03,
+        "2026-03-11": 0.25,
+        "2026-03-10": 0.27,
+        "2026-03-09": 8.11,
+        "2026-03-08": 2.72,
+        "2026-03-07": 0.99,
+        "2026-03-05": 0.35,
+        "2026-03-04": 1.99,
+        "2026-03-02": 0.5,
+        "2026-01-27": 1.61,
+        "2026-01-21": 1.03,
+        "2026-01-14": 1.56,
+        "2026-01-13": 0.37,
+        "2026-01-12": 1.09,
+        "2026-01-06": 0.38,
+        "2026-01-04": 0.6,
+        "2026-01-02": 0.23
+      },
       "hours_week": 0,
-      "hours_total": 0
+      "hours_total": 41.6
     },
     {
       "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
@@ -423,10 +444,19 @@
       "group": "2025-2026 PickYourBattles",
       "page": "overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md",
       "heatmap": true,
-      "at": 1782102682,
+      "at": 1775740260,
       "state": "idle",
-      "update": "",
-      "details": [],
+      "update": "An extended search from the three papers.",
+      "details": [
+        {
+          "at": 1775740260,
+          "what": "logged 1.1h — An extended search from the three papers."
+        },
+        {
+          "at": 1775703201,
+          "what": "logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants"
+        }
+      ],
       "days": {
         "2025-09-13": 1,
         "2025-09-25": 1,
@@ -463,9 +493,57 @@
         "2026-03-23": 1,
         "2026-06-21": 1
       },
-      "hours": {},
+      "hours": {
+        "2026-04-12": 15.28,
+        "2026-04-09": 3.51,
+        "2026-04-08": 2.17,
+        "2026-04-07": 1.76,
+        "2026-04-06": 6.28,
+        "2026-04-05": 8.61,
+        "2026-04-03": 3.31,
+        "2026-04-02": 1.51,
+        "2026-03-30": 2.42,
+        "2026-03-29": 3.18,
+        "2026-03-27": 6.24,
+        "2026-03-26": 1.02,
+        "2026-03-25": 2.49,
+        "2026-03-24": 2.54,
+        "2026-03-23": 2.2,
+        "2026-03-17": 0.17,
+        "2026-03-16": 1.95,
+        "2026-03-15": 1.5,
+        "2026-03-13": 7.42,
+        "2026-03-12": 1.36,
+        "2026-03-11": 3.64,
+        "2026-03-10": 1.02,
+        "2026-03-09": 1.12,
+        "2026-02-24": 4.16,
+        "2026-02-23": 1.5,
+        "2026-02-22": 1.07,
+        "2026-02-20": 1.39,
+        "2026-02-19": 7.37,
+        "2026-02-18": 1.47,
+        "2026-02-17": 1.92,
+        "2026-02-15": 4.48,
+        "2026-02-13": 3.24,
+        "2026-02-12": 26.59,
+        "2026-01-29": 2.27,
+        "2026-01-28": 3.93,
+        "2026-01-27": 0.66,
+        "2026-01-26": 0.84,
+        "2026-01-25": 8.56,
+        "2026-01-24": 4.08,
+        "2026-01-23": 5.17,
+        "2026-01-21": 5.95,
+        "2026-01-20": 5.04,
+        "2026-01-19": 6.72,
+        "2026-01-18": 3.7,
+        "2026-01-16": 8.9,
+        "2026-01-14": 6.92,
+        "2026-01-13": 6.37
+      },
       "hours_week": 0,
-      "hours_total": 0
+      "hours_total": 203.0
     },
     {
       "folder": "2025-2026 UnitedForces\\[2] 2026 Grace_team_dependencies",
@@ -544,6 +622,46 @@
       "hours_total": 13.2
     },
     {
+      "folder": "2025-2026 LucidWorld\\[1] 2025-2026 sample_efficient_FOEDreamer",
+      "name": "FOE-Dreamer",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
+      "heatmap": true,
+      "at": 1771731930,
+      "state": "idle",
+      "update": "A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.",
+      "details": [
+        {
+          "at": 1771731930,
+          "what": "logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem."
+        }
+      ],
+      "days": {
+        "2026-05-03": 157,
+        "2026-08-08": 102,
+        "2026-02-21": 2,
+        "2026-04-03": 1,
+        "2025-11-05": 1,
+        "2025-11-06": 15,
+        "2026-04-22": 4,
+        "2025-12-06": 6,
+        "2025-10-21": 42,
+        "2026-06-18": 2,
+        "2026-04-23": 2,
+        "2026-05-27": 53,
+        "2026-04-30": 39,
+        "2026-04-29": 2,
+        "2026-05-01": 4,
+        "2026-05-26": 3
+      },
+      "hours": {
+        "2026-02-22": 1.87
+      },
+      "hours_week": 0,
+      "hours_total": 1.9
+    },
+    {
       "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
       "name": "Progressive Problem Design",
       "thread": "Mental World Modeling",
@@ -577,6 +695,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787181999,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787181994,
+      "what": "Wire in Clockify, and fix the heatmap shading"
+    },
+    {
+      "at": 1787181649,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787181620,
       "what": "Re-render the board"

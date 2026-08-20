@@ -137,3 +137,52 @@ if __name__ == "__main__":
         for name, rows in sorted(by.items()):
             print("  %-32s %5.1fh  %s" % (name, sum(r["hours"] for r in rows),
                                           rows[0]["what"][:40] if rows else ""))
+
+
+def post_entry(project_name, description, start_ts, end_ts):
+    """
+    Log a block of time against a project. Returns (ok, message).
+
+    Used by the popup when you tell it what you were doing on work Clockify has
+    no entry for. Nothing is ever posted without you typing the description and
+    pressing Save.
+    """
+    import datetime as _dt
+    k = key()
+    if not k:
+        return False, "No Clockify key."
+    if not project_name:
+        return False, "Project is not mapped to Clockify."
+    try:
+        me = _get("/user", k)
+        ws = me["activeWorkspace"]
+        pid = None
+        for i, n in projects(k):
+            if n == project_name:
+                pid = i
+                break
+        if not pid:
+            return False, "No Clockify project called %s." % project_name
+
+        def iso(ts):
+            return _dt.datetime.utcfromtimestamp(int(ts)).strftime("%Y-%m-%dT%H:%M:%SZ")
+
+        body = json.dumps({"start": iso(start_ts), "end": iso(end_ts),
+                           "projectId": pid, "description": description,
+                           "billable": False}).encode()
+        req = urllib.request.Request(
+            BASE + "/workspaces/%s/time-entries" % ws, data=body, method="POST",
+            headers={"X-Api-Key": k, "Content-Type": "application/json"})
+        with urllib.request.urlopen(req, timeout=30) as r:
+            r.read()
+    except urllib.error.HTTPError as e:
+        return False, "Clockify refused it (%s)." % e.code
+    except Exception as e:
+        return False, "Could not reach Clockify: %s" % e
+    hours = (int(end_ts) - int(start_ts)) / 3600.0
+    if os.path.exists(CACHE):
+        try:
+            os.remove(CACHE)           # so the next read sees what was just logged
+        except OSError:
+            pass
+    return True, "Logged %.2fh to %s." % (hours, project_name)

@@ -170,11 +170,23 @@ def main():
         elif details:
             headline = details[0]["what"]
 
+        # The window of real work this run picked up, from the file timestamps.
+        stamps = [int(f["at"]) for f in (ch["files"] if ch else [])]
+        window = {"from": min(stamps), "to": max(stamps)} if stamps else None
+
+        # Ask when work happened and Clockify has nothing covering it. That is
+        # the case Max named: prompt when he is not actively logging.
+        covered = bool(window) and any(
+            e["at"] >= window["from"] - 3600 for e in logged)
         out[folder] = {
             "headline": headline,
             "details": details[:6],
-            "needs_asking": bool(unnamed) and not headline,
-            "unnamed": unnamed[:6],
+            "needs_asking": bool(window) and not covered,
+            "unnamed": (unnamed or [f["file"] for f in (ch["files"] if ch else [])])[:6],
+            "guess": headline if not covered else "",
+            "clockify": p.get("clockify", ""),
+            "name": p["name"],
+            "window": window,
             "at": max([d["at"] for d in details], default=None),
         }
 
