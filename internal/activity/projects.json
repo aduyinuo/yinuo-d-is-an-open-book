@@ -254,6 +254,25 @@
       "watch": true,
       "heatmap": true,
       "alias": false
+    },
+    {
+      "folder": "C:\\Open Book",
+      "name": "The Website",
+      "thread": "Across threads",
+      "group": "Across threads",
+      "page": "site-dev-log.md",
+      "clockify": "OVERHEAD: Open Book (website)",
+      "watch": true,
+      "heatmap": true,
+      "alias": false,
+      "exclude": [
+        "internal/activity",
+        "content/.gitbook/assets",
+        "docs",
+        "node_modules",
+        "slides-source",
+        "integrations/slides/node_modules"
+      ]
     }
   ]
 }

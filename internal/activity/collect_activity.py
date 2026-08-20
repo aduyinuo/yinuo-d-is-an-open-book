@@ -13,7 +13,7 @@ board of blanks.
 """
 import os, re, json, time, datetime, subprocess, sys
 
-from config import HERE, ROOT, load, path_of, watched
+from config import HERE, ROOT, load, path_of, watched, excluded
 import clockify
 
 OUT = os.path.join(HERE, "activity.json")
@@ -34,7 +34,7 @@ SKIP_FILE = re.compile(
 DAY = 86400
 
 
-def scan(folder, horizon_days=400):
+def scan(folder, project=None, horizon_days=400):
     """(newest mtime, {day: touches}) for the real working files under folder."""
     newest, days = None, {}
     cutoff = time.time() - horizon_days * DAY
@@ -45,6 +45,8 @@ def scan(folder, horizon_days=400):
                 continue
             p = os.path.join(dirpath, f)
             if NOISE_PATH.search(p):
+                continue
+            if project and excluded(project, os.path.relpath(p, folder)):
                 continue
             try:
                 m = os.path.getmtime(p)
@@ -109,7 +111,7 @@ def main():
                             "hours_week": 0.0, "hours_total": 0.0})
             continue
 
-        newest, days = scan(folder)
+        newest, days = scan(folder, p)
 
         hours = {}
         for e in rows:

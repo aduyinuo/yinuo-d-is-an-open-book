@@ -50,6 +50,9 @@ def clause(f):
     if f.get("how") == "deleted":
         return "removed %s" % os.path.basename(name)
 
+    if f.get("how") == "created" and ext in (".tex", ".md", ".txt"):
+        return "added %s" % _stem(name)          # not every heading inside it
+
     if ext in (".tex", ".md", ".txt"):
         bits = []
         heads = (_names(add, r"\\(?:sub)*section\*?\{([^}]{2,60})\}") +

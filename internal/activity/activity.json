@@ -1,9 +1,35 @@
 {
-  "generated": 1787197602,
-  "here": null,
-  "here_folder": null,
+  "generated": 1787198162,
+  "here": "The Website",
+  "here_folder": "C:\\Open Book",
   "range": "6m",
   "projects": [
+    {
+      "folder": "C:\\Open Book",
+      "name": "The Website",
+      "thread": "Across threads",
+      "group": "Across threads",
+      "page": "site-dev-log.md",
+      "heatmap": true,
+      "at": 1787198110,
+      "state": "active",
+      "update": "opened the 2026-08 — Activity board section",
+      "details": [
+        {
+          "at": 1787198110,
+          "what": "opened the 2026-08 — Activity board section"
+        }
+      ],
+      "days": {
+        "2026-08-19": 18,
+        "2026-08-15": 8,
+        "2026-08-14": 198,
+        "2026-08-17": 70
+      },
+      "hours": {},
+      "hours_week": 0,
+      "hours_total": 0
+    },
     {
       "folder": "READING NOTES",
       "name": "What to Read",
@@ -695,6 +721,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787197647,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787197640,
+      "what": "Post time entries from the popup, and fix the starred-name mismatch"
+    },
+    {
+      "at": 1787182025,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787181999,
       "what": "Re-render the board"

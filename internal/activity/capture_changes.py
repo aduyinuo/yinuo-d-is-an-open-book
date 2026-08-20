@@ -17,7 +17,7 @@ correct: there is no before.
 """
 import os, re, json, time, hashlib, difflib, subprocess
 
-from config import HERE, ROOT, load, path_of, watched
+from config import HERE, ROOT, load, path_of, watched, excluded
 
 SNAP = os.path.join(HERE, "snapshot.json")
 OUT = os.path.join(HERE, "changes.json")
@@ -149,21 +149,27 @@ def main():
         if not os.path.isdir(root):
             continue
         touched, seen = [], set()
+        # A project added to the board since the last run has no before. Record
+        # it and say nothing, rather than announcing every file as created.
+        first_time = not any(k.startswith(p["folder"] + "|") for k in prev)
         for path in walk(root):
             st = state_of(path)
             if st is None:
                 continue
-            key = p["folder"] + "|" + os.path.relpath(path, root)
+            rel = os.path.relpath(path, root)
+            if excluded(p, rel):
+                continue
+            key = p["folder"] + "|" + rel
             seen.add(key)
             snapshot[key] = st
             was = prev.get(key)
             if was is None:
-                if prev_run:                     # only new against a real before
-                    touched.append({"file": os.path.relpath(path, root),
+                if prev_run and not first_time:  # only new against a real before
+                    touched.append({"file": rel,
                                     "how": "created", "at": st["mtime"],
                                     **diff_lines("", st["text"] or "", limit=40)})
             elif was["hash"] != st["hash"]:
-                touched.append({"file": os.path.relpath(path, root),
+                touched.append({"file": rel,
                                 "how": "edited", "at": st["mtime"],
                                 **diff_lines(was.get("text"), st["text"])})
         for key in prev:

@@ -56,11 +56,27 @@ Without a key everything else still works; the hours are simply absent.
 
 ## The popup
 
-`ask_max.py` opens at most **once an hour**, and only for a project where
-Clockify has no entry and the diff said nothing usable. It never asks twice
-about the same set of files. Skipping or closing it is fine.
+`ask_max.py` opens at most **once an hour**, and only for a project that did
+work Clockify has no entry covering. Each row carries the description (prefilled
+from the diff), an editable hours figure guessed from the file timestamps, and a
+tick naming the Clockify project.
+
+**Save posts the entry to Clockify.** Nothing is ever posted without a
+description you typed and Save pressed — Skip and closing the window post
+nothing. It never asks twice about the same set of files.
 
 `python ask_max.py --now` ignores the hour.
+
+## Excludes
+
+A project can carry an `exclude` list in `projects.json`, of paths relative to
+its folder. The website project uses it so the board does not report on its own
+generated output:
+
+    "exclude": ["internal/activity", "content/.gitbook/assets", "docs"]
+
+A project added to the board after the last run is baselined quietly on its
+first pass, rather than announcing every file it contains as new.
 
 ## The pipeline
 

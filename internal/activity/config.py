@@ -127,6 +127,7 @@ def load():
             p.setdefault("watch", True)
             p.setdefault("heatmap", True)
             p.setdefault("group", os.path.dirname(p.get("folder", "")))
+            p.setdefault("exclude", [])
         return doc
     doc = {"research_root": DEFAULT_RESEARCH, "heatmap_range": "6m",
            "projects": discover(DEFAULT_RESEARCH)}
@@ -159,3 +160,17 @@ def load_secrets():
 def save_secrets(d):
     with open(SECRETS, "w", encoding="utf-8", newline="\n") as fh:
         json.dump(d, fh, indent=2)
+
+
+def excluded(project, rel_path):
+    """True when a path inside a project is one the board should ignore.
+
+    A project that contains the board's own output would otherwise report on
+    itself every run.
+    """
+    rel = rel_path.replace("\\", "/").lower()
+    for ex in project.get("exclude", []):
+        e = ex.replace("\\", "/").lower().strip("/")
+        if rel == e or rel.startswith(e + "/"):
+            return True
+    return False
