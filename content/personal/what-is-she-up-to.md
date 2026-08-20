@@ -62,7 +62,7 @@ _resting · Jul 06_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -90,11 +90,11 @@ _resting · Aug 06_
 
 <summary>FOE-Dreamer — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to…</summary>
 
-_resting · Feb 21_
+_resting · Feb 22_
 
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
-* **Feb 21** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
+* **Feb 22** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
 * 1.9 hours logged in this window
 
 [FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
@@ -108,7 +108,7 @@ _resting · Feb 21_
 
 <summary>What Makes a Problem Difficult — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
 
@@ -165,7 +165,7 @@ _resting · Aug 09_
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 08_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
@@ -291,7 +291,7 @@ _resting · Apr 09_
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 * **Apr 09** — logged 1.1h — An extended search from the three papers.
-* **Apr 08** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
+* **Apr 09** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
 * 203.0 hours logged in this window
 
 [AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
@@ -310,4 +310,4 @@ _resting · Apr 09_
 * **4 hours ago** — Re-render the board
 * **4 hours ago** — Keep projects off the blog pages
 
-_Last looked at Aug 19, 21:46_
+_Last looked at Aug 20, 03:46_
