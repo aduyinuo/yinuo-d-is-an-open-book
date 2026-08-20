@@ -1,5 +1,5 @@
 {
-  "generated": 1787198162,
+  "generated": 1787198508,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -7,7 +7,7 @@
     {
       "folder": "C:\\Open Book",
       "name": "The Website",
-      "thread": "Across threads",
+      "thread": "Writing and upkeep",
       "group": "Across threads",
       "page": "site-dev-log.md",
       "heatmap": true,
@@ -33,7 +33,7 @@
     {
       "folder": "READING NOTES",
       "name": "What to Read",
-      "thread": "Across threads",
+      "thread": "Writing and upkeep",
       "group": "READING NOTES",
       "page": "personal/overview.md",
       "heatmap": true,
@@ -166,7 +166,7 @@
     {
       "folder": "RESEARCH STATEMENT",
       "name": "Research Statement",
-      "thread": "Across threads",
+      "thread": "Writing and upkeep",
       "group": "RESEARCH STATEMENT",
       "page": "research/projects/research-statement/overview.md",
       "heatmap": true,
@@ -307,7 +307,7 @@
     {
       "folder": "IRB Applications\\utep irb logistics",
       "name": "IRB Logistics",
-      "thread": "Across threads",
+      "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
       "heatmap": true,
@@ -721,6 +721,22 @@
     }
   ],
   "site": [
+    {
+      "at": 1787198212,
+      "what": "Refresh the activity board"
+    },
+    {
+      "at": 1787198182,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787198176,
+      "what": "Track the site repo itself as a project"
+    },
+    {
+      "at": 1787197678,
+      "what": "Refresh the activity board"
+    },
     {
       "at": 1787197647,
       "what": "Re-render the board"

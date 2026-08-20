@@ -34,6 +34,13 @@ def window(range_key, custom=None):
     return today - datetime.timedelta(days=days - 1), today
 
 
+def hours_in(projects, first, last):
+    """Hours actually logged inside the window, not the lifetime total."""
+    lo, hi = first.isoformat(), last.isoformat()
+    return sum(float(h) for p in projects
+               for d, h in (p.get("hours") or {}).items() if lo <= d <= hi)
+
+
 def _tally(projects, first, last):
     """{day: weight} summed over the given projects, clipped to the window."""
     out = {}
@@ -75,7 +82,7 @@ def draw(projects, out_path, range_key="6m", custom=None, cell=11, gap=3,
     """Write a heatmap PNG. Returns the total weight it drew."""
     first, last = window(range_key, custom)
     tally = _tally(projects, first, last)
-    total_hours = sum(sum((p.get("hours") or {}).values()) for p in projects)
+    total_hours = hours_in(projects, first, last)
 
     start = first - datetime.timedelta(days=(first.weekday() + 1) % 7)   # back to Sunday
     weeks = ((last - start).days // 7) + 1

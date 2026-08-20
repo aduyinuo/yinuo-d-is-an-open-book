@@ -188,7 +188,8 @@ class Window:
         ttk.Label(row, textvariable=self.custom_var,
                   foreground="#777").pack(side="left", padx=(10, 0))
         ttk.Label(parent, text="Double-click a row to change it. "
-                  "Watch = scanned at all. Heatmap = counted in the big one.",
+                  "Watch = scanned at all. Heatmap = counted in the big one. "
+                  "The page shows every range as a tab; this one leads.",
                   foreground="#777").pack(anchor="w", pady=(6, 0))
 
     def on_range(self):

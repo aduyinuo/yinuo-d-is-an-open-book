@@ -192,7 +192,7 @@
     {
       "folder": "IRB Applications\\chart -- human-AI team defense",
       "name": "CHART IRB",
-      "thread": "Across threads",
+      "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
       "clockify": "OVERHEAD: IRB - CHART",
@@ -203,7 +203,7 @@
     {
       "folder": "IRB Applications\\ctf designer and participants",
       "name": "CTF Study IRB",
-      "thread": "Across threads",
+      "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
       "clockify": "OVERHEAD: IRB - CTF Study",
@@ -214,7 +214,7 @@
     {
       "folder": "IRB Applications\\future of work - research assistants, postdocs, and professors",
       "name": "Future of Work IRB",
-      "thread": "Across threads",
+      "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
       "clockify": "OVERHEAD: IRB - Future of Work",
@@ -225,7 +225,7 @@
     {
       "folder": "IRB Applications\\utep irb logistics",
       "name": "IRB Logistics",
-      "thread": "Across threads",
+      "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
       "clockify": "OVERHEAD: IRB - UTEP Logistics",
@@ -236,7 +236,7 @@
     {
       "folder": "READING NOTES",
       "name": "What to Read",
-      "thread": "Across threads",
+      "thread": "Writing and upkeep",
       "group": "READING NOTES",
       "page": "personal/overview.md",
       "clockify": "",
@@ -247,7 +247,7 @@
     {
       "folder": "RESEARCH STATEMENT",
       "name": "Research Statement",
-      "thread": "Across threads",
+      "thread": "Writing and upkeep",
       "group": "RESEARCH STATEMENT",
       "page": "research/projects/research-statement/overview.md",
       "clockify": "* CAREER: Research Agenda & Strategic Planning",
@@ -258,7 +258,7 @@
     {
       "folder": "C:\\Open Book",
       "name": "The Website",
-      "thread": "Across threads",
+      "thread": "Writing and upkeep",
       "group": "Across threads",
       "page": "site-dev-log.md",
       "clockify": "OVERHEAD: Open Book (website)",

@@ -6,26 +6,36 @@ description: What I am working on, and what changed.
 
 At the desk on **The Website**.
 
-<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects"><figcaption><p>581 hours logged in the last six months</p></figcaption></figure>
+{% tabs %}
+{% tab title="6 months" %}
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>459 hours logged in the last six months</p></figcaption></figure>
+{% endtab %}
+{% tab title="1 month" %}
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>121 hours logged in the last month</p></figcaption></figure>
+{% endtab %}
+{% tab title="1 year" %}
+<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>581 hours logged in the last year</p></figcaption></figure>
+{% endtab %}
+{% tab title="All time" %}
+<figure><img src="../.gitbook/assets/activity-heatmap-all.png" alt="Daily activity across projects, all time"><figcaption><p>581 hours logged in all time</p></figcaption></figure>
+{% endtab %}
+{% endtabs %}
 
-## Across threads
+#### Writing and upkeep
 
 <details>
 
 <summary>The Website — opened the 2026-08 — Activity board section</summary>
 
-_at the desk · 1 minutes ago_
+_at the desk · 7 minutes ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **1 minutes ago** — opened the 2026-08 — Activity board section
+* **7 minutes ago** — opened the 2026-08 — Activity board section
 
 [The Website on the site](../site-dev-log.md)
 
 </details>
-
-
-## Across threads
 
 <details>
 
@@ -40,8 +50,22 @@ _warm · 5 days ago_
 
 </details>
 
+<details>
 
-## Mental World Modeling
+<summary>Research Statement — Next steps and key questions in HAT projects</summary>
+
+_resting · Aug 09_
+
+<figure><img src="../.gitbook/assets/heat-research-statement.png" alt="Daily work on Research Statement"><figcaption></figcaption></figure>
+
+* 77.1 hours logged in this window
+
+[Research Statement on the site](../research/projects/research-statement/overview.md)
+
+</details>
+
+
+#### Mental World Modeling
 
 <details>
 
@@ -54,6 +78,32 @@ _resting · Aug 10_
 * 38.3 hours logged in this window
 
 [Human Relationships in Networks on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/social-intelligence.md)
+
+</details>
+
+<details>
+
+<summary>What Makes a Problem Difficult — nothing recorded yet</summary>
+
+_resting · Aug 09_
+
+<figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
+
+
+[What Makes a Problem Difficult on the site](../research/projects/design-the-game/difficulty-lineage.md)
+
+</details>
+
+<details>
+
+<summary>Mental Operations Consensus — nothing recorded yet</summary>
+
+_resting · Aug 09_
+
+<figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
+
+
+[Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
 </details>
 
@@ -72,14 +122,25 @@ _resting · Jul 06_
 
 </details>
 
+<details>
 
-## Cyber World Modeling
+<summary>Progressive Problem Design — nothing recorded yet</summary>
+
+_resting · —_
+
+
+[Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
+
+</details>
+
+
+#### Cyber World Modeling
 
 <details>
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -105,13 +166,29 @@ _resting · Aug 06_
 
 <details>
 
+<summary>AcceleratePSRO — An extended search from the three papers.</summary>
+
+_resting · Apr 09_
+
+<figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
+
+* **Apr 09** — logged 1.1h — An extended search from the three papers.
+* **Apr 08** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
+* 203.0 hours logged in this window
+
+[AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
+
+</details>
+
+<details>
+
 <summary>FOE-Dreamer — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to…</summary>
 
-_resting · Feb 22_
+_resting · Feb 21_
 
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
-* **Feb 22** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
+* **Feb 21** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
 * 1.9 hours logged in this window
 
 [FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
@@ -119,70 +196,13 @@ _resting · Feb 22_
 </details>
 
 
-## Mental World Modeling
-
-<details>
-
-<summary>What Makes a Problem Difficult — nothing recorded yet</summary>
-
-_resting · Aug 10_
-
-<figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
-
-
-[What Makes a Problem Difficult on the site](../research/projects/design-the-game/difficulty-lineage.md)
-
-</details>
-
-<details>
-
-<summary>Mental Operations Consensus — nothing recorded yet</summary>
-
-_resting · Aug 09_
-
-<figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
-
-
-[Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
-
-</details>
-
-<details>
-
-<summary>Progressive Problem Design — nothing recorded yet</summary>
-
-_resting · —_
-
-
-[Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
-
-</details>
-
-
-## Across threads
-
-<details>
-
-<summary>Research Statement — Next steps and key questions in HAT projects</summary>
-
-_resting · Aug 09_
-
-<figure><img src="../.gitbook/assets/heat-research-statement.png" alt="Daily work on Research Statement"><figcaption></figcaption></figure>
-
-* 77.1 hours logged in this window
-
-[Research Statement on the site](../research/projects/research-statement/overview.md)
-
-</details>
-
-
-## Human-AI Complementarity
+#### Human-AI Complementarity
 
 <details>
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
@@ -236,7 +256,7 @@ _resting · Mar 13_
 </details>
 
 
-## Toward Deployment
+#### Toward Deployment
 
 <details>
 
@@ -281,7 +301,7 @@ _resting · —_
 </details>
 
 
-## Across threads
+#### Study approvals
 
 <details>
 
@@ -297,34 +317,4 @@ _resting · Aug 04_
 </details>
 
 
-## Cyber World Modeling
-
-<details>
-
-<summary>AcceleratePSRO — An extended search from the three papers.</summary>
-
-_resting · Apr 09_
-
-<figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
-
-* **Apr 09** — logged 1.1h — An extended search from the three papers.
-* **Apr 09** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
-* 203.0 hours logged in this window
-
-[AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
-
-</details>
-
-
-## What changed on this site
-
-* **9 minutes ago** — Re-render the board
-* **9 minutes ago** — Post time entries from the popup, and fix the starred-name mismatch
-* **4 hours ago** — Refresh the activity board
-* **4 hours ago** — Re-render the board
-* **4 hours ago** — Wire in Clockify, and fix the heatmap shading
-* **4 hours ago** — Refresh the activity board
-* **4 hours ago** — Re-render the board
-* **4 hours ago** — Add an AcceleratePSRO page under Cyber World Modeling
-
-_Last looked at Aug 20, 03:56_
+_Last looked at Aug 19, 22:01_

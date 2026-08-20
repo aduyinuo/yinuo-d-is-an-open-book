@@ -53,6 +53,19 @@ def main():
     projects = doc["projects"]
 
     ticked = [p for p in projects if p.get("heatmap", True)]
+
+    # One image per range, shown as GitBook tabs. GitBook runs no scripts on a
+    # page, so tabs are the only way to change the range without a rebuild.
+    ranges = [("1 month", "1m"), ("6 months", "6m"), ("1 year", "1y"),
+              ("All time", "all")]
+    if rng not in [k for _l, k in ranges]:
+        ranges.insert(0, ("Custom", rng))
+    ranges.sort(key=lambda t: t[1] != rng)        # the chosen range leads
+    totals = {}
+    for _label, key in ranges:
+        totals[key] = heatmap.draw(
+            ticked, os.path.join(ASSETS, "activity-heatmap-%s.png" % key),
+            key, custom, title=None)
     total = heatmap.draw(ticked, BIG, rng, custom, title=None)
 
     lines = ["---", "description: What I am working on, and what changed.", "---", "",
@@ -60,29 +73,28 @@ def main():
     here = doc.get("here")
     lines.append("At the desk on **%s**." % esc(here) if here
                  else "Away from the desk right now.")
-    lines += ["", '<figure><img src="../.gitbook/assets/activity-heatmap.png" '
-              'alt="Daily activity across projects"><figcaption><p>%s</p></figcaption>'
-              '</figure>' % heatmap.legend_line(total, rng, custom), ""]
+    lines += ["", "{% tabs %}"]
+    for label, key in ranges:
+        lines += ['{% tab title="' + label + '" %}',
+                  '<figure><img src="../.gitbook/assets/activity-heatmap-%s.png" '
+                  'alt="Daily activity across projects, %s">'
+                  '<figcaption><p>%s</p></figcaption></figure>'
+                  % (key, label.lower(),
+                     heatmap.legend_line(totals[key], key, custom)),
+                  "{% endtab %}"]
+    lines += ["{% endtabs %}", ""]
 
     group_of = {}
     for p in projects:
-        group_of.setdefault(p.get("group") or "Other", []).append(p)
+        group_of.setdefault(p.get("thread") or "Other", []).append(p)
     order = sorted(group_of, key=lambda g: -max(
         (q["at"] or 0) for q in group_of[g]))
 
-    for g in order:
-        rows = sorted(group_of[g], key=lambda q: q["at"] or 0, reverse=True)
-        thread = rows[0].get("thread") or g
-        lines += ["## %s" % esc(thread), ""]
+    for thread in order:
+        rows = sorted(group_of[thread], key=lambda q: q["at"] or 0, reverse=True)
+        lines += ["#### %s" % esc(thread), ""]
         for p in rows:
             lines += _project(p, rng, custom)
-        lines.append("")
-
-    site = doc.get("site") or []
-    if site:
-        lines += ["## What changed on this site", ""]
-        for s in site[:8]:
-            lines.append("* **%s** — %s" % (ago(s["at"]), esc(s["what"])))
         lines.append("")
 
     lines.append("_Last looked at %s_" % datetime.datetime.fromtimestamp(
