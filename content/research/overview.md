@@ -14,7 +14,20 @@ icon: researchgate
 
 ## With Friends...
 
-* [ ] a map of collaborators
+<!-- collaborator-map -->
+
+<figure><img src="../.gitbook/assets/collaborator-map.png" alt="Where the collaborators are: 18 people across 6 institutions"><figcaption><p>18 people, 6 institutions, four countries.</p></figcaption></figure>
+
+<table><thead><tr><th width="230">Where</th><th>Who</th></tr></thead><tbody>
+<tr><td><strong>University of Texas at El Paso</strong><br><em>El Paso, USA</em></td><td>Christopher Kiekintveld, Palvi Aggarwal, Aritran Piplai, Anantaa Kotal, Yansi Keim, Mohammad Taneem Bin Nazim, Jaime Acosta</td></tr>
+<tr><td><strong>Carnegie Mellon University</strong><br><em>Pittsburgh, USA</em></td><td>Cleotilde Gonzalez, Fei Fang, Baptiste Prébot, Maria José Ferreira, Volodymyr (Vlad) Miloserdov, Stephanie Milani</td></tr>
+<tr><td><strong>Aalto University</strong><br><em>Espoo, Finland</em></td><td>Antti Oulasvirta, Jannat Akbar</td></tr>
+<tr><td><strong>Czech Technical University in Prague</strong><br><em>Prague, Czechia</em></td><td>Maria Rigaki</td></tr>
+<tr><td><strong>University of Luxembourg</strong><br><em>Luxembourg</em></td><td>Tyler Malloy</td></tr>
+<tr><td><strong>University of Washington</strong><br><em>Seattle, USA</em></td><td>Prashanth Rajivan</td></tr>
+</tbody></table>
+
+<!-- /collaborator-map -->
 
 
 

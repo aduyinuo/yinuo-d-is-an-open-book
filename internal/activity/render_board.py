@@ -16,7 +16,16 @@ import heatmap
 DATA = os.path.join(HERE, "activity.json")
 ASSETS = os.path.join(ROOT, "content", ".gitbook", "assets")
 BIG = os.path.join(ASSETS, "activity-heatmap.png")
-PAGE = os.path.join(ROOT, "content", "personal", "what-is-she-up-to.md")
+def _page():
+    """Wherever the page currently lives — Max moves it between sections."""
+    import glob
+    hits = glob.glob(os.path.join(ROOT, "content", "**", "what-is-she-up-to.md"),
+                     recursive=True)
+    return hits[0] if hits else os.path.join(
+        ROOT, "content", "home", "what-is-she-up-to.md")
+
+
+PAGE = _page()
 
 STATE_WORD = {"active": "at the desk", "recent": "warm", "idle": "resting",
               "missing": "folder missing"}
