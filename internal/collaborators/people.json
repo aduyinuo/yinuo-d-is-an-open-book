@@ -181,13 +181,68 @@
     },
     {
       "name": "Carlos A. Catania",
-      "institution": "",
-      "role": "co-author"
+      "institution": "Czech Technical University in Prague",
+      "role": "co-author",
+      "source": "RREP Year-1 report"
     },
     {
       "name": "Omkar Thakoor",
       "institution": "",
       "role": "co-author"
+    },
+    {
+      "name": "Grace Roessling",
+      "institution": "Carnegie Mellon University",
+      "role": "collaborator",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Sai Mounika Errapotu",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Arunesh Sinha",
+      "institution": "Rutgers University",
+      "role": "co-organizer",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Kimberly J. Ferguson-Walter",
+      "institution": "Leidos",
+      "role": "co-organizer",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Quanyan Zhu",
+      "institution": "New York University",
+      "role": "co-organizer",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Sridhar Venkatesan",
+      "institution": "Peraton Labs",
+      "role": "co-organizer",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Siyu Liu",
+      "institution": "Palo Alto Networks",
+      "role": "collaborator",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "Brad Edwards",
+      "institution": "Palo Alto Networks",
+      "role": "collaborator",
+      "source": "RREP Year-1 report"
+    },
+    {
+      "name": "T. Guerra",
+      "institution": "",
+      "role": "co-author",
+      "source": "RREP Year-1 report"
     }
   ]
 }

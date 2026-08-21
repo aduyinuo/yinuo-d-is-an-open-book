@@ -13,50 +13,35 @@
       "short": "CMU",
       "city": "Pittsburgh, USA",
       "lat": 40.4433,
-      "lon": -79.9436,
-      "label_dx": -9.0,
-      "label_dy": 1.0,
-      "label_ha": "right"
+      "lon": -79.9436
     },
     {
       "institution": "Aalto University",
       "short": "Aalto",
       "city": "Espoo, Finland",
       "lat": 60.1841,
-      "lon": 24.8301,
-      "label_dx": 6.0,
-      "label_dy": 3.0,
-      "label_ha": "left"
+      "lon": 24.8301
     },
     {
       "institution": "University of Luxembourg",
       "short": "Luxembourg",
       "city": "Luxembourg",
       "lat": 49.6116,
-      "lon": 6.1319,
-      "label_dx": -11.0,
-      "label_dy": -3.0,
-      "label_ha": "right"
+      "lon": 6.1319
     },
     {
       "institution": "Czech Technical University in Prague",
       "short": "CTU",
       "city": "Prague, Czechia",
       "lat": 50.1027,
-      "lon": 14.3925,
-      "label_dx": 7.5,
-      "label_dy": -8.0,
-      "label_ha": "left"
+      "lon": 14.3925
     },
     {
       "institution": "University of Washington",
       "short": "UW",
       "city": "Seattle, USA",
       "lat": 47.6553,
-      "lon": -122.3035,
-      "label_dx": -4.0,
-      "label_dy": 0.0,
-      "label_ha": "center"
+      "lon": -122.3035
     },
     {
       "institution": "DEVCOM Army Research Laboratory",
@@ -70,30 +55,56 @@
       "short": "Elon",
       "city": "Elon, USA",
       "lat": 36.1024,
-      "lon": -79.5064,
-      "label_dx": 16.0,
-      "label_dy": -6.0,
-      "label_ha": "left"
+      "lon": -79.5064
     },
     {
       "institution": "University at Albany, SUNY",
       "short": "Albany",
       "city": "Albany, USA",
       "lat": 42.6864,
-      "lon": -73.8237,
-      "label_dx": 9.0,
-      "label_dy": 5.0,
-      "label_ha": "left"
+      "lon": -73.8237
     },
     {
       "institution": "Inria Bordeaux",
       "short": "Inria",
       "city": "Bordeaux, France",
       "lat": 44.8067,
-      "lon": -0.6056,
-      "label_dx": -10.0,
-      "label_dy": -4.0,
-      "label_ha": "right"
+      "lon": -0.6056
+    },
+    {
+      "institution": "Rutgers University",
+      "short": "Rutgers",
+      "city": "New Brunswick, USA",
+      "lat": 40.5008,
+      "lon": -74.4474
+    },
+    {
+      "institution": "Leidos",
+      "short": "Leidos",
+      "city": "Reston, USA",
+      "lat": 38.9586,
+      "lon": -77.357
+    },
+    {
+      "institution": "New York University",
+      "short": "NYU",
+      "city": "New York, USA",
+      "lat": 40.7295,
+      "lon": -73.9965
+    },
+    {
+      "institution": "Peraton Labs",
+      "short": "Peraton",
+      "city": "Basking Ridge, USA",
+      "lat": 40.6959,
+      "lon": -74.549
+    },
+    {
+      "institution": "Palo Alto Networks",
+      "short": "Palo Alto Networks",
+      "city": "Santa Clara, USA",
+      "lat": 37.3861,
+      "lon": -121.9634
     }
   ]
 }

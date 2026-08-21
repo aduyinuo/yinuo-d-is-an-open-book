@@ -73,26 +73,23 @@ def draw(places, pad=13.0):
     biggest = max(len(p["people"]) for p in places) or 1
     for p in places:
         n = len(p["people"])
-        size = 120 + 520 * (n / biggest)
-        ax.scatter([p["lon"]], [p["lat"]], s=size, zorder=4,
+        p["_size"] = 120 + 520 * (n / biggest)
+        ax.scatter([p["lon"]], [p["lat"]], s=p["_size"], zorder=4,
                    c=PIN if n > 1 else PIN_SOFT, edgecolors="white", linewidths=1.2)
         if n > 1:
             ax.text(p["lon"], p["lat"], str(n), color="white", fontsize=8.5,
                     fontweight="bold", ha="center", va="center", zorder=5)
 
-        # Labels are nudged by hand where pins sit close together.
-        dx = p.get("label_dx", 0.0)
-        dy = p.get("label_dy", 0.0)
-        ha = p.get("label_ha", "center")
-        drop = (size ** 0.5) / 9.0 + 1.6
-        ax.text(p["lon"] + dx, p["lat"] - drop + dy, p["short"], color=INK,
-                fontsize=9.5, ha=ha, va="top", zorder=5)
-        ax.text(p["lon"] + dx, p["lat"] - drop - 2.9 + dy, p["city"], color=MUTE,
-                fontsize=7.8, ha=ha, va="top", zorder=5)
-        if dx or dy:
-            ax.plot([p["lon"], p["lon"] + dx * 0.82],
-                    [p["lat"], p["lat"] - drop * 0.35 + dy * 0.82],
-                    color=MUTE, linewidth=0.6, zorder=3)
+    for p, (lx, ly, ha) in zip(places, _place_labels(places, x0, x1, y0, y1, aspect)):
+        drop = 0.0 if (lx, ly) != (p["lon"], p["lat"]) else 0.0
+        ax.text(lx, ly, p["short"], color=INK, fontsize=9.5, ha=ha, va="top",
+                zorder=5)
+        ax.text(lx, ly - 2.9, p["city"], color=MUTE, fontsize=7.8, ha=ha,
+                va="top", zorder=5)
+        edge = lx + (0.6 if ha == "left" else -0.6 if ha == "right" else 0)
+        if abs(lx - p["lon"]) > 1.5 or abs(ly - p["lat"]) > 4.5:
+            ax.plot([p["lon"], edge], [p["lat"], ly - 0.9], color=MUTE,
+                    linewidth=0.6, zorder=3)
 
     plt.subplots_adjust(0, 0, 1, 1)
     os.makedirs(ASSETS, exist_ok=True)
@@ -158,6 +155,55 @@ def main():
     io.open(PAGE, "w", encoding="utf-8", newline="\n").write(text)
     print("map and page written:", os.path.relpath(OUT, ROOT))
 
+
+
+def _place_labels(places, x0, x1, y0, y1, aspect):
+    """Put each label somewhere it does not sit on another label or pin.
+
+    Hand-nudging every label stops working as soon as a cluster like the
+    northeast corridor appears. Each place gets tried against a ring of
+    candidate offsets; the first that collides with nothing already placed
+    wins. An explicit label_dx / label_dy in places.json overrides all of it.
+    """
+    span = x1 - x0
+    char = span * 0.0062                     # rough width of one character
+    line = span * 0.011 / aspect             # rough height of one text line
+
+    def box_at(p, dx, dy, ha):
+        w = max(len(p["short"]), len(p["city"])) * char
+        left = dx - (0 if ha == "left" else w if ha == "right" else w / 2)
+        return (p["lon"] + left, p["lat"] + dy - line * 2.6,
+                p["lon"] + left + w, p["lat"] + dy)
+
+    def hits(b, taken):
+        return any(not (b[2] < o[0] or b[0] > o[2] or b[3] < o[1] or b[1] > o[3])
+                   for o in taken)
+
+    order = sorted(range(len(places)), key=lambda i: -len(places[i]["people"]))
+    out = [None] * len(places)
+    taken = [(p["lon"] - 1.6, p["lat"] - 1.6, p["lon"] + 1.6, p["lat"] + 1.6)
+             for p in places]                # the pins themselves
+
+    for i in order:
+        p = places[i]
+        drop = (p.get("_size", 300) ** 0.5) / 9.0 + 1.6
+        if "label_dx" in p or "label_dy" in p:
+            cands = [(p.get("label_dx", 0.0), -drop + p.get("label_dy", 0.0),
+                      p.get("label_ha", "center"))]
+        else:
+            cands = [(0, -drop, "center"), (2.6, -drop + 1.2, "left"),
+                     (-2.6, -drop + 1.2, "right"), (0, drop + line * 2.6, "center"),
+                     (7.0, -drop + 2.0, "left"), (-7.0, -drop + 2.0, "right"),
+                     (12.0, 2.0, "left"), (-12.0, 2.0, "right"),
+                     (12.0, -8.0, "left"), (-12.0, -8.0, "right"),
+                     (0, -drop - 9.0, "center"), (0, drop + 12.0, "center")]
+        for dx, dy, ha in cands:
+            b = box_at(p, dx, dy, ha)
+            if not hits(b, taken):
+                break
+        taken.append(b)
+        out[i] = (p["lon"] + dx, p["lat"] + dy, ha)
+    return out
 
 if __name__ == "__main__":
     main()
