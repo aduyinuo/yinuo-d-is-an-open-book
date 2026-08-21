@@ -96,6 +96,7 @@
   * [Career](resources/career/README.md)
     * [Individual Development Plan](resources/career/individual-development-plan.md)
     * [Academic Job Market Dossiers](resources/career/academic-job-market-dossiers.md)
+    * [NSF Career](resources/career/nsf-career.md)
     * [Tenure Dossiers](resources/career/tenure-dossiers.md)
     * [A Model of Academics of Life](resources/career/a-model-of-academics-of-life.md)
   * [Research](resources/research/README.md)
