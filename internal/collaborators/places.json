@@ -74,6 +74,26 @@
       "label_dx": 16.0,
       "label_dy": -6.0,
       "label_ha": "left"
+    },
+    {
+      "institution": "University at Albany, SUNY",
+      "short": "Albany",
+      "city": "Albany, USA",
+      "lat": 42.6864,
+      "lon": -73.8237,
+      "label_dx": 9.0,
+      "label_dy": 5.0,
+      "label_ha": "left"
+    },
+    {
+      "institution": "Inria Bordeaux",
+      "short": "Inria",
+      "city": "Bordeaux, France",
+      "lat": 44.8067,
+      "lon": -0.6056,
+      "label_dx": -10.0,
+      "label_dy": -4.0,
+      "label_ha": "right"
     }
   ]
 }

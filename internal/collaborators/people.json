@@ -1,45 +1,193 @@
 {
   "_note": "Everyone the site names. `institution` must match an entry in places.json. Leave it \"\" and the person is listed as unplaced by build_map.py rather than silently dropped. `inferred: true` marks an affiliation not stated anywhere on the site — check it before trusting it.",
   "people": [
-    {"name": "Cleotilde Gonzalez", "institution": "Carnegie Mellon University", "role": "collaborator"},
-    {"name": "Fei Fang", "institution": "Carnegie Mellon University", "role": "collaborator"},
-    {"name": "Baptiste Prébot", "institution": "Carnegie Mellon University", "role": "collaborator"},
-    {"name": "Maria José Ferreira", "institution": "Carnegie Mellon University", "role": "collaborator"},
-    {"name": "Stephanie Milani", "institution": "Carnegie Mellon University", "role": "collaborator"},
-    {"name": "Volodymyr (Vlad) Miloserdov", "institution": "Carnegie Mellon University", "role": "mentee"},
-    {"name": "Adam Hunt", "institution": "Carnegie Mellon University", "role": "mentee"},
-    {"name": "Pau Balcells Sanchez", "institution": "Carnegie Mellon University", "role": "mentee"},
-    {"name": "Neil Ramen", "institution": "Carnegie Mellon University", "role": "mentee"},
-    {"name": "Mason Kim", "institution": "Carnegie Mellon University", "role": "mentee"},
-    {"name": "Kuldeep Singh", "institution": "Carnegie Mellon University", "role": "co-author", "inferred": true},
-    {"name": "Zimeng Song", "institution": "Carnegie Mellon University", "role": "co-author", "inferred": true},
-    {"name": "Xiaoli Xi", "institution": "Carnegie Mellon University", "role": "co-author", "inferred": true},
-
-    {"name": "Christopher Kiekintveld", "institution": "University of Texas at El Paso", "role": "collaborator"},
-    {"name": "Palvi Aggarwal", "institution": "University of Texas at El Paso", "role": "collaborator"},
-    {"name": "Aritran Piplai", "institution": "University of Texas at El Paso", "role": "collaborator"},
-    {"name": "Anantaa Kotal", "institution": "University of Texas at El Paso", "role": "collaborator"},
-    {"name": "Yansi Keim", "institution": "University of Texas at El Paso", "role": "collaborator"},
-    {"name": "Jaime Acosta", "institution": "University of Texas at El Paso", "role": "collaborator", "also": "DEVCOM Army Research Laboratory"},
-    {"name": "Deepak Tosh", "institution": "University of Texas at El Paso", "role": "collaborator"},
-    {"name": "Mohammad Taneem Bin Nazim", "institution": "University of Texas at El Paso", "role": "mentee"},
-    {"name": "Sabrina Saika", "institution": "University of Texas at El Paso", "role": "mentee"},
-    {"name": "Nicholas Jara", "institution": "University of Texas at El Paso", "role": "mentee"},
-    {"name": "Jonathan Hernandez", "institution": "University of Texas at El Paso", "role": "mentee"},
-    {"name": "Saeefa Rubaiyet Nowmi", "institution": "University of Texas at El Paso", "role": "mentee"},
-    {"name": "Mohammad Sujan Miah", "institution": "University of Texas at El Paso", "role": "co-author", "inferred": true},
-    {"name": "Marcus Gutierrez", "institution": "University of Texas at El Paso", "role": "co-author", "inferred": true},
-    {"name": "Oscar Veliz", "institution": "University of Texas at El Paso", "role": "co-author", "inferred": true},
-
-    {"name": "Antti Oulasvirta", "institution": "Aalto University", "role": "collaborator"},
-    {"name": "Jannat Akbar", "institution": "Aalto University", "role": "mentee"},
-
-    {"name": "Tyler Malloy", "institution": "University of Luxembourg", "role": "collaborator"},
-    {"name": "Maria Rigaki", "institution": "Czech Technical University in Prague", "role": "collaborator"},
-    {"name": "Prashanth Rajivan", "institution": "University of Washington", "role": "collaborator"},
-    {"name": "Rony Dahnal", "institution": "Elon University", "role": "mentee"},
-
-    {"name": "Carlos A. Catania", "institution": "", "role": "co-author"},
-    {"name": "Omkar Thakoor", "institution": "", "role": "co-author"}
+    {
+      "name": "Cleotilde Gonzalez",
+      "institution": "Carnegie Mellon University",
+      "role": "collaborator"
+    },
+    {
+      "name": "Fei Fang",
+      "institution": "Carnegie Mellon University",
+      "role": "collaborator"
+    },
+    {
+      "name": "Baptiste Prébot",
+      "institution": "Inria Bordeaux",
+      "role": "collaborator",
+      "inferred": true
+    },
+    {
+      "name": "Maria José Ferreira",
+      "institution": "Carnegie Mellon University",
+      "role": "collaborator"
+    },
+    {
+      "name": "Stephanie Milani",
+      "institution": "Carnegie Mellon University",
+      "role": "collaborator"
+    },
+    {
+      "name": "Volodymyr (Vlad) Miloserdov",
+      "institution": "Carnegie Mellon University",
+      "role": "mentee"
+    },
+    {
+      "name": "Adam Hunt",
+      "institution": "Carnegie Mellon University",
+      "role": "mentee"
+    },
+    {
+      "name": "Pau Balcells Sanchez",
+      "institution": "Carnegie Mellon University",
+      "role": "mentee"
+    },
+    {
+      "name": "Neil Ramen",
+      "institution": "Carnegie Mellon University",
+      "role": "mentee"
+    },
+    {
+      "name": "Mason Kim",
+      "institution": "Carnegie Mellon University",
+      "role": "mentee"
+    },
+    {
+      "name": "Kuldeep Singh",
+      "institution": "Carnegie Mellon University",
+      "role": "co-author",
+      "inferred": true
+    },
+    {
+      "name": "Zimeng Song",
+      "institution": "Carnegie Mellon University",
+      "role": "co-author",
+      "inferred": true
+    },
+    {
+      "name": "Xiaoli Xi",
+      "institution": "Carnegie Mellon University",
+      "role": "co-author",
+      "inferred": true
+    },
+    {
+      "name": "Christopher Kiekintveld",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator"
+    },
+    {
+      "name": "Palvi Aggarwal",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator"
+    },
+    {
+      "name": "Aritran Piplai",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator"
+    },
+    {
+      "name": "Anantaa Kotal",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator"
+    },
+    {
+      "name": "Yansi Keim",
+      "institution": "University at Albany, SUNY",
+      "role": "collaborator"
+    },
+    {
+      "name": "Jaime Acosta",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator",
+      "also": "DEVCOM Army Research Laboratory"
+    },
+    {
+      "name": "Deepak Tosh",
+      "institution": "University of Texas at El Paso",
+      "role": "collaborator"
+    },
+    {
+      "name": "Mohammad Taneem Bin Nazim",
+      "institution": "University of Texas at El Paso",
+      "role": "mentee"
+    },
+    {
+      "name": "Sabrina Saika",
+      "institution": "University of Texas at El Paso",
+      "role": "mentee"
+    },
+    {
+      "name": "Nicholas Jara",
+      "institution": "University of Texas at El Paso",
+      "role": "mentee"
+    },
+    {
+      "name": "Jonathan Hernandez",
+      "institution": "University of Texas at El Paso",
+      "role": "mentee"
+    },
+    {
+      "name": "Saeefa Rubaiyet Nowmi",
+      "institution": "University of Texas at El Paso",
+      "role": "mentee"
+    },
+    {
+      "name": "Mohammad Sujan Miah",
+      "institution": "University of Texas at El Paso",
+      "role": "co-author",
+      "inferred": true
+    },
+    {
+      "name": "Marcus Gutierrez",
+      "institution": "University of Texas at El Paso",
+      "role": "co-author",
+      "inferred": true
+    },
+    {
+      "name": "Oscar Veliz",
+      "institution": "University of Texas at El Paso",
+      "role": "co-author",
+      "inferred": true
+    },
+    {
+      "name": "Antti Oulasvirta",
+      "institution": "Aalto University",
+      "role": "collaborator"
+    },
+    {
+      "name": "Jannat Akbar",
+      "institution": "Aalto University",
+      "role": "mentee"
+    },
+    {
+      "name": "Tyler Malloy",
+      "institution": "University of Luxembourg",
+      "role": "collaborator"
+    },
+    {
+      "name": "Maria Rigaki",
+      "institution": "Czech Technical University in Prague",
+      "role": "collaborator"
+    },
+    {
+      "name": "Prashanth Rajivan",
+      "institution": "University of Washington",
+      "role": "collaborator"
+    },
+    {
+      "name": "Rony Dahnal",
+      "institution": "Elon University",
+      "role": "mentee"
+    },
+    {
+      "name": "Carlos A. Catania",
+      "institution": "",
+      "role": "co-author"
+    },
+    {
+      "name": "Omkar Thakoor",
+      "institution": "",
+      "role": "co-author"
+    }
   ]
 }
