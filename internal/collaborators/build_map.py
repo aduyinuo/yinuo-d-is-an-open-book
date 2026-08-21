@@ -4,7 +4,8 @@ Draw the collaborator map for the Research page.
 
     python internal/collaborators/build_map.py
 
-Reads  places.json   — where people are, hand-editable
+Reads  people.json   — everyone the site names, and where they are
+       places.json   — the institutions and their coordinates
        world.json    — land outlines, Natural Earth 110m (public domain)
 Writes content/.gitbook/assets/collaborator-map.png
        and the map block on content/research/overview.md
@@ -99,29 +100,56 @@ def draw(places, pad=13.0):
     plt.close(fig)
 
 
+ROLE_ORDER = {"collaborator": 0, "co-author": 1, "mentee": 2}
+
+
 def block(places):
     total = sum(len(p["people"]) for p in places)
+    countries = {p["city"].rsplit(",", 1)[-1].strip() for p in places}
     rows = ["<table><thead><tr><th width=\"230\">Where</th><th>Who</th>"
             "</tr></thead><tbody>"]
     for p in sorted(places, key=lambda q: (-len(q["people"]), q["short"])):
+        who = sorted(p["people"],
+                     key=lambda x: (ROLE_ORDER.get(x.get("role"), 9), x["name"]))
         rows.append("<tr><td><strong>%s</strong><br><em>%s</em></td><td>%s</td></tr>"
-                    % (p["institution"], p["city"], ", ".join(p["people"])))
+                    % (p["institution"], p["city"],
+                       ", ".join(x["name"] for x in who)))
     rows.append("</tbody></table>")
     return "\n".join([
         BEGIN, "",
         '<figure><img src="../.gitbook/assets/collaborator-map.png" '
         'alt="Where the collaborators are: %s people across %d institutions">'
-        '<figcaption><p>%d people, %d institutions, four countries.</p></figcaption>'
-        '</figure>' % (total, len(places), total, len(places)),
+        '<figcaption><p>%d people, %d institutions, %d countries.</p></figcaption>'
+        '</figure>' % (total, len(places), total, len(places), len(countries)),
         "", "\n".join(rows), "", END])
 
 
+def gather():
+    """Attach people to places. Anyone unplaced is reported, never dropped."""
+    places = {p["institution"]: dict(p, people=[])
+              for p in load("places.json")["places"]}
+    unplaced, unknown = [], set()
+    for person in load("people.json")["people"]:
+        inst = person.get("institution") or ""
+        if inst in places:
+            places[inst]["people"].append(person)
+        else:
+            unplaced.append(person)
+            if inst:
+                unknown.add(inst)
+    return ([p for p in places.values() if p["people"]], unplaced, sorted(unknown))
+
+
 def main():
-    places = [p for p in load("places.json")["places"] if p["people"]]
+    places, unplaced, unknown = gather()
     draw(places)
 
     text = io.open(PAGE, encoding="utf-8").read()
     new = block(places)
+    for inst in unknown:
+        print("  no place for institution: %s" % inst)
+    for person in unplaced:
+        print("  no affiliation: %s (%s)" % (person["name"], person.get("role", "")))
     if BEGIN in text and END in text:
         text = re.sub(re.escape(BEGIN) + r".*?" + re.escape(END), new, text,
                       flags=re.S)

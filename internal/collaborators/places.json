@@ -1,21 +1,12 @@
 {
-  "_note": "Where the collaborators are. Add a place here, then re-run build_map.py.",
+  "_note": "Institutions and where they are. People live in people.json and are counted onto these by name. Add a place, then re-run build_map.py.",
   "places": [
     {
       "institution": "University of Texas at El Paso",
       "short": "UTEP",
       "city": "El Paso, USA",
       "lat": 31.7719,
-      "lon": -106.5058,
-      "people": [
-        "Christopher Kiekintveld",
-        "Palvi Aggarwal",
-        "Aritran Piplai",
-        "Anantaa Kotal",
-        "Yansi Keim",
-        "Mohammad Taneem Bin Nazim",
-        "Jaime Acosta"
-      ]
+      "lon": -106.5058
     },
     {
       "institution": "Carnegie Mellon University",
@@ -23,14 +14,9 @@
       "city": "Pittsburgh, USA",
       "lat": 40.4433,
       "lon": -79.9436,
-      "people": [
-        "Cleotilde Gonzalez",
-        "Fei Fang",
-        "Baptiste Prébot",
-        "Maria José Ferreira",
-        "Volodymyr (Vlad) Miloserdov",
-        "Stephanie Milani"
-      ]
+      "label_dx": -9.0,
+      "label_dy": 1.0,
+      "label_ha": "right"
     },
     {
       "institution": "Aalto University",
@@ -38,10 +24,6 @@
       "city": "Espoo, Finland",
       "lat": 60.1841,
       "lon": 24.8301,
-      "people": [
-        "Antti Oulasvirta",
-        "Jannat Akbar"
-      ],
       "label_dx": 6.0,
       "label_dy": 3.0,
       "label_ha": "left"
@@ -52,9 +34,6 @@
       "city": "Luxembourg",
       "lat": 49.6116,
       "lon": 6.1319,
-      "people": [
-        "Tyler Malloy"
-      ],
       "label_dx": -11.0,
       "label_dy": -3.0,
       "label_ha": "right"
@@ -65,9 +44,6 @@
       "city": "Prague, Czechia",
       "lat": 50.1027,
       "lon": 14.3925,
-      "people": [
-        "Maria Rigaki"
-      ],
       "label_dx": 7.5,
       "label_dy": -8.0,
       "label_ha": "left"
@@ -78,9 +54,6 @@
       "city": "Seattle, USA",
       "lat": 47.6553,
       "lon": -122.3035,
-      "people": [
-        "Prashanth Rajivan"
-      ],
       "label_dx": -4.0,
       "label_dy": 0.0,
       "label_ha": "center"
@@ -90,8 +63,17 @@
       "short": "DEVCOM ARL",
       "city": "Adelphi, USA",
       "lat": 39.0,
-      "lon": -76.96,
-      "people": []
+      "lon": -76.96
+    },
+    {
+      "institution": "Elon University",
+      "short": "Elon",
+      "city": "Elon, USA",
+      "lat": 36.1024,
+      "lon": -79.5064,
+      "label_dx": 16.0,
+      "label_dy": -6.0,
+      "label_ha": "left"
     }
   ]
 }
