@@ -5,13 +5,15 @@ icon: face-thinking
 
 # Headspace
 
+<p align="right"><a href="https://open.spotify.com/playlist/61BcFgUWfw0sHiW9b54BYr?si=91057be82b53477e"><em>Spotify Playlist</em></a></p>
+
 <mark style="color:$primary;">When is a cybersecurity decision an RL problem?</mark> How to find <mark style="color:$primary;">interesting cybersecurity challenges</mark> that can motivate methodological innovations in <mark style="color:$primary;">(model-based) reinforcement learning</mark> (i.e., impose pressure on the central challenges in RL, for ex, distributional shift)?
 
 * [A rule of thumb: is counterfactual reasoning hard and non-obvious?](https://nanjiang.cs.illinois.edu/applied/) _(by Nan Jiang)_
-* [Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/system/files/sec22-arp.pdf)&#x20;
+* [Dos and Don'ts of Machine Learning in Computer Security](https://www.usenix.org/system/files/sec22-arp.pdf)
 * [Position: RL Researchers Need to Distinguish Between Solving Simulators and Using Simulators as a Proxy](https://arxiv.org/abs/2606.28433)
 * [SoK: The Pitfalls of Deep Reinforcement Learning for Cybersecurity](https://arxiv.org/abs/2602.08690)
-* [World Models: Understanding, Modeling, and Scaling ](https://openreview.net/pdf?id=KR1PsFVRYo)
+* [World Models: Understanding, Modeling, and Scaling](https://openreview.net/pdf?id=KR1PsFVRYo)
 
 What is "<mark style="color:$primary;">Human-Centered</mark> Cybersecurity"?
 
@@ -21,10 +23,10 @@ If there's <mark style="color:$primary;">a genie of world modeling</mark>, what 
 
 * [Introspective Interpretability](https://lingo.csail.mit.edu/blog/introspective_interpretability/) (by _Belinda Z. Li)_
 * [Failure-aware Causal Training](https://arxiv.org/pdf/2608.10232) _(by Nicklas Hansen)_
-* [Factored Latent Action World Models](https://arxiv.org/abs/2602.16229)&#x20;
+* [Factored Latent Action World Models](https://arxiv.org/abs/2602.16229)
 * [Generalizable Action-Conditioned World Models](https://arxiv.org/pdf/2607.27599) _(by Yilun Du)_
 * [Critique of World Model](https://arxiv.org/abs/2507.05169)
-* When does an <mark style="color:$primary;">agent</mark> have the need to model the world in the first place?&#x20;
+* When does an <mark style="color:$primary;">agent</mark> have the need to model the world in the first place?
   * [World Model as Intermediary](https://github.com/aduyinuo/yinuo-d-is-an-open-book/blob/main/content/.gitbook/assets/world-models-as-intermediary.pdf) _(by Sherry Yang)_
   * [The Self Requires Learning ](https://philpapers.org/archive/RENTSR.pdf)_(by Mengye Ren)_
   * [General agents contain world models](https://arxiv.org/abs/2506.01622)
@@ -47,9 +49,9 @@ What is <mark style="color:$primary;">mind</mark> and what is <mark style="color
 What are the relationship between <mark style="color:$primary;">cyber agents</mark> and <mark style="color:$primary;">physical agents</mark>? What are their respective unique challenges? What are transferable across these two domains?
 
 * What are the agentic methods/tricks embraced by the industry so far? Can we observe any patterns?
-* What agentic approaches does current SOC stack involve? What ML approaches does current SOC stack involve?&#x20;
+* What agentic approaches does current SOC stack involve? What ML approaches does current SOC stack involve?
   * [NSF CyberAI Innovation: Adversarial Causal Reasoning for SOC](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2622986) (by [Wajih Ul Hassan](https://www.linkedin.com/in/wajihulhassan/?skipRedirect=true))
-* What telemetry should a defense agent engage with? Is it feasible/beneficial to reform the stack?&#x20;
+* What telemetry should a defense agent engage with? Is it feasible/beneficial to reform the stack?
 
 What are the existing ways to determine the exit condition in an algorithm? In general, how to make the judgement that "enough is enough"?
 
