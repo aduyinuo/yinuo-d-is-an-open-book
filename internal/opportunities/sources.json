@@ -1,0 +1,90 @@
+{
+  "_note": "Where opportunities come from. Add a source here and fetch.py picks it up. `stream` decides which page it lands on: conferences, funding, jobs, micro.",
+  "sources": [
+    {
+      "name": "CCF deadlines — security",
+      "stream": "conferences",
+      "kind": "yaml_ccfddl",
+      "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference/SC/sp.yml"
+    },
+    {
+      "name": "CCF deadlines — AI",
+      "stream": "conferences",
+      "kind": "yaml_ccfddl",
+      "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference/AI/aaai.yml"
+    },
+    {
+      "name": "Security and privacy deadlines",
+      "stream": "conferences",
+      "kind": "yaml_secdeadlines",
+      "url": "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"
+    },
+    {
+      "name": "AI conference deadlines",
+      "stream": "conferences",
+      "kind": "yaml_aideadlines",
+      "url": "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
+    },
+    {
+      "name": "WikiCFP — security",
+      "stream": "conferences",
+      "kind": "rss",
+      "url": "http://www.wikicfp.com/cfp/rss?cat=security"
+    },
+    {
+      "name": "WikiCFP — artificial intelligence",
+      "stream": "conferences",
+      "kind": "rss",
+      "url": "http://www.wikicfp.com/cfp/rss?cat=artificial%20intelligence"
+    },
+    {
+      "name": "WikiCFP — human computer interaction",
+      "stream": "conferences",
+      "kind": "rss",
+      "url": "http://www.wikicfp.com/cfp/rss?cat=human%20computer%20interaction"
+    },
+    {
+      "name": "NSF upcoming funding",
+      "stream": "funding",
+      "kind": "rss",
+      "url": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+    },
+    {
+      "name": "Grants.gov — AI and cyber",
+      "stream": "funding",
+      "kind": "grants_gov",
+      "keywords": [
+        "artificial intelligence",
+        "cybersecurity",
+        "human-AI",
+        "autonomous systems",
+        "cognitive science"
+      ]
+    },
+    {
+      "name": "Grants.gov — small awards",
+      "stream": "micro",
+      "kind": "grants_gov",
+      "keywords": [
+        "travel award",
+        "seed grant",
+        "planning grant",
+        "workshop grant",
+        "early career"
+      ],
+      "ceiling": 100000
+    },
+    {
+      "name": "AcademicJobsOnline — computer science",
+      "stream": "jobs",
+      "kind": "ajo",
+      "url": "https://academicjobsonline.org/ajo/CS"
+    },
+    {
+      "name": "AcademicJobsOnline — all postdoc listings",
+      "stream": "jobs",
+      "kind": "ajo",
+      "url": "https://academicjobsonline.org/ajo/postdoc"
+    }
+  ]
+}

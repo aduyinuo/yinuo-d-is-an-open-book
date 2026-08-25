@@ -29,3 +29,7 @@ internal/activity/updates.json
 internal/activity/clockify.json
 internal/activity/last_asked.json
 internal/activity/secrets.json
+
+# Opportunity scout working files (rebuilt on every run)
+internal/opportunities/raw.json
+internal/opportunities/scored.json

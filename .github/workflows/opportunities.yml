@@ -1,0 +1,32 @@
+name: Opportunity scout
+
+on:
+  schedule:
+    - cron: '0 11 * * *'      # every day, 05:00 in El Paso
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  scout:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.12'
+      - run: pip install pyyaml certifi
+      - name: Fetch, score, and write the pages
+        working-directory: internal/opportunities
+        run: |
+          python fetch.py
+          python score.py
+          python build_pages.py
+      - name: Commit whatever changed
+        run: |
+          git config user.name  "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          git add content/overview-4
+          git diff --staged --quiet || git commit -m "Opportunity scout: daily refresh"
+          git push
