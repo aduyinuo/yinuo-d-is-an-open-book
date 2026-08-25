@@ -1,5 +1,5 @@
 {
-  "generated": 1787663711,
+  "generated": 1787664650,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -41,12 +41,12 @@
         }
       ],
       "days": {
-        "2026-08-19": 14,
+        "2026-08-19": 13,
         "2026-08-15": 8,
-        "2026-08-25": 13,
-        "2026-08-14": 194,
+        "2026-08-25": 39,
+        "2026-08-14": 185,
         "2026-08-21": 5,
-        "2026-08-17": 61,
+        "2026-08-17": 57,
         "2026-08-20": 8
       },
       "hours": {},
@@ -510,7 +510,7 @@
       "name": "Thinking",
       "thread": "Around the work",
       "group": "Around the work",
-      "page": "personal/what-is-she-thinking.md",
+      "page": "home/what-is-she-thinking.md",
       "heatmap": false,
       "at": 1784995200,
       "state": "idle",
@@ -1087,6 +1087,18 @@
     }
   ],
   "site": [
+    {
+      "at": 1787664599,
+      "what": "Opportunity Scout: four queues, eleven sources, refreshed daily"
+    },
+    {
+      "at": 1787664200,
+      "what": "Finish the RREP carry-over: pages, argument, artifacts, teaching, reading list"
+    },
+    {
+      "at": 1787663761,
+      "what": "No Clockify time goes nowhere any more"
+    },
     {
       "at": 1787663479,
       "what": "Cyber World Modeling pages carry the evidence now, and Daedalus is spelled one way"

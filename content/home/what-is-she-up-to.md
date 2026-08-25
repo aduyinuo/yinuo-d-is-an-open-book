@@ -27,12 +27,12 @@ At the desk on **The Website**.
 
 <summary>The Website — wrote into overview</summary>
 
-_at the desk · 11 minutes ago_
+_at the desk · 27 minutes ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **11 minutes ago** — wrote into overview
-* **12 minutes ago** — added research-thrusts.pdf
+* **27 minutes ago** — wrote into overview
+* **27 minutes ago** — added research-thrusts.pdf
 * **4 days ago** — added rrep year1 to site
 * **4 days ago** — reworked funding
 * **4 days ago** — added load() and draw()
@@ -390,7 +390,7 @@ _resting · Jul 25_
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 58.9 hours logged in this window
 
-[Thinking on the site](../personal/what-is-she-thinking.md)
+[Thinking on the site](../home/what-is-she-thinking.md)
 
 </details>
 
@@ -441,4 +441,4 @@ _resting · Mar 27_
 </details>
 
 
-_Last looked at Aug 25, 07:15_
+_Last looked at Aug 25, 07:30_
