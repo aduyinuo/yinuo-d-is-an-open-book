@@ -8,7 +8,7 @@ Writes  content/.gitbook/assets/activity-heatmap.png
         content/.gitbook/assets/heat-<project>.png
         content/personal/what-is-she-up-to.md
 """
-import os, re, json, time, datetime
+import os, io, re, json, time, datetime
 
 from config import HERE, ROOT, load
 import heatmap
@@ -44,6 +44,32 @@ def ago(ts):
     return datetime.datetime.fromtimestamp(ts).strftime("%b %d")
 
 
+def keep_from_page(path, default_front, default_title):
+    """Reuse the frontmatter and the H1 already on the page.
+
+    This file is rewritten on every run. Anything set in GitBook — the icon,
+    the description, a retitled heading — has to survive that, or it gets
+    stripped the next time the board refreshes.
+    """
+    if not os.path.exists(path):
+        return default_front, default_title
+    try:
+        cur = io.open(path, encoding="utf-8").read()
+    except OSError:
+        return default_front, default_title
+    front = default_front
+    if cur.startswith("---"):
+        end = cur.find("\n---", 3)
+        if end != -1:
+            front = cur[:end + 4].rstrip("\n").split("\n")
+    title = default_title
+    for line in cur.split("\n"):
+        if line.startswith("# "):
+            title = line
+            break
+    return front, title
+
+
 def slug(s):
     return re.sub(r"[^a-z0-9]+", "-", s.lower()).strip("-")[:48]
 
@@ -77,8 +103,10 @@ def main():
             key, custom, title=None)
     total = heatmap.draw(ticked, BIG, rng, custom, title=None)
 
-    lines = ["---", "description: What I am working on, and what changed.", "---", "",
-             "# What is she up to?", ""]
+    front, title = keep_from_page(
+        PAGE, ["---", "description: What I am working on, and what changed.", "---"],
+        "# What is she up to?")
+    lines = list(front) + ["", title, ""]
     here = doc.get("here")
     lines.append("At the desk on **%s**." % esc(here) if here
                  else "Away from the desk right now.")

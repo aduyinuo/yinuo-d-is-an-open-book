@@ -83,6 +83,13 @@ def git_recent(days=21):
 def main():
     doc = load()
     root = doc["research_root"]
+
+    # --clockify-only refreshes the hours and the sentences you typed, and keeps
+    # whatever the last folder scan found. It is what the daily GitHub Action
+    # runs, since the research folders are on a drive only your machine sees.
+    if "--clockify-only" in sys.argv:
+        return _clockify_only(doc, updates_for(), clockify.entries(clockify.key()))
+
     if not os.path.isdir(root):
         print("Cannot see the research folder:\n  %s\n"
               "Nothing written. The last good board is left alone.\n"
@@ -90,12 +97,7 @@ def main():
               file=sys.stderr)
         raise SystemExit(2)
 
-    updates = {}
-    if os.path.exists(UPDATES):
-        try:
-            updates = json.load(open(UPDATES, encoding="utf-8")).get("projects", {})
-        except Exception:
-            pass
+    updates = updates_for()
     logged = clockify.entries(clockify.key())
 
     now = time.time()
@@ -159,6 +161,62 @@ def main():
                 if e["at"] else "—")
         print("  %-34s %-8s %s  %s" % (e["name"][:34], e["state"], when,
                                        (e["update"] or "")[:44]))
+
+
+def updates_for():
+    if not os.path.exists(UPDATES):
+        return {}
+    try:
+        return json.load(open(UPDATES, encoding="utf-8")).get("projects", {})
+    except Exception:
+        return {}
+
+
+def _clockify_only(doc, updates, logged):
+    """Refresh hours and typed descriptions; keep the last folder scan."""
+    if not os.path.exists(OUT):
+        raise SystemExit("No activity.json to refresh. Run a full collection first.")
+    prev = json.load(open(OUT, encoding="utf-8"))
+    key = lambda q: q.get("folder") or q.get("name")
+    by_folder = {key(p): p for p in prev["projects"]}
+    now = time.time()
+    week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+
+    for p in watched(doc):
+        row = by_folder.get(key(p))
+        rows = []
+        for nm in clockify_names(p):
+            rows += logged.get(nm, [])
+        rows.sort(key=lambda e: e["at"], reverse=True)
+        if row is None:
+            by_folder[key(p)] = _from_hours(p, rows, now)
+            continue
+        hours = {}
+        for e in rows:
+            hours[e["day"]] = round(hours.get(e["day"], 0.0) + e["hours"], 2)
+        row["hours"] = hours
+        row["hours_week"] = round(sum(v for d, v in hours.items() if d >= week_ago), 1)
+        row["hours_total"] = round(sum(hours.values()), 1)
+        u = updates.get(p["folder"], {})
+        if u.get("headline"):
+            row["update"] = u["headline"]
+            row["details"] = u.get("details", row.get("details", []))
+        at = max([e["at"] for e in rows] + [row.get("at") or 0]) or None
+        row["at"] = int(at) if at else None
+        row["state"] = ("active" if at and (now - at) < 6 * 3600 else
+                        "recent" if at and (now - at) < 7 * DAY else "idle")
+
+    entries = sorted(by_folder.values(), key=lambda e: e["at"] or 0, reverse=True)
+    live = [e for e in entries if e["state"] == "active"]
+    prev.update({"generated": int(now),
+                 "here": live[0]["name"] if live else None,
+                 "here_folder": live[0]["folder"] if live else None,
+                 "range": doc.get("heatmap_range", "6m"),
+                 "projects": entries, "clockify_only": True})
+    json.dump(prev, open(OUT, "w", encoding="utf-8", newline="\n"),
+              ensure_ascii=False, indent=2)
+    print("refreshed from Clockify only; the folder scan is unchanged")
+    return None
 
 
 def _from_hours(p, rows, now):

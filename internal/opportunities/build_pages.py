@@ -29,6 +29,31 @@ CONFIDENCE = {"stated": "", "parsed": " (read off the listing)",
               "unknown": " (no date given)"}
 
 
+def keep_from_page(path, default_front, default_title):
+    """Reuse the frontmatter and the H1 already on the page.
+
+    These files are rewritten on every run. An icon or a retitled heading set
+    in GitBook has to survive that, or the next refresh strips it.
+    """
+    if not os.path.exists(path):
+        return default_front, default_title
+    try:
+        cur = io.open(path, encoding="utf-8").read()
+    except OSError:
+        return default_front, default_title
+    front = default_front
+    if cur.startswith("---"):
+        end = cur.find("\n---", 3)
+        if end != -1:
+            front = cur[:end + 4].rstrip("\n").split("\n")
+    title = default_title
+    for line in cur.split("\n"):
+        if line.startswith("# "):
+            title = line
+            break
+    return front, title
+
+
 def esc(s):
     s = (s or "").replace("&amp;", "&")          # feeds arrive already escaped
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
@@ -64,12 +89,15 @@ def row_html(r):
 
 def page(stream, rows, doc, threshold):
     fname, title, icon, lede = STREAMS[stream]
+    front, heading = keep_from_page(
+        os.path.join(PAGES, fname),
+        ["---", "description: Refreshed daily by the opportunity scout.",
+         "icon: %s" % icon, "---"], "# %s" % title)
     # Below the bar goes behind a fold. Nothing is deleted — but a page whose
     # first screen is ornithology posts is not a page anyone reads.
     rows, weak = ([r for r in rows if r["score"] >= threshold],
                   [r for r in rows if r["score"] < threshold])
-    out = ["---", "description: Refreshed daily by the opportunity scout.",
-           "icon: %s" % icon, "---", "", "# %s" % title, "", lede, ""]
+    out = list(front) + ["", heading, "", lede, ""]
 
     dated = [r for r in rows if r["days_left"] is not None]
     undated = [r for r in rows if r["days_left"] is None]
@@ -152,8 +180,11 @@ def main():
             fh.write(text)
         print("  %-34s %4d rows" % (fname, len(rows)))
 
-    index = ["---", "description: Refreshed daily by the opportunity scout.",
-             "icon: arrow-pointer", "---", "", "# Opportunities", "",
+    ifront, iheading = keep_from_page(
+        os.path.join(PAGES, "README.md"),
+        ["---", "description: Refreshed daily by the opportunity scout.",
+         "icon: arrow-pointer", "---"], "# Opportunities")
+    index = list(ifront) + ["", iheading, "",
              "Four queues, refreshed daily from %d sources. Everything found is "
              "listed with the reason it scored where it did; anything that matched "
              "too little of the profile is folded away at the foot of its page "

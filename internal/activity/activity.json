@@ -1,5 +1,5 @@
 {
-  "generated": 1787664650,
+  "generated": 1787667032,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -41,10 +41,10 @@
         }
       ],
       "days": {
-        "2026-08-19": 13,
+        "2026-08-19": 12,
         "2026-08-15": 8,
-        "2026-08-25": 39,
-        "2026-08-14": 185,
+        "2026-08-25": 42,
+        "2026-08-14": 184,
         "2026-08-21": 5,
         "2026-08-17": 57,
         "2026-08-20": 8
@@ -1087,6 +1087,14 @@
     }
   ],
   "site": [
+    {
+      "at": 1787666720,
+      "what": "Fill Training in \"Realistic\" Environments, and stop the scout showing biology"
+    },
+    {
+      "at": 1787664687,
+      "what": "Point the Thinking row at the page that exists"
+    },
     {
       "at": 1787664599,
       "what": "Opportunity Scout: four queues, eleven sources, refreshed daily"

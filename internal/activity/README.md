@@ -13,10 +13,22 @@ Answers "what is she up to?" from real work, not counters.
 `refresh-activity-board.bat` still exists and does the same work without the
 Clockify refresh or the publish step.
 
-**Nothing collects on its own.** The board only knows what it was told the last
-time you ran it, because collection has to happen on the machine that can see
-`G:`. If the page looks stale, that is why. For it to keep itself current, add
-`UPDATE BOARD.bat` to Windows Task Scheduler on a daily trigger.
+## What refreshes on its own, and what does not
+
+There is no button on the page itself. GitBook renders markdown and runs no
+scripts, so nothing on the published page can start anything.
+
+What runs without you: `.github/workflows/activity.yml` fires every morning at
+05:30 El Paso time. It pulls the day's logged time from Clockify, refreshes the
+hours, the heatmaps and the sentences you typed there, and pushes the result.
+For that it needs a repository secret named `CLOCKIFY_KEY` — Settings → Secrets
+and variables → Actions → New repository secret. Without it the job still
+re-renders, just from the last collection.
+
+What still needs you: the folder scan. The research folders are on a drive only
+your machine can see, so what changed in them is only picked up when you run
+**Update activity board** from the desktop. Put `UPDATE BOARD.bat` on a Windows
+Task Scheduler daily trigger and even that stops needing you.
 
 ## What a project is
 
