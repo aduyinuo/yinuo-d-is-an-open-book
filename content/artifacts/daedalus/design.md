@@ -20,6 +20,6 @@ A scripted red agent, compiled to a standalone binary, that performs a real intr
 
 ## Two backends behind one interface
 
-The simulator reproduces the same action and observation spaces so a policy can be trained across the millions of steps reinforcement learning needs without paying live-infrastructure cost per step. The AWS deployment is the honest end — slow, expensive, and real. A policy is trained in the first and evaluated in the second, and the gap between the two is itself a finding about how much the simulation abstracted away.
+The simulator reproduces the same action and observation spaces so a policy can be trained across the millions of steps reinforcement learning needs without paying live-infrastructure cost per step. The OpenStack deployment is the honest end — slow, expensive, and real. A policy is trained in the first and evaluated in the second, and the gap between the two is itself a finding about how much the simulation abstracted away.
 
 _Last updated: 2026-08_

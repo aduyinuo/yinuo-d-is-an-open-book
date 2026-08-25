@@ -44,4 +44,30 @@ _Metrion is a poster at ACM CCS 2026, with Maria Rigaki and Carlos A. Catania. T
 
 <table><thead><tr><th width="150"></th><th width="150"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-maria-rigaki.png" alt="Maria Rigaki" width="48"><br><a href="https://mariarigaki.github.io/"><strong>Maria Rigaki</strong></a><br>Czech Technical University in Prague</td><td><img src="../../../.gitbook/assets/collab-carlos-a-catania.png" alt="Carlos A. Catania" width="48"><br><strong>Carlos A. Catania</strong><br>Czech Technical University in Prague</td></tr></tbody></table>
 
+## Why "is it realistic?" is the wrong question
+
+Verification and validation of a model of a natural system are impossible in principle, because such systems are never closed and model results are never unique. What remains available is partial confirmation, in relative terms, against what is already trusted. So the answerable question is not whether an environment is realistic, but realistic **for what**.
+
+## Three audits, a decade apart, same verdict
+
+Security machine learning has now been audited three times, and each audit reached the same conclusion about its own generation.
+
+<table><thead><tr><th width="290">Audit</th><th>What it found</th></tr></thead><tbody>
+<tr><td>Supervised security learning</td><td>ten pitfalls</td></tr>
+<tr><td>Large-language-model security research</td><td>nine pitfalls, present in every one of 72 papers at leading security and software-engineering venues; only 15.7% of instances explicitly acknowledged</td></tr>
+<tr><td>Deep reinforcement learning for cybersecurity</td><td>eleven pitfalls across 66 papers, 2018–2025, averaging 5.8 per paper: 71.2% show no evidence of policy convergence, 66.7% neglect variance analysis, 60.6% leave partial observability unmitigated, 40.9% evaluate in oversimplified or contrived environments</td></tr>
+</tbody></table>
+
+The consequence drawn is the one that motivates this thread: the pitfalls obscure whether a reported improvement comes from genuine algorithmic advance or from artifacts of simplified environments and incomplete evaluation.
+
+## Gain attribution
+
+The recurring mechanism has a name. **Gain attribution** is improvement that stems from information or capability engineered into the environment rather than from the learned policy. The remedy is to evaluate a random-action baseline in the same environment, and to compare approaches under equivalent state and action spaces.
+
+The sharpest illustration comes from outside security. On one widely used tool-use benchmark a trivial agent returning empty responses scores 38% and outperforms a frontier-model agent, because impossible tasks are graded as successes. Issues of this kind move reported capability by up to 100% in relative terms, and 24% of the top fifty leaderboard positions on a prominent coding benchmark are wrong. Cost is the second unmeasured axis, and ignoring it has made state-of-the-art agents needlessly complex.
+
+## Not only security
+
+Benchmarking is the primary form of experimentation in 91% of empirical reinforcement-learning papers, and doing it rigorously enough to support the claims made carries computational costs that are often prohibitive — an argument for an additional experimental paradigm rather than for better benchmarking alone. Assessed against 46 best practices, widely used AI benchmarks show large quality differences, and most report no statistical significance and cannot easily be replicated.
+
 _Last updated: 2026-08_
