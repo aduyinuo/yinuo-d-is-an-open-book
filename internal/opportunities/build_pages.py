@@ -62,8 +62,12 @@ def row_html(r):
                urgency(r["days_left"]), r["score"], esc(why)))
 
 
-def page(stream, rows, doc):
+def page(stream, rows, doc, threshold):
     fname, title, icon, lede = STREAMS[stream]
+    # Below the bar goes behind a fold. Nothing is deleted — but a page whose
+    # first screen is ornithology posts is not a page anyone reads.
+    rows, weak = ([r for r in rows if r["score"] >= threshold],
+                  [r for r in rows if r["score"] < threshold])
     out = ["---", "description: Refreshed daily by the opportunity scout.",
            "icon: %s" % icon, "---", "", "# %s" % title, "", lede, ""]
 
@@ -106,7 +110,24 @@ def page(stream, rows, doc):
         out += ["</tbody></table>", ""]
 
     if not rows:
-        out += ["Nothing open in this stream today.", ""]
+        out += ["Nothing above the relevance bar in this stream today.", ""]
+
+    if weak:
+        weak = sorted(weak, key=lambda r: (-r["score"],
+                                           r["days_left"] if r["days_left"] is not None
+                                           else 9999))
+        out += ["<details>", "",
+                "<summary>Everything else found (%d) — nothing matched enough of "
+                "the profile to rank</summary>" % len(weak), "",
+                "<table><thead><tr><th width=\"400\">What</th>"
+                "<th width=\"130\">Deadline</th><th width=\"60\">Fit</th>"
+                "<th>Source</th></tr></thead><tbody>"]
+        for r in weak:
+            t = esc(r["title"])[:140]
+            link = '<a href="%s">%s</a>' % (r["url"], t) if r["url"] else t
+            out.append("<tr><td>%s</td><td>%s</td><td>%s</td><td><em>%s</em></td></tr>"
+                       % (link, r["deadline"] or "—", r["score"], esc(r["source"])))
+        out += ["</tbody></table>", "", "</details>", ""]
 
     out += ["---", "",
             "_Fit is the sum of the profile terms that appear in the listing; "
@@ -120,10 +141,12 @@ def page(stream, rows, doc):
 def main():
     with io.open(os.path.join(HERE, "scored.json"), encoding="utf-8") as fh:
         doc = json.load(fh)
+    with io.open(os.path.join(HERE, "profile.json"), encoding="utf-8") as fh:
+        threshold = json.load(fh).get("threshold", 3)
     os.makedirs(PAGES, exist_ok=True)
     for stream in STREAMS:
         rows = doc["streams"].get(stream, [])
-        fname, text = page(stream, rows, doc)
+        fname, text = page(stream, rows, doc, threshold)
         with io.open(os.path.join(PAGES, fname), "w", encoding="utf-8",
                      newline="\n") as fh:
             fh.write(text)
@@ -131,15 +154,19 @@ def main():
 
     index = ["---", "description: Refreshed daily by the opportunity scout.",
              "icon: arrow-pointer", "---", "", "# Opportunities", "",
-             "Four queues, refreshed daily from %d sources. Ranked, not filtered: "
-             "everything found is listed, with the reason it scored where it did."
+             "Four queues, refreshed daily from %d sources. Everything found is "
+             "listed with the reason it scored where it did; anything that matched "
+             "too little of the profile is folded away at the foot of its page "
+             "rather than deleted."
              % len(set(r["source"] for rows in doc["streams"].values() for r in rows)),
              ""]
     for stream, (fname, title, _i, lede) in STREAMS.items():
         rows = doc["streams"].get(stream, [])
-        soon = sum(1 for r in rows if r["days_left"] is not None and r["days_left"] <= 30)
-        index.append("* [%s](%s) — %d open, %d closing within a month"
-                     % (title, fname, len(rows), soon))
+        good = [r for r in rows if r["score"] >= threshold]
+        soon = sum(1 for r in good
+                   if r["days_left"] is not None and r["days_left"] <= 30)
+        index.append("* [%s](%s) — %d worth a look, %d closing within a month"
+                     % (title, fname, len(good), soon))
     index += ["", "_Last refreshed %s_" % datetime.datetime.fromtimestamp(
         doc["scored"]).strftime("%b %d, %H:%M"), ""]
     with io.open(os.path.join(PAGES, "README.md"), "w", encoding="utf-8",

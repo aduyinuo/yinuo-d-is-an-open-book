@@ -26,7 +26,9 @@ def load(name):
 def score(row, profile):
     hay = (row["title"] + " " + (row.get("detail") or "") + " "
            + (row.get("where") or "")).lower()
-    total, why, against = 0, [], []
+    total, why, against = row.get("base", 0), [], []
+    if total:
+        why.append("from %s" % row.get("source", "a field-specific source"))
     for term, w in profile["weights"].items():
         if term.lower() in hay:
             total += w

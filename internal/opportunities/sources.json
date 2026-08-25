@@ -1,90 +1,121 @@
 {
-  "_note": "Where opportunities come from. Add a source here and fetch.py picks it up. `stream` decides which page it lands on: conferences, funding, jobs, micro.",
+  "_note": "Where opportunities come from. Add a source here and fetch.py picks it up. `stream` decides which page it lands on: conferences, funding, jobs, micro. `base` is added to every item from that source, for feeds already curated to this field — a security conference is relevant because of where it was found, not because its name contains a keyword.",
   "sources": [
     {
       "name": "CCF deadlines — security",
       "stream": "conferences",
       "kind": "yaml_ccfddl",
-      "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference/SC/sp.yml"
+      "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference/SC/sp.yml",
+      "base": 6
     },
     {
       "name": "CCF deadlines — AI",
       "stream": "conferences",
       "kind": "yaml_ccfddl",
-      "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference/AI/aaai.yml"
+      "url": "https://raw.githubusercontent.com/ccfddl/ccf-deadlines/main/conference/AI/aaai.yml",
+      "base": 6
     },
     {
       "name": "Security and privacy deadlines",
       "stream": "conferences",
       "kind": "yaml_secdeadlines",
-      "url": "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml"
+      "url": "https://raw.githubusercontent.com/sec-deadlines/sec-deadlines.github.io/master/_data/conferences.yml",
+      "base": 6
     },
     {
       "name": "AI conference deadlines",
       "stream": "conferences",
       "kind": "yaml_aideadlines",
-      "url": "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml"
+      "url": "https://raw.githubusercontent.com/paperswithcode/ai-deadlines/gh-pages/_data/conferences.yml",
+      "base": 5
     },
     {
       "name": "WikiCFP — security",
       "stream": "conferences",
       "kind": "rss",
-      "url": "http://www.wikicfp.com/cfp/rss?cat=security"
+      "url": "http://www.wikicfp.com/cfp/rss?cat=security",
+      "base": 5
     },
     {
       "name": "WikiCFP — artificial intelligence",
       "stream": "conferences",
       "kind": "rss",
-      "url": "http://www.wikicfp.com/cfp/rss?cat=artificial%20intelligence"
+      "url": "http://www.wikicfp.com/cfp/rss?cat=artificial%20intelligence",
+      "base": 4
     },
     {
       "name": "WikiCFP — human computer interaction",
       "stream": "conferences",
       "kind": "rss",
-      "url": "http://www.wikicfp.com/cfp/rss?cat=human%20computer%20interaction"
+      "url": "http://www.wikicfp.com/cfp/rss?cat=human%20computer%20interaction",
+      "base": 3
     },
     {
       "name": "NSF upcoming funding",
       "stream": "funding",
       "kind": "rss",
-      "url": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml"
+      "url": "https://www.nsf.gov/rss/rss_www_funding_upcoming.xml",
+      "base": 2
     },
     {
       "name": "Grants.gov — AI and cyber",
       "stream": "funding",
       "kind": "grants_gov",
       "keywords": [
-        "artificial intelligence",
-        "cybersecurity",
-        "human-AI",
-        "autonomous systems",
-        "cognitive science"
-      ]
+        "autonomous cyber defense",
+        "cybersecurity research",
+        "human-AI teaming",
+        "artificial intelligence research",
+        "machine learning security",
+        "cyber workforce",
+        "human-machine teaming",
+        "trustworthy artificial intelligence"
+      ],
+      "base": 0
     },
     {
       "name": "Grants.gov — small awards",
       "stream": "micro",
       "kind": "grants_gov",
       "keywords": [
-        "travel award",
-        "seed grant",
-        "planning grant",
-        "workshop grant",
-        "early career"
+        "cybersecurity education",
+        "computer science education",
+        "artificial intelligence early career",
+        "cyber research travel",
+        "computing seed grant"
       ],
-      "ceiling": 100000
+      "ceiling": 100000,
+      "base": 0
     },
     {
       "name": "AcademicJobsOnline — computer science",
       "stream": "jobs",
       "kind": "ajo",
-      "url": "https://academicjobsonline.org/ajo/CS"
+      "url": "https://academicjobsonline.org/ajo/CS",
+      "base": 0
     },
     {
       "name": "AcademicJobsOnline — all postdoc listings",
       "stream": "jobs",
       "kind": "ajo",
-      "url": "https://academicjobsonline.org/ajo/postdoc"
+      "url": "https://academicjobsonline.org/ajo/postdoc",
+      "base": 0
+    },
+    {
+      "name": "LinkedIn — public job search",
+      "stream": "jobs",
+      "kind": "linkedin",
+      "enabled": true,
+      "base": 1,
+      "location": "United States",
+      "keywords": [
+        "cybersecurity research scientist",
+        "AI research scientist",
+        "human-AI interaction researcher",
+        "reinforcement learning researcher",
+        "research scientist autonomous systems"
+      ],
+      "_note": "LinkedIn's terms prohibit scraping. This reads only the guest endpoint LinkedIn serves to logged-out visitors, one page per search. Set enabled to false to turn it off."
     }
   ]
 }

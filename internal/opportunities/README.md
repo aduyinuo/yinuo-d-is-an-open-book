@@ -25,7 +25,7 @@ same three steps and asks whether to publish.
 |---|---|
 | Conferences | CCF deadlines, sec-deadlines, ai-deadlines, WikiCFP (security, AI, HCI) |
 | Funding | NSF upcoming-funding feed, Grants.gov search API |
-| Postdoc and faculty | AcademicJobsOnline, CS and postdoc listings |
+| Postdoc and faculty | AcademicJobsOnline CS and postdoc listings; LinkedIn's public job search |
 | Micro | Grants.gov, filtered to travel awards, seed and planning grants, workshops, early career |
 
 Add a source by adding an entry to `sources.json`. `stream` decides which page it
@@ -45,14 +45,26 @@ the next run.
 
 ## What it will not do
 
-**It ranks; it does not filter.** Everything found is listed, including things
-that match nothing, because the cost of hiding a good opportunity is higher than
-the cost of a long page. The only things dropped are listings whose deadline has
-already passed and listings beyond the horizon in `profile.json`.
+**Nothing is deleted, but not everything is shown at the top.** Anything scoring
+below `threshold` is folded into an "Everything else found" block at the foot of
+its page. Without that, the first screen of the funding page was ornithology
+posts and marine policy fellowships. The only things dropped outright are
+listings whose deadline has already passed and listings beyond the horizon.
+
+**Relevance comes from the source as well as the words.** A security conference
+is relevant because of the feed it was found in, not because its name contains a
+keyword, so each source carries a `base` score added to every item from it. That
+is what keeps USENIX Security on the page.
 
 **It does not invent a deadline.** A listing with no date says so, and is ranked
 by fit alone in its own section. Where a date was read out of prose rather than
 given as a field, the page says that too.
+
+**LinkedIn is opt-in and shallow.** LinkedIn's terms prohibit scraping, so the
+only thing read is the guest endpoint LinkedIn serves to logged-out visitors —
+one page per search, spaced out. There is no public way to harvest *posts*
+without an account, so posts are not a source; positions are. Set
+`"enabled": false` on that entry in `sources.json` to turn it off entirely.
 
 **It does not follow links.** A row is built from what the source returned. The
 link is there so a promising row can be read at its origin.

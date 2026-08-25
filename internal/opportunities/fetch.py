@@ -8,7 +8,8 @@ Writes internal/opportunities/raw.json. Every record carries the source it came
 from and the URL it was read at, so any line on the published page can be traced
 back. A source that fails is reported and skipped; the others still run.
 """
-import os, io, re, json, ssl, time, datetime, urllib.request, urllib.error
+import os, io, re, json, ssl, time, datetime
+import urllib.request, urllib.error, urllib.parse
 
 HERE = os.path.dirname(os.path.abspath(__file__))
 OUT = os.path.join(HERE, "raw.json")
@@ -31,8 +32,9 @@ def get(url, data=None, ctype=None, timeout=30):
 
 
 def item(stream, title, url, deadline=None, when=None, where=None,
-         detail="", source="", confidence="stated"):
-    return {"stream": stream, "title": " ".join((title or "").split()),
+         detail="", source="", confidence="stated", base=0):
+    return {"stream": stream, "base": base,
+            "title": " ".join((title or "").split()),
             "url": url or "", "deadline": deadline, "when": when, "where": where,
             "detail": " ".join((detail or "").split())[:400],
             "source": source, "deadline_confidence": confidence}
@@ -69,7 +71,7 @@ def read_yaml_ccfddl(src):
                                                 conf.get("description", "")),
                                 c.get("link", ""), _date(tl.get("deadline")),
                                 c.get("date"), c.get("place"),
-                                tl.get("comment", ""), src["name"]))
+                                tl.get("comment", ""), src["name"], base=src.get("base", 0)))
     return out
 
 
@@ -81,7 +83,7 @@ def read_yaml_secdeadlines(src):
             out.append(item("conferences",
                             "%s %s" % (c.get("name", ""), c.get("year", "")),
                             c.get("link", ""), _date(d), c.get("date"),
-                            c.get("place"), "", src["name"]))
+                            c.get("place"), "", src["name"], base=src.get("base", 0)))
     return out
 
 
@@ -93,7 +95,7 @@ def read_yaml_aideadlines(src):
                         "%s %s — %s" % (c.get("title", ""), c.get("year", ""),
                                         c.get("full_name", "")),
                         c.get("link", ""), _date(c.get("deadline")),
-                        c.get("date"), c.get("place"), "", src["name"]))
+                        c.get("date"), c.get("place"), "", src["name"], base=src.get("base", 0)))
     return out
 
 
@@ -114,7 +116,7 @@ def read_rss(src):
             dl = _date(dm.group(1))
         out.append(item(src["stream"], tag("title"), tag("link"), dl,
                         None, None, desc, src["name"],
-                        "parsed" if dl else "unknown"))
+                        "parsed" if dl else "unknown", base=src.get("base", 0)))
     return out
 
 
@@ -136,7 +138,7 @@ def read_grants_gov(src):
                             _date(h.get("closeDate")), None,
                             h.get("agencyName") or h.get("agencyCode"),
                             "%s · %s" % (h.get("agencyCode", ""), h.get("oppStatus", "")),
-                            src["name"]))
+                            src["name"], base=src.get("base", 0)))
         time.sleep(0.5)
     return out
 
@@ -166,13 +168,49 @@ def read_ajo(src):
             label = ("%s — %s" % (where, title or cat)).strip(" —")
             out.append(item("jobs", label,
                             "https://academicjobsonline.org/ajo/jobs/" + jid,
-                            None, None, where, cat, src["name"], "unknown"))
+                            None, None, where, cat, src["name"], "unknown",
+                            base=src.get("base", 0)))
+    return out
+
+
+def read_linkedin(src):
+    """LinkedIn's guest jobs endpoint — the one it serves to logged-out visitors.
+
+    Opt-in, and off by default. LinkedIn's terms prohibit scraping; this reads
+    only the public endpoint, one page per search, slowly. Set "enabled": false
+    in sources.json to turn it off.
+    """
+    out = []
+    for kw in src.get("keywords", []):
+        url = ("https://www.linkedin.com/jobs-guest/jobs/api/seeMoreJobPostings/"
+               "search?keywords=%s&location=%s&start=0"
+               % (urllib.parse.quote(kw), urllib.parse.quote(src.get("location", "United States"))))
+        try:
+            html = get(url)
+        except Exception as e:
+            print("    linkedin %-28s %s" % (kw, str(e)[:40]))
+            continue
+        for card in re.findall(r"<li>(.*?)</li>", html, re.S):
+            t = re.search(r'class="base-search-card__title">\s*(.*?)\s*</h3>', card, re.S)
+            o = re.search(r'class="base-search-card__subtitle">(.*?)</h4>', card, re.S)
+            l = re.search(r'href="([^"?]+)', card)
+            d = re.search(r'datetime="([\d-]+)"', card)
+            if not (t and l):
+                continue
+            who = " ".join(re.sub(r"<[^>]+>", " ", o.group(1)).split()) if o else ""
+            out.append(item("jobs",
+                            "%s — %s" % (who, " ".join(t.group(1).split())),
+                            l.group(1), None, d.group(1) if d else None, who,
+                            "posted " + (d.group(1) if d else "recently"),
+                            src["name"], "unknown", base=src.get("base", 0)))
+        time.sleep(1.2)
     return out
 
 
 READERS = {"yaml_ccfddl": read_yaml_ccfddl, "yaml_secdeadlines": read_yaml_secdeadlines,
            "yaml_aideadlines": read_yaml_aideadlines, "rss": read_rss,
-           "grants_gov": read_grants_gov, "ajo": read_ajo}
+           "grants_gov": read_grants_gov, "ajo": read_ajo,
+           "linkedin": read_linkedin}
 
 
 def main():
@@ -181,6 +219,9 @@ def main():
 
     rows, failed = [], []
     for src in sources:
+        if not src.get("enabled", True):
+            print("  off  %-40s (disabled in sources.json)" % src["name"])
+            continue
         reader = READERS.get(src["kind"])
         if reader is None:
             failed.append((src["name"], "no reader for kind %s" % src["kind"]))
