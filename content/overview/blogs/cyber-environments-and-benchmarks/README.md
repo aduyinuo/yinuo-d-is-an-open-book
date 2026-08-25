@@ -8,7 +8,7 @@ Notice that fidelity and tractability pull against each other. The environments 
 
 * [HackIT](hackit.md) — human attackers, real deception
 * [CybORG](cyborg.md) — the CAGE challenge substrate
-* [Daedelus](daedelus.md) — live command-and-control on provisioned infrastructure
+* [Daedalus](daedalus.md) — live command-and-control on provisioned infrastructure
 * [Cyber Wheel](cyber-wheel.md) — configurable, decoy-first, cheap to train in
 * [Cyber Battle Field](cyber-battle-field.md) — a graph with an enormous action space
 * [CyberVAN](cybervan.md) — virtual machines over a simulated network

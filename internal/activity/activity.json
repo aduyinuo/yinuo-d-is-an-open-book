@@ -1,5 +1,5 @@
 {
-  "generated": 1787663190,
+  "generated": 1787663457,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -41,13 +41,13 @@
         }
       ],
       "days": {
-        "2026-08-19": 15,
+        "2026-08-19": 14,
         "2026-08-15": 8,
-        "2026-08-25": 4,
-        "2026-08-14": 197,
+        "2026-08-25": 13,
+        "2026-08-14": 194,
         "2026-08-21": 5,
-        "2026-08-17": 64,
-        "2026-08-20": 10
+        "2026-08-17": 61,
+        "2026-08-20": 8
       },
       "hours": {},
       "hours_week": 0,
@@ -754,6 +754,10 @@
     }
   ],
   "site": [
+    {
+      "at": 1787663245,
+      "what": "One button that pulls Clockify, rebuilds the board and publishes"
+    },
     {
       "at": 1787663040,
       "what": "Put the thrust diagram on the Research page"

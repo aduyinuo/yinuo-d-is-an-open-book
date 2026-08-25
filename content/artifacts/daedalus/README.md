@@ -6,7 +6,7 @@ icon: display-code
 
 A reinforcement-learning defender whose actions are *deception* — and whose environment is a real cloud network rather than a model of one.
 
-<figure><img src="../../.gitbook/assets/mock-daedelus.png" alt="Daedalus: an RL blue agent choosing a deception action, passed through a gRPC C2 server to an eight-host AWS network, against a scripted attacker"><figcaption>The agent decides where to place deception; the C2 server makes it real on the host; the attacker walks into it.</figcaption></figure>
+<figure><img src="../../.gitbook/assets/mock-daedalus.png" alt="Daedalus: an RL blue agent choosing a deception action, passed through a gRPC C2 server to an eight-host AWS network, against a scripted attacker"><figcaption>The agent decides where to place deception; the C2 server makes it real on the host; the attacker walks into it.</figcaption></figure>
 
 ## The idea
 

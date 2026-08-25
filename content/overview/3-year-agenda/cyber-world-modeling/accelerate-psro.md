@@ -22,6 +22,14 @@ The working question is where a PSRO-like loop can be sped up without losing sol
 2. a risk register for the approximation shortcuts each lever takes
 3. a validation protocol that says whether an accelerated run reached the same place a slower one would have
 
+## The experiment
+
+The risk is that the acceleration runs negative: model bias becomes bias in the best-response target, which the game-solving step then amplifies, and slower honest interaction wins.
+
+The experiment settles it by degrading model quality along a controlled axis and measuring regret against interaction budget, relative to model-free PSRO. The deliverable is the crossover point below which imagination stops paying.
+
+This is also the strategy exploration problem — assembling a strategy population that represents the full game under a computational budget.
+
 ## Environment
 
 The work runs against **CyGym**, a simulation-based game-theoretic analysis framework for cybersecurity, which supplies the empirical game the loop is solved over.

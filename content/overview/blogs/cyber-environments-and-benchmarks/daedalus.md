@@ -1,10 +1,10 @@
-# Daedelus
+# Daedalus
 
 **Live command-and-control on provisioned infrastructure.**
 
-<figure><img src="../../../.gitbook/assets/env-daedelus.gif" alt="A command-and-control stack on provisioned infrastructure, issuing real tool invocations against real services"><figcaption><p>The action space is whatever the tools accept.</p></figcaption></figure>
+<figure><img src="../../../.gitbook/assets/env-daedalus.gif" alt="A command-and-control stack on provisioned infrastructure, issuing real tool invocations against real services"><figcaption><p>The action space is whatever the tools accept.</p></figcaption></figure>
 
-Daedelus sits at the emulation end of the range. Rather than modelling an attack, it runs one: a command-and-control stack deployed onto provisioned network infrastructure, with attacker tooling executing real exploits against real services.
+Daedalus sits at the emulation end of the range. Rather than modelling an attack, it runs one: a command-and-control stack deployed onto provisioned network infrastructure, with attacker tooling executing real exploits against real services.
 
 That places it in a different category from the simulators. There is no abstract action space to argue about, because the actions are tool invocations, and no observation schema to align, because what you see is whatever the system emits.
 
@@ -18,7 +18,7 @@ _Work of mine that runs on this environment._
 
 <table><thead><tr><th width="100"></th><th width="400">Paper</th><th>Authors</th><th></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/badge-aamas.png" alt="OptLearnMAS" data-size="original"></td><td><mark style="color:green;">Learning to play an adaptive cyber deception game</mark><br>OptLearnMAS workshop, at AAMAS 2022</td><td><strong>Y. Du</strong>, Z. Song, <a href="https://stephmilani.github.io/">S. Milani</a>, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/cotyweb/">C. Gonzalez</a>, <a href="https://feifang.info/">F. Fang</a></td><td></td></tr></tbody></table>
 
-_The tool that runs this environment is documented under_ [_Artifacts → Daedalus_](../../../artifacts/daedelus/)_._
+_The tool that runs this environment is documented under_ [_Artifacts → Daedalus_](../../../artifacts/daedalus/)_._
 
 ## Collaborators
 

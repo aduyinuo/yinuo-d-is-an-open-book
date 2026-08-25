@@ -27,12 +27,12 @@ At the desk on **The Website**.
 
 <summary>The Website — wrote into overview</summary>
 
-_at the desk · 3 minutes ago_
+_at the desk · 7 minutes ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **3 minutes ago** — wrote into overview
-* **3 minutes ago** — added research-thrusts.pdf
+* **7 minutes ago** — wrote into overview
+* **7 minutes ago** — added research-thrusts.pdf
 * **4 days ago** — added rrep year1 to site
 * **4 days ago** — reworked funding
 * **4 days ago** — added load() and draw()
@@ -327,4 +327,4 @@ _resting · Aug 04_
 </details>
 
 
-_Last looked at Aug 25, 07:06_
+_Last looked at Aug 25, 07:10_
