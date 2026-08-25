@@ -1,21 +1,25 @@
 ---
 description: What I am working on, and what changed.
+icon: clock-five
 ---
 
-# What is she up to?
+# In Action
 
 At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>518 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects, 6 months"><figcaption><p>518 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
+
 {% tab title="This week" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>3 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
+
 {% tab title="1 month" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>84 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
+
 {% tab title="1 year" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>691 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
@@ -50,7 +54,6 @@ _resting · Aug 14_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
 
-
 [What to Read on the site](../personal/overview.md)
 
 </details>
@@ -68,7 +71,6 @@ _resting · Aug 09_
 [Research Statement on the site](../research/projects/research-statement/overview.md)
 
 </details>
-
 
 #### Mental World Modeling
 
@@ -110,7 +112,6 @@ _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
 
-
 [Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
 </details>
@@ -143,10 +144,9 @@ _resting · Jul 06_
 * **Jul 06** — logged 0.2h — Working in VS Code
 * 8.2 hours logged in this window
 
-[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
+[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/)
 
 </details>
-
 
 #### Cyber World Modeling
 
@@ -157,7 +157,6 @@ _resting · Jul 06_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
-
 
 [World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
 
@@ -209,7 +208,6 @@ _resting · Feb 21_
 
 </details>
 
-
 #### Human-AI Complementarity
 
 <details>
@@ -219,7 +217,6 @@ _resting · Feb 21_
 _resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
-
 
 [Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
@@ -284,7 +281,6 @@ _resting · Mar 13_
 
 </details>
 
-
 #### Toward Deployment
 
 <details>
@@ -324,11 +320,9 @@ _resting · Jul 13_
 
 _resting · —_
 
-
 [Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
-
 
 #### Study approvals
 
@@ -340,11 +334,9 @@ _resting · Aug 04_
 
 <figure><img src="../.gitbook/assets/heat-irb-logistics.png" alt="Daily work on IRB Logistics"><figcaption></figcaption></figure>
 
-
 [IRB Logistics on the site](../research/projects/irb-applications/overview.md)
 
 </details>
-
 
 #### Around the work
 
@@ -375,7 +367,7 @@ _resting · Jul 25_
 * **Mar 15** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
-[Service on the site](../overview-3/README.md)
+[Service on the site](../overview-3/)
 
 </details>
 
@@ -390,7 +382,7 @@ _resting · Jul 25_
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 58.9 hours logged in this window
 
-[Thinking on the site](../home/what-is-she-thinking.md)
+[Thinking on the site](what-is-she-thinking.md)
 
 </details>
 
@@ -405,7 +397,7 @@ _resting · Apr 09_
 * **Mar 12** — logged 1.1h — How to prepare for the reading group?
 * 3.3 hours logged in this window
 
-[Mentoring on the site](../mentor/README.md)
+[Mentoring on the site](../mentor/)
 
 </details>
 
@@ -436,9 +428,8 @@ _resting · Mar 27_
 * **Mar 17** — logged 0.2h — Making a post for Maria Rigaki
 * 16.0 hours logged in this window
 
-[Reading Group on the site](../overview-3/cyberai-reading-group/README.md)
+[Reading Group on the site](../overview-3/cyberai-reading-group/)
 
 </details>
-
 
 _Last looked at Aug 25, 07:30_
