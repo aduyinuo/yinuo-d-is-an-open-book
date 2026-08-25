@@ -1,4 +1,5 @@
 name: openbook-refresh
+organization: U4GMnoE5OW4Gv45992hA
 title: Refresh Button
 description: A button on the page that starts the site's refresh workflow.
 summary: |
@@ -27,7 +28,7 @@ configurations:
       token:
         type: string
         title: GitHub token
-        description: A fine-grained token with Actions: read and write on aduyinuo/yinuo-d-is-an-open-book.
+        description: "A fine-grained token scoped to the repository, with Actions read and write."
       repo:
         type: string
         title: Repository

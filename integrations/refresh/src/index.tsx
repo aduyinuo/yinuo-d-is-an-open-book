@@ -16,6 +16,9 @@ type Props = {
     label?: string;
 };
 
+/** The only action this block dispatches. */
+type Action = { action: 'run' };
+
 type State = {
     workflow: string;
     label: string;
@@ -99,7 +102,7 @@ async function dispatch(
     return { ok: false, message: `GitHub said ${response.status}. ${body.slice(0, 160)}` };
 }
 
-const refreshBlock = createComponent<Props, State>({
+const refreshBlock = createComponent<Props, State, Action>({
     componentId: 'refresh',
 
     initialState: (props) => {

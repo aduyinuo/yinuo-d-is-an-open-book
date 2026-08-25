@@ -7,7 +7,7 @@
     "jsxImportSource": "@gitbook/runtime",
     "strict": true,
     "skipLibCheck": true,
-    "types": []
+    "types": ["@cloudflare/workers-types"]
   },
   "include": ["src"]
 }
