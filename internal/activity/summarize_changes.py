@@ -14,7 +14,7 @@ Never a count of events, files or bytes.
 """
 import os, re, json, time
 
-from config import HERE, load, watched
+from config import HERE, load, watched, clockify_names
 import clockify
 
 CHANGES = os.path.join(HERE, "changes.json")
@@ -181,7 +181,10 @@ def main():
                 else:
                     unnamed.append(f["file"])
 
-        logged = hours.get(p.get("clockify") or "", [])
+        logged = []
+        for nm in clockify_names(p):
+            logged += hours.get(nm, [])
+        logged.sort(key=lambda e: e["at"], reverse=True)
         for e in logged[:6]:
             if e["what"]:
                 details.append({"at": e["at"], "what": "logged %.1fh — %s"
@@ -212,7 +215,7 @@ def main():
             "needs_asking": bool(window) and not covered,
             "unnamed": (unnamed or [f["file"] for f in (ch["files"] if ch else [])])[:6],
             "guess": headline if not covered else "",
-            "clockify": p.get("clockify", ""),
+            "clockify": (clockify_names(p) or [""])[0],
             "name": p["name"],
             "window": window,
             "at": max([d["at"] for d in details], default=None),

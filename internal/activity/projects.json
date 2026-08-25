@@ -8,7 +8,10 @@
       "thread": "Mental World Modeling",
       "group": "2022-2026 ReadTheRoom",
       "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/social-intelligence.md",
-      "clockify": "COLLAB - A - Submission: Network-Coty",
+      "clockify": [
+        "COLLAB - A - Submission: Network-Coty",
+        "* CORE - 2 - I - Mental Social WM"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -19,7 +22,9 @@
       "thread": "Mental World Modeling",
       "group": "2022-2026 ReadTheRoom",
       "page": "overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md",
-      "clockify": "COLLAB - I: RLadv (advising)",
+      "clockify": [
+        "COLLAB - I: RLadv (advising)"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -30,7 +35,9 @@
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md",
-      "clockify": "CORE - 2 - III - Progressive Problem Design",
+      "clockify": [
+        "CORE - 2 - III - Progressive Problem Design"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -41,7 +48,11 @@
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "research/projects/design-the-game/difficulty-lineage.md",
-      "clockify": "CORE - 2 - IV - What Makes a Problem Difficult",
+      "clockify": [
+        "CORE - 2 - IV - What Makes a Problem Difficult",
+        "COLLAB - I - *Lead - GenCTF - Human",
+        "COLLAB - II: GenCTF"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -52,7 +63,9 @@
       "thread": "Mental World Modeling",
       "group": "2025-2026 DesignTheGame",
       "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md",
-      "clockify": "* CORE - 2 - II - Mental WM for Problem Solving",
+      "clockify": [
+        "* CORE - 2 - II - Mental WM for Problem Solving"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -63,7 +76,9 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
       "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
-      "clockify": "* CORE - 1 - I : FOE-Dreamer",
+      "clockify": [
+        "* CORE - 1 - I : FOE-Dreamer"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -74,7 +89,9 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
       "page": "overview/3-year-agenda/cyber-world-modeling/strategic-structure.md",
-      "clockify": "* CORE - 1 - II - Learn Structure",
+      "clockify": [
+        "* CORE - 1 - II - Learn Structure"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -85,7 +102,9 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 LucidWorld",
       "page": "research/projects/lucid-world/world-model-failure-track.md",
-      "clockify": "* CORE - 1 - III - SecureCausalWM",
+      "clockify": [
+        "* CORE - 1 - III - SecureCausalWM"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -96,7 +115,9 @@
       "thread": "Cyber World Modeling",
       "group": "2025-2026 PickYourBattles",
       "page": "overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md",
-      "clockify": "* CORE - 1 - IV : Accelerate PSRO",
+      "clockify": [
+        "* CORE - 1 - IV : Accelerate PSRO"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -107,7 +128,9 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "overview/3-year-agenda/human-ai-complementarity/chart.md",
-      "clockify": "* CORE - 4 - Human Experiment: CHART",
+      "clockify": [
+        "* CORE - 4 - Human Experiment: CHART"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -118,7 +141,9 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "research/projects/united-forces/team-dependencies-track.md",
-      "clockify": "COLLAB - II: CHART-GRACE",
+      "clockify": [
+        "COLLAB - II: CHART-GRACE"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -129,7 +154,9 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "overview/3-year-agenda/human-ai-complementarity/cyberagenttrace.md",
-      "clockify": "COLLAB - II - Stage 2: SLMPentester",
+      "clockify": [
+        "COLLAB - II - Stage 2: SLMPentester"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -140,7 +167,9 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "research/proposals/proposal-portfolio-timeline.md",
-      "clockify": "OVERHEAD: Proposal - Microsoft Future of Work",
+      "clockify": [
+        "OVERHEAD: Proposal - Microsoft Future of Work"
+      ],
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -151,7 +180,7 @@
       "thread": "Human-AI Complementarity",
       "group": "2025-2026 UnitedForces",
       "page": "overview/3-year-agenda/human-ai-complementarity/team-defense-game.md",
-      "clockify": "",
+      "clockify": [],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -162,7 +191,9 @@
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
       "page": "overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md",
-      "clockify": "COLLAB - I: RLTransfer (advising)",
+      "clockify": [
+        "COLLAB - I: RLTransfer (advising)"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -173,7 +204,9 @@
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
       "page": "overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md",
-      "clockify": "COLLAB - I - *Co-Lead - CTU Collaboration - Realism",
+      "clockify": [
+        "COLLAB - I - *Co-Lead - CTU Collaboration - Realism"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -184,7 +217,9 @@
       "thread": "Toward Deployment",
       "group": "2026 BeRealistic",
       "page": "research/projects/be-realistic/emulator-track.md",
-      "clockify": "COLLAB - I: Emulators (Palo Alto)",
+      "clockify": [
+        "COLLAB - I: Emulators (Palo Alto)"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -195,7 +230,9 @@
       "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "OVERHEAD: IRB - CHART",
+      "clockify": [
+        "OVERHEAD: IRB - CHART"
+      ],
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -206,7 +243,9 @@
       "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "OVERHEAD: IRB - CTF Study",
+      "clockify": [
+        "OVERHEAD: IRB - CTF Study"
+      ],
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -217,7 +256,9 @@
       "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "OVERHEAD: IRB - Future of Work",
+      "clockify": [
+        "OVERHEAD: IRB - Future of Work"
+      ],
       "watch": false,
       "heatmap": false,
       "alias": true
@@ -228,7 +269,9 @@
       "thread": "Study approvals",
       "group": "IRB Applications",
       "page": "research/projects/irb-applications/overview.md",
-      "clockify": "OVERHEAD: IRB - UTEP Logistics",
+      "clockify": [
+        "OVERHEAD: IRB - UTEP Logistics"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -239,7 +282,7 @@
       "thread": "Writing and upkeep",
       "group": "READING NOTES",
       "page": "personal/overview.md",
-      "clockify": "",
+      "clockify": [],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -250,7 +293,9 @@
       "thread": "Writing and upkeep",
       "group": "RESEARCH STATEMENT",
       "page": "research/projects/research-statement/overview.md",
-      "clockify": "* CAREER: Research Agenda & Strategic Planning",
+      "clockify": [
+        "* CAREER: Research Agenda & Strategic Planning"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false
@@ -261,7 +306,9 @@
       "thread": "Writing and upkeep",
       "group": "Across threads",
       "page": "site-dev-log.md",
-      "clockify": "OVERHEAD: Open Book (website)",
+      "clockify": [
+        "OVERHEAD: Open Book (website)"
+      ],
       "watch": true,
       "heatmap": true,
       "alias": false,
@@ -273,6 +320,106 @@
         "slides-source",
         "integrations/slides/node_modules"
       ]
+    },
+    {
+      "folder": "",
+      "name": "RL4ThreadSecurity",
+      "thread": "Human-AI Complementarity",
+      "group": "Human-AI Complementarity",
+      "page": "research/projects/united-forces/overview.md",
+      "clockify": [
+        "COLLAB - II - *Lead: RL4ThreadSecurity (advising)"
+      ],
+      "watch": true,
+      "heatmap": true,
+      "alias": false,
+      "exclude": []
+    },
+    {
+      "folder": "",
+      "name": "Reading Group",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "overview-3/cyberai-reading-group/README.md",
+      "clockify": [
+        "REPUTATION: ReadingGroup"
+      ],
+      "watch": true,
+      "heatmap": false,
+      "alias": false,
+      "exclude": []
+    },
+    {
+      "folder": "",
+      "name": "AAAI Summer Symposium",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "overview-3/aaai-summer-symposium-2026.md",
+      "clockify": [
+        "REPUTATION: SuSS26"
+      ],
+      "watch": true,
+      "heatmap": false,
+      "alias": false,
+      "exclude": []
+    },
+    {
+      "folder": "",
+      "name": "Mentoring",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "mentor/README.md",
+      "clockify": [
+        "MENTOR"
+      ],
+      "watch": true,
+      "heatmap": false,
+      "alias": false,
+      "exclude": []
+    },
+    {
+      "folder": "",
+      "name": "Service",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "overview-3/README.md",
+      "clockify": [
+        "Service"
+      ],
+      "watch": true,
+      "heatmap": false,
+      "alias": false,
+      "exclude": []
+    },
+    {
+      "folder": "",
+      "name": "Thinking",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "personal/what-is-she-thinking.md",
+      "clockify": [
+        "THINK (unfortunately can't be justified by any project yet)",
+        "* CAREER: Learn new things"
+      ],
+      "watch": true,
+      "heatmap": false,
+      "alias": false,
+      "exclude": []
+    },
+    {
+      "folder": "",
+      "name": "Overhead",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "",
+      "clockify": [
+        "OVERHEAD",
+        "* CAREER: Job Search"
+      ],
+      "watch": true,
+      "heatmap": false,
+      "alias": false,
+      "exclude": []
     }
   ]
 }

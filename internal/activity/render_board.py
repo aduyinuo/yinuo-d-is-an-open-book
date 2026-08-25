@@ -96,8 +96,9 @@ def main():
     group_of = {}
     for p in projects:
         group_of.setdefault(p.get("thread") or "Other", []).append(p)
-    order = sorted(group_of, key=lambda g: -max(
-        (q["at"] or 0) for q in group_of[g]))
+    # Research threads by recency; the overhead group always sits at the bottom.
+    order = sorted(group_of, key=lambda g: (g == "Around the work",
+                                            -max((q["at"] or 0) for q in group_of[g])))
 
     for thread in order:
         rows = sorted(group_of[thread], key=lambda q: q["at"] or 0, reverse=True)

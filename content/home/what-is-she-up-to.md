@@ -8,16 +8,16 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>442 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>518 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
 {% tab title="This week" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>3 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>83 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>84 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 year" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>584 hours logged in the last year</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>691 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -27,12 +27,12 @@ At the desk on **The Website**.
 
 <summary>The Website — wrote into overview</summary>
 
-_at the desk · 7 minutes ago_
+_at the desk · 11 minutes ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **7 minutes ago** — wrote into overview
-* **7 minutes ago** — added research-thrusts.pdf
+* **11 minutes ago** — wrote into overview
+* **12 minutes ago** — added research-thrusts.pdf
 * **4 days ago** — added rrep year1 to site
 * **4 days ago** — reworked funding
 * **4 days ago** — added load() and draw()
@@ -96,22 +96,9 @@ _resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-human-relationships-in-networks.png" alt="Daily work on Human Relationships in Networks"><figcaption></figcaption></figure>
 
-* 38.3 hours logged in this window
+* 45.3 hours logged in this window
 
 [Human Relationships in Networks on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/social-intelligence.md)
-
-</details>
-
-<details>
-
-<summary>What Makes a Problem Difficult — nothing recorded yet</summary>
-
-_resting · Aug 09_
-
-<figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
-
-
-[What Makes a Problem Difficult on the site](../research/projects/design-the-game/difficulty-lineage.md)
 
 </details>
 
@@ -125,6 +112,23 @@ _resting · Aug 09_
 
 
 [Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
+
+</details>
+
+<details>
+
+<summary>What Makes a Problem Difficult — CTFTime Crawler</summary>
+
+_resting · Aug 06_
+
+<figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
+
+* **Aug 06** — logged 1.2h — CTFTime Crawler
+* **Jul 17** — logged 0.2h — poster
+* **Jul 17** — logged 2.3h — poster
+* 67.6 hours logged in this window
+
+[What Makes a Problem Difficult on the site](../research/projects/design-the-game/difficulty-lineage.md)
 
 </details>
 
@@ -237,6 +241,21 @@ _resting · Jul 15_
 
 <details>
 
+<summary>RL4ThreadSecurity — I can probably do some reading, understand my method better to be prepared for the questions,…</summary>
+
+_resting · Apr 01_
+
+<figure><img src="../.gitbook/assets/heat-rl4threadsecurity.png" alt="Daily work on RL4ThreadSecurity"><figcaption></figcaption></figure>
+
+* **Jan 21** — logged 1.5h — I can probably do some reading, understand my method better to be prepared for the questions, and read some CPS papers if Sai shares with me. In terms of proposal, i have to wait for their contacts and their pointers on potential programs
+* 32.4 hours logged in this window
+
+[RL4ThreadSecurity on the site](../research/projects/united-forces/overview.md)
+
+</details>
+
+<details>
+
 <summary>Team Dependencies — Updated a few todo items</summary>
 
 _resting · Mar 23_
@@ -327,4 +346,99 @@ _resting · Aug 04_
 </details>
 
 
-_Last looked at Aug 25, 07:10_
+#### Around the work
+
+<details>
+
+<summary>Overhead — Working on</summary>
+
+_resting · Aug 03_
+
+<figure><img src="../.gitbook/assets/heat-overhead.png" alt="Daily work on Overhead"><figcaption></figcaption></figure>
+
+* **Jul 06** — logged 0.0h — Working on
+* **Apr 09** — logged 0.7h — https://www.science.org/content/article/writing-research-plan
+* 38.8 hours logged in this window
+
+</details>
+
+<details>
+
+<summary>Service — Aritran's survey</summary>
+
+_resting · Jul 25_
+
+<figure><img src="../.gitbook/assets/heat-service.png" alt="Daily work on Service"><figcaption></figcaption></figure>
+
+* **Jul 25** — logged 0.6h — Aritran's survey
+* **Mar 17** — logged 0.6h — Filling in the research activity form and feeling jealous
+* **Mar 15** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
+* 2.5 hours logged in this window
+
+[Service on the site](../overview-3/README.md)
+
+</details>
+
+<details>
+
+<summary>Thinking — Toward a theory of "pull it together"</summary>
+
+_resting · Jul 25_
+
+<figure><img src="../.gitbook/assets/heat-thinking.png" alt="Daily work on Thinking"><figcaption></figcaption></figure>
+
+* **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
+* 58.9 hours logged in this window
+
+[Thinking on the site](../personal/what-is-she-thinking.md)
+
+</details>
+
+<details>
+
+<summary>Mentoring — How to prepare for the reading group?</summary>
+
+_resting · Apr 09_
+
+<figure><img src="../.gitbook/assets/heat-mentoring.png" alt="Daily work on Mentoring"><figcaption></figcaption></figure>
+
+* **Mar 12** — logged 1.1h — How to prepare for the reading group?
+* 3.3 hours logged in this window
+
+[Mentoring on the site](../mentor/README.md)
+
+</details>
+
+<details>
+
+<summary>AAAI Summer Symposium — Meet Carmela, wild gov person</summary>
+
+_resting · Apr 06_
+
+<figure><img src="../.gitbook/assets/heat-aaai-summer-symposium.png" alt="Daily work on AAAI Summer Symposium"><figcaption></figcaption></figure>
+
+* **Mar 09** — logged 1.3h — Meet Carmela, wild gov person
+* 20.6 hours logged in this window
+
+[AAAI Summer Symposium on the site](../overview-3/aaai-summer-symposium-2026.md)
+
+</details>
+
+<details>
+
+<summary>Reading Group — Invite a speaker and register for the seminar series website</summary>
+
+_resting · Mar 27_
+
+<figure><img src="../.gitbook/assets/heat-reading-group.png" alt="Daily work on Reading Group"><figcaption></figcaption></figure>
+
+* **Mar 26** — logged 0.6h — Invite a speaker and register for the seminar series website
+* **Mar 17** — logged 0.2h — Making a post for Maria Rigaki
+* 16.0 hours logged in this window
+
+[Reading Group on the site](../overview-3/cyberai-reading-group/README.md)
+
+</details>
+
+
+_Last looked at Aug 25, 07:15_

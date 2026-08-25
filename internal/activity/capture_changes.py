@@ -17,7 +17,7 @@ correct: there is no before.
 """
 import os, re, json, time, hashlib, difflib, subprocess
 
-from config import HERE, ROOT, load, path_of, watched, excluded
+from config import HERE, ROOT, load, path_of, watched, excluded, hours_only
 
 SNAP = os.path.join(HERE, "snapshot.json")
 OUT = os.path.join(HERE, "changes.json")
@@ -145,6 +145,8 @@ def main():
     snapshot, changes = {}, []
 
     for p in watched(doc):
+        if hours_only(p):
+            continue                             # nothing on disk to diff
         root = path_of(doc, p)
         if not os.path.isdir(root):
             continue

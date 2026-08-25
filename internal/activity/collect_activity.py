@@ -13,7 +13,7 @@ board of blanks.
 """
 import os, re, json, time, datetime, subprocess, sys
 
-from config import HERE, ROOT, load, path_of, watched, excluded
+from config import HERE, ROOT, load, path_of, watched, excluded, clockify_names, hours_only
 import clockify
 
 OUT = os.path.join(HERE, "activity.json")
@@ -103,7 +103,14 @@ def main():
     for p in watched(doc):
         folder = path_of(doc, p)
         u = updates.get(p["folder"], {})
-        rows = logged.get(p.get("clockify") or "", [])
+        rows = []
+        for nm in clockify_names(p):
+            rows += logged.get(nm, [])
+        rows.sort(key=lambda e: e["at"], reverse=True)
+
+        if hours_only(p):
+            entries.append(_from_hours(p, rows, now))
+            continue
 
         if not os.path.isdir(folder):
             entries.append({**_base(p), "state": "missing", "at": None,
@@ -152,6 +159,29 @@ def main():
                 if e["at"] else "—")
         print("  %-34s %-8s %s  %s" % (e["name"][:34], e["state"], when,
                                        (e["update"] or "")[:44]))
+
+
+def _from_hours(p, rows, now):
+    """A project with no folder: everything it knows comes from Clockify."""
+    hours = {}
+    for e in rows:
+        hours[e["day"]] = round(hours.get(e["day"], 0.0) + e["hours"], 2)
+    at = rows[0]["at"] if rows else None
+    week_ago = (datetime.date.today() - datetime.timedelta(days=7)).isoformat()
+    said = next((e["what"] for e in rows if e["what"]), "")
+    return {
+        **_base(p),
+        "at": int(at) if at else None,
+        "state": ("active" if at and (now - at) < 6 * 3600 else
+                  "recent" if at and (now - at) < 7 * DAY else "idle"),
+        "update": said,
+        "details": [{"at": e["at"], "what": "logged %.1fh — %s" % (e["hours"], e["what"])}
+                    for e in rows[:6] if e["what"]],
+        "days": {},
+        "hours": hours,
+        "hours_week": round(sum(v for d, v in hours.items() if d >= week_ago), 1),
+        "hours_total": round(sum(hours.values()), 1),
+    }
 
 
 def _base(p):

@@ -1,5 +1,5 @@
 {
-  "generated": 1787663457,
+  "generated": 1787663711,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -129,20 +129,22 @@
         "2025-11-17": 1
       },
       "hours": {
+        "2026-07-06": 0.72,
         "2026-06-01": 2.56,
         "2026-05-29": 4.12,
         "2026-05-28": 5.62,
-        "2026-04-01": 5.34,
+        "2026-04-01": 10.13,
         "2026-03-31": 2.08,
         "2026-03-30": 6.71,
         "2026-03-25": 0.83,
         "2026-03-22": 4.19,
         "2026-03-19": 1.68,
         "2026-03-18": 2.06,
+        "2026-03-16": 1.44,
         "2026-02-18": 3.12
       },
       "hours_week": 0,
-      "hours_total": 38.3
+      "hours_total": 45.3
     },
     {
       "folder": "2025-2026 LucidWorld\\[3] 2026 when_world_model_defend_agent_fail",
@@ -157,35 +159,6 @@
       "details": [],
       "days": {
         "2026-08-09": 35
-      },
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
-    },
-    {
-      "folder": "2025-2026 DesignTheGame\\[2] 2026 Yansi_Ana_but_what_is_difficult",
-      "name": "What Makes a Problem Difficult",
-      "thread": "Mental World Modeling",
-      "group": "2025-2026 DesignTheGame",
-      "page": "research/projects/design-the-game/difficulty-lineage.md",
-      "heatmap": true,
-      "at": 1786332725,
-      "state": "idle",
-      "update": "",
-      "details": [],
-      "days": {
-        "2026-07-18": 2,
-        "2026-07-15": 19,
-        "2026-07-16": 10,
-        "2026-07-17": 3,
-        "2026-02-03": 1,
-        "2026-03-03": 2,
-        "2026-05-29": 2,
-        "2026-08-03": 1,
-        "2026-08-06": 657,
-        "2026-08-09": 21,
-        "2026-08-07": 12,
-        "2026-07-06": 5
       },
       "hours": {},
       "hours_week": 0,
@@ -299,6 +272,69 @@
       "hours_total": 16.6
     },
     {
+      "folder": "2025-2026 DesignTheGame\\[2] 2026 Yansi_Ana_but_what_is_difficult",
+      "name": "What Makes a Problem Difficult",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "research/projects/design-the-game/difficulty-lineage.md",
+      "heatmap": true,
+      "at": 1786029840,
+      "state": "idle",
+      "update": "CTFTime Crawler",
+      "details": [
+        {
+          "at": 1786029840,
+          "what": "logged 1.2h — CTFTime Crawler"
+        },
+        {
+          "at": 1784325300,
+          "what": "logged 0.2h — poster"
+        },
+        {
+          "at": 1784315524,
+          "what": "logged 2.3h — poster"
+        }
+      ],
+      "days": {
+        "2026-07-18": 2,
+        "2026-07-15": 19,
+        "2026-07-16": 10,
+        "2026-07-17": 3,
+        "2026-02-03": 1,
+        "2026-03-03": 2,
+        "2026-05-29": 2,
+        "2026-08-03": 1,
+        "2026-08-06": 657,
+        "2026-08-09": 21,
+        "2026-08-07": 12,
+        "2026-07-06": 5
+      },
+      "hours": {
+        "2026-08-06": 1.22,
+        "2026-07-24": 0.77,
+        "2026-07-22": 2.5,
+        "2026-07-18": 6.0,
+        "2026-07-17": 3.17,
+        "2026-07-16": 19.72,
+        "2026-07-15": 3.21,
+        "2026-07-08": 3.53,
+        "2026-07-07": 11.72,
+        "2026-07-06": 3.22,
+        "2026-05-29": 2.81,
+        "2026-03-31": 0.96,
+        "2026-03-27": 1.16,
+        "2026-03-11": 1.05,
+        "2026-03-10": 1.04,
+        "2026-03-05": 2.74,
+        "2026-03-03": 0.79,
+        "2026-01-27": 0.83,
+        "2026-01-13": 0.62,
+        "2026-01-09": 0.56
+      },
+      "hours_week": 0,
+      "hours_total": 67.6
+    },
+    {
       "folder": "2025-2026 LucidWorld\\[2] 2026 learn_structure",
       "name": "Learn Structure",
       "thread": "Cyber World Modeling",
@@ -370,6 +406,163 @@
       "hours": {},
       "hours_week": 0,
       "hours_total": 0
+    },
+    {
+      "folder": "",
+      "name": "Overhead",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "",
+      "heatmap": false,
+      "at": 1785786218,
+      "state": "idle",
+      "update": "Working on",
+      "details": [
+        {
+          "at": 1783341817,
+          "what": "logged 0.0h — Working on"
+        },
+        {
+          "at": 1775746800,
+          "what": "logged 0.7h — https://www.science.org/content/article/writing-research-plan"
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-08-03": 3.66,
+        "2026-07-21": 0.7,
+        "2026-07-06": 0.0,
+        "2026-04-12": 0.75,
+        "2026-04-09": 0.67,
+        "2026-04-06": 0.77,
+        "2026-04-02": 2.42,
+        "2026-04-01": 0.25,
+        "2026-03-29": 1.02,
+        "2026-03-26": 2.69,
+        "2026-03-25": 0.91,
+        "2026-03-24": 0.53,
+        "2026-03-23": 0.33,
+        "2026-03-18": 0.49,
+        "2026-03-15": 1.34,
+        "2026-03-13": 0.67,
+        "2026-03-10": 1.38,
+        "2026-03-09": 1.0,
+        "2026-03-08": 3.5,
+        "2026-03-07": 1.17,
+        "2026-03-05": 0.81,
+        "2026-03-04": 0.89,
+        "2026-03-03": 0.12,
+        "2026-02-24": 0.24,
+        "2026-02-21": 1.72,
+        "2026-02-20": 0.1,
+        "2026-01-26": 0.5,
+        "2026-01-19": 2.44,
+        "2026-01-15": 1.32,
+        "2026-01-13": 0.56,
+        "2026-01-12": 0.8,
+        "2026-01-11": 1.18,
+        "2026-01-10": 0.8,
+        "2026-01-08": 0.19,
+        "2026-01-07": 0.11,
+        "2026-01-06": 0.99,
+        "2026-01-05": 0.95,
+        "2026-01-03": 0.1,
+        "2026-01-02": 0.75
+      },
+      "hours_week": 0,
+      "hours_total": 38.8
+    },
+    {
+      "folder": "",
+      "name": "Service",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "overview-3/README.md",
+      "heatmap": false,
+      "at": 1785011709,
+      "state": "idle",
+      "update": "Aritran's survey",
+      "details": [
+        {
+          "at": 1785011709,
+          "what": "logged 0.6h — Aritran's survey"
+        },
+        {
+          "at": 1773762349,
+          "what": "logged 0.6h — Filling in the research activity form and feeling jealous"
+        },
+        {
+          "at": 1773623965,
+          "what": "logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this."
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-07-25": 0.61,
+        "2026-03-17": 0.61,
+        "2026-03-16": 1.29
+      },
+      "hours_week": 0,
+      "hours_total": 2.5
+    },
+    {
+      "folder": "",
+      "name": "Thinking",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "personal/what-is-she-thinking.md",
+      "heatmap": false,
+      "at": 1784995200,
+      "state": "idle",
+      "update": "Toward a theory of \"pull it together\"",
+      "details": [
+        {
+          "at": 1784995200,
+          "what": "logged 4.6h — Toward a theory of \"pull it together\""
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-07-25": 4.58,
+        "2026-07-23": 0.9,
+        "2026-07-21": 2.0,
+        "2026-07-20": 1.75,
+        "2026-07-17": 4.43,
+        "2026-07-15": 1.25,
+        "2026-07-14": 1.33,
+        "2026-07-12": 2.03,
+        "2026-07-06": 1.27,
+        "2026-04-12": 1.65,
+        "2026-04-08": 1.09,
+        "2026-04-07": 0.8,
+        "2026-04-02": 1.48,
+        "2026-04-01": 0.77,
+        "2026-03-29": 0.49,
+        "2026-03-26": 1.08,
+        "2026-03-25": 0.53,
+        "2026-03-24": 1.17,
+        "2026-03-23": 2.51,
+        "2026-03-22": 2.16,
+        "2026-03-21": 1.3,
+        "2026-03-11": 0.84,
+        "2026-03-10": 1.67,
+        "2026-03-08": 0.7,
+        "2026-03-07": 0.34,
+        "2026-03-02": 2.5,
+        "2026-01-22": 2.5,
+        "2026-01-20": 1.44,
+        "2026-01-18": 2.65,
+        "2026-01-16": 0.81,
+        "2026-01-13": 2.71,
+        "2026-01-12": 0.25,
+        "2026-01-11": 3.39,
+        "2026-01-10": 0.91,
+        "2026-01-08": 0.79,
+        "2026-01-03": 2.12,
+        "2026-01-02": 0.73
+      },
+      "hours_week": 0,
+      "hours_total": 58.9
     },
     {
       "folder": "2025-2026 UnitedForces\\[1] 2025-2026 testbed_CHART",
@@ -513,6 +706,34 @@
       "hours_total": 8.2
     },
     {
+      "folder": "",
+      "name": "Mentoring",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "mentor/README.md",
+      "heatmap": false,
+      "at": 1775744400,
+      "state": "idle",
+      "update": "How to prepare for the reading group?",
+      "details": [
+        {
+          "at": 1773345839,
+          "what": "logged 1.1h — How to prepare for the reading group?"
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-04-09": 0.52,
+        "2026-04-08": 0.57,
+        "2026-03-18": 0.51,
+        "2026-03-17": 0.18,
+        "2026-03-12": 1.14,
+        "2026-03-07": 0.42
+      },
+      "hours_week": 0,
+      "hours_total": 3.3
+    },
+    {
       "folder": "2025-2026 PickYourBattles\\2026 Chris_AcceleratePSRO",
       "name": "AcceleratePSRO",
       "thread": "Cyber World Modeling",
@@ -619,6 +840,118 @@
       },
       "hours_week": 0,
       "hours_total": 203.0
+    },
+    {
+      "folder": "",
+      "name": "AAAI Summer Symposium",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "overview-3/aaai-summer-symposium-2026.md",
+      "heatmap": false,
+      "at": 1775471992,
+      "state": "idle",
+      "update": "Meet Carmela, wild gov person",
+      "details": [
+        {
+          "at": 1773088200,
+          "what": "logged 1.3h — Meet Carmela, wild gov person"
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-04-06": 0.45,
+        "2026-04-01": 0.45,
+        "2026-03-25": 0.92,
+        "2026-03-22": 0.34,
+        "2026-03-18": 0.32,
+        "2026-03-09": 1.33,
+        "2026-03-03": 0.45,
+        "2026-03-02": 2.07,
+        "2026-02-20": 1.59,
+        "2026-02-19": 1.62,
+        "2026-02-18": 0.38,
+        "2026-02-13": 0.81,
+        "2026-02-12": 0.56,
+        "2026-01-23": 0.25,
+        "2026-01-22": 0.6,
+        "2026-01-20": 0.45,
+        "2026-01-11": 1.04,
+        "2026-01-09": 3.63,
+        "2026-01-08": 2.26,
+        "2026-01-07": 1.05
+      },
+      "hours_week": 0,
+      "hours_total": 20.6
+    },
+    {
+      "folder": "",
+      "name": "RL4ThreadSecurity",
+      "thread": "Human-AI Complementarity",
+      "group": "Human-AI Complementarity",
+      "page": "research/projects/united-forces/overview.md",
+      "heatmap": true,
+      "at": 1775070000,
+      "state": "idle",
+      "update": "I can probably do some reading, understand my method better to be prepared for the questions, and read some CPS papers if Sai shares with me. In terms of proposal, i have to wait for their contacts and their pointers on potential programs",
+      "details": [
+        {
+          "at": 1769025600,
+          "what": "logged 1.5h — I can probably do some reading, understand my method better to be prepared for the questions, and read some CPS papers if Sai shares with me. In terms of proposal, i have to wait for their contacts and their pointers on potential programs"
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-04-01": 0.6,
+        "2026-03-04": 2.44,
+        "2026-03-03": 1.03,
+        "2026-01-21": 1.5,
+        "2026-01-06": 4.57,
+        "2026-01-05": 7.0,
+        "2026-01-04": 9.55,
+        "2026-01-03": 0.65,
+        "2026-01-02": 5.09
+      },
+      "hours_week": 0,
+      "hours_total": 32.4
+    },
+    {
+      "folder": "",
+      "name": "Reading Group",
+      "thread": "Around the work",
+      "group": "Around the work",
+      "page": "overview-3/cyberai-reading-group/README.md",
+      "heatmap": false,
+      "at": 1774638000,
+      "state": "idle",
+      "update": "Invite a speaker and register for the seminar series website",
+      "details": [
+        {
+          "at": 1774555048,
+          "what": "logged 0.6h — Invite a speaker and register for the seminar series website"
+        },
+        {
+          "at": 1773764566,
+          "what": "logged 0.2h — Making a post for Maria Rigaki"
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-03-27": 4.53,
+        "2026-03-26": 0.59,
+        "2026-03-17": 0.22,
+        "2026-03-10": 0.69,
+        "2026-03-03": 0.75,
+        "2026-03-02": 1.22,
+        "2026-02-20": 0.18,
+        "2026-01-21": 0.44,
+        "2026-01-20": 0.45,
+        "2026-01-12": 1.03,
+        "2026-01-10": 1.61,
+        "2026-01-09": 4.09,
+        "2026-01-03": 0.23
+      },
+      "hours_week": 0,
+      "hours_total": 16.0
     },
     {
       "folder": "2025-2026 UnitedForces\\[2] 2026 Grace_team_dependencies",
@@ -754,6 +1087,10 @@
     }
   ],
   "site": [
+    {
+      "at": 1787663479,
+      "what": "Cyber World Modeling pages carry the evidence now, and Daedalus is spelled one way"
+    },
     {
       "at": 1787663245,
       "what": "One button that pulls Clockify, rebuilds the board and publishes"

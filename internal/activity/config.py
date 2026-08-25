@@ -128,6 +128,8 @@ def load():
             p.setdefault("heatmap", True)
             p.setdefault("group", os.path.dirname(p.get("folder", "")))
             p.setdefault("exclude", [])
+            if isinstance(p.get("clockify"), str):      # one name or several
+                p["clockify"] = [p["clockify"]] if p["clockify"] else []
         return doc
     doc = {"research_root": DEFAULT_RESEARCH, "heatmap_range": "6m",
            "projects": discover(DEFAULT_RESEARCH)}
@@ -174,3 +176,14 @@ def excluded(project, rel_path):
         if rel == e or rel.startswith(e + "/"):
             return True
     return False
+
+
+def clockify_names(project):
+    """The Clockify projects whose time belongs to this board project."""
+    c = project.get("clockify") or []
+    return [c] if isinstance(c, str) else list(c)
+
+
+def hours_only(project):
+    """True for a project that has logged time but nothing on disk to scan."""
+    return not (project.get("folder") or "").strip()
