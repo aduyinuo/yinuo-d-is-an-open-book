@@ -4,8 +4,6 @@ icon: researchgate
 
 # Research
 
-## Why this, and in this order
-
 An intrusion runs reconnaissance, exploitation, lateral movement, exfiltration. Median dwell time is fourteen days. Average breakout — landing on one host and pivoting to a second — is twenty-nine minutes, the fastest recorded twenty-seven seconds, and initial access is handed to the next operator a median of twenty-two seconds after compromise.
 
 I design practical AI agents that can be deployed in operational cyber environments with humans in the loop.
