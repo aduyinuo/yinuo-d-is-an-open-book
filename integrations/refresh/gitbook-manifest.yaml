@@ -1,0 +1,44 @@
+name: openbook-refresh
+title: Refresh Button
+description: A button on the page that starts the site's refresh workflow.
+summary: |
+  # Overview
+  Puts a button on a page. Pressing it starts a GitHub Actions workflow in
+  aduyinuo/yinuo-d-is-an-open-book — the activity board's Clockify refresh, or
+  the opportunity scout — and the page reports back what happened.
+
+  # Why it exists
+  GitBook renders markdown and runs no scripts, so nothing written into a page
+  can start anything. An integration block can, because its button press is
+  handled server-side by this integration rather than in the reader's browser.
+
+  # Setup
+  Install into the space, then set a GitHub token with `actions:write` on the
+  repository in the integration's configuration.
+visibility: private
+script: ./src/index.tsx
+scopes:
+  - space:content:read
+categories:
+  - content
+configurations:
+  space:
+    properties:
+      token:
+        type: string
+        title: GitHub token
+        description: A fine-grained token with Actions: read and write on aduyinuo/yinuo-d-is-an-open-book.
+      repo:
+        type: string
+        title: Repository
+        default: aduyinuo/yinuo-d-is-an-open-book
+      branch:
+        type: string
+        title: Branch
+        default: main
+    required:
+      - token
+blocks:
+  - id: refresh
+    title: Refresh Button
+    description: Starts a refresh workflow and reports what happened.

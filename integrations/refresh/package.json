@@ -1,0 +1,14 @@
+{
+  "name": "openbook-refresh",
+  "private": true,
+  "version": "1.0.0",
+  "dependencies": {
+    "@gitbook/runtime": "^0.16.0"
+  },
+  "devDependencies": {
+    "@gitbook/cli": "^0.20.0"
+  },
+  "scripts": {
+    "publish-integration": "gitbook publish ."
+  }
+}

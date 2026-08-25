@@ -33,3 +33,4 @@ internal/activity/secrets.json
 # Opportunity scout working files (rebuilt on every run)
 internal/opportunities/raw.json
 internal/opportunities/scored.json
+integrations/*/node_modules/
