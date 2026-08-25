@@ -4,10 +4,19 @@ Answers "what is she up to?" from real work, not counters.
 
 ## The two things you double-click
 
-* **`refresh-activity-board.bat`** (repo root) — rebuilds everything.
+* **Update activity board** — on your desktop, or `UPDATE BOARD.bat` at the repo
+  root. Drops the Clockify cache so it always pulls your latest logged time,
+  runs the whole pipeline, then asks whether to publish. Answer Y and it
+  commits, pulls, and pushes for you.
 * **`board-settings.bat`** (repo root) — the settings window.
 
-Then commit and push in GitHub Desktop to publish.
+`refresh-activity-board.bat` still exists and does the same work without the
+Clockify refresh or the publish step.
+
+**Nothing collects on its own.** The board only knows what it was told the last
+time you ran it, because collection has to happen on the machine that can see
+`G:`. If the page looks stale, that is why. For it to keep itself current, add
+`UPDATE BOARD.bat` to Windows Task Scheduler on a daily trigger.
 
 ## What a project is
 

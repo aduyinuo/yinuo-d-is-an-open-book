@@ -1,5 +1,5 @@
 {
-  "generated": 1787198508,
+  "generated": 1787663190,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -11,24 +11,74 @@
       "group": "Across threads",
       "page": "site-dev-log.md",
       "heatmap": true,
-      "at": 1787198110,
+      "at": 1787663024,
       "state": "active",
-      "update": "opened the 2026-08 — Activity board section",
+      "update": "wrote into overview",
       "details": [
         {
-          "at": 1787198110,
-          "what": "opened the 2026-08 — Activity board section"
+          "at": 1787663024,
+          "what": "wrote into overview"
+        },
+        {
+          "at": 1787663002,
+          "what": "added research-thrusts.pdf"
+        },
+        {
+          "at": 1787295070,
+          "what": "added rrep year1 to site"
+        },
+        {
+          "at": 1787294743,
+          "what": "reworked funding"
+        },
+        {
+          "at": 1787294500,
+          "what": "added load() and draw()"
+        },
+        {
+          "at": 1787294491,
+          "what": "results landed in places.json"
         }
       ],
       "days": {
-        "2026-08-19": 18,
+        "2026-08-19": 15,
         "2026-08-15": 8,
-        "2026-08-14": 198,
-        "2026-08-17": 70
+        "2026-08-25": 4,
+        "2026-08-14": 197,
+        "2026-08-21": 5,
+        "2026-08-17": 64,
+        "2026-08-20": 10
       },
       "hours": {},
       "hours_week": 0,
       "hours_total": 0
+    },
+    {
+      "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
+      "name": "Progressive Problem Design",
+      "thread": "Mental World Modeling",
+      "group": "2025-2026 DesignTheGame",
+      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md",
+      "heatmap": true,
+      "at": 1787600520,
+      "state": "recent",
+      "update": "Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus",
+      "details": [
+        {
+          "at": 1787600520,
+          "what": "logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus"
+        },
+        {
+          "at": 1787590800,
+          "what": "logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO."
+        }
+      ],
+      "days": {},
+      "hours": {
+        "2026-08-24": 2.92
+      },
+      "hours_week": 2.9,
+      "hours_total": 2.9
     },
     {
       "folder": "READING NOTES",
@@ -38,7 +88,7 @@
       "page": "personal/overview.md",
       "heatmap": true,
       "at": 1786752809,
-      "state": "recent",
+      "state": "idle",
       "update": "",
       "details": [],
       "days": {
@@ -61,7 +111,6 @@
       "details": [],
       "days": {
         "2026-03-31": 21,
-        "2025-07-17": 8,
         "2025-07-21": 9,
         "2025-08-02": 4,
         "2025-08-11": 8,
@@ -688,22 +737,6 @@
       "hours_total": 1.9
     },
     {
-      "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
-      "name": "Progressive Problem Design",
-      "thread": "Mental World Modeling",
-      "group": "2025-2026 DesignTheGame",
-      "page": "overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md",
-      "heatmap": true,
-      "at": null,
-      "state": "idle",
-      "update": "",
-      "details": [],
-      "days": {},
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
-    },
-    {
       "folder": "2026 BeRealistic\\2026 PaloAltoNetwork_emulators",
       "name": "Emulators",
       "thread": "Toward Deployment",
@@ -721,6 +754,54 @@
     }
   ],
   "site": [
+    {
+      "at": 1787663040,
+      "what": "Put the thrust diagram on the Research page"
+    },
+    {
+      "at": 1787295083,
+      "what": "Read the whole RREP report, not just the sections I reached for first"
+    },
+    {
+      "at": 1787294836,
+      "what": "Funding outcomes from the RREP Year-1 report, and a full diff of the rest"
+    },
+    {
+      "at": 1787294522,
+      "what": "Pull the collaborators out of the RREP Year-1 report"
+    },
+    {
+      "at": 1787285237,
+      "what": "Correct two affiliations: Albany and Inria"
+    },
+    {
+      "at": 1787275956,
+      "what": "Fill out the collaborator list properly"
+    },
+    {
+      "at": 1787199665,
+      "what": "A map of collaborators on the Research page"
+    },
+    {
+      "at": 1787199006,
+      "what": "Refresh the activity board"
+    },
+    {
+      "at": 1787198968,
+      "what": "Swap all-time for this week on the heatmap tabs"
+    },
+    {
+      "at": 1787198641,
+      "what": "Refresh the activity board"
+    },
+    {
+      "at": 1787198607,
+      "what": "Re-render the board"
+    },
+    {
+      "at": 1787198602,
+      "what": "Range tabs on the heatmap, flatter headings, better thread names"
+    },
     {
       "at": 1787198212,
       "what": "Refresh the activity board"

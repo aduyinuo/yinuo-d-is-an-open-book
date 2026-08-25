@@ -1,27 +1,23 @@
 ---
 description: What I am working on, and what changed.
-icon: clock-five
 ---
 
-# In Action
+# What is she up to?
 
 At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects, 6 months"><figcaption><p>459 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>442 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="This week" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>Work across the last week</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>3 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>121 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>83 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="1 year" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>581 hours logged in the last year</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>584 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -29,13 +25,18 @@ At the desk on **The Website**.
 
 <details>
 
-<summary>The Website — opened the 2026-08 — Activity board section</summary>
+<summary>The Website — wrote into overview</summary>
 
-_at the desk · 23 minutes ago_
+_at the desk · 3 minutes ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **23 minutes ago** — opened the 2026-08 — Activity board section
+* **3 minutes ago** — wrote into overview
+* **3 minutes ago** — added research-thrusts.pdf
+* **4 days ago** — added rrep year1 to site
+* **4 days ago** — reworked funding
+* **4 days ago** — added load() and draw()
+* **4 days ago** — results landed in places.json
 
 [The Website on the site](../site-dev-log.md)
 
@@ -45,9 +46,10 @@ _at the desk · 23 minutes ago_
 
 <summary>What to Read — nothing recorded yet</summary>
 
-_warm · 5 days ago_
+_resting · Aug 14_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
+
 
 [What to Read on the site](../personal/overview.md)
 
@@ -67,7 +69,24 @@ _resting · Aug 09_
 
 </details>
 
+
 #### Mental World Modeling
+
+<details>
+
+<summary>Progressive Problem Design — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf,…</summary>
+
+_warm · 17 hours ago · 2.9h this week_
+
+<figure><img src="../.gitbook/assets/heat-progressive-problem-design.png" alt="Daily work on Progressive Problem Design"><figcaption></figcaption></figure>
+
+* **17 hours ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
+* **20 hours ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
+* 2.9 hours logged in this window
+
+[Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
+
+</details>
 
 <details>
 
@@ -91,6 +110,7 @@ _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-what-makes-a-problem-difficult.png" alt="Daily work on What Makes a Problem Difficult"><figcaption></figcaption></figure>
 
+
 [What Makes a Problem Difficult on the site](../research/projects/design-the-game/difficulty-lineage.md)
 
 </details>
@@ -102,6 +122,7 @@ _resting · Aug 09_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
+
 
 [Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
@@ -118,19 +139,10 @@ _resting · Jul 06_
 * **Jul 06** — logged 0.2h — Working in VS Code
 * 8.2 hours logged in this window
 
-[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/)
+[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
 
 </details>
 
-<details>
-
-<summary>Progressive Problem Design — nothing recorded yet</summary>
-
-_resting · —_
-
-[Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
-
-</details>
 
 #### Cyber World Modeling
 
@@ -141,6 +153,7 @@ _resting · —_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
+
 
 [World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
 
@@ -192,6 +205,7 @@ _resting · Feb 21_
 
 </details>
 
+
 #### Human-AI Complementarity
 
 <details>
@@ -201,6 +215,7 @@ _resting · Feb 21_
 _resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
+
 
 [Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
@@ -250,6 +265,7 @@ _resting · Mar 13_
 
 </details>
 
+
 #### Toward Deployment
 
 <details>
@@ -289,9 +305,11 @@ _resting · Jul 13_
 
 _resting · —_
 
+
 [Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
+
 
 #### Study approvals
 
@@ -303,8 +321,10 @@ _resting · Aug 04_
 
 <figure><img src="../.gitbook/assets/heat-irb-logistics.png" alt="Daily work on IRB Logistics"><figcaption></figcaption></figure>
 
+
 [IRB Logistics on the site](../research/projects/irb-applications/overview.md)
 
 </details>
 
-_Last looked at Aug 19, 22:01_
+
+_Last looked at Aug 25, 07:06_

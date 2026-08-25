@@ -47,6 +47,12 @@ def clause(f):
     ext = os.path.splitext(name)[1].lower()
     add, rem = f.get("added", []), f.get("removed", [])
 
+    if f.get("how") == "moved":
+        return "moved %s into %s" % (os.path.basename(name),
+                                     f.get("moved_to") or "another folder")
+    if f.get("how") == "gone":
+        return ""                                # the other half of a move
+
     if f.get("how") == "deleted":
         return "removed %s" % os.path.basename(name)
 
@@ -129,6 +135,24 @@ def _citename(key):
     return "%s %s" % (m.group(1).capitalize(), m.group(2)) if m else key
 
 
+def _mark_moves(files):
+    """A file deleted here and created there is a move, not a loss.
+
+    Moving a page across folders otherwise reads as "removed <page>", which is
+    true of the old path and wrong about what happened.
+    """
+    gone = {os.path.basename(f["file"]): f for f in files if f.get("how") == "deleted"}
+    for f in files:
+        if f.get("how") != "created":
+            continue
+        was = gone.get(os.path.basename(f["file"]))
+        if was is None or was["file"] == f["file"]:
+            continue
+        f["how"] = "moved"
+        f["moved_to"] = os.path.dirname(f["file"]).replace("\\", "/") or "the root"
+        was["how"] = "gone"
+
+
 def main():
     doc = load()
     changes = {}
@@ -149,6 +173,7 @@ def main():
         ch = changes.get(folder)
         details, unnamed = [], []
         if ch:
+            _mark_moves(ch["files"])
             for f in ch["files"][:12]:
                 c = clause(f)
                 if c:
