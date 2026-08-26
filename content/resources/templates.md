@@ -1,5 +1,5 @@
 ---
-description: Templates are static procedures and frugal algorithms.
+description: I vow to never let the same problem annoy me twice.
 icon: tex
 ---
 
