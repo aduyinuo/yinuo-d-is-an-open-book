@@ -61,6 +61,7 @@
       * [Transfer Learning Terms](overview/blogs/cyber-human-ai-dictionary/transfer-learning-terms.md)
       * [Cyber Env Terms](overview/blogs/cyber-human-ai-dictionary/cyber-env-terms.md)
       * [Opponent Modeling Terms](overview/blogs/cyber-human-ai-dictionary/opponent-modeling-terms.md)
+      * [Population-based Training Terms](overview/blogs/cyber-human-ai-dictionary/population-based-training-terms.md)
 * [Publications](publications.md)
 * [Artifacts](artifacts/README.md)
   * [Astrolabe](artifacts/astrolabe/README.md)
