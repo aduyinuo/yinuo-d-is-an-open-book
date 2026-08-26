@@ -177,6 +177,162 @@ def render_table(rows):
     return "\n".join(lines)
 
 
+# ---------------------------------------------------------------------
+#  Redrawing PowerPoint's own shapes
+#
+#  A drawn shape carries no image, but it does carry geometry, a shape
+#  kind, a colour and its text. That is enough to lay the diagram out
+#  again in TikZ: boxes land where they were, arrows still point the
+#  same way, labels keep their words. It is a reconstruction, not a
+#  photograph -- curves, shadows and gradients are not reproduced -- but
+#  it beats a placeholder saying something used to be here.
+# ---------------------------------------------------------------------
+
+EMU_PER_PT = 12700.0
+
+
+def _pt(v):
+    return (v or 0) / EMU_PER_PT
+
+
+def _rgb(shape):
+    """Fill colour as a LaTeX-safe hex string, or None for theme default."""
+    try:
+        f = shape.fill
+        if f.type is not None and int(f.type) == 1:
+            return str(f.fore_color.rgb)
+    except Exception:
+        pass
+    return None
+
+
+def _line_rgb(shape):
+    try:
+        c = shape.line.color
+        if c and c.type is not None:
+            return str(c.rgb)
+    except Exception:
+        pass
+    return None
+
+
+def _flatten(shapes, dx=0.0, dy=0.0):
+    """Walk groups so nested shapes come back with absolute positions."""
+    out = []
+    for sh in shapes:
+        kind = str(sh.shape_type)
+        if kind.startswith("GROUP"):
+            try:
+                out.extend(_flatten(sh.shapes, dx + _pt(sh.left), dy + _pt(sh.top)))
+            except Exception:
+                pass
+            continue
+        out.append((sh, dx, dy))
+    return out
+
+
+def _drawn_items(slide):
+    """Shapes that make up a drawing, with absolute positions."""
+    out = []
+    for sh, dx, dy in _flatten(slide.shapes):
+        kind = str(sh.shape_type)
+        if kind.startswith("PICTURE") or kind.startswith("TABLE"):
+            continue
+        text = ""
+        if sh.has_text_frame:
+            text = " ".join(sh.text_frame.text.split())
+        is_box = (kind.startswith("AUTO_SHAPE") or kind.startswith("FREEFORM"))
+        is_line = (kind.startswith("LINE") or kind.startswith("CONNECTOR"))
+        is_label = kind.startswith("TEXT_BOX") and text
+        if not (is_box or is_line or is_label):
+            continue
+        w, h = _pt(sh.width), _pt(sh.height)
+        if w <= 0 and h <= 0:
+            continue
+        out.append({
+            "sh": sh, "text": text, "box": is_box, "line": is_line,
+            "x": _pt(sh.left) + dx, "y": _pt(sh.top) + dy, "w": w, "h": h,
+        })
+    return out
+
+
+def diagram_texts(slide):
+    """Every string that will appear inside the rebuilt diagram."""
+    return set(i["text"] for i in _drawn_items(slide) if i["text"])
+
+
+def shapes_to_tikz(slide, escape, target_w=290.0, target_h=125.0):
+    """Rebuild a slide's drawn shapes as TikZ, sized to fit the slide.
+
+    Coordinates are scaled in Python and emitted as absolute points, so
+    the picture fits without a tikz `scale=`. That matters: `scale` with
+    `transform shape` shrinks the labels too, and a diagram whose text
+    has been scaled to two points is no better than the placeholder it
+    replaced.
+    """
+    items = _drawn_items(slide)
+    if not items:
+        return ""
+
+    x0 = min(i["x"] for i in items)
+    y0 = min(i["y"] for i in items)
+    x1 = max(i["x"] + i["w"] for i in items)
+    y1 = max(i["y"] + i["h"] for i in items)
+    bw, bh = max(x1 - x0, 1.0), max(y1 - y0, 1.0)
+    k = min(target_w / bw, target_h / bh, 1.0)
+
+    def X(v):
+        return (v - x0) * k
+
+    def Y(v):
+        return (y1 - v) * k          # flip: PowerPoint y grows downward
+
+    palette = {}
+
+    def cname(hexrgb, fallback):
+        if not hexrgb:
+            return fallback
+        h = str(hexrgb).upper()[-6:]
+        if len(h) != 6 or any(c not in "0123456789ABCDEF" for c in h):
+            return fallback
+        palette.setdefault(h, "ppt%s" % h)
+        return palette[h]
+
+    body = []
+    for i in items:
+        sh = i["sh"]
+        ax, ay = X(i["x"]), Y(i["y"])
+        bx, by = X(i["x"] + i["w"]), Y(i["y"] + i["h"])
+        cx, cy = (ax + bx) / 2.0, (ay + by) / 2.0
+        label = escape(i["text"])
+
+        if i["line"]:
+            col = cname(_line_rgb(sh), "lucidMuted")
+            body.append(r"    \draw[->,%s,line width=0.5pt] (%.1f,%.1f) -- (%.1f,%.1f);"
+                        % (col, ax, ay, bx, by))
+        elif i["box"]:
+            fc = cname(_rgb(sh), "lucidBand!50")
+            dc = cname(_line_rgb(sh), "lucidAccent")
+            body.append(r"    \draw[fill=%s,draw=%s,line width=0.4pt,rounded corners=2pt]"
+                        r" (%.1f,%.1f) rectangle (%.1f,%.1f);" % (fc, dc, ax, ay, bx, by))
+            if label:
+                body.append(r"    \node[text width=%.1fpt,align=center,font=\tiny,"
+                            r"text=lucidInk] at (%.1f,%.1f) {%s};"
+                            % (max((bx - ax) - 4, 14), cx, cy, label))
+        elif label:
+            body.append(r"    \node[text width=%.1fpt,align=left,anchor=north west,"
+                        r"font=\tiny,text=lucidInk] at (%.1f,%.1f) {%s};"
+                        % (max(bx - ax, 24), ax, ay, label))
+
+    defs = "".join("  \\definecolor{%s}{HTML}{%s}\n" % (n, h)
+                   for h, n in sorted(palette.items()))
+    return (defs
+            + "  \\begin{center}\n"
+            + "  \\begin{tikzpicture}[x=1pt,y=1pt]\n"
+            + "\n".join(body) + "\n"
+            + "  \\end{tikzpicture}\n  \\end{center}")
+
+
 def build(pptx_path, out_dir, max_bullets):
     prs = Presentation(pptx_path)
     ratio = prs.slide_width / float(prs.slide_height)
@@ -185,14 +341,25 @@ def build(pptx_path, out_dir, max_bullets):
     img_dir = os.path.join(out_dir, "figures")
     os.makedirs(img_dir, exist_ok=True)
 
+    page_w = prs.slide_width / EMU_PER_PT
+    page_h = prs.slide_height / EMU_PER_PT
     body = []
     needs_work = []
+    rebuilt = []
     lost_chars = 0
 
     for i, slide in enumerate(prs.slides, 1):
         title = slide_title(slide)
         title_shape = slide.shapes.title
         bullets = body_bullets(slide, title_shape, max_bullets)
+        # Text that the rebuilt diagram will draw must not also be
+        # listed as a bullet, or every label appears twice.
+        if not [x for x in slide.shapes if is_pic(x)]:
+            inart = set(' '.join(t.split()).lower()
+                        for t in diagram_texts(slide))
+            if inart:
+                bullets = [b for b in bullets
+                           if ' '.join(b.split()).lower() not in inart]
         images = save_images(slide, i, img_dir, "figures")
         tables = slide_tables(slide)
         drawn = sum(1 for sh in slide.shapes if is_drawn(sh))
@@ -251,15 +418,19 @@ def build(pptx_path, out_dir, max_bullets):
                                  % (len(images) - 3))
 
         if drawn and not images:
-            lines.append(r"  \vfill")
-            lines.append(r"  \begin{center}")
-            lines.append(r"    \fbox{\begin{minipage}{0.8\textwidth}\centering")
-            lines.append(r"      \color{lucidMuted}\small REDRAW: this slide's "
-                         r"diagram was built from %d PowerPoint shapes," % drawn)
-            lines.append(r"      which carry no image to extract.\end{minipage}}")
-            lines.append(r"  \end{center}")
-            lines.append(r"  \vfill")
-            needs_work.append((i, head, drawn))
+            art = shapes_to_tikz(slide, tex)
+            if art:
+                lines.append(art)
+                rebuilt.append((i, head, drawn))
+            else:
+                lines.append(r"  \vfill")
+                lines.append(r"  \begin{center}")
+                lines.append(r"    \fbox{\begin{minipage}{0.8\textwidth}\centering")
+                lines.append(r"      \color{lucidMuted}\small This slide carried a "
+                             r"drawing with no recoverable geometry.\end{minipage}}")
+                lines.append(r"  \end{center}")
+                lines.append(r"  \vfill")
+                needs_work.append((i, head, drawn))
 
         if note:
             lines.append(r"  \speakernote{%s}" % tex(note))
@@ -268,7 +439,7 @@ def build(pptx_path, out_dir, max_bullets):
         lines.append("")
         body.append("\n".join(lines))
 
-    return aspect, body, needs_work, len(prs.slides)
+    return aspect, body, needs_work, len(prs.slides), rebuilt
 
 
 PREAMBLE = r"""%% =====================================================================
@@ -319,8 +490,8 @@ def main():
 
     name = re.sub(r"[^a-zA-Z0-9]+", "-",
                   os.path.splitext(os.path.basename(args.pptx))[0]).strip("-")
-    aspect, body, needs_work, total = build(args.pptx, args.out,
-                                            args.max_bullets)
+    aspect, body, needs_work, total, rebuilt = build(
+        args.pptx, args.out, args.max_bullets)
 
     title = args.title or name.replace("-", " ").title()
     text = PREAMBLE % {"name": name, "src": os.path.basename(args.pptx),
@@ -341,7 +512,9 @@ def main():
     print("wrote %s" % out_tex)
     print("  %d slides, aspect %s" % (total, aspect))
     print("  images extracted to %s/figures/" % args.out)
-    print("  %d slide(s) need a diagram redrawn by hand:" % len(needs_work))
+    print("  %d diagram(s) rebuilt as TikZ from the original shapes"
+          % len(rebuilt))
+    print("  %d slide(s) still need a diagram by hand:" % len(needs_work))
     for i, head, n in needs_work[:15]:
         safe = head[:50].encode("ascii", "replace").decode("ascii")
         print("    slide %-3d %-50s (%d shapes)" % (i, safe, n))
