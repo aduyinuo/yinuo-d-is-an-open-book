@@ -93,6 +93,7 @@
   * [Conference deadlines](overview-4/conference-deadlines.md)
   * [Micro opportunities](overview-4/micro-opportunities.md)
 * [Resources](resources/README.md)
+  * [Templates](resources/templates.md)
   * [Upskill](resources/upskill.md)
   * [Career](resources/career/README.md)
     * [Individual Development Plan](resources/career/individual-development-plan.md)
