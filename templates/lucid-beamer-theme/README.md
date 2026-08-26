@@ -18,6 +18,7 @@ demo.tex / demo.pdf    the manual: each component with its code
 snippets/*.tex         every code block as its own file, ready to copy
 refs.bib               sample bibliography
 tools/to-pptx.py       convert a compiled PDF to PowerPoint
+tools/from-pptx.py     rebuild an existing .pptx as a deck in this theme
 ```
 
 Compile with **pdfLaTeX**, twice. A third pass if you use citations.
@@ -158,7 +159,7 @@ anonymous without editing its front matter:
 \usetheme[blind]{lucid}
 ```
 
-## Converting to PowerPoint
+## Converting to and from PowerPoint
 
 ```bash
 pip install pymupdf python-pptx
@@ -177,6 +178,21 @@ or to hand to someone who requires `.pptx` — not one to rewrite there.
 
 Convert a `handout` build if the deck is animated, or every overlay step
 becomes its own near-identical slide.
+
+### The other direction
+
+```bash
+python tools/from-pptx.py talk.pptx -o rebuilt/
+```
+
+Recovers titles, body text, speaker notes, tables and embedded images from
+an existing PowerPoint file and writes a deck in this theme.
+
+It **cannot** recover diagrams PowerPoint drew from its own shapes -- boxes,
+arrows, connectors, groups. Those are drawing instructions with no image
+behind them. Slides that lose one get a marked `REDRAW` box and are listed at
+the end of the generated `.tex`, so you know exactly which ones to redraw,
+rather than finding out during the talk.
 
 ```
 --dpi 300     sharper, larger file      --dpi 150   smaller

@@ -19,6 +19,7 @@ The right-hand column is the one that does the work. "Read" is not one activity 
 * [Read](read.md) — how to get through a paper, and what to get out of it
 * [Think](think.md) — problem-finding, intuition, and what expertise actually changes
 * [Write](write/) — structure, headings, mathematical writing, usage, rigour
+* [Respond](respond/): what an author response can achieve, what venues ask for, and how to draft one
 * [Present](present.md) — talks, and the reading group as its own genre
 * [Project Management](project-management.md) — the stages a complex build passes through
 * [Conferences](conferences/) — venue fit, and what the registration metadata is actually for

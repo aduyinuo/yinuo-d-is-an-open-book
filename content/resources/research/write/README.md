@@ -9,6 +9,7 @@ Writing is not the transcription step at the end. It is where you find out wheth
 * [Structure](structure.md) — what goes where, at three scales, and how to write headings
 * [Mathematical Writing](mathematical-writing.md) — notation hygiene, and the pitch
 * [Rigor](rigor.md) — claims, evidence, and what you owe a reader who disagrees
+* [Argument](argument.md): the five elements, warrants, and how to sort an objection by which one it attacks
 * [English](english.md) — usage, and which arguments about it are worth having
 
 _Last updated: 2026-08_
