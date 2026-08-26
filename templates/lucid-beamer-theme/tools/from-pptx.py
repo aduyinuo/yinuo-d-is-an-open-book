@@ -216,6 +216,27 @@ def _line_rgb(shape):
     return None
 
 
+_A_NS = "{http://schemas.openxmlformats.org/drawingml/2006/main}"
+
+
+def _flip(shape):
+    """(flipH, flipV) for a shape.
+
+    PowerPoint stores a connector as a bounding box plus two flip flags,
+    not as a start and an end point. Ignore the flags and every arrow
+    gets drawn along the same diagonal, so roughly half of them come out
+    pointing the wrong way -- which is the single most visible way a
+    rebuilt diagram can be wrong.
+    """
+    try:
+        x = shape.element.find(".//" + _A_NS + "xfrm")
+        if x is None:
+            return False, False
+        return x.get("flipH") == "1", x.get("flipV") == "1"
+    except Exception:
+        return False, False
+
+
 def _flatten(shapes, dx=0.0, dy=0.0):
     """Walk groups so nested shapes come back with absolute positions."""
     out = []
@@ -308,8 +329,11 @@ def shapes_to_tikz(slide, escape, target_w=290.0, target_h=125.0):
 
         if i["line"]:
             col = cname(_line_rgb(sh), "lucidMuted")
+            fh, fv = _flip(sh)
+            sx, ex = (bx, ax) if fh else (ax, bx)
+            sy, ey = (by, ay) if fv else (ay, by)
             body.append(r"    \draw[->,%s,line width=0.5pt] (%.1f,%.1f) -- (%.1f,%.1f);"
-                        % (col, ax, ay, bx, by))
+                        % (col, sx, sy, ex, ey))
         elif i["box"]:
             fc = cname(_rgb(sh), "lucidBand!50")
             dc = cname(_line_rgb(sh), "lucidAccent")
@@ -358,8 +382,15 @@ def build(pptx_path, out_dir, max_bullets):
             inart = set(' '.join(t.split()).lower()
                         for t in diagram_texts(slide))
             if inart:
+                # A box label often arrives split across paragraphs, so
+                # "Instructions," and "Quiz, Practice" are separate
+                # bullets while the box says "Instructions, Quiz,
+                # Practice". Exact matching misses those; containment
+                # catches them.
+                joined = ' | '.join(inart)
                 bullets = [b for b in bullets
-                           if ' '.join(b.split()).lower() not in inart]
+                           if ' '.join(b.split()).lower() not in inart
+                           and ' '.join(b.split()).lower() not in joined]
         images = save_images(slide, i, img_dir, "figures")
         tables = slide_tables(slide)
         drawn = sum(1 for sh in slide.shapes if is_drawn(sh))
