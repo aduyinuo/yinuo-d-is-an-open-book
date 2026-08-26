@@ -44,6 +44,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31863">University of Richmond , Computer Science — Postdoctoral Research Associate</a></td><td>3</td><td><em>postdoc</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32491">Ave Maria University , Human Resources — Faculty Position-Mechanical Engineering Program</a></td><td>3</td><td><em>faculty</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/30714">Broad Institute of MIT and Harvard , Eric and Wendy Schmidt Center — Postdoctoral Associate</a></td><td>3</td><td><em>postdoc</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/user-researcher-ai-evaluations-at-notion-4429600722">Notion — User Researcher, AI Evaluations</a></td><td>3</td><td><em>from LinkedIn — public job search, evaluation</em></td></tr>
 </tbody></table>
 
 <details>
@@ -68,15 +69,15 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-techire-ai-4455252412">techire ai — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-robotics-ai-at-bosch-usa-4453806406">Bosch USA — Research Scientist- Robotics AI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-researcher-at-scout-ai-4375818974">Scout AI — AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/researcher-alignment-at-openai-4417173100">OpenAI — Researcher, Alignment</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-geminiapp-deepmind-at-google-deepmind-4448758670">Google DeepMind — Staff UX Researcher, GeminiApp, DeepMind</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/ai-research-engineer-at-accenture-4423801537">Accenture — AI Research Engineer</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/adaptive-ai-for-human-learning-and-coaching-at-honda-research-institute-usa-inc-4442647669">Honda Research Institute USA, Inc. — Adaptive AI for Human Learning and Coaching</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-human%E2%80%91ai-perception-and-interaction-at-nvidia-4437932202">NVIDIA — Senior Research Scientist, Human‑AI Perception and Interaction</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-ai-agents-at-okta-4451227972">Okta — Staff UX Researcher - AI Agents</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-geminiapp-deepmind-at-uxr-hunt-4452998359">UXR Hunt — Staff UX Researcher, GeminiApp, DeepMind</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-human%E2%80%91ai-perception-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395479271">NVIDIA — Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/staff-mixed-methods-ux-researcher-google-lens-at-uxr-hunt-4455416664">UXR Hunt — Staff Mixed-Methods UX Researcher, Google Lens</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/researcher-multimodal-safety-at-openai-4448240991">OpenAI — Researcher, Multimodal Safety</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-personalization-at-%C5%8Dura-4437629344">ŌURA — Staff UX Researcher, Personalization</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/human-robot-interaction-applied-scientist-fauna-at-amazon-4455794427">Amazon — Human-Robot Interaction Applied Scientist , Fauna</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/researcher-alignment-at-openai-4417173100">OpenAI — Researcher, Alignment</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/agent-post-training-personality-at-openai-4433286807">OpenAI — Agent Post-Training, Personality</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/human-robot-interaction-applied-scientist-fauna-at-amazon-science-4421360421">Amazon Science — Human-Robot Interaction Applied Scientist , Fauna</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/ai-research-scientist-adaptive-behavior-systems-at-toyota-research-institute-4346835542">Toyota Research Institute — AI Research Scientist, Adaptive Behavior Systems</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4455932001">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -139,4 +140,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Aug 26, 11:26_
+_Last refreshed Aug 26, 09:08_
