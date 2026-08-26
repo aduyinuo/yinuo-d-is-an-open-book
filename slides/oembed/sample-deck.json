@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "type": "rich",
+  "provider_name": "Open Book Lab",
+  "provider_url": "https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides",
+  "title": "sample deck",
+  "width": 1280,
+  "height": 900,
+  "thumbnail_url": "https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/media/sample-deck/cover.png",
+  "thumbnail_width": 1280,
+  "thumbnail_height": 720,
+  "html": "<iframe src=\"https://aduyinuo.github.io/yinuo-d-is-an-open-book/slides/sample-deck.html\" width=\"1280\" height=\"900\" frameborder=\"0\" allowfullscreen style=\"border:0;max-width:100%\"></iframe>"
+}
