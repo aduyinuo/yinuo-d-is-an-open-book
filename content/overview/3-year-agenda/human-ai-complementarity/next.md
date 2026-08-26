@@ -6,7 +6,7 @@ icon: crystal-ball
 
 ## A metric of complementarity
 
-A team can win because it is genuinely more than its parts, or because one strong member carried it while the other watched. Win rate cannot tell these apart. The open question is a measure of complementarity proper: evidence that the pair produced a decision neither the human nor the agent would have reached alone — counterfactually, not just jointly. Without it, "the team did better" is a claim about the scoreboard, not about the teaming.
+A team can win because it is more than its parts, or because one strong member carried it while the other watched. Win rate cannot tell these apart. The open question is a measure of complementarity proper: evidence that the pair produced a decision neither the human nor the agent would have reached alone — counterfactually, not just jointly. Without it, "the team did better" is a claim about the scoreboard, not about the teaming.
 
 ## Moving tacit knowledge across the boundary
 

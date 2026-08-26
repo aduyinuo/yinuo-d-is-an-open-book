@@ -49,7 +49,7 @@ curl "http://localhost:8000/transcript/t123/agreement"        # percent + kappa
 curl "http://localhost:8000/transcript/t123/agreement.csv"    # the report
 ```
 
-The segments where coders split are the segments where the operation is genuinely ambiguous — which is the part worth studying, not smoothing away.
+The segments where coders split are the segments where the operation is ambiguous — which is the part worth studying, not smoothing away.
 
 ## Export
 

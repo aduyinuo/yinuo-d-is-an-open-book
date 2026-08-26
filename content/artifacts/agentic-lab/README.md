@@ -28,7 +28,7 @@ Under all of it sits a **consent gate**: block responses are saved only under an
 
 Collection from graduate students and postdoctoral researchers in Computer Science first, then more widely across the College of Engineering, with graduate students as the major driving force of the study as well as its subjects.
 
-Three questions: how agents are actually used in research work; what that use does to research productivity and to research quality; and what it does over time to the growth and health of a research community.
+How agents are used in research work. What that use does to research productivity and to research quality. What it does over time to the growth and health of a research community.
 
 ## Status
 

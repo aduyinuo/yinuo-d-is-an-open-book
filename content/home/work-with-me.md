@@ -73,7 +73,7 @@ Thinking aloud as you go is the gold-standard elicitation method and exactly wha
 
 **Role:** research assistant · **Thread:** [Human-AI Complementarity](../overview/3-year-agenda/human-ai-complementarity/) → [Next](../overview/3-year-agenda/human-ai-complementarity/next.md)
 
-A team can win because it is genuinely more than its parts, or because one strong member carried it while the other watched, and win rate cannot tell these apart. This project builds a measure of complementarity proper: evidence that the pair produced a decision neither the human nor the agent would have reached alone, counterfactually rather than merely jointly. The experiments run in the [Team Defense Game](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md) and in CHART, where the team structure is the manipulation rather than the backdrop.
+A team can win because it is more than its parts, or because one strong member carried it while the other watched, and win rate cannot tell these apart. This project builds a measure of complementarity proper: evidence that the pair produced a decision neither the human nor the agent would have reached alone, counterfactually rather than merely jointly. The experiments run in the [Team Defense Game](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md) and in CHART, where the team structure is the manipulation rather than the backdrop.
 
 **What you need:** experimental design and statistics beyond a first course, since the measure is the contribution; experience running human-participant studies; Python for analysis. Familiarity with counterfactual or causal estimation is an advantage.
 

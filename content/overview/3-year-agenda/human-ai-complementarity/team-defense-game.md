@@ -10,7 +10,7 @@ Two defenders, one network, one attacker working against them. The question isn'
 
 ## Approval
 
-The agent doesn't simply act. Actions that carry a **control dependency** are proposed and then wait — they sit in the pending strip until the human signs off. Approved, the action executes. Left alone, it expires and the moment passes.
+The agent does not only act. Actions that carry a **control dependency** are proposed and then wait — they sit in the pending strip until the human signs off. Approved, the action executes. Left alone, it expires and the moment passes.
 
 This is where authority actually lives. Not in a policy document, but in whether the action fires.
 

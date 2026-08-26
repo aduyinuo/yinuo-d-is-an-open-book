@@ -6,6 +6,25 @@ description: Habits that mark text as machine-written, and the thresholds that d
 
 A checklist of habits that mark prose as machine-written, with quantitative thresholds where they exist. Ten are detectable by counting; four need reading.
 
+## The rule the rest follow from
+
+**Acknowledge with a fact, not with an evaluation.**
+
+Not "B5 is right that the sentence does not establish parity" but "The sentence in Section 6.1 claims parity without establishing it."
+
+The second concedes more, costs fewer words, and sounds like someone who found the problem rather than someone agreeing that a problem was found.
+
+Four habits break it, and they break it in different ways.
+
+<table><thead><tr><th width="150">Habit</th><th>What goes wrong</th></tr></thead><tbody>
+<tr><td><strong>Announcing</strong></td><td>A sentence about the reply that follows. The next sentence does all the work; this one promises it is coming. Throat-clearing.</td></tr>
+<tr><td><strong>Validating</strong></td><td>"The concern is valid", "that is a fair point", "the inconsistency is real". These grant the other party permission to have been right. They did not need it, and it reverses who is judging whom.</td></tr>
+<tr><td><strong>Competence display</strong></td><td>Turning a concession into a demonstration of understanding. "Real" and "precisely" turn <em>we contradicted ourselves in three places</em> into <em>look how well we understand our own paper</em>. It reads as spin and makes the concession less credible.</td></tr>
+<tr><td><strong>Performed structure</strong></td><td>"Three questions, three answers." Announcing an arrangement instead of just having it.</td></tr>
+</tbody></table>
+
+An empty intensifier belongs here too. "Precisely" claims precision in advance; it either shows up in the next three sentences or it does not, and saying so only raises the bar.
+
 ## The counted ten
 
 <table><thead><tr><th width="46">#</th><th width="220">Habit</th><th>What it looks like</th></tr></thead><tbody>
