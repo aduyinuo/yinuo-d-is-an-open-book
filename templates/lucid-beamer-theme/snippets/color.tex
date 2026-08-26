@@ -1,0 +1,33 @@
+% Reach for these first. They are the deck's own vocabulary, so a whole
+% talk stays consistent and every one survives greyscale printing.
+
+\term{a primary term}        % accent, bold
+\altterm{a secondary term}   % teal, italic
+\hl{highlighted}             % amber wash behind the text
+\ul{underlined}              % plain underline
+\alert{alerted}              % beamer's own, mapped to the accent
+
+% --- Arbitrary colour, still from the palette ----------------------
+\tint{accent}{text}   % forest green -- structure and emphasis
+\tint{gold}{text}     % amber        -- rules and second-level marks
+\tint{muted}{text}    % grey-green   -- deprioritised text
+\tint{ink}{text}      % near-black   -- body
+\tint{termA}{text}    % forest       -- first defined term
+\tint{termB}{text}    % teal         -- second defined term
+
+% --- Raw colour, if you really need it -----------------------------
+{\color{lucidAccent} some words}
+\textcolor{lucidGold}{some words}
+
+% Palette names you can use anywhere, including in tikz and tables:
+%   lucidInk lucidAccent lucidGold lucidMuted lucidBand lucidWash
+%   lucidTermA lucidTermB
+
+% --- Colouring part of a table or figure ---------------------------
+Ours & \term{78} \\
+\rowcolor{lucidBand} header & row \\
+\fill[lucidAccent] (0,0) rectangle (1,2);   % inside tikz
+
+% Restraint is the point: the reference decks use three or four colours
+% for ~95% of all text. Bold is about 3%. If everything is emphasised,
+% nothing is.

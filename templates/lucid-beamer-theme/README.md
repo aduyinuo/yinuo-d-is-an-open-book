@@ -1,26 +1,31 @@
 # The Lucid Beamer Theme
 
-A clean beamer theme for research talks. Low text density, one accent colour,
-a grey title band, and no author or institution anywhere unless you ask for it.
+A clean beamer theme for research talks. Large type, sparse slides, one accent
+colour, and no author or institution anywhere unless you ask for it.
 
-`demo.pdf` is the manual: every slide shows a component and the code that made
-it. Open it first.
+**Start with `main.tex`** — a working deck, already set up. Change the title,
+replace the slides, done.
+
+**`demo.pdf` is the manual** — every component shown next to the code that
+made it.
 
 ## What's in here
 
 ```
-beamerthemelucid.sty   the theme -- the only file you actually need
-demo.tex               the manual deck
-demo.pdf               the manual, already built
-snippets/*.tex         each code block as its own file, ready to copy
+main.tex               START HERE -- a working deck to edit
+beamerthemelucid.sty   the theme itself
+demo.tex / demo.pdf    the manual: each component with its code
+snippets/*.tex         every code block as its own file, ready to copy
+refs.bib               sample bibliography
+tools/to-pptx.py       convert a compiled PDF to PowerPoint
 ```
+
+Compile with **pdfLaTeX**, twice. A third pass if you use citations.
 
 ## Quick start
 
-Put `beamerthemelucid.sty` next to your `.tex` file, then:
-
 ```latex
-\documentclass[11pt,aspectratio=43]{beamer}
+\documentclass[11pt,aspectratio=43]{beamer}   % 169 for widescreen
 \usetheme{lucid}
 
 \title{Your Title}
@@ -43,33 +48,92 @@ Put `beamerthemelucid.sty` next to your `.tex` file, then:
 \end{document}
 ```
 
-Compile with **pdfLaTeX**, twice. The second pass fills in the outline slides.
-
-Use `aspectratio=169` for widescreen.
-
 ## Components
 
-| You write | You get |
-|---|---|
-| `\section{Name}` | an outline slide with the current section marked |
-| `\term{x}` | primary defined term, accent + bold |
-| `\altterm{x}` | secondary defined term, teal + italic |
-| `\hl{x}` | amber highlight — the emphasis device, instead of bold |
-| `\slidefigure[width]{file}` | a centred, uncaptioned figure |
-| `\figcaption{text}` | a caption, when one is genuinely needed |
-| `figuretext[0.55]` … `\nextpane` … | two panes; the number is the left pane's share |
-| `lucidtable` + `\thead{...}` | horizontal-rule table with a filled header row |
-| `\citeline{text}` | small source line at the foot of the slide |
-| `\takeaway{text}` | one sentence set across the slide |
-| `\backupframes` | start backup slides; stops them inflating the page count |
+Each row has a matching file in `snippets/` you can copy from.
 
-Every snippet above is also a file in `snippets/`, so you can copy from there
-rather than retyping.
+| You write | You get | Snippet |
+|---|---|---|
+| `\begin{frame}{Title}` | a slide | `new-slide` |
+| `\section{Name}` | an outline slide, current section marked | `sections` |
+| `\term{x}` | primary term — accent, bold | `color` |
+| `\altterm{x}` | secondary term — teal, italic | `color` |
+| `\hl{x}` | amber highlight, the emphasis device | `color` |
+| `\ul{x}` | underline | `color` |
+| `\tint{gold}{x}` | any palette colour by name | `color` |
+| `\slidefigure[w]{f}` | centred, uncaptioned figure | `figure` |
+| `\figcaption{x}` | a caption, when one is needed | `figure` |
+| `figuretext[0.55]` … `\nextpane` | two panes | `figure-text` |
+| `lucidtable` + `\thead{}` | horizontal-rule table | `table` |
+| `\citeline{x}` | small source line at the slide foot | `references` |
+| `\cite{key}` + `\bibliography` | real citations from a `.bib` | `references` |
+| `\takeaway{x}` | one sentence across the slide | `closing` |
+| `\speakernote{x}` | a speaker note | `notes` |
+| `\begin{hidden}` … | a parked slide | `hide-slide` |
+| `\backupframes` | backup slides, outside the page count | `backup` |
+| `steps`, `\stepafter`, `\showfrom` … | animation | `animation` |
+| `align*`, `cases`, `theorem` … | maths and statements | `math` |
+| `lstlisting` | code on a slide | `code` |
+
+## Animation
+
+An overlay is **not motion**. Each step prints as another **page** of the PDF,
+showing a little more. A frame with three steps becomes three pages — which is
+why an animated deck has more pages than slides.
+
+```latex
+\begin{steps}          % bullets appear one at a time
+  \item First
+  \item Second
+\end{steps}
+
+\stepafter             % break here; the rest lands on the next page
+\showfrom{2}{x}        % from page 2 on, space reserved before
+\showonly{2}{x}        % only on page 2, no space reserved
+\emphat{2}{x}          % highlighted on page 2, plain otherwise
+\swap{2}{a}{b}         % a until page 2, then b in its place
+```
+
+Beamer's own `<1->`, `\pause`, `\only` and `\alt` still work.
+
+To **print** an animated deck, add `handout` to `\documentclass` — every step
+collapses back to one page per slide. See `snippets/handout.tex`.
+
+## Two things with an on/off mode
+
+**Speaker notes.** `notes=off` is the default: notes stay in your source and
+are *not compiled*. That is the file you hand out.
+
+```latex
+\usetheme{lucid}                % off  -- notes not compiled (default)
+\usetheme[notes=pages]{lucid}   % a typeset notes page after each slide
+\usetheme[notes=only]{lucid}    % notes without slides -- a script
+\usetheme[notes=second]{lucid}  % presenter view, notes on screen two
+```
+
+**Hidden slides.** Wrap anything in `hidden` to park it. `hidden=off` is the
+default: the block is *not compiled*, so it is not in the PDF or the page
+count.
+
+```latex
+\begin{hidden}
+\begin{frame}{Cut for time}
+  ...
+\end{frame}
+\end{hidden}
+```
+
+```latex
+\usetheme[hidden=show]{lucid}   % compile them, to see what you parked
+```
+
+Better than commenting out, which is tedious to undo and invisible to a
+search. Better than deleting, which loses the slide.
 
 ## Options
 
 ```latex
-\usetheme[palette=maroon,pagenumber=total]{lucid}
+\usetheme[palette=maroon,notes=pages]{lucid}
 ```
 
 | Option | Values (default first) |
@@ -80,106 +144,111 @@ rather than retyping.
 | `pagenumber` | `plain`, `total` |
 | `outline` | `auto`, `manual` |
 | `align` | `top`, `center` |
+| `notes` | `off`, `pages`, `only`, `second` |
+| `hidden` | `off`, `show` |
 | `blind` | `false`, `true` |
 
 ### Anonymous submission
 
 Nothing identifying is emitted unless you set `\author`, `\institute` or
-`\lucidlogo`. Adding `blind` suppresses all three even when they are set, so a
-deck flips to anonymous without editing its front matter:
+`\lucidlogo`. `blind` suppresses all three even when set, so a deck flips to
+anonymous without editing its front matter:
 
 ```latex
 \usetheme[blind]{lucid}
+```
+
+## Converting to PowerPoint
+
+```bash
+pip install pymupdf python-pptx
+python tools/to-pptx.py main.pdf --notes-from main.tex
+```
+
+Each PDF page becomes one slide, placed as a full-bleed image at the right
+aspect ratio. Speaker notes are carried across and attached to the correct
+slide by matching the frame title. A text layer goes into the notes too, so
+the deck stays searchable.
+
+**The text is not editable in PowerPoint,** and cannot be: these slides are
+set by LaTeX, with its maths, fonts, spacing and TikZ drawings, none of which
+has a faithful PowerPoint equivalent. This gives you a deck to *present* from,
+or to hand to someone who requires `.pptx` — not one to rewrite there.
+
+Convert a `handout` build if the deck is animated, or every overlay step
+becomes its own near-identical slide.
+
+```
+--dpi 300     sharper, larger file      --dpi 150   smaller
+-o talk.pptx  choose the output name
 ```
 
 ---
 
 ## Setup: Overleaf
 
-1. In Overleaf, **New Project → Upload Project**, and upload the zip.
-   Overleaf unpacks it and keeps the folder structure, so `snippets/` still
-   works.
-2. Open `demo.tex` and press **Recompile**. Press it a second time — the
-   outline slides need two passes.
-3. Set the compiler if it is not already: **Menu → Compiler → pdfLaTeX**.
-4. To start your own deck, add a new `.tex` file in the same project and set it
-   as the main document (**Menu → Main document**). Keep
-   `beamerthemelucid.sty` at the project root.
+1. **New Project → Upload Project**, and upload the zip. Overleaf keeps the
+   folder structure, so `snippets/` still resolves.
+2. Open `main.tex` and press **Recompile**. Press it again — the outline
+   slides need a second pass.
+3. If the compiler is not already pdfLaTeX: **Menu → Compiler → pdfLaTeX**.
+4. To switch which file builds: **Menu → Main document**.
 
 To add the theme to a project you already have, upload just
-`beamerthemelucid.sty` into it and add `\usetheme{lucid}`.
+`beamerthemelucid.sty` and add `\usetheme{lucid}`.
 
-Overleaf has Cabin and all other packages used here, so nothing needs
-installing.
+Everything used here is on Overleaf. Nothing needs installing.
 
 ## Setup: VS Code + LaTeX Workshop
 
-1. Install **TeX Live** (or MiKTeX) so that `pdflatex` is on your `PATH`.
-   Check with `pdflatex --version` in a terminal.
-2. In VS Code, install the **LaTeX Workshop** extension (James Yu).
-3. Open this folder. Open `demo.tex`. Save — LaTeX Workshop builds on save by
-   default, and the PDF opens in a side tab.
+1. Install **TeX Live** (or MiKTeX) so `pdflatex` is on your `PATH` — check
+   with `pdflatex --version`.
+2. Install the **LaTeX Workshop** extension (James Yu).
+3. Open **this folder** (not a parent — `snippets/` paths are relative to the
+   `.tex`). Open `main.tex` and save. It builds on save and opens the PDF
+   beside it.
 
-Two passes matter here too. The default `latexmk` recipe already runs enough
-passes; if you switched to a plain `pdflatex` recipe, run it twice.
-
-**If your build recipe is plain `pdflatex`**, add this to `settings.json`
-(`Ctrl+Shift+P` → *Preferences: Open User Settings (JSON)*) so it always runs
-twice:
+The default `latexmk` recipe runs enough passes. If you switched to a plain
+`pdflatex` recipe, make it run twice — `Ctrl+Shift+P` → *Preferences: Open
+User Settings (JSON)*:
 
 ```json
 {
   "latex-workshop.latex.recipes": [
-    {
-      "name": "pdflatex x2",
-      "tools": ["pdflatex", "pdflatex"]
-    }
+    { "name": "pdflatex x2", "tools": ["pdflatex", "pdflatex"] }
   ],
   "latex-workshop.latex.tools": [
     {
       "name": "pdflatex",
       "command": "pdflatex",
-      "args": [
-        "-synctex=1",
-        "-interaction=nonstopmode",
-        "-file-line-error",
-        "%DOC%"
-      ]
+      "args": ["-synctex=1", "-interaction=nonstopmode",
+               "-file-line-error", "%DOC%"]
     }
-  ]
-}
-```
-
-To keep the build files out of the way, add:
-
-```json
-{
+  ],
   "latex-workshop.latex.outDir": "%DIR%/build"
 }
 ```
-
-**Note:** `snippets/` paths in `demo.tex` are relative to the `.tex` file, so
-open the folder itself in VS Code rather than a parent directory.
 
 ---
 
 ## Requirements
 
-pdfLaTeX, and a TeX distribution with `beamer`, `tikz`, `booktabs`,
-`appendixnumberbeamer`, `cabin` and `newtxsf`. All are in a full TeX Live or
-MiKTeX install, and all are on Overleaf. No downloads happen at compile time.
+pdfLaTeX, with `beamer`, `tikz`, `booktabs`, `appendixnumberbeamer`, `comment`,
+`ulem`, `cabin` and `newtxsf`. All are in a full TeX Live or MiKTeX install and
+all are on Overleaf. Nothing is downloaded at compile time.
 
-If `cabin` is missing, the theme falls back to Helvetica on its own and warns.
-You can also ask for that explicitly with `\usetheme[font=helvet]{lucid}`.
+If `cabin` is missing the theme falls back to Helvetica and says so. You can
+ask for that explicitly with `font=helvet`.
 
 ## Notes on the design
 
-Colours are chosen so that any two that carry different meaning stay apart in
+Colours are chosen so any two that carry different meaning stay apart in
 greyscale, because handouts and posters get printed that way. The frame title
 is told apart from body text by the band and its position rather than by
 colour — which is why removing the band breaks more than it looks like it
 should.
 
-Text is deliberately large and slides deliberately sparse: about two top-level
-bullets and 25–30 words. The third list level is styled to be unappealing on
-purpose.
+Text is deliberately large and slides deliberately sparse: about two
+top-level bullets and 25–30 words. The third list level is styled to be
+unappealing on purpose. Emphasis is a highlight, not bold — bold runs at about
+3% of characters in decks that read well.

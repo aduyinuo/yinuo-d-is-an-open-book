@@ -1,0 +1,132 @@
+% =====================================================================
+%  main.tex --- START HERE
+%
+%  A working deck, already set up. Change the title, replace the
+%  slides, and you have your talk. Everything below is meant to be
+%  edited or deleted.
+%
+%  Build:  pdflatex main    (twice -- the outline slides need a second
+%                            pass; a third if you add citations)
+%
+%  demo.pdf is the manual: every component with the code beside it.
+%  Snippets to paste live in snippets/. Setup notes are in README.md.
+% =====================================================================
+
+\documentclass[11pt,aspectratio=43]{beamer}   % 169 for widescreen
+\usetheme{lucid}
+
+% Useful switches -- uncomment one at a time to see what it does:
+%   \usetheme[palette=maroon]{lucid}   different accent colour
+%   \usetheme[notes=pages]{lucid}      print your speaker notes
+%   \usetheme[hidden=show]{lucid}      show the parked slides
+%   \usetheme[blind]{lucid}            hide author and institution
+% and add "handout" to \documentclass to flatten animations for printing.
+
+\usepackage{tikz}       % only if you draw things
+% \usepackage{listings} % only if you show code
+
+\title{Your Title Here}
+\subtitle{An optional second line}
+\lucidevent{Venue, date}
+\date{}
+
+% Nothing identifying appears unless you set it. Uncomment to switch on:
+% \author{Your Name}
+% \institute{Your Institution}
+% \lucidlogo{logo.pdf}
+
+\begin{document}
+
+% --------------------------------------------------------------------
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+% --------------------------------------------------------------------
+\section{The problem}
+
+\begin{frame}{What is broken}
+  \begin{itemize}
+    \item State the problem in one line
+    \item Say who has it and why it matters
+  \end{itemize}
+  \citeline{A small source line, if you need one.}
+\end{frame}
+
+\begin{frame}{Why it is hard}
+  \begin{steps}
+    \item The obvious approach fails because \ldots
+    \item The next one fails because \ldots
+    \item Which leaves \term{the gap you are filling}
+  \end{steps}
+\end{frame}
+
+% --------------------------------------------------------------------
+\section{What we did}
+
+\begin{frame}{The idea}
+  \begin{figuretext}[0.55]
+    \begin{itemize}
+      \item One sentence of method
+      \item One sentence of why it works
+    \end{itemize}
+    \nextpane
+    % \slidefigure{diagram.pdf}
+    \begin{tikzpicture}[scale=0.5]
+      \draw[lucidMuted] (0,0) rectangle (5,3.6);
+      \node[lucidMuted,font=\tiny] at (2.5,1.8) {your figure here};
+    \end{tikzpicture}
+  \end{figuretext}
+\end{frame}
+
+\begin{frame}{The one equation}
+  \begin{itemize}
+    \item Say what it means before you show it
+      \[ \mathcal{L} = \mathbb{E}\left[ \sum_t \gamma^t r_t \right] \]
+  \end{itemize}
+\end{frame}
+
+% --------------------------------------------------------------------
+\section{What happened}
+
+\begin{frame}{Results}
+  \begin{lucidtable}
+    \begin{tabular}{lrr}
+      \toprule
+      \thead{Method & Setting A & Setting B} \\
+      \midrule
+      Baseline & 62 & 55 \\
+      Ours     & \term{78} & \term{71} \\
+      \bottomrule
+    \end{tabular}
+  \end{lucidtable}
+  \speakernote{Say the numbers out loud. If asked about variance,
+    go to the backup slide.}
+\end{frame}
+
+\begin{frame}{Takeaway}
+  \takeaway{The one sentence you want them to leave with.}
+\end{frame}
+
+% --------------------------------------------------------------------
+% Parked slides. Nothing in here is compiled unless you build with
+% \usetheme[hidden=show]{lucid} -- so it is a safe place to leave things.
+\begin{hidden}
+\begin{frame}{Cut for time}
+  \begin{itemize}
+    \item Still here, just not in the deck
+  \end{itemize}
+\end{frame}
+\end{hidden}
+
+% --------------------------------------------------------------------
+% Backup slides. These do not count toward the page number.
+\backupframes
+
+\begin{frame}{Backup: extra detail}
+  \begin{itemize}
+    \item The thing someone always asks about
+  \end{itemize}
+\end{frame}
+
+\end{document}

@@ -1,0 +1,36 @@
+% The grid is fixed by the theme. You do not set margins; you place
+% content inside them.
+%
+%   left/right rail   6.0% of page width   title and body share it
+%   title band       16.0% of page height  full bleed, grey
+%   rule under band   0.67% of page height full bleed, amber
+%   footer rule      92.6% down the page   slide number, date
+%
+% Content starts under the rule and runs down. Useful controls:
+
+% Push content to the bottom of the content area:
+\vfill
+\takeaway{The last thing they should see.}
+
+% Split the slide. The number is the LEFT pane's share:
+\begin{figuretext}[0.55]
+  \begin{itemize}
+    \item Left pane
+  \end{itemize}
+  \nextpane
+  \slidefigure{diagram.pdf}
+\end{figuretext}
+
+% Centre this one frame instead of top-aligning it:
+\begin{frame}[c]{A centred slide}
+  \takeaway{One line, centred.}
+\end{frame}
+
+% Drop the chrome entirely for a full-bleed slide:
+\begin{frame}[plain]
+  \slidefigure[\paperwidth]{cover.pdf}
+\end{frame}
+
+% Deck-wide switches:
+%   \usetheme[align=center]{lucid}   centre every slide
+%   \usetheme[footer=none]{lucid}    keep the rule, drop the text

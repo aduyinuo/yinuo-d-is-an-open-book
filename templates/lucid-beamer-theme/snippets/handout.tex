@@ -1,0 +1,27 @@
+% A deck with animation is painful to print: every step is its own page,
+% so a 20-slide talk becomes 60 pages. "handout" flattens that -- each
+% frame collapses back to ONE page with everything shown.
+
+\documentclass[11pt,aspectratio=43,handout]{beamer}
+\usetheme{lucid}
+
+% That single word turns off every overlay: \steps, \stepafter,
+% \showfrom, \showonly, \swap and beamer's own <1-> all stop splitting.
+
+% --- Watch out -----------------------------------------------------
+% \showonly{n}{...} reserves no space, so two \showonly blocks that
+% shared a spot in the talk land ON TOP of each other in a handout.
+% If a slide swaps one figure for another, use \swap instead:
+\swap{2}{\slidefigure{before.pdf}}{\slidefigure{after.pdf}}
+
+% --- The three files worth building --------------------------------
+% 1. the talk        \documentclass[...]{beamer}
+% 2. the handout     \documentclass[...,handout]{beamer}
+% 3. your script     \usetheme[notes=only]{lucid}
+
+% --- Four slides to a page, for printing ---------------------------
+\usepackage{pgfpages}
+\pgfpagesuselayout{4 on 1}[letterpaper,landscape,border shrink=5mm]
+
+% Keep the talk and the handout as separate .tex files, each a couple of
+% lines long, both \input-ing the same body. Then they cannot drift.

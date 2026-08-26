@@ -73,13 +73,104 @@
   \citeline{Compile twice. The outline slides need a second pass. \quad snippets/start.tex}
 \end{frame}
 
-\begin{frame}{The title slide}
+\begin{frame}[allowframebreaks]{The title slide}
   \begin{itemize}
     \item \term{No name, institution or logo appears unless you set one}
     \item \texttt{[plain]} drops the footer, which a title slide should not have
   \end{itemize}
   \howto{title-slide}
   \citeline{snippets/title-slide.tex}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Make a new slide}
+  \begin{itemize}
+    \item A slide is a \term{frame}. Title in braces, content between
+    \item Leave the braces off for a slide with no title
+  \end{itemize}
+  \howto{new-slide}
+  \citeline{snippets/new-slide.tex}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Hide a slide}
+  \begin{itemize}
+    \item Comment it out to drop it for now
+    \item Move it below \texttt{backupframes} to keep it without counting it
+  \end{itemize}
+  \howto{hide-slide}
+  \citeline{snippets/hide-slide.tex}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Speaker notes}
+  \begin{itemize}
+    \item \texttt{note} sits inside the frame it belongs to
+    \item Nothing is shown unless you ask for it, so notes are safe to leave in
+  \end{itemize}
+  \howto{notes}
+  \speakernote{This is a real speaker note. Compile with
+    notes=pages and it gets its own page after this slide.}
+  \citeline{snippets/notes.tex}
+\end{frame}
+
+\begin{frame}{Animation: one slide, several pages}
+  \begin{steps}
+    \item Each step prints as \term{another page} of the PDF
+    \item Nothing moves --- the reader sees a page at a time
+    \item So an animated deck has more pages than slides
+  \end{steps}
+  \citeline{This slide is three pages. In handout mode it collapses back to one.}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Animation: the syntax}
+  \howto{animation}
+  \citeline{snippets/animation.tex}
+\end{frame}
+
+\begin{hidden}
+\begin{frame}{You are not seeing this}
+  \begin{itemize}
+    \item This frame sits inside a \texttt{hidden} block
+    \item Compile with \texttt{hidden=show} and it appears
+  \end{itemize}
+\end{frame}
+\end{hidden}
+
+\begin{frame}[allowframebreaks]{Printing an animated deck}
+  \begin{itemize}
+    \item \term{handout} collapses every step back to one page per slide
+    \item Build three files from one body: the talk, the handout, your script
+  \end{itemize}
+  \howto{handout}
+  \citeline{snippets/handout.tex}
+\end{frame}
+
+\section{The layout}
+
+\begin{frame}[allowframebreaks]{The grid, and what you can move}
+  \begin{figuretext}[0.46]
+    \begin{tikzpicture}[scale=0.30, every node/.style={font=\tiny}]
+      \draw[lucidMuted,line width=0.4pt] (0,0) rectangle (10,7.5);
+      \fill[lucidBand] (0,6.3) rectangle (10,7.5);
+      \fill[lucidGold] (0,6.18) rectangle (10,6.32);
+      \node[anchor=west,lucidAccent] at (0.6,6.85) {frame title};
+      \draw[lucidAccent,dashed,line width=0.3pt] (0.6,0) -- (0.6,7.5);
+      \draw[lucidAccent,dashed,line width=0.3pt] (9.4,0) -- (9.4,7.5);
+      \node[anchor=west,lucidInk] at (0.9,4.4) {content};
+      \draw[lucidGold,line width=0.4pt] (0.5,0.62) -- (9.5,0.62);
+      \node[anchor=west,lucidMuted] at (0.6,0.3) {7};
+      \draw[<->,lucidAccent,line width=0.3pt] (0,7.9) -- (0.6,7.9);
+      \node[anchor=south,lucidAccent] at (0.3,7.95) {6\%};
+      \draw[<->,lucidAccent,line width=0.3pt] (10.4,6.3) -- (10.4,7.5);
+      \node[anchor=west,lucidAccent] at (10.5,6.9) {16\%};
+    \end{tikzpicture}
+    \nextpane
+    \begin{itemize}
+      \item Rail, band and footer are \term{fixed by the theme}
+      \item You place content inside them; you do not set margins
+      \item Content starts under the rule and runs down
+    \end{itemize}
+  \end{figuretext}
+  \howto{layout}
+  \citeline{snippets/layout.tex}
 \end{frame}
 
 \section{Text}
@@ -105,6 +196,58 @@
   \end{itemize}
   \howto{emphasis}
   \citeline{snippets/emphasis.tex}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Maths beyond one equation}
+  \begin{itemize}
+    \item Aligned lines, cases, matrices, and numbering when you need it
+  \end{itemize}
+  \begin{align*}
+    \mathcal{L} &= \mathbb{E}_{\pi}\left[ \sum_t \gamma^t r_t \right] \\
+                &= \sum_s d^{\pi}(s)\, v^{\pi}(s)
+  \end{align*}
+  \[ r(s) = \begin{cases}
+       +1 & \text{host recovered} \\
+       -1 & \text{host compromised} \\
+        0 & \text{otherwise}
+     \end{cases} \]
+  \howto{math}
+  \citeline{snippets/math.tex}
+\end{frame}
+
+\begin{frame}{Statements}
+  \begin{definition}
+    A \term{world model} predicts the next observation from the last.
+  \end{definition}
+  \begin{theorem}[Nash, 1951]
+    Every finite game has an equilibrium in mixed strategies.
+  \end{theorem}
+  \begin{itemize}
+    \item Also: \texttt{lemma}, \texttt{corollary}, \texttt{proof},
+      \texttt{example}, \texttt{block}
+  \end{itemize}
+  \citeline{They take the deck's colours, and their bodies stay upright to read from the back.}
+\end{frame}
+
+\begin{frame}{Pointing at one part of an equation}
+  \[ q_j = \frac{e^{\tint{accent}{\lambda}\, \mathrm{EU}_j(x)}}
+                {\sum_i e^{\lambda\, \mathrm{EU}_i(x)}} \]
+  \begin{itemize}
+    \item Colour the piece you are talking about, or reveal it with
+      \texttt{emphat} and \texttt{showfrom}
+  \end{itemize}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Colour, highlight, underline}
+  \begin{itemize}
+    \item \term{a primary term}, \altterm{a secondary term}, \hl{highlighted},
+      \ul{underlined}, \alert{alerted}
+    \item Or reach into the palette directly: \tint{gold}{gold},
+      \tint{muted}{muted}, \tint{termB}{teal}
+  \end{itemize}
+  \howto{color}
+  \citeline{snippets/color.tex \quad Three or four colours carry 95\% of the text
+    in a good deck.}
 \end{frame}
 
 \section{Figures}
@@ -172,6 +315,28 @@
   \citeline{A source line sits just above the footer rule, like this one.}
 \end{frame}
 
+\begin{frame}[fragile,allowframebreaks]{Code on a slide}
+  \begin{itemize}
+    \item A frame holding verbatim text must be \texttt{[fragile]}
+  \end{itemize}
+\begin{lstlisting}[language=Python]
+for step in range(n_steps):
+    loss = model.update(batch)
+\end{lstlisting}
+  \howto{code}
+  \citeline{snippets/code.tex}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{Citing sources}
+  \begin{itemize}
+    \item \texttt{citeline} is the light option: a credit line, no \texttt{.bib} needed
+    \item For real citations, use a \texttt{.bib} and cite as usual
+      \cite{mckelvey1995quantal}
+  \end{itemize}
+  \howto{references}
+  \citeline{Build order: pdflatex, bibtex, pdflatex, pdflatex.}
+\end{frame}
+
 \begin{frame}{Sections make their own divider}
   \begin{itemize}
     \item Every \texttt{section} inserts an outline slide with the current section marked
@@ -218,6 +383,12 @@
   \end{itemize}
   \howto{backup}
   \citeline{The next slide is a backup slide. Watch the page number restart.}
+\end{frame}
+
+\begin{frame}[allowframebreaks]{References}
+  \footnotesize
+  \bibliographystyle{plain}
+  \bibliography{refs}
 \end{frame}
 
 \backupframes

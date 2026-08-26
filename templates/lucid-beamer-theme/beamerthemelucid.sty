@@ -100,6 +100,10 @@
 \DeclareOptionX{outline}{\def\lucid@outline{#1}}
 \def\lucid@align{top}
 \DeclareOptionX{align}{\def\lucid@align{#1}}
+\def\lucid@notes{off}
+\DeclareOptionX{notes}{\def\lucid@notes{#1}}
+\def\lucid@hidden{off}
+\DeclareOptionX{hidden}{\def\lucid@hidden{#1}}
 \newif\iflucid@blind \lucid@blindfalse
 \DeclareOptionX{blind}[true]{\csname lucid@blind#1\endcsname}
 \ProcessOptionsX\relax
@@ -246,6 +250,16 @@
 \setbeamercolor{enumerate subitem}{fg=lucidGold}
 \setbeamercolor{block title}{fg=white,bg=lucidAccent}
 \setbeamercolor{block body}{fg=lucidInk,bg=lucidBand!35}
+
+% Theorem, definition, lemma and friends inherit the block colours, so a
+% statement looks like the rest of the deck rather than like beamer's
+% default blue. Bodies are upright: an italic paragraph is hard to read
+% from the back of a room, whatever the convention is on paper.
+\setbeamercolor{block title alerted}{fg=white,bg=lucidTermB}
+\setbeamercolor{block body alerted}{fg=lucidInk,bg=lucidBand!35}
+\setbeamercolor{block title example}{fg=white,bg=lucidGold}
+\setbeamercolor{block body example}{fg=lucidInk,bg=lucidBand!35}
+\setbeamertemplate{theorems}[normal font]
 \setbeamercolor{alerted text}{fg=lucidAccent}
 \setbeamercolor{section in toc}{fg=lucidAccent}
 \setbeamercolor{subsection in toc}{fg=lucidAccent}
@@ -491,6 +505,29 @@
 \newcommand{\term}[1]{{\color{lucidTermA}\bfseries #1}}
 \newcommand{\altterm}[1]{{\color{lucidTermB}\itshape #1}}
 
+% Underline. ulem is loaded with normalem so that \emph keeps italicising
+% rather than being turned into an underline, which is ulem's default and
+% is almost never what anyone wants.
+\RequirePackage[normalem]{ulem}
+\newcommand{\ul}[1]{\uline{#1}}
+
+% Arbitrary colour, in the theme's own palette, so a one-off tint cannot
+% drift away from the rest of the deck:
+%   \tint{accent}{text}  gold | muted | ink | termA | termB
+\newcommand{\tint}[2]{%
+  \expandafter\ifx\csname lucid@tint@#1\endcsname\relax
+    \PackageWarning{beamerthemelucid}{Unknown tint "#1"; using accent}%
+    {\color{lucidAccent}#2}%
+  \else
+    {\color{\csname lucid@tint@#1\endcsname}#2}%
+  \fi}
+\expandafter\def\csname lucid@tint@accent\endcsname{lucidAccent}
+\expandafter\def\csname lucid@tint@gold\endcsname{lucidGold}
+\expandafter\def\csname lucid@tint@muted\endcsname{lucidMuted}
+\expandafter\def\csname lucid@tint@ink\endcsname{lucidInk}
+\expandafter\def\csname lucid@tint@termA\endcsname{lucidTermA}
+\expandafter\def\csname lucid@tint@termB\endcsname{lucidTermB}
+
 % Small credit or citation at the foot of the content area. Observed at
 % 10pt on a 720pt page; that scales to 5pt, which is raised to 6pt here
 % because 5pt does not survive a projector.
@@ -568,5 +605,133 @@
   \ifx\lucid@outline\lucid@str@auto
     \renewcommand{\outlineframe}[1][]{}%
   \fi}
+
+% ---------------------------------------------------------------------
+%  Animation
+%
+%  Every one of these turns one slide into SEVERAL PAGES of the PDF --
+%  that is what an overlay is. A frame with three steps prints as three
+%  pages, each showing a bit more. Nothing moves; the reader simply sees
+%  a page at a time. This is why an animated deck has a page count
+%  higher than its slide count, and why you should keep animation for
+%  places where the order genuinely matters.
+%
+%  These are thin, readable names over beamer's overlay specifications.
+%  Beamer's own <1->, \pause, \only and \alt keep working; use whichever
+%  you prefer.
+%
+%    steps            an itemize whose items appear one at a time
+%    \stepafter       break here; the rest appears on the next page
+%    \showfrom{n}{x}  x appears from page n on, space reserved before
+%    \showonly{n}{x}  x appears only on page n, no space reserved
+%    \emphat{n}{x}    x is highlighted on page n, plain otherwise
+%    \swap{n}{a}{b}   a until page n-1, then b in its place
+% ---------------------------------------------------------------------
+
+% Items appear one at a time. Nested lists inherit the behaviour.
+\newenvironment{steps}
+  {\begin{itemize}[<+->]}
+  {\end{itemize}}
+
+% A named \pause: everything after it moves to the next page.
+\newcommand{\stepafter}{\pause}
+
+% Appears from page #1 onward. Space is reserved beforehand, so nothing
+% below it jumps when it arrives.
+\newcommand{\showfrom}[2]{\onslide<#1->{#2}}
+
+% Appears only on page #1. No space is reserved, so the rest of the
+% slide closes up around it -- useful for swapping a figure in place.
+\newcommand{\showonly}[2]{\only<#1>{#2}}
+
+% Highlighted on page #1, plain on every other page. The highlight is
+% the same amber wash \hl uses, so emphasis stays consistent.
+\newcommand{\emphat}[2]{\alt<#1>{\hl{#2}}{#2}}
+
+% #2 until page #1 arrives, then #3 in its place.
+\newcommand{\swap}[3]{\alt<#1->{#3}{#2}}
+
+% ---------------------------------------------------------------------
+%  Speaker notes
+%
+%  Two modes matter, and they are opposites:
+%
+%    notes=off     (default) notes are NOT compiled. They stay in the
+%                  source and reach no page. This is the version you
+%                  hand out or upload.
+%    notes=pages   each slide is followed by a typeset notes page, set
+%                  in the theme's own colours rather than beamer's
+%                  default grey block.
+%
+%  Two more, for presenting:
+%    notes=only    notes without the slides -- a script to read from
+%    notes=second  presenter view, slide on one screen and notes on the
+%                  other. Pulls in pgfpages.
+%
+%  Write notes with \speakernote{...} inside the frame they belong to.
+%  Beamer's own \note{...} keeps working and obeys the same option.
+% ---------------------------------------------------------------------
+\newcommand{\speakernote}[1]{\note{#1}}
+
+\def\lucid@str@pages{pages}
+\def\lucid@str@only{only}
+\def\lucid@str@second{second}
+
+% A notes page that matches the deck: accent heading, amber rule, the
+% note set in readable body type rather than beamer's default block.
+\setbeamertemplate{note page}{%
+  \vbox{%
+    \vskip 0.4em
+    {\usebeamerfont{frametitle}\usebeamercolor[fg]{frametitle}%
+     \mdseries Speaker notes\par}%
+    \vskip 0.35em
+    {\color{lucidGold}\rule{\textwidth}{1.2pt}}%
+    \vskip 1.1em
+    {\fontsize{11}{14.5}\selectfont\color{lucidInk}%
+     \raggedright\insertnote\par}%
+    \vfill
+    {\fontsize{7}{9}\selectfont\color{lucidMuted}\insertframenumber\par}%
+  }%
+}
+
+\ifx\lucid@notes\lucid@str@pages
+  \setbeameroption{show notes}%
+\else\ifx\lucid@notes\lucid@str@only
+  \setbeameroption{show only notes}%
+\else\ifx\lucid@notes\lucid@str@second
+  \RequirePackage{pgfpages}%
+  \setbeameroption{show notes on second screen=right}%
+\fi\fi\fi
+% notes=off needs nothing: beamer's default already prints no notes.
+
+% ---------------------------------------------------------------------
+%  Hidden slides
+%
+%  Same two modes, same reasoning:
+%
+%    hidden=off    (default) anything inside a "hidden" block is NOT
+%                  compiled. It is not in the PDF and not in the page
+%                  count.
+%    hidden=show   the blocks are compiled, so you can see what you have
+%                  parked without hunting through comments.
+%
+%  Wrap whole frames:
+%
+%      \begin{hidden}
+%      \begin{frame}{Cut for time}
+%        ...
+%      \end{frame}
+%      \end{hidden}
+%
+%  This beats commenting out, which is tedious to undo and invisible to
+%  a search, and beats deleting, which loses the slide.
+% ---------------------------------------------------------------------
+\RequirePackage{comment}
+\def\lucid@str@show{show}
+\ifx\lucid@hidden\lucid@str@show
+  \includecomment{hidden}%
+\else
+  \excludecomment{hidden}%
+\fi
 
 \endinput

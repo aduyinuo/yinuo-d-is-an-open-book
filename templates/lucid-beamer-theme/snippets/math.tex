@@ -1,0 +1,59 @@
+% amsmath is already loaded by the theme. So is a sans maths font, so
+% symbols match the body weight instead of sitting in a serif face.
+
+% --- Inline and display --------------------------------------------
+The error level $\lambda$ controls it.
+
+\[ q_j = \frac{e^{\lambda \mathrm{EU}_j(x)}}{\sum_i e^{\lambda \mathrm{EU}_i(x)}} \]
+
+% Display maths is UNNUMBERED by default. A talk has no cross-references.
+
+% --- When you must number one --------------------------------------
+\begin{equation}
+  \mathcal{L} = \mathbb{E}_{\pi}\left[ \sum_t \gamma^t r_t \right]
+  \label{eq:objective}
+\end{equation}
+Referred to later as \eqref{eq:objective}.
+
+% --- Several lines, aligned on = -----------------------------------
+\begin{align*}
+  \mathcal{L} &= \mathbb{E}_{\pi}\left[ \sum_t \gamma^t r_t \right] \\
+              &= \sum_s d^{\pi}(s) \, v^{\pi}(s)
+\end{align*}
+% align* is unnumbered; align numbers every line.
+
+% --- Cases and matrices --------------------------------------------
+\[ r(s) = \begin{cases}
+     +1 & \text{host recovered} \\
+     -1 & \text{host compromised} \\
+      0 & \text{otherwise}
+   \end{cases} \]
+
+\[ A = \begin{bmatrix} a & b \\ c & d \end{bmatrix} \]
+
+% --- Pointing at part of an equation -------------------------------
+% Colour the piece you are talking about:
+\[ q_j = \frac{e^{\tint{accent}{\lambda} \mathrm{EU}_j(x)}}
+              {\sum_i e^{\lambda \mathrm{EU}_i(x)}} \]
+
+% Or reveal it, then emphasise it, across two pages:
+\begin{frame}{Building the objective}
+  \[ \mathcal{L} = \emphat{2}{\mathbb{E}_{\pi}}\left[ \sum_t \gamma^t r_t \right] \]
+  \showfrom{2}{The expectation is over the policy, not the data.}
+\end{frame}
+
+% --- Statements ----------------------------------------------------
+\begin{theorem}
+  The equilibrium exists for every finite game.
+\end{theorem}
+
+\begin{definition}
+  A \term{world model} predicts the next observation from the last.
+\end{definition}
+
+% Also available: lemma, corollary, proof, example, block.
+% Give any of them a name: \begin{theorem}[Nash, 1951]
+
+% --- Two habits worth keeping --------------------------------------
+% \mathrm{} for words inside maths: \mathrm{EU}, not EU
+% \dfrac for a full-size fraction inside inline maths

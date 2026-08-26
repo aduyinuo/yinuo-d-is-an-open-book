@@ -1,0 +1,26 @@
+% A slide is a "frame". This is the whole pattern:
+
+\begin{frame}{The slide title}
+  \begin{itemize}
+    \item A point
+    \item Another point
+  \end{itemize}
+\end{frame}
+
+% No title? Leave the braces off:
+\begin{frame}
+  \takeaway{A single sentence, no title.}
+\end{frame}
+
+% No title bar, no footer -- for a full-bleed image or a cover:
+\begin{frame}[plain]
+  \slidefigure[\paperwidth]{cover.pdf}
+\end{frame}
+
+% Reveal the bullets one at a time:
+\begin{frame}{Built up in steps}
+  \begin{itemize}
+    \item<1-> Appears first
+    \item<2-> Appears second
+  \end{itemize}
+\end{frame}

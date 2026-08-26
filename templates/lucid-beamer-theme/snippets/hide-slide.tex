@@ -1,0 +1,35 @@
+% Wrap anything you want to park. Whole frames are fine.
+
+\begin{hidden}
+\begin{frame}{Cut for time}
+  \begin{itemize}
+    \item Still here, just not in the deck
+  \end{itemize}
+\end{frame}
+\end{hidden}
+
+% Then choose a mode in the preamble. Two, and they are opposites:
+
+\usetheme{lucid}                  % hidden=off is the default:
+                                  % the block is NOT compiled. Not in
+                                  % the PDF, not in the page count.
+
+\usetheme[hidden=show]{lucid}     % compile them, so you can see what
+                                  % you have parked.
+
+% Better than commenting out, which is tedious to undo and invisible to
+% a search. Better than deleting, which loses the slide.
+
+% --- Two smaller variants -----------------------------------------
+
+% Keep it in the deck but out of the count -- put it below \backupframes:
+\backupframes
+
+\begin{frame}{Held in reserve}
+  ...
+\end{frame}
+
+% Keep it visible but unnumbered:
+\begin{frame}[noframenumbering]{Not counted}
+  ...
+\end{frame}

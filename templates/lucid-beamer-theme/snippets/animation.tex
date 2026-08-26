@@ -1,0 +1,52 @@
+% An "animation" here is not motion. Each step prints as ANOTHER PAGE
+% of the PDF, showing a little more. A frame with three steps becomes
+% three pages. That is why an animated deck has more pages than slides.
+
+% --- Bullets, one at a time ---------------------------------------
+\begin{frame}{Built up}
+  \begin{steps}
+    \item Appears on page 1
+    \item Appears on page 2
+    \item Appears on page 3
+  \end{steps}
+\end{frame}
+
+% --- Break anywhere ------------------------------------------------
+\begin{frame}{Two halves}
+  The setup.
+  \stepafter
+  The punchline.
+\end{frame}
+
+% --- Precise control -----------------------------------------------
+\showfrom{2}{Appears from page 2 on; space held before it.}
+\showonly{2}{Appears only on page 2; no space held.}
+\emphat{2}{Highlighted on page 2, plain otherwise.}
+\swap{2}{Before}{After}
+
+% --- Swapping a figure in place ------------------------------------
+\begin{frame}{Same spot, two figures}
+  \showonly{1}{\slidefigure{before.pdf}}%
+  \showonly{2}{\slidefigure{after.pdf}}%
+\end{frame}
+
+% Beamer's own <1->, \pause, \only and \alt still work. Use whichever
+% reads better. Keep animation for places where the ORDER matters --
+% every step is a page someone has to sit through.
+
+% --- A figure that stays while the text builds ---------------------
+% The classic trap: put the overlays INSIDE a pane, not around the
+% columns, or the whole split appears only on the last page.
+\begin{frame}{Figure holds, text builds}
+  \begin{figuretext}[0.55]
+    \begin{steps}
+      \item First point
+      \item Second point
+    \end{steps}
+    \nextpane
+    \slidefigure{diagram.pdf}   % no overlay spec: present throughout
+  \end{figuretext}
+\end{frame}
+
+% Printing an animated deck? See snippets/handout.tex -- one word
+% collapses every step back to a single page per slide.

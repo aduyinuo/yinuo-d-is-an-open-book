@@ -1,0 +1,26 @@
+% Write the note inside the frame it belongs to:
+
+\begin{frame}{Results}
+  \begin{itemize}
+    \item The gain holds across both attackers
+  \end{itemize}
+  \speakernote{Say the number out loud: 78 against 62.
+    If asked about variance, point at the backup slide.}
+\end{frame}
+
+% Then choose a mode in the preamble. Two matter, and they are opposites:
+
+\usetheme{lucid}                 % notes=off is the default:
+                                 % notes are NOT compiled at all.
+                                 % This is the file you hand out.
+
+\usetheme[notes=pages]{lucid}    % each slide is followed by a typeset
+                                 % notes page, in the deck's own colours.
+
+% Two more, for presenting:
+\usetheme[notes=only]{lucid}     % notes without slides -- a script
+\usetheme[notes=second]{lucid}   % presenter view, notes on screen two
+
+% Beamer's own \note{...} works too and obeys the same option.
+% Tip: build twice -- once plain to present from, once with
+% notes=pages to print.

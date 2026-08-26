@@ -1,0 +1,25 @@
+% In the preamble, once:
+\usepackage{listings}
+\lstset{
+  basicstyle=\ttfamily\footnotesize\color{lucidInk},
+  keywordstyle=\color{lucidAccent},
+  commentstyle=\color{lucidMuted}\itshape,
+  backgroundcolor=\color{lucidBand!40},
+  breaklines=true, columns=fullflexible,
+  xleftmargin=5pt, frame=none, showstringspaces=false,
+}
+
+% On a slide. The [fragile] is required for verbatim text:
+\begin{frame}[fragile]{Training loop}
+\begin{lstlisting}[language=Python]
+for step in range(n_steps):
+    loss = model.update(batch)
+\end{lstlisting}
+\end{frame}
+
+% Long or awkward code is safer in its own file:
+\lstinputlisting[language=Python]{code/train.py}
+
+% Trap: a [fragile] frame ends at the first \end{frame} at the start of
+% a line -- including one that is only sample text inside a listing.
+% If you must show \end{frame}, use \lstinputlisting from a file.

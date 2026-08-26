@@ -1,0 +1,16 @@
+% --- 1. a light source line, no .bib file needed -------------------
+\citeline{McKelvey \& Palfrey (1995). Games and Economic Behavior.}
+
+% --- 2. real citations from a .bib file ----------------------------
+% Cite in the text:
+Quantal response \cite{mckelvey1995quantal} explains it.
+
+% Then one frame at the end of the deck:
+\begin{frame}[allowframebreaks]{References}
+  \footnotesize
+  \bibliographystyle{plain}
+  \bibliography{refs}
+\end{frame}
+
+% Build order: pdflatex, bibtex, pdflatex, pdflatex.
+% Overleaf and latexmk do this for you.
