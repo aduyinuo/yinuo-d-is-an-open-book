@@ -24,9 +24,34 @@ Add this where you want it, replacing the file name:
 Before the GitBook integration is installed this shows as a link; after, it plays
 inline. Either way the deck itself works, and any slide is linkable with `#s3`.
 
+## Decks built from LaTeX
+
+A deck whose diagrams PowerPoint drew from its own shapes — boxes, arrows,
+connectors, groups — cannot be published this way. Those shapes carry no
+image, so the converter drops them and the layout collapses into the gap.
+That is what happened to the ASU brown bag deck.
+
+For those, keep a LaTeX build beside the `.pptx`:
+
+    slides-source/asu-brown-bag.pptx            the original, for narration
+    slides-source/asu-brown-bag-latex/*.pdf     the compiled deck
+
+The workflow renders that PDF, one image per page, so nothing can be lost.
+Narration still comes from the `.pptx` notes, matched to pages by counting
+frame starts. A folder ending `-latex` is picked up automatically.
+
+To create one from an existing deck:
+
+    python templates/lucid-beamer-theme/tools/from-pptx.py slides-source/talk.pptx \
+        -o slides-source/talk-latex
+
 ## Converting locally (optional)
 
-    pip install python-pptx
-    python internal/slides/pptx_to_deck.py
+    pip install python-pptx pillow pymupdf
+    python internal/slides/pptx_to_deck.py          # every .pptx
+
+    # a deck that has a LaTeX build
+    python internal/slides/pdf_to_deck.py slides-source/asu-brown-bag-latex/asu-brown-bag.pdf \
+        --slug asu-brown-bag --notes slides-source/asu-brown-bag.pptx
 
 Output lands in `docs/slides/`.
