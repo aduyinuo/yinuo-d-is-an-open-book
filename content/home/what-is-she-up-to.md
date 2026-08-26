@@ -9,17 +9,14 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects, 6 months"><figcaption><p>518 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>513 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="This week" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>3 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>84 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>78 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="1 year" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>691 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
@@ -31,16 +28,16 @@ At the desk on **The Website**.
 
 <summary>The Website — wrote into overview</summary>
 
-_at the desk · 1 hours ago_
+_at the desk · 22 hours ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **1 hours ago** — wrote into overview
-* **1 hours ago** — added research-thrusts.pdf
-* **4 days ago** — added rrep year1 to site
-* **4 days ago** — reworked funding
-* **4 days ago** — added load() and draw()
-* **4 days ago** — results landed in places.json
+* **22 hours ago** — wrote into overview
+* **22 hours ago** — added research-thrusts.pdf
+* **5 days ago** — added rrep year1 to site
+* **5 days ago** — reworked funding
+* **5 days ago** — added load() and draw()
+* **5 days ago** — results landed in places.json
 
 [The Website on the site](../site-dev-log.md)
 
@@ -53,6 +50,7 @@ _at the desk · 1 hours ago_
 _resting · Aug 15_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
+
 
 [What to Read on the site](../personal/overview.md)
 
@@ -72,18 +70,19 @@ _resting · Aug 09_
 
 </details>
 
+
 #### Mental World Modeling
 
 <details>
 
 <summary>Progressive Problem Design — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf,…</summary>
 
-_warm · 18 hours ago · 2.9h this week_
+_warm · 1 days ago · 2.9h this week_
 
 <figure><img src="../.gitbook/assets/heat-progressive-problem-design.png" alt="Daily work on Progressive Problem Design"><figcaption></figcaption></figure>
 
-* **18 hours ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
-* **21 hours ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
+* **1 days ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
+* **1 days ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
 * 2.9 hours logged in this window
 
 [Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
@@ -111,6 +110,7 @@ _resting · Aug 10_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
+
 
 [Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
@@ -144,9 +144,10 @@ _resting · Jul 06_
 * **Jul 06** — logged 0.2h — Working in VS Code
 * 8.2 hours logged in this window
 
-[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/)
+[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
 
 </details>
+
 
 #### Cyber World Modeling
 
@@ -157,6 +158,7 @@ _resting · Jul 06_
 _resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
+
 
 [World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
 
@@ -208,6 +210,7 @@ _resting · Feb 22_
 
 </details>
 
+
 #### Human-AI Complementarity
 
 <details>
@@ -217,6 +220,7 @@ _resting · Feb 22_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
+
 
 [Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
@@ -281,6 +285,7 @@ _resting · Mar 13_
 
 </details>
 
+
 #### Toward Deployment
 
 <details>
@@ -320,9 +325,11 @@ _resting · Jul 13_
 
 _resting · —_
 
+
 [Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
+
 
 #### Study approvals
 
@@ -334,9 +341,11 @@ _resting · Aug 04_
 
 <figure><img src="../.gitbook/assets/heat-irb-logistics.png" alt="Daily work on IRB Logistics"><figcaption></figcaption></figure>
 
+
 [IRB Logistics on the site](../research/projects/irb-applications/overview.md)
 
 </details>
+
 
 #### Around the work
 
@@ -367,7 +376,7 @@ _resting · Jul 25_
 * **Mar 16** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
-[Service on the site](../overview-3/)
+[Service on the site](../overview-3/README.md)
 
 </details>
 
@@ -382,7 +391,7 @@ _resting · Jul 25_
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 58.9 hours logged in this window
 
-[Thinking on the site](what-is-she-thinking.md)
+[Thinking on the site](../home/what-is-she-thinking.md)
 
 </details>
 
@@ -397,7 +406,7 @@ _resting · Apr 09_
 * **Mar 12** — logged 1.1h — How to prepare for the reading group?
 * 3.3 hours logged in this window
 
-[Mentoring on the site](../mentor/)
+[Mentoring on the site](../mentor/README.md)
 
 </details>
 
@@ -428,8 +437,9 @@ _resting · Mar 27_
 * **Mar 17** — logged 0.2h — Making a post for Maria Rigaki
 * 16.0 hours logged in this window
 
-[Reading Group on the site](../overview-3/cyberai-reading-group/)
+[Reading Group on the site](../overview-3/cyberai-reading-group/README.md)
 
 </details>
+
 
 _Last looked at Aug 25, 14:10_
