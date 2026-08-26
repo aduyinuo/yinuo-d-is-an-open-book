@@ -1,3 +1,7 @@
+---
+icon: steam
+---
+
 # Cyber Environments & Benchmarks
 
 Every claim about an autonomous cyber agent is a claim about the environment it was measured in. These are the ones this work runs on, and they do not agree with each other.
