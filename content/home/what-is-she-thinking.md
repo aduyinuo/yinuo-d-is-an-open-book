@@ -62,4 +62,11 @@ How exactly can <mark style="color:$primary;">opponent modeling</mark> benefit n
 
 * In the rise of <mark style="color:$primary;">agentic end point defense solutions</mark>, is it feasible to design and evaluate a prototype of defender agent? In practice, what do defenders want to predict about adversaries? what is the reality of data availability? &#x20;
 * What is <mark style="color:$primary;">zero-day</mark>? Is the defense against zero-days a <mark style="color:$primary;">zero-shot</mark> or <mark style="color:$primary;">few-shot</mark> challenge?&#x20;
+* Are there any exising opponent modeling approaches can help <mark style="color:$primary;">differentiate human vs AI adversaries</mark>? Is that something worthy to model and predict (i.e., is it strategically relevant)? What evidence / conjectures do we have so far about how humans and AI adversaries differ? If we manage to acquire such an opponent model, how do we <mark style="color:$primary;">design experiments to empirically demonstrate its benefits</mark> and relevance to network security?
+
+When does the <mark style="color:$primary;">algorithmic making</mark> of an agent matter?&#x20;
+
+* Do we need to care about whether an agent is rule-based, RL-based, or LLM-based, if their <mark style="color:$primary;">behavior</mark> are similar?  Are they truly similar or is it a matter of perspective, perception, and metric?&#x20;
+* What <mark style="color:$primary;">algorithmic characteristics</mark> translate smoother to <mark style="color:$primary;">behavioral signals</mark>, and which tend to get lost?&#x20;
+* Are there <mark style="color:$primary;">optical illusions between human and agents</mark>, analogous to Müller-Lyer Illusion, for ex, when there's actually important distinctions, only humans' subject perception cannot capture it, or vice versa?&#x20;
 
