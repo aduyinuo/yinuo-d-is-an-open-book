@@ -1,5 +1,5 @@
 {
-  "generated": 1787667032,
+  "generated": 1787757606,
   "here": "The Website",
   "here_folder": "C:\\Open Book",
   "range": "6m",
@@ -11,47 +11,167 @@
       "group": "Across threads",
       "page": "site-dev-log.md",
       "heatmap": true,
-      "at": 1787663024,
+      "at": 1787756935,
       "state": "active",
-      "update": "wrote into overview",
+      "update": "removed design.md",
       "details": [
         {
-          "at": 1787663024,
-          "what": "wrote into overview"
+          "at": 1787756935,
+          "what": "removed design.md"
         },
         {
-          "at": 1787663002,
-          "what": "added research-thrusts.pdf"
+          "at": 1787756935,
+          "what": "removed use.md"
         },
         {
-          "at": 1787295070,
-          "what": "added rrep year1 to site"
+          "at": 1787756935,
+          "what": "removed daedelus.md"
         },
         {
-          "at": 1787294743,
-          "what": "reworked funding"
+          "at": 1787756935,
+          "what": "removed conferences.md"
         },
         {
-          "at": 1787294500,
-          "what": "added load() and draw()"
+          "at": 1787756919,
+          "what": "opened the Within a month section and the Later section"
         },
         {
-          "at": 1787294491,
-          "what": "results landed in places.json"
+          "at": 1787756919,
+          "what": "opened the Later section and the No date given section"
         }
       ],
       "days": {
         "2026-08-19": 12,
         "2026-08-15": 8,
         "2026-08-25": 42,
-        "2026-08-14": 184,
+        "2026-08-26": 33,
         "2026-08-21": 5,
-        "2026-08-17": 57,
-        "2026-08-20": 8
+        "2026-08-17": 52,
+        "2026-08-14": 181,
+        "2026-08-20": 7
       },
-      "hours": {},
-      "hours_week": 0,
-      "hours_total": 0
+      "hours": {
+        "2026-08-26": 1.45
+      },
+      "hours_week": 1.4,
+      "hours_total": 1.4
+    },
+    {
+      "folder": "2025-2026 LucidWorld\\[1] 2025-2026 sample_efficient_FOEDreamer",
+      "name": "FOE-Dreamer",
+      "thread": "Cyber World Modeling",
+      "group": "2025-2026 LucidWorld",
+      "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
+      "heatmap": true,
+      "at": 1787733238,
+      "state": "recent",
+      "update": "Third draft and submission.",
+      "details": [
+        {
+          "at": 1787733238,
+          "what": "logged 4.0h — Third draft and submission."
+        },
+        {
+          "at": 1787717697,
+          "what": "logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round."
+        },
+        {
+          "at": 1787701982,
+          "what": "logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC"
+        },
+        {
+          "at": 1787695303,
+          "what": "logged 1.7h — Break-in, decompose, plan, collect materials, set up folders"
+        },
+        {
+          "at": 1787692140,
+          "what": "logged 0.7h — Break-in, decompose, plan, collect materials, set up folders"
+        },
+        {
+          "at": 1771731930,
+          "what": "logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem."
+        }
+      ],
+      "days": {
+        "2026-05-03": 157,
+        "2026-08-08": 102,
+        "2026-02-21": 2,
+        "2026-04-03": 1,
+        "2025-11-05": 1,
+        "2025-11-06": 15,
+        "2026-04-22": 4,
+        "2025-12-06": 6,
+        "2025-10-21": 42,
+        "2026-06-18": 2,
+        "2026-04-23": 2,
+        "2026-05-27": 53,
+        "2026-04-30": 39,
+        "2026-04-29": 2,
+        "2026-05-01": 4,
+        "2026-05-26": 3
+      },
+      "hours": {
+        "2026-08-26": 8.24,
+        "2026-08-25": 6.24,
+        "2026-02-22": 1.87
+      },
+      "hours_week": 14.5,
+      "hours_total": 16.4
+    },
+    {
+      "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
+      "name": "What Is a Realistic Cyber Environment",
+      "thread": "Toward Deployment",
+      "group": "2026 BeRealistic",
+      "page": "overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md",
+      "heatmap": true,
+      "at": 1787694677,
+      "state": "recent",
+      "update": "Draft survey and interview",
+      "details": [
+        {
+          "at": 1787694677,
+          "what": "logged 0.2h — Draft survey and interview"
+        },
+        {
+          "at": 1787686200,
+          "what": "logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview"
+        }
+      ],
+      "days": {
+        "2026-08-04": 10,
+        "2026-06-16": 32,
+        "2026-03-19": 4,
+        "2026-07-06": 20,
+        "2026-07-15": 16,
+        "2026-02-21": 1,
+        "2026-06-24": 1,
+        "2026-07-07": 5,
+        "2026-07-08": 18,
+        "2026-07-10": 6,
+        "2026-07-11": 1,
+        "2026-07-23": 3,
+        "2026-08-08": 1606
+      },
+      "hours": {
+        "2026-08-25": 3.39,
+        "2026-08-04": 1.42,
+        "2026-07-23": 1.25,
+        "2026-07-21": 2.0,
+        "2026-07-13": 1.99,
+        "2026-07-11": 1.83,
+        "2026-07-08": 0.36,
+        "2026-07-06": 29.59,
+        "2026-03-26": 1.18,
+        "2026-03-24": 2.91,
+        "2026-03-21": 2.33,
+        "2026-03-19": 5.65,
+        "2026-03-17": 4.48,
+        "2026-03-10": 2.67,
+        "2026-03-06": 1.0
+      },
+      "hours_week": 3.4,
+      "hours_total": 62.1
     },
     {
       "folder": "2025-2026 DesignTheGame\\[1] 2025_2026 Aritran_Jaime_progressively_more_difficult",
@@ -111,13 +231,11 @@
       "details": [],
       "days": {
         "2026-03-31": 21,
-        "2025-07-21": 9,
         "2025-08-02": 4,
         "2025-08-11": 8,
         "2025-08-17": 26,
         "2026-03-30": 14,
         "2025-08-04": 10,
-        "2025-07-22": 24,
         "2025-07-23": 8,
         "2026-04-01": 7,
         "2026-08-10": 126,
@@ -616,64 +734,6 @@
       "hours_total": 41.6
     },
     {
-      "folder": "2026 BeRealistic\\2026 CTU_UTEP_sok_what_is_real",
-      "name": "What Is a Realistic Cyber Environment",
-      "thread": "Toward Deployment",
-      "group": "2026 BeRealistic",
-      "page": "overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md",
-      "heatmap": true,
-      "at": 1783969591,
-      "state": "idle",
-      "update": "diagram",
-      "details": [
-        {
-          "at": 1783969591,
-          "what": "logged 2.0h — diagram"
-        },
-        {
-          "at": 1783811032,
-          "what": "logged 1.8h — diagram"
-        },
-        {
-          "at": 1783540503,
-          "what": "logged 0.4h — fix the compile error"
-        }
-      ],
-      "days": {
-        "2026-08-04": 10,
-        "2026-06-16": 32,
-        "2026-03-19": 4,
-        "2026-07-06": 20,
-        "2026-07-15": 16,
-        "2026-02-21": 1,
-        "2026-06-24": 1,
-        "2026-07-07": 5,
-        "2026-07-08": 18,
-        "2026-07-10": 6,
-        "2026-07-11": 1,
-        "2026-07-23": 3,
-        "2026-08-08": 1606
-      },
-      "hours": {
-        "2026-08-04": 1.42,
-        "2026-07-23": 1.25,
-        "2026-07-21": 2.0,
-        "2026-07-13": 1.99,
-        "2026-07-11": 1.83,
-        "2026-07-08": 0.36,
-        "2026-07-06": 29.59,
-        "2026-03-26": 1.18,
-        "2026-03-24": 2.91,
-        "2026-03-21": 2.33,
-        "2026-03-19": 5.65,
-        "2026-03-17": 4.48,
-        "2026-03-10": 2.67,
-        "2026-03-06": 1.0
-      },
-      "hours_week": 0,
-      "hours_total": 58.7
-    },
-    {
       "folder": "2022-2026 ReadTheRoom\\[2] 2025-2026 Antti_Palvi_RL_based_attacker_behavior_modeling",
       "name": "Attacker Behavior Modeling",
       "thread": "Mental World Modeling",
@@ -1030,46 +1090,6 @@
       "hours_total": 13.2
     },
     {
-      "folder": "2025-2026 LucidWorld\\[1] 2025-2026 sample_efficient_FOEDreamer",
-      "name": "FOE-Dreamer",
-      "thread": "Cyber World Modeling",
-      "group": "2025-2026 LucidWorld",
-      "page": "overview/3-year-agenda/cyber-world-modeling/environment.md",
-      "heatmap": true,
-      "at": 1771731930,
-      "state": "idle",
-      "update": "A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.",
-      "details": [
-        {
-          "at": 1771731930,
-          "what": "logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem."
-        }
-      ],
-      "days": {
-        "2026-05-03": 157,
-        "2026-08-08": 102,
-        "2026-02-21": 2,
-        "2026-04-03": 1,
-        "2025-11-05": 1,
-        "2025-11-06": 15,
-        "2026-04-22": 4,
-        "2025-12-06": 6,
-        "2025-10-21": 42,
-        "2026-06-18": 2,
-        "2026-04-23": 2,
-        "2026-05-27": 53,
-        "2026-04-30": 39,
-        "2026-04-29": 2,
-        "2026-05-01": 4,
-        "2026-05-26": 3
-      },
-      "hours": {
-        "2026-02-22": 1.87
-      },
-      "hours_week": 0,
-      "hours_total": 1.9
-    },
-    {
       "folder": "2026 BeRealistic\\2026 PaloAltoNetwork_emulators",
       "name": "Emulators",
       "thread": "Toward Deployment",
@@ -1087,6 +1107,70 @@
     }
   ],
   "site": [
+    {
+      "at": 1787757211,
+      "what": "Document the LaTeX route for decks the pptx converter cannot handle"
+    },
+    {
+      "at": 1787756924,
+      "what": "Opportunity scout refresh"
+    },
+    {
+      "at": 1787756498,
+      "what": "Publish the ASU deck from its LaTeX build, not from the .pptx"
+    },
+    {
+      "at": 1787756111,
+      "what": "Point the rebuilt arrows the right way"
+    },
+    {
+      "at": 1787755771,
+      "what": "Republish the ASU deck from the LaTeX build"
+    },
+    {
+      "at": 1787755350,
+      "what": "Rebuild the ASU diagrams instead of marking them REDRAW"
+    },
+    {
+      "at": 1787751694,
+      "what": "Rebuild the ASU brown bag deck in LaTeX, and add the tool that did it"
+    },
+    {
+      "at": 1787745276,
+      "what": "Refresh the activity board"
+    },
+    {
+      "at": 1787743597,
+      "what": "Opportunity scout: daily refresh"
+    },
+    {
+      "at": 1787737572,
+      "what": "Turn the beamer template into something you can start from"
+    },
+    {
+      "at": 1787736015,
+      "what": "Publish the Lucid beamer theme as a downloadable template"
+    },
+    {
+      "at": 1787706670,
+      "what": "Acknowledge with a fact, not with an evaluation"
+    },
+    {
+      "at": 1787701817,
+      "what": "Publish the refresh integration"
+    },
+    {
+      "at": 1787683710,
+      "what": "A refresh button that actually works, as a GitBook integration"
+    },
+    {
+      "at": 1787667103,
+      "what": "Refresh the activity board"
+    },
+    {
+      "at": 1787667068,
+      "what": "Stop overwriting the icon and the title, and refresh the board daily"
+    },
     {
       "at": 1787666720,
       "what": "Fill Training in \"Realistic\" Environments, and stop the scout showing biology"

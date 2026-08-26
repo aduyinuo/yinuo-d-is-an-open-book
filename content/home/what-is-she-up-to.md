@@ -9,16 +9,16 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>513 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>533 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
 {% tab title="This week" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>3 hours logged in the last week</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>22 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>78 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>98 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 year" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>691 hours logged in the last year</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>710 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -26,18 +26,19 @@ At the desk on **The Website**.
 
 <details>
 
-<summary>The Website — wrote into overview</summary>
+<summary>The Website — removed design.md</summary>
 
-_at the desk · 22 hours ago_
+_at the desk · 11 minutes ago · 1.4h this week_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **22 hours ago** — wrote into overview
-* **22 hours ago** — added research-thrusts.pdf
-* **5 days ago** — added rrep year1 to site
-* **5 days ago** — reworked funding
-* **5 days ago** — added load() and draw()
-* **5 days ago** — results landed in places.json
+* **11 minutes ago** — removed design.md
+* **11 minutes ago** — removed use.md
+* **11 minutes ago** — removed daedelus.md
+* **11 minutes ago** — removed conferences.md
+* **11 minutes ago** — opened the Within a month section and the Later section
+* **11 minutes ago** — opened the Later section and the No date given section
+* 1.4 hours logged in this window
 
 [The Website on the site](../site-dev-log.md)
 
@@ -47,7 +48,7 @@ _at the desk · 22 hours ago_
 
 <summary>What to Read — nothing recorded yet</summary>
 
-_resting · Aug 15_
+_resting · Aug 14_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
 
@@ -67,6 +68,117 @@ _resting · Aug 09_
 * 77.1 hours logged in this window
 
 [Research Statement on the site](../research/projects/research-statement/overview.md)
+
+</details>
+
+
+#### Cyber World Modeling
+
+<details>
+
+<summary>FOE-Dreamer — Third draft and submission.</summary>
+
+_warm · 6 hours ago · 14.5h this week_
+
+<figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
+
+* **6 hours ago** — logged 4.0h — Third draft and submission.
+* **11 hours ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
+* **15 hours ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
+* **17 hours ago** — logged 1.7h — Break-in, decompose, plan, collect materials, set up folders
+* **18 hours ago** — logged 0.7h — Break-in, decompose, plan, collect materials, set up folders
+* **Feb 21** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
+* 16.4 hours logged in this window
+
+[FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
+
+</details>
+
+<details>
+
+<summary>World Model Failure — nothing recorded yet</summary>
+
+_resting · Aug 09_
+
+<figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
+
+
+[World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
+
+</details>
+
+<details>
+
+<summary>Learn Structure — first time using the touch screen of yoga, it frees up creativity.</summary>
+
+_resting · Aug 06_
+
+<figure><img src="../.gitbook/assets/heat-learn-structure.png" alt="Daily work on Learn Structure"><figcaption></figcaption></figure>
+
+* **Aug 06** — logged 2.8h — first time using the touch screen of yoga, it frees up creativity.
+* 114.9 hours logged in this window
+
+[Learn Structure on the site](../overview/3-year-agenda/cyber-world-modeling/strategic-structure.md)
+
+</details>
+
+<details>
+
+<summary>AcceleratePSRO — An extended search from the three papers.</summary>
+
+_resting · Apr 09_
+
+<figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
+
+* **Apr 09** — logged 1.1h — An extended search from the three papers.
+* **Apr 08** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
+* 203.0 hours logged in this window
+
+[AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
+
+</details>
+
+
+#### Toward Deployment
+
+<details>
+
+<summary>What Is a Realistic Cyber Environment — Draft survey and interview</summary>
+
+_warm · 17 hours ago · 3.4h this week_
+
+<figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
+
+* **17 hours ago** — logged 0.2h — Draft survey and interview
+* **19 hours ago** — logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview
+* 62.1 hours logged in this window
+
+[What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
+
+</details>
+
+<details>
+
+<summary>Sim2Sim before Sim2Real — 01.23 Weekly Meeting. Debug Encoder. The most likely cause is mismatch between source and…</summary>
+
+_resting · Aug 06_
+
+<figure><img src="../.gitbook/assets/heat-sim2sim-before-sim2real.png" alt="Daily work on Sim2Sim before Sim2Real"><figcaption></figcaption></figure>
+
+* 16.6 hours logged in this window
+
+[Sim2Sim before Sim2Real on the site](../overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
+
+</details>
+
+<details>
+
+<summary>Emulators — nothing recorded yet</summary>
+
+_resting · —_
+
+
+[Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
 
@@ -149,75 +261,13 @@ _resting · Jul 06_
 </details>
 
 
-#### Cyber World Modeling
-
-<details>
-
-<summary>World Model Failure — nothing recorded yet</summary>
-
-_resting · Aug 10_
-
-<figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
-
-
-[World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
-
-</details>
-
-<details>
-
-<summary>Learn Structure — first time using the touch screen of yoga, it frees up creativity.</summary>
-
-_resting · Aug 06_
-
-<figure><img src="../.gitbook/assets/heat-learn-structure.png" alt="Daily work on Learn Structure"><figcaption></figcaption></figure>
-
-* **Aug 06** — logged 2.8h — first time using the touch screen of yoga, it frees up creativity.
-* 114.9 hours logged in this window
-
-[Learn Structure on the site](../overview/3-year-agenda/cyber-world-modeling/strategic-structure.md)
-
-</details>
-
-<details>
-
-<summary>AcceleratePSRO — An extended search from the three papers.</summary>
-
-_resting · Apr 09_
-
-<figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
-
-* **Apr 09** — logged 1.1h — An extended search from the three papers.
-* **Apr 09** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
-* 203.0 hours logged in this window
-
-[AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
-
-</details>
-
-<details>
-
-<summary>FOE-Dreamer — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to…</summary>
-
-_resting · Feb 22_
-
-<figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
-
-* **Feb 22** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
-* 1.9 hours logged in this window
-
-[FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
-
-</details>
-
-
 #### Human-AI Complementarity
 
 <details>
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
@@ -286,51 +336,6 @@ _resting · Mar 13_
 </details>
 
 
-#### Toward Deployment
-
-<details>
-
-<summary>Sim2Sim before Sim2Real — 01.23 Weekly Meeting. Debug Encoder. The most likely cause is mismatch between source and…</summary>
-
-_resting · Aug 06_
-
-<figure><img src="../.gitbook/assets/heat-sim2sim-before-sim2real.png" alt="Daily work on Sim2Sim before Sim2Real"><figcaption></figcaption></figure>
-
-* 16.6 hours logged in this window
-
-[Sim2Sim before Sim2Real on the site](../overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
-
-</details>
-
-<details>
-
-<summary>What Is a Realistic Cyber Environment — diagram</summary>
-
-_resting · Jul 13_
-
-<figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
-
-* **Jul 13** — logged 2.0h — diagram
-* **Jul 11** — logged 1.8h — diagram
-* **Jul 08** — logged 0.4h — fix the compile error
-* 58.7 hours logged in this window
-
-[What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
-
-</details>
-
-<details>
-
-<summary>Emulators — nothing recorded yet</summary>
-
-_resting · —_
-
-
-[Emulators on the site](../research/projects/be-realistic/emulator-track.md)
-
-</details>
-
-
 #### Study approvals
 
 <details>
@@ -373,7 +378,7 @@ _resting · Jul 25_
 
 * **Jul 25** — logged 0.6h — Aritran's survey
 * **Mar 17** — logged 0.6h — Filling in the research activity form and feeling jealous
-* **Mar 16** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
+* **Mar 15** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
 [Service on the site](../overview-3/README.md)
@@ -442,4 +447,4 @@ _resting · Mar 27_
 </details>
 
 
-_Last looked at Aug 25, 14:10_
+_Last looked at Aug 26, 09:20_
