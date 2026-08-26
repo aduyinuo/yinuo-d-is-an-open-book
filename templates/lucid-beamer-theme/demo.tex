@@ -1,0 +1,232 @@
+% =====================================================================
+%  demo.tex --- the Lucid beamer theme, explained by example
+%
+%  This deck IS the manual. Each slide shows a component and, under it,
+%  the exact code that produced it. Copy a block off the slide, or open
+%  the matching file in snippets/ and copy it from there.
+%
+%  Build:  pdflatex demo.tex     (run it twice -- the outline slides
+%                                 need a second pass to fill in)
+%
+%  Setup for Overleaf and for VS Code + LaTeX Workshop is in README.md.
+%
+%  Why snippets/ exists: a beamer frame marked [fragile] ends at the
+%  first \end{frame} on a line, including one that is only sample text
+%  inside a listing. Reading the samples from files sidesteps that
+%  entirely, and gives you files you can copy straight out.
+% =====================================================================
+
+\documentclass[11pt,aspectratio=43]{beamer}
+\usetheme{lucid}
+
+\usepackage{tikz}
+\usepackage{listings}
+
+% Code blocks. Needed only by THIS deck, because this deck prints its
+% own source. A normal deck does not need listings.
+\lstset{
+  language=[LaTeX]TeX,
+  basicstyle=\ttfamily\fontsize{6.8}{8.2}\selectfont\color{lucidInk},
+  keywordstyle=\color{lucidAccent},
+  commentstyle=\color{lucidMuted}\itshape,
+  backgroundcolor=\color{lucidBand!40},
+  breaklines=true,
+  breakindent=8pt,
+  columns=fullflexible,
+  keepspaces=true,
+  frame=none,
+  xleftmargin=5pt,
+  xrightmargin=3pt,
+  aboveskip=4pt,
+  belowskip=2pt,
+  showstringspaces=false,
+}
+\newcommand{\howto}[1]{\lstinputlisting{snippets/#1.tex}}
+
+\title{The Lucid Beamer Theme}
+\subtitle{Every slide shows the code that made it}
+\lucidevent{A copy-and-paste manual}
+\date{}
+
+% Identity is off by default. Uncomment to switch it on.
+% \author{Your Name}
+% \institute{Your Institution}
+% \lucidlogo{logo.pdf}
+
+\begin{document}
+
+% --- Title slide -----------------------------------------------------
+\begin{frame}[plain]
+  \titlepage
+\end{frame}
+
+\section{Getting started}
+
+\begin{frame}{Start a deck: two lines}
+  \begin{itemize}
+    \item Put \texttt{beamerthemelucid.sty} next to your \texttt{.tex} file
+  \end{itemize}
+  \howto{start}
+  \begin{itemize}
+    \item Use \texttt{aspectratio=169} for widescreen
+  \end{itemize}
+  \citeline{Compile twice. The outline slides need a second pass. \quad snippets/start.tex}
+\end{frame}
+
+\begin{frame}{The title slide}
+  \begin{itemize}
+    \item \term{No name, institution or logo appears unless you set one}
+    \item \texttt{[plain]} drops the footer, which a title slide should not have
+  \end{itemize}
+  \howto{title-slide}
+  \citeline{snippets/title-slide.tex}
+\end{frame}
+
+\section{Text}
+
+\begin{frame}{Bullets: two levels, and a third to avoid}
+  \begin{itemize}
+    \item Level one
+      \begin{itemize}
+        \item Level two
+          \begin{itemize}
+            \item Level three is muted on purpose
+          \end{itemize}
+      \end{itemize}
+  \end{itemize}
+  \howto{bullets}
+  \citeline{Aim for two top-level bullets and 25--30 words a slide. \quad snippets/bullets.tex}
+\end{frame}
+
+\begin{frame}{Emphasis: three devices, and none of them is bold}
+  \begin{itemize}
+    \item A \term{primary term}, a \altterm{secondary term}, something \hl{highlighted}
+    \item Each one survives greyscale printing on its own
+  \end{itemize}
+  \howto{emphasis}
+  \citeline{snippets/emphasis.tex}
+\end{frame}
+
+\section{Figures}
+
+\begin{frame}{A figure, uncaptioned}
+  \begin{center}
+    \begin{tikzpicture}[scale=0.38]
+      \fill[lucidBand] (0,0) rectangle (9,4);
+      \foreach \x/\h in {0.7/3.1, 2.2/2.6, 3.7/3.3, 5.2/2.0, 6.7/2.8}
+        {\fill[lucidAccent] (\x,0.4) rectangle (\x+0.9,\h);}
+      \draw[lucidGold,line width=1.2pt] (0.3,2.2) -- (8.7,2.2);
+    \end{tikzpicture}
+  \end{center}
+  \howto{figure}
+  \citeline{snippets/figure.tex}
+\end{frame}
+
+\begin{frame}{A figure beside text}
+  \begin{figuretext}[0.55]
+    \begin{itemize}
+      \item The left pane holds your points
+      \item The argument sets its share
+    \end{itemize}
+    \nextpane
+    \begin{tikzpicture}[scale=0.30]
+      \draw[lucidMuted,line width=0.4pt] (0,0) rectangle (10,7.5);
+      \fill[lucidBand] (0,6.3) rectangle (10,7.5);
+      \fill[lucidGold] (0,6.18) rectangle (10,6.32);
+      \draw[lucidAccent,dashed,line width=0.3pt] (0.6,0) -- (0.6,7.5);
+    \end{tikzpicture}
+  \end{figuretext}
+  \howto{figure-text}
+  \citeline{snippets/figure-text.tex}
+\end{frame}
+
+\section{Tables, maths, closings}
+
+\begin{frame}{A table}
+  \begin{lucidtable}
+    \begin{tabular}{lr}
+      \toprule
+      \thead{Method & Score} \\
+      \midrule
+      Baseline & 62 \\
+      Ours     & \term{78} \\
+      \bottomrule
+    \end{tabular}
+  \end{lucidtable}
+  \howto{table}
+  \citeline{Horizontal rules only. \quad snippets/table.tex}
+\end{frame}
+
+\begin{frame}{An equation}
+  \begin{itemize}
+    \item Equations are unnumbered, and sit inside the bullet that introduces them
+      \[ q_j \;=\; \frac{e^{\lambda\,\mathrm{EU}_j(x)}}{\sum_i e^{\lambda\,\mathrm{EU}_i(x)}} \]
+  \end{itemize}
+  \howto{equation}
+  \citeline{snippets/equation.tex}
+\end{frame}
+
+\begin{frame}{A source line, and a closing statement}
+  \takeaway{The one sentence you want them to leave with.}
+  \howto{closing}
+  \citeline{A source line sits just above the footer rule, like this one.}
+\end{frame}
+
+\begin{frame}{Sections make their own divider}
+  \begin{itemize}
+    \item Every \texttt{section} inserts an outline slide with the current section marked
+    \item You have passed four of them already
+  \end{itemize}
+  \howto{sections}
+  \citeline{snippets/sections.tex}
+\end{frame}
+
+\section{Options and backup}
+
+\begin{frame}{Theme options}
+  \begin{lucidtable}
+    \begin{tabular}{@{}ll@{}}
+      \toprule
+      \thead{Option & Values, default first} \\
+      \midrule
+      \texttt{palette}    & \texttt{green}, \texttt{maroon}, \texttt{slate} \\
+      \texttt{font}       & \texttt{cabin}, \texttt{helvet}, \texttt{none} \\
+      \texttt{footer}     & \texttt{full}, \texttt{page}, \texttt{none} \\
+      \texttt{pagenumber} & \texttt{plain}, \texttt{total} \\
+      \texttt{outline}    & \texttt{auto}, \texttt{manual} \\
+      \texttt{align}      & \texttt{top}, \texttt{center} \\
+      \texttt{blind}      & \texttt{false}, \texttt{true} \\
+      \bottomrule
+    \end{tabular}
+  \end{lucidtable}
+  \howto{options}
+\end{frame}
+
+\begin{frame}{Anonymous submission}
+  \begin{itemize}
+    \item \term{Nothing identifying is emitted unless you set it}
+    \item \texttt{blind} suppresses author, institution and logo even when set, so a
+      deck flips to anonymous without editing its front matter
+  \end{itemize}
+  \howto{blind}
+  \citeline{snippets/blind.tex}
+\end{frame}
+
+\begin{frame}{Backup slides}
+  \begin{itemize}
+    \item \texttt{backupframes} stops later slides inflating the page count
+  \end{itemize}
+  \howto{backup}
+  \citeline{The next slide is a backup slide. Watch the page number restart.}
+\end{frame}
+
+\backupframes
+
+\begin{frame}{Backup: the numbering restarted}
+  \begin{itemize}
+    \item This is a backup slide
+    \item The footer count started again at 1
+  \end{itemize}
+\end{frame}
+
+\end{document}

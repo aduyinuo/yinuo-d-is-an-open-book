@@ -1,0 +1,572 @@
+% =====================================================================
+%  beamerthemelucid --- a beamer theme for research talks
+%  ---------------------------------------------------------------
+%  The design grammar and the reasoning behind each number are
+%  summarised in README.md. The measurements in this file are not
+%  arbitrary; read that before changing them.
+%
+%  Engine: pdfLaTeX. No XeLaTeX or LuaLaTeX required, no downloads.
+%
+%  USAGE
+%      \documentclass[11pt,aspectratio=43]{beamer}
+%      \usetheme{lucid}
+%
+%  OPTIONS  \usetheme[<key>=<value>,...]{lucid}
+%
+%    palette = green | maroon | slate      (default: green)
+%        green   forest green accent, matches the document styles in
+%                this folder and the live rebuttal package
+%        maroon  the accent observed in the reference decks
+%        slate   a low-chroma alternative for greyscale-only output
+%
+%    font = cabin | helvet | none          (default: cabin)
+%        cabin   humanist sans in the Gill Sans lineage, + newtxsf math
+%        helvet  fallback if Cabin is missing from the installation
+%        none    inherit whatever the surrounding document has set
+%
+%    footer = full | page | none           (default: full)
+%        full    slide number at the left, date at the right
+%        page    slide number only
+%        none    hairline rule only, no text
+%
+%    pagenumber = plain | total            (default: plain)
+%        plain   "7"        total   "7/64"   (both observed)
+%
+%    outline = auto | manual               (default: auto)
+%        auto    an outline slide is inserted at each \section, with the
+%                current section marked; this is how the reference decks
+%                signal a section change (they have no divider slides)
+%        manual  insert them yourself with \outlineframe
+%
+%    align = top | center                  (default: top)
+%        top     body text starts under the rule, as observed
+%        center  beamer's usual vertical centring
+%
+%    blind = true | false                  (default: false)
+%        true    suppress author, institute and logo even if they are
+%                set, for double-blind submission. Nothing identifying
+%                is emitted anywhere in the deck.
+%
+%  IDENTITY IS OPT-IN. With no options and no \author / \institute /
+%  \lucidlogo, this theme emits no name, no institution and no logo on
+%  any slide, including the title slide. That is deliberate; see
+%  README.md.
+%
+%  PUBLIC COMMANDS AND ENVIRONMENTS
+%      \lucidlogo{<file>}        logo for the title slide (opt-in)
+%      \lucidevent{<text>}       venue / occasion line on the title slide
+%      \outlineframe[<title>]    the recurring agenda slide
+%      \citeline{<text>}         small credit or citation at the slide foot
+%      \hl{<text>}               amber highlighter, the emphasis device
+%      \term{<text>}             primary defined term  (accent, bold)
+%      \altterm{<text>}          secondary defined term (teal, italic)
+%      \slidefigure[<width>]{<file>}   centred, uncaptioned figure
+%      \figcaption{<text>}       caption, when one is genuinely needed
+%      figuretext[<split>]       two panes, \nextpane between them;
+%                                <split> is the left pane's fraction
+%      lucidtable                booktabs table, horizontal rules only
+%      \thead{<cells>}           header row with the band-grey fill
+%      \takeaway{<text>}         a full-width closing statement
+%      backupframes              start of the backup section (unnumbered)
+%
+%  PUBLIC COLOURS
+%      lucidInk lucidAccent lucidGold lucidMuted lucidBand lucidWash
+%      lucidTermA lucidTermB
+% =====================================================================
+
+\NeedsTeXFormat{LaTeX2e}
+\ProvidesPackage{beamerthemelucid}[2026/08/25 v1.0 Lucid beamer theme]
+
+\RequirePackage{xkeyval}
+\RequirePackage{xcolor}
+\RequirePackage{tikz}
+\RequirePackage{booktabs}
+\RequirePackage{colortbl}
+\RequirePackage{ragged2e}
+\RequirePackage{appendixnumberbeamer}
+
+% ---------------------------------------------------------------------
+%  Options
+% ---------------------------------------------------------------------
+\def\lucid@palette{green}
+\DeclareOptionX{palette}{\def\lucid@palette{#1}}
+\def\lucid@font{cabin}
+\DeclareOptionX{font}{\def\lucid@font{#1}}
+\def\lucid@footer{full}
+\DeclareOptionX{footer}{\def\lucid@footer{#1}}
+\def\lucid@pagenumber{plain}
+\DeclareOptionX{pagenumber}{\def\lucid@pagenumber{#1}}
+\def\lucid@outline{auto}
+\DeclareOptionX{outline}{\def\lucid@outline{#1}}
+\def\lucid@align{top}
+\DeclareOptionX{align}{\def\lucid@align{#1}}
+\newif\iflucid@blind \lucid@blindfalse
+\DeclareOptionX{blind}[true]{\csname lucid@blind#1\endcsname}
+\ProcessOptionsX\relax
+
+% Observed: body text starts immediately under the amber rule and runs
+% down, rather than being centred in the space. beamer's default is
+% centred, so the switch has to be thrown explicitly. A per-frame
+% \begin{frame}[c] still overrides this, as usual.
+\def\lucid@str@center{center}
+\ifx\lucid@align\lucid@str@center\else\beamer@centeredfalse\fi
+
+% ---------------------------------------------------------------------
+%  Palette
+%
+%  Luminances and the pairwise separations these are chosen to hit are
+%  tabulated in README.md. The short version: every pair
+%  that ever appears together carrying different meaning stays apart in
+%  greyscale, because posters and handouts get printed that way.
+%
+%  The one deliberate exception is Accent against Ink (1.8:1). The
+%  reference decks are no better (1.76:1): in greyscale a frame title is
+%  told apart from body text by the band and the position, not by the
+%  colour. That is why the band exists. Do not "fix" it by removing the
+%  band.
+% ---------------------------------------------------------------------
+\definecolor{lucidInk}{HTML}{16211A}    % body text, near-black, green cast
+\definecolor{lucidMuted}{HTML}{8A9690}  % deprioritised text, footer, credits
+\definecolor{lucidBand}{HTML}{DCDDDA}   % the title band
+\definecolor{lucidWash}{HTML}{F6EFD9}   % highlighter fill
+\definecolor{lucidGold}{HTML}{B0791A}   % rules, level-2 markers, highlight edge
+\definecolor{lucidTermA}{HTML}{1F5132}  % primary defined term
+\definecolor{lucidTermB}{HTML}{2C6E6A}  % secondary defined term
+
+% The observed amber was #FFC000. It is darkened here: at 75% greyscale
+% luminance it all but vanished against an 85% band. See README.md 4.
+
+\def\lucid@pal@green{\definecolor{lucidAccent}{HTML}{1F5132}}
+\def\lucid@pal@maroon{\definecolor{lucidAccent}{HTML}{8C1515}}
+\def\lucid@pal@slate{\definecolor{lucidAccent}{HTML}{33414C}%
+                     \definecolor{lucidGold}{HTML}{7A7A72}}
+\@ifundefined{lucid@pal@\lucid@palette}
+  {\PackageWarning{beamerthemelucid}{Unknown palette "\lucid@palette"; using green}%
+   \lucid@pal@green}
+  {\csname lucid@pal@\lucid@palette\endcsname}
+
+% ---------------------------------------------------------------------
+%  Fonts
+%
+%  Observed: Gill Sans MT throughout, Cambria Math for equations. Both
+%  are proprietary and absent from TeX Live, so Cabin (a free humanist
+%  sans in the same lineage) stands in, with newtxsf for sans maths.
+%
+%  Observed and easy to miss: frame titles are NOT bold. 590 of 590
+%  title spans in the corpus are regular weight. beamer's default is
+%  bold, so the theme has to say so explicitly.
+% ---------------------------------------------------------------------
+\def\lucid@fnt@cabin{%
+  \RequirePackage[T1]{fontenc}%
+  \IfFileExists{cabin.sty}
+    {\RequirePackage[sfdefault]{cabin}%
+     \IfFileExists{newtxsf.sty}{\RequirePackage{newtxsf}}{}}
+    {\PackageWarning{beamerthemelucid}{Cabin not found; falling back to helvet}%
+     \RequirePackage{helvet}\renewcommand{\familydefault}{\sfdefault}}}
+\def\lucid@fnt@helvet{%
+  \RequirePackage[T1]{fontenc}\RequirePackage{helvet}%
+  \renewcommand{\familydefault}{\sfdefault}}
+\def\lucid@fnt@none{}
+\@ifundefined{lucid@fnt@\lucid@font}
+  {\PackageWarning{beamerthemelucid}{Unknown font "\lucid@font"; using cabin}%
+   \lucid@fnt@cabin}
+  {\csname lucid@fnt@\lucid@font\endcsname}
+
+% ---------------------------------------------------------------------
+%  The grid
+%
+%  Everything is a fraction of the page, so the theme holds its
+%  proportions at 4:3 (observed) and at 16:9 (not observed, but modern
+%  projectors are not 4:3).
+%
+%    left/right rail   6.0% of paper width   (observed 43.2/720)
+%    title band        16.0% of paper height (observed 86.3/540)
+%    rule under band   0.67% of paper height (observed 3.6/540)
+%    footer rule       at 92.6% of height    (observed 500.3/540)
+% ---------------------------------------------------------------------
+\newlength{\lucid@rail}      \setlength{\lucid@rail}{0.060\paperwidth}
+\newlength{\lucid@bandht}    \setlength{\lucid@bandht}{0.160\paperheight}
+\newlength{\lucid@bandrule}  \setlength{\lucid@bandrule}{0.0067\paperheight}
+\newlength{\lucid@footrail}  \setlength{\lucid@footrail}{0.050\paperwidth}
+\newlength{\lucid@footskip}  \setlength{\lucid@footskip}{0.074\paperheight}
+
+\setbeamersize{text margin left=\lucid@rail, text margin right=\lucid@rail}
+
+% ---------------------------------------------------------------------
+%  Type scale
+%
+%  Observed sizes are given as a fraction of PAGE HEIGHT, which is the
+%  right invariant for legibility at a distance and which happens to
+%  give nearly the same answer at 4:3 and 16:9:
+%
+%    frame title  28pt/540 = 5.2%  ->  14.5pt
+%    body L1      28pt/540 = 5.2%  ->  14pt
+%    body L2      24pt/540 = 4.4%  ->  12pt
+%    body L3      20pt/540 = 3.7%  ->  10pt
+%    footer       14pt/540 = 2.6%  ->   7pt
+%    citation     10pt/540 = 1.9%  ->   6pt  (scaled 5pt; raised, it
+%                                             would not survive a beamer)
+%
+%  Set in absolute points rather than inherited from the class option,
+%  so a deck at 11pt and one at 12pt look identical.
+% ---------------------------------------------------------------------
+\setbeamerfont{normal text}{size={\fontsize{14}{17}\selectfont}}
+\setbeamerfont{frametitle}{size={\fontsize{14.5}{17}\selectfont},series=\mdseries}
+\setbeamerfont{title}{size={\fontsize{18}{22}\selectfont},series=\mdseries}
+\setbeamerfont{subtitle}{size={\fontsize{13}{16}\selectfont},series=\mdseries}
+\setbeamerfont{author}{size={\fontsize{12}{15}\selectfont}}
+\setbeamerfont{institute}{size={\fontsize{11}{14}\selectfont}}
+\setbeamerfont{date}{size={\fontsize{10}{13}\selectfont}}
+\setbeamerfont{itemize/enumerate body}{size={\fontsize{14}{17}\selectfont}}
+\setbeamerfont{itemize/enumerate subbody}{size={\fontsize{12}{14.5}\selectfont}}
+\setbeamerfont{itemize/enumerate subsubbody}{size={\fontsize{10}{12}\selectfont}}
+\setbeamerfont{footline}{size={\fontsize{7}{9}\selectfont}}
+\setbeamerfont{caption}{size={\fontsize{9}{11}\selectfont}}
+\setbeamerfont{block title}{size={\fontsize{12}{15}\selectfont},series=\bfseries}
+
+% ---------------------------------------------------------------------
+%  Colour assignments
+% ---------------------------------------------------------------------
+\setbeamercolor{normal text}{fg=lucidInk,bg=white}
+\setbeamercolor{structure}{fg=lucidAccent}
+\setbeamercolor{frametitle}{fg=lucidAccent,bg=lucidBand}
+\setbeamercolor{frametitle rule}{bg=lucidGold}
+\setbeamercolor{title}{fg=lucidAccent}
+\setbeamercolor{subtitle}{fg=lucidInk}
+\setbeamercolor{author}{fg=lucidInk}
+\setbeamercolor{institute}{fg=lucidMuted}
+\setbeamercolor{date}{fg=lucidMuted}
+\setbeamercolor{footline}{fg=lucidMuted}
+\setbeamercolor{caption}{fg=lucidMuted}
+\setbeamercolor{caption name}{fg=lucidMuted}
+\setbeamercolor{itemize item}{fg=lucidAccent}
+\setbeamercolor{itemize subitem}{fg=lucidGold}
+\setbeamercolor{itemize subsubitem}{fg=lucidMuted}
+\setbeamercolor{enumerate item}{fg=lucidAccent}
+\setbeamercolor{enumerate subitem}{fg=lucidGold}
+\setbeamercolor{block title}{fg=white,bg=lucidAccent}
+\setbeamercolor{block body}{fg=lucidInk,bg=lucidBand!35}
+\setbeamercolor{alerted text}{fg=lucidAccent}
+\setbeamercolor{section in toc}{fg=lucidAccent}
+\setbeamercolor{subsection in toc}{fg=lucidAccent}
+
+\hypersetup{colorlinks=true,linkcolor=lucidAccent,urlcolor=lucidAccent,
+            citecolor=lucidAccent}
+
+% ---------------------------------------------------------------------
+%  Bullets
+%
+%  Observed: a right-pointing triangle (Wingdings 3 0xF07D), 1418 times
+%  across the corpus; never a disc. Level 1 accent, level 2 amber.
+%
+%  Level 3 is deliberately made unattractive -- smaller, muted, an en
+%  dash rather than a marker. Only 5% of observed slides ever reach it,
+%  and a theme that offers a cheerful fourth level invites a density
+%  this style never uses. See README.md.
+% ---------------------------------------------------------------------
+\setbeamertemplate{itemize item}{%
+  \raisebox{0.12ex}{\scriptsize$\blacktriangleright$}}
+\setbeamertemplate{itemize subitem}{%
+  \raisebox{0.12ex}{\tiny$\blacktriangleright$}}
+\setbeamertemplate{itemize subsubitem}{\textendash}
+\setbeamertemplate{enumerate item}{\insertenumlabel.}
+\setbeamertemplate{navigation symbols}{}
+% Observed: no "Figure 1:" label anywhere in 588 slides.
+\setbeamertemplate{caption}{\raggedright\insertcaption\par}
+\setbeamertemplate{caption label separator}{}
+\setbeamertemplate{blocks}[rounded][shadow=false]
+
+% Observed spacing: bullets sit apart from each other, not packed.
+\setlength{\parskip}{0.4\baselineskip}
+\addtobeamertemplate{block begin}{}{\justifying}
+
+% ---------------------------------------------------------------------
+%  Frame title: full-bleed band, amber rule beneath
+%
+%  wd=\paperwidth with matching leftskip is what makes the band run to
+%  both paper edges rather than stopping at the text margins.
+% ---------------------------------------------------------------------
+%  Three things about beamer's frametitle context, each of which will
+%  silently ruin the band if you get it wrong. All were measured out of
+%  the compiled PDF rather than guessed:
+%
+%  1. The origin is the PAPER's left edge (x=0), not the text margin.
+%     So the band needs no negative shift -- adding one pushes it a full
+%     rail off the left and leaves a white notch on the right.
+%  2. \hsize here is \textwidth, so a \paperwidth band overflows. The
+%     zero-width \makebox absorbs that: it contributes nothing to the
+%     horizontal list, so no overfull box is reported, while the vbox's
+%     height still reserves the vertical space. The trailing \hfill
+%     keeps the line from being underfull.
+%  3. The rule under the band is drawn as a second, empty beamercolorbox
+%     rather than as a \rule or an \hrule. A bare \hrule comes out
+%     \textwidth (rules take a "running" width and the vbox has nothing
+%     else to size it), and an explicit \rule inherits the leftskip the
+%     band's colorbox leaves behind, landing one rail to the right and
+%     hanging off the page. Using the same mechanism as the band is the
+%     only version whose alignment is guaranteed to match it.
+\setbeamertemplate{frametitle}{%
+  \nointerlineskip%
+  \hbox to \textwidth{%
+    \makebox[0pt][l]{%
+      \vbox{\hsize=\paperwidth
+        \begin{beamercolorbox}[wd=\paperwidth,sep=0pt,
+            leftskip=\lucid@rail,rightskip=\lucid@rail]{frametitle}%
+          % \hsize must be set here too: a \vbox nested inside a
+          % beamercolorbox inherits the colorbox's full width and
+          % ignores its leftskip/rightskip, so without this the title
+          % box overhangs by exactly two rails on every slide.
+          \vbox to \lucid@bandht{%
+            \hsize=\dimexpr\paperwidth-2\lucid@rail\relax
+            \vfil
+            \raggedright\usebeamerfont{frametitle}\insertframetitle\par
+            \vfil}%
+        \end{beamercolorbox}%
+        \nointerlineskip
+        \begin{beamercolorbox}[wd=\paperwidth,sep=0pt,
+            ht=\lucid@bandrule,dp=0pt]{frametitle rule}%
+        \end{beamercolorbox}%
+      }%
+    }%
+    \hfill}%
+}
+
+% ---------------------------------------------------------------------
+%  Footer: hairline rule, slide number left, date right
+%
+%  The rail here is 5% rather than the content 6%, matching the observed
+%  0.5in footer margin against the 0.6in content margin.
+% ---------------------------------------------------------------------
+\def\lucid@pageno{%
+  \ifx\lucid@pagenumber\lucid@str@total
+    \insertframenumber/\inserttotalframenumber
+  \else
+    \insertframenumber
+  \fi}
+\def\lucid@str@total{total}
+
+\def\lucid@foot@full{%
+  \usebeamerfont{footline}\usebeamercolor[fg]{footline}%
+  \lucid@pageno\hfill\insertdate}
+\def\lucid@foot@page{%
+  \usebeamerfont{footline}\usebeamercolor[fg]{footline}%
+  \lucid@pageno\hfill}
+\def\lucid@foot@none{\hfill}
+
+\setbeamertemplate{footline}{%
+  \ifnum\c@framenumber=0\else
+    \hbox to \paperwidth{%
+      \hspace{\lucid@footrail}%
+      \vbox{%
+        {\color{lucidGold}\hrule height 0.4pt}%
+        \vskip 0.35em
+        \hbox to \dimexpr\paperwidth-2\lucid@footrail\relax{%
+          \@ifundefined{lucid@foot@\lucid@footer}
+            {\lucid@foot@full}{\csname lucid@foot@\lucid@footer\endcsname}}%
+        \vskip 0.30\lucid@footskip}%
+      \hspace{\lucid@footrail}}%
+  \fi}
+
+% ---------------------------------------------------------------------
+%  Title slide
+%
+%  Observed construction: title at the TOP of the page, centred; a
+%  full-bleed double rule at mid-height (accent bar over amber bar,
+%  touching, roughly 2:1); the author block centred below it.
+%
+%  Identity is opt-in. \author, \institute and \lucidlogo emit nothing
+%  unless set, and nothing at all under the blind option.
+% ---------------------------------------------------------------------
+\newcommand{\lucidlogo}[1]{\def\lucid@logo{#1}}
+\newcommand{\lucidevent}[1]{\def\lucid@event{#1}}
+\let\lucid@logo\@empty
+\let\lucid@event\@empty
+
+% Accent bar over amber bar, touching, roughly 2:1, full paper width.
+% \rule, not \hrule: a running-width rule in a vbox with no other
+% content sizes to nothing and the bar vanishes entirely.
+\newcommand{\lucid@doublerule}{%
+  \vbox{%
+    \hbox{\color{lucidAccent}\rule{\paperwidth}{0.017\paperheight}}%
+    \nointerlineskip
+    \hbox{\color{lucidGold}\rule{\paperwidth}{0.0078\paperheight}}}}
+
+\setbeamertemplate{title page}{%
+  \vbox to \textheight{%
+    \vskip 0.02\paperheight
+    \begin{centering}
+      {\usebeamerfont{title}\usebeamercolor[fg]{title}\inserttitle\par}
+      \ifx\insertsubtitle\@empty\else
+        \vskip 0.6em
+        {\usebeamerfont{subtitle}\usebeamercolor[fg]{subtitle}\insertsubtitle\par}
+      \fi
+    \end{centering}
+    \vfil
+    % Unlike the frame title, the title page IS inside the text block,
+    % so here the bleed does need a negative rail. Zero width again, so
+    % it cannot report an overfull box.
+    \noindent\makebox[0pt][l]{\hspace*{-\lucid@rail}\lucid@doublerule}\hfill
+    \vskip 0.055\paperheight
+    \begin{centering}
+      \iflucid@blind\else
+        \ifx\insertauthor\@empty\else
+          {\usebeamerfont{author}\usebeamercolor[fg]{author}\insertauthor\par}
+          \vskip 0.35em
+        \fi
+        \ifx\insertinstitute\@empty\else
+          {\usebeamerfont{institute}\usebeamercolor[fg]{institute}\insertinstitute\par}
+          \vskip 0.35em
+        \fi
+      \fi
+      \ifx\lucid@event\@empty\else
+        {\usebeamerfont{date}\usebeamercolor[fg]{date}\lucid@event\par}
+        \vskip 0.25em
+      \fi
+      \ifx\insertdate\@empty\else
+        {\usebeamerfont{date}\usebeamercolor[fg]{date}\insertdate\par}
+      \fi
+      \iflucid@blind\else
+        \ifx\lucid@logo\@empty\else
+          \vskip 0.9em
+          \includegraphics[height=0.085\paperheight]{\lucid@logo}\par
+        \fi
+      \fi
+    \end{centering}
+    \vfil}%
+}
+
+% The title slide carries no footer, as observed. Give it \begin{frame}[plain].
+
+% ---------------------------------------------------------------------
+%  The outline slide
+%
+%  The corpus has no section-divider slides at all. Instead an "Outline"
+%  slide recurs -- 6 times in the AAMAS tutorial, 4 in the early-career
+%  talk -- always the same agenda, with the current section and
+%  subsection picked out in colour and the rest dropped back.
+%
+%  beamer's show/shaded table of contents is exactly this device, so it
+%  is used directly rather than reimplemented.
+% ---------------------------------------------------------------------
+%  The non-current entries are dropped back with beamer's shading
+%  parameter rather than by setting "section in toc shaded" -- that
+%  colour is simply not consulted by the default template, and an
+%  explicit replacement template is overridden further down beamer's
+%  stack. 40 is not a transparency in the output: beamer blends against
+%  the background and emits a SOLID colour (#A5B9AD on white), so
+%  nothing here depends on PDF transparency and the result survives
+%  greyscale printing at 4.4:1 against the accent.
+\setbeamertemplate{section in toc shaded}[default][40]
+\setbeamertemplate{subsection in toc shaded}[default][40]
+
+\newcommand{\outlineframe}[1][Outline]{%
+  \begin{frame}{#1}
+    \vskip 0.5em
+    \tableofcontents[currentsection,currentsubsection,
+      sectionstyle=show/shaded,subsectionstyle=show/show/shaded]
+  \end{frame}}
+
+\def\lucid@str@auto{auto}
+\ifx\lucid@outline\lucid@str@auto
+  \AtBeginSection[]{\outlineframe}
+\fi
+
+% ---------------------------------------------------------------------
+%  Emphasis and defined terms
+%
+%  Observed: emphasis is an amber highlighter fill behind the text, not
+%  bold -- bold is 3% of characters corpus-wide. Defined terms are
+%  colour-coded and the coding is held consistent across a whole deck.
+%
+%  Three hue-only codes cannot survive greyscale (the observed
+%  blue/green/maroon set sits within 1.3-2.0:1 of itself), so the two
+%  term styles here differ in weight and shape as well as in hue.
+%  README.md.
+% ---------------------------------------------------------------------
+\newcommand{\hl}[1]{%
+  \tikz[baseline=(N.base)]{%
+    \node[inner xsep=2.5pt,inner ysep=1pt,outer sep=0pt,
+          fill=lucidWash,draw=lucidGold,line width=0.4pt,rounded corners=1pt]
+         (N) {#1};}}
+\newcommand{\term}[1]{{\color{lucidTermA}\bfseries #1}}
+\newcommand{\altterm}[1]{{\color{lucidTermB}\itshape #1}}
+
+% Small credit or citation at the foot of the content area. Observed at
+% 10pt on a 720pt page; that scales to 5pt, which is raised to 6pt here
+% because 5pt does not survive a projector.
+\newcommand{\citeline}[1]{%
+  \par\vfill
+  {\raggedright\fontsize{6}{7.5}\selectfont\color{lucidMuted}#1\par}}
+
+% A full-width closing statement. The corpus ends sections with
+% "Takeaway 1: ..." slides carrying a single sentence.
+\newcommand{\takeaway}[1]{%
+  \vfill
+  \begin{center}
+    \begin{minipage}{0.86\textwidth}
+      \centering\color{lucidAccent}\fontsize{15}{19}\selectfont #1\par
+    \end{minipage}
+  \end{center}
+  \vfill}
+
+% ---------------------------------------------------------------------
+%  Figures
+%
+%  Observed: never captioned -- "Figure 1:" does not occur anywhere in
+%  588 slides. Inset within the rail, not full-bleed. Figure and text
+%  share a slide with no fixed column ratio, so the split here is an
+%  argument rather than a constant.
+% ---------------------------------------------------------------------
+\newcommand{\slidefigure}[2][0.72\textwidth]{%
+  \begin{center}\includegraphics[width=#1]{#2}\end{center}}
+
+\newcommand{\figcaption}[1]{%
+  \begin{center}
+    \fontsize{9}{11}\selectfont\color{lucidMuted}#1
+  \end{center}}
+
+% Two panes, split by an argument rather than a constant, because the
+% corpus shows no repeating column ratio. \nextpane separates them.
+\newenvironment{figuretext}[1][0.55]
+  {\edef\lucid@split{#1}%
+   \begin{columns}[T,onlytextwidth]%
+   \begin{column}{\dimexpr#1\textwidth-0.5em\relax}}
+  {\end{column}\end{columns}}
+\newcommand{\nextpane}{%
+  \end{column}\hfill
+  \begin{column}{\dimexpr\textwidth-\lucid@split\textwidth-0.5em\relax}}
+
+% ---------------------------------------------------------------------
+%  Tables
+%
+%  Observed: horizontal rules only, never vertical; a header row filled
+%  in the band grey. Booktabs rule weights are kept in place of the
+%  observed 2pt, which would be coarse at beamer's scale and would not
+%  match the rest of this project.
+% ---------------------------------------------------------------------
+\newenvironment{lucidtable}
+  {\begingroup
+   \fontsize{11}{14}\selectfont
+   \setlength{\tabcolsep}{0.7em}%
+   \renewcommand{\arraystretch}{1.25}%
+   \begin{center}}
+  {\end{center}\endgroup}
+
+\newcommand{\thead}[1]{%
+  \rowcolor{lucidBand}#1}
+
+% ---------------------------------------------------------------------
+%  Backup slides
+%
+%  Not observed -- the reference decks have no appendix -- so this is an
+%  invention to fill a gap the project needs. appendixnumberbeamer stops
+%  backup slides inflating the count shown on the numbered slides, which
+%  matters when the footer shows "n/total".
+% ---------------------------------------------------------------------
+\newcommand{\backupframes}{%
+  \appendix
+  \ifx\lucid@outline\lucid@str@auto
+    \renewcommand{\outlineframe}[1][]{}%
+  \fi}
+
+\endinput
