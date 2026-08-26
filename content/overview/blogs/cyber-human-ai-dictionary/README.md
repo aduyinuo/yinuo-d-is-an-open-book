@@ -15,7 +15,7 @@ icon: language
 | **Threat modeling**     | threats, adversaries, capabilities, attack paths, assets/exposure | identify and reason about possible harm  | characterize a threat space, often prospectively    | structured account of threats/risk |
 | **Adversary emulation** | observable behaviors/TTPs of an adversary                         | test defenses against realistic behavior | deliberately reproduce selected real-world behavior | enacted adversarial behavior       |
 
-In this endeavor, I attempt to represent concepts as occupying regions in a _**multidimensional conceptual space**_. For ex:
+In this endeavor, I attempt to represent concepts as occupying regions in a _**multidimensional conceptual space**_. The goal is to improve my capability to share head space with colleagues from various domains and enlarge my chance to learn from the best. For ex:
 
 1. _**Object**_**:** actor ↔ behavior ↔ attack possibilities ↔ environment
 2. _**Epistemic operation**_**:** describe ↔ infer ↔ predict ↔ simulate/enact
