@@ -4,10 +4,6 @@ icon: golf-flag-hole
 
 # What Makes it So Difficult? Competitive Cybersecurity Learning and Workforce Expertise Maintenance
 
-
-
-
-
 ## The break
 
 Six years of population-scale data from a competitive cybersecurity platform document a structural break.
@@ -28,6 +24,6 @@ They were wrong about their own speed, in the direction that keeps the habit.
 
 ## Why this sits at five years and not one
 
-If competition no longer measures depth of ability, the instrument the field has used to identify and rank talent has stopped measuring the thing it was trusted to measure. What replaces it has to record process rather than outcome, which is what the [problem-solving work](../3-year-agenda/mental-world-modeling/problem-solving/) is built to do, and it has to be run somewhere conditions can be varied deliberately — a classroom rather than a leaderboard.
+If competition no longer measures depth of ability, the instrument the field has used to identify and rank talent has stopped measuring the thing it was trusted to measure. What replaces it has to record process rather than outcome, which is what the [problem-solving work](../../3-year-agenda/mental-world-modeling/problem-solving/) is built to do, and it has to be run somewhere conditions can be varied deliberately — a classroom rather than a leaderboard.
 
 ## Stewing...
