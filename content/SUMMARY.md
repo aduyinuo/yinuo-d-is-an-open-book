@@ -70,6 +70,7 @@
       * [Opponent Modeling Terms](overview/blogs/cyber-human-ai-dictionary/opponent-modeling-terms.md)
       * [Population-based Training Terms](overview/blogs/cyber-human-ai-dictionary/population-based-training-terms.md)
       * [Zero-Day Terms](overview/blogs/cyber-human-ai-dictionary/zero-day-terms.md)
+    * [The Day-to-Day of Interdisciplinary Research](overview/blogs/the-day-to-day-of-interdisciplinary-research.md)
 * [Publications](publications.md)
 * [Artifacts](artifacts/README.md)
   * [Astrolabe](artifacts/astrolabe/README.md)
