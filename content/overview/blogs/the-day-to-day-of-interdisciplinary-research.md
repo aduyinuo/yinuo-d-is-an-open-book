@@ -8,7 +8,7 @@ icon: lasso-sparkles
 
 # The Day-to-Day of Interdisciplinary Research
 
-_It's shocking, sometimes, to realize that there **are** solutions. One click away. Why did I never look? How could I have drowned myself in elusive challenges when the solutions are actually so simple?_
+_It's shocking, sometimes, to realize that there **are** solutions. Just one click away. Why did I never look? How could I have drowned myself in elusive challenges when the solutions are actually so simple?_
 
 
 
