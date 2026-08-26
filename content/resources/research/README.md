@@ -21,6 +21,6 @@ The right-hand column is the one that does the work. "Read" is not one activity 
 * [Write](write/) — structure, headings, mathematical writing, usage, rigour
 * [Present](present.md) — talks, and the reading group as its own genre
 * [Project Management](project-management.md) — the stages a complex build passes through
-* [Conferences](conferences.md) — venue fit, and what the registration metadata is actually for
+* [Conferences](conferences/) — venue fit, and what the registration metadata is actually for
 
 _Last updated: 2026-08_

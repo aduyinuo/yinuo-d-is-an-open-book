@@ -4,15 +4,13 @@ icon: display-code
 
 # Daedalus
 
-A reinforcement-learning defender whose actions are *deception* — and whose environment is a real cloud network rather than a model of one.
-
-<figure><img src="../../.gitbook/assets/mock-daedalus.png" alt="Daedalus: an RL blue agent choosing a deception action, passed through a gRPC C2 server to an eight-host OpenStack network, against a scripted attacker"><figcaption>The agent decides where to place deception; the C2 server makes it real on the host; the attacker walks into it.</figcaption></figure>
+A reinforcement-learning defender whose actions are _deception_ — and whose environment is a real cloud network rather than a model of one.
 
 ## The idea
 
 Most autonomous-defence work happens in a simulator, and the results are only as trustworthy as the simulator's fidelity. Daedalus runs the defender against a provisioned OpenStack network with real services, so the deception it deploys is a real honeypot on a real host rather than a flag in a state vector.
 
-The defender's move is not "block" or "patch." It is to shape what the attacker *believes*: stand up a decoy service, fake a privilege-escalation path, plant bait data — and get the attacker to spend its next move on something that isn't real, while revealing itself in the process.
+The defender's move is not "block" or "patch." It is to shape what the attacker _believes_: stand up a decoy service, fake a privilege-escalation path, plant bait data — and get the attacker to spend its next move on something that isn't real, while revealing itself in the process.
 
 ## The pieces
 
