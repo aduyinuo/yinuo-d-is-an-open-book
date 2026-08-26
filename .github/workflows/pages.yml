@@ -31,10 +31,27 @@ jobs:
         with:
           python-version: '3.12'
 
-      - name: Convert PowerPoint decks
+      - name: Convert decks
         run: |
-          pip install python-pptx pillow
+          pip install python-pptx pillow pymupdf
           python internal/slides/pptx_to_deck.py || true
+
+          # A deck with a LaTeX build is published from that PDF instead.
+          # pptx_to_deck rebuilds each slide from PowerPoint shapes, which
+          # silently drops any diagram PowerPoint drew from its own shapes;
+          # rendering the compiled PDF cannot lose anything. This runs
+          # second on purpose, so it overwrites the pptx-derived page.
+          for pdf in slides-source/*-latex/*.pdf; do
+            [ -e "$pdf" ] || continue
+            slug=$(basename "$pdf" .pdf)
+            notes="slides-source/$slug.pptx"
+            if [ -e "$notes" ]; then
+              python internal/slides/pdf_to_deck.py "$pdf" --slug "$slug" --notes "$notes"
+            else
+              python internal/slides/pdf_to_deck.py "$pdf" --slug "$slug"
+            fi
+          done
+
           python internal/slides/make_index.py
 
       - name: Publish decks into gh-pages/slides
