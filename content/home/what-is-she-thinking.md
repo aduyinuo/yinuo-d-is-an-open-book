@@ -44,12 +44,12 @@ How can we rethink problems from <mark style="color:$primary;">a multi-model/age
 What is <mark style="color:$primary;">mind</mark> and what is <mark style="color:$primary;">muscle</mark>?
 
 * [Tricki](https://gowers.wordpress.com/2008/11/28/very-brief-tricki-update/)
-* When does a \`\`trick'' become domain-specific? At a larger scale, how does academic/professional training shape a person's thinking style?
+* When does a \`\`<mark style="color:$primary;">trick</mark>'' become <mark style="color:$primary;">domain-specific</mark>? At a larger scale, how does academic/<mark style="color:$primary;">professional training</mark> shape a person's <mark style="color:$primary;">thinking style</mark>? When does it turn sour and become "<mark style="color:$primary;">set in one's own way</mark>"?  Can we call that <mark style="color:$primary;">bias</mark>?
 
 What are the relationship between <mark style="color:$primary;">cyber agents</mark> and <mark style="color:$primary;">physical agents</mark>? What are their respective unique challenges? What are transferable across these two domains?
 
 * What are the agentic methods/tricks embraced by the industry so far? Can we observe any patterns?
-* What agentic approaches does current SOC stack involve? What ML approaches does current SOC stack involve?
+* What agentic approaches does current SOC stack involve? What ML approaches does current <mark style="color:$primary;">SOC stack</mark> involve?
   * [NSF CyberAI Innovation: Adversarial Causal Reasoning for SOC](https://www.nsf.gov/awardsearch/show-award/?AWD_ID=2622986) (by [Wajih Ul Hassan](https://www.linkedin.com/in/wajihulhassan/?skipRedirect=true))
 * What telemetry should a defense agent engage with? Is it feasible/beneficial to reform the stack?
 
@@ -57,3 +57,9 @@ What are the existing ways to determine the exit condition in an algorithm? In g
 
 * How many use-cases are needed to design the taxonomy of realism?
 * How many human-subjects are needed to ensure the power of statistic significance?
+
+How exactly can <mark style="color:$primary;">opponent modeling</mark> benefit network defense? What <mark style="color:$primary;">network security (or specifically, adversary emulation, threat modeling, etc)</mark> constrains and demands pose interesting challenges on opponent modeling?
+
+* In the rise of <mark style="color:$primary;">agentic end point defense solutions</mark>, is it feasible to design and evaluate a prototype of defender agent? In practice, what do defenders want to predict about adversaries? what is the reality of data availability? &#x20;
+* What is <mark style="color:$primary;">zero-day</mark>? Is the defense against zero-days a <mark style="color:$primary;">zero-shot</mark> or <mark style="color:$primary;">few-shot</mark> challenge?&#x20;
+
