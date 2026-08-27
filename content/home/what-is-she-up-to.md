@@ -9,16 +9,16 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>533 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>538 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
 {% tab title="This week" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>22 hours logged in the last week</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>28 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>80 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>86 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 year" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>710 hours logged in the last year</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>715 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
 {% endtabs %}
 
@@ -28,17 +28,16 @@ At the desk on **The Website**.
 
 <summary>The Website — removed design.md</summary>
 
-_at the desk · 1 days ago · 1.4h this week_
+_at the desk · 3 minutes ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **1 days ago** — removed design.md
-* **1 days ago** — removed use.md
-* **1 days ago** — removed daedelus.md
-* **1 days ago** — removed conferences.md
-* **1 days ago** — opened the Within a month section and the Later section
-* **1 days ago** — opened the Later section and the No date given section
-* 1.4 hours logged in this window
+* **3 minutes ago** — removed future-of-work-in-agentic-laboratories-open-science-health-scientists.md
+* **3 minutes ago** — removed trustworthy-controllable-causal-world-model-for-operational-network-defense.md
+* **3 minutes ago** — removed what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance.md
+* **1 days ago** — wrote into case study
+* **1 days ago** — wrote into panel organization
+* **1 days ago** — wrote into poster and work in progress
 
 [The Website on the site](../site-dev-log.md)
 
@@ -48,7 +47,7 @@ _at the desk · 1 days ago · 1.4h this week_
 
 <summary>What to Read — nothing recorded yet</summary>
 
-_resting · Aug 15_
+_resting · Aug 14_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
 
@@ -76,19 +75,19 @@ _resting · Aug 09_
 
 <details>
 
-<summary>FOE-Dreamer — Third draft and submission.</summary>
+<summary>FOE-Dreamer — Harvest the side products, such as tips, actionable templates, and methodology for this…</summary>
 
-_warm · 1 days ago · 14.5h this week_
+_warm · 1 days ago · 21.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
+* **1 days ago** — logged 0.6h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
+* **1 days ago** — logged 3.0h — Reflect on lucrative research questions highlighted by reviewer's comments
+* **1 days ago** — logged 3.2h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
 * **1 days ago** — logged 4.0h — Third draft and submission.
 * **1 days ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
 * **1 days ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
-* **1 days ago** — logged 1.7h — Break-in, decompose, plan, collect materials, set up folders
-* **1 days ago** — logged 0.7h — Break-in, decompose, plan, collect materials, set up folders
-* **Feb 22** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
-* 16.4 hours logged in this window
+* 23.2 hours logged in this window
 
 [FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
 
@@ -98,7 +97,7 @@ _warm · 1 days ago · 14.5h this week_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 10_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -131,7 +130,7 @@ _resting · Apr 09_
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 * **Apr 09** — logged 1.1h — An extended search from the three papers.
-* **Apr 09** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
+* **Apr 08** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
 * 203.0 hours logged in this window
 
 [AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
@@ -145,11 +144,11 @@ _resting · Apr 09_
 
 <summary>What Is a Realistic Cyber Environment — Draft survey and interview</summary>
 
-_warm · 1 days ago · 3.4h this week_
+_warm · 2 days ago · 3.4h this week_
 
 <figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
 
-* **1 days ago** — logged 0.2h — Draft survey and interview
+* **2 days ago** — logged 0.2h — Draft survey and interview
 * **2 days ago** — logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview
 * 62.1 hours logged in this window
 
@@ -267,7 +266,7 @@ _resting · Jul 06_
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 08_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
@@ -356,15 +355,32 @@ _resting · Aug 04_
 
 <details>
 
+<summary>Thinking — Analogical thinking run wild.</summary>
+
+_at the desk · 3 hours ago · 5.3h this week_
+
+<figure><img src="../.gitbook/assets/heat-thinking.png" alt="Daily work on Thinking"><figcaption></figcaption></figure>
+
+* **3 hours ago** — logged 2.7h — Analogical thinking run wild.
+* **11 hours ago** — logged 2.6h — Filter through opportunities collected by my opportunity scouts and the ones shared by linkedin hub accounts. Found several astonishingly well matching fellowships. I am not sure if I could have always tried to match my work with buzz words and rebrand myself constantly, or if it really is the most recent thing, that the trending of AI agents suddenly made my skills marketable
+* **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
+* 64.2 hours logged in this window
+
+[Thinking on the site](../home/what-is-she-thinking.md)
+
+</details>
+
+<details>
+
 <summary>Overhead — Working on</summary>
 
-_resting · Aug 03_
+_warm · 1 days ago · 0.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-overhead.png" alt="Daily work on Overhead"><figcaption></figcaption></figure>
 
 * **Jul 06** — logged 0.0h — Working on
 * **Apr 09** — logged 0.7h — https://www.science.org/content/article/writing-research-plan
-* 38.8 hours logged in this window
+* 39.1 hours logged in this window
 
 </details>
 
@@ -378,25 +394,10 @@ _resting · Jul 25_
 
 * **Jul 25** — logged 0.6h — Aritran's survey
 * **Mar 17** — logged 0.6h — Filling in the research activity form and feeling jealous
-* **Mar 16** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
+* **Mar 15** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
 [Service on the site](../overview-3/README.md)
-
-</details>
-
-<details>
-
-<summary>Thinking — Toward a theory of "pull it together"</summary>
-
-_resting · Jul 25_
-
-<figure><img src="../.gitbook/assets/heat-thinking.png" alt="Daily work on Thinking"><figcaption></figcaption></figure>
-
-* **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
-* 58.9 hours logged in this window
-
-[Thinking on the site](../home/what-is-she-thinking.md)
 
 </details>
 
@@ -447,4 +448,4 @@ _resting · Mar 27_
 </details>
 
 
-_Last looked at Aug 26, 15:20_
+_Last looked at Aug 27, 16:52_
