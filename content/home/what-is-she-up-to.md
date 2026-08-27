@@ -9,17 +9,14 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects, 6 months"><figcaption><p>533 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>533 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="This week" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>22 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>98 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>80 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
-
 {% tab title="1 year" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>710 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
@@ -31,16 +28,16 @@ At the desk on **The Website**.
 
 <summary>The Website — removed design.md</summary>
 
-_at the desk · 11 minutes ago · 1.4h this week_
+_at the desk · 1 days ago · 1.4h this week_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **11 minutes ago** — removed design.md
-* **11 minutes ago** — removed use.md
-* **11 minutes ago** — removed daedelus.md
-* **11 minutes ago** — removed conferences.md
-* **11 minutes ago** — opened the Within a month section and the Later section
-* **11 minutes ago** — opened the Later section and the No date given section
+* **1 days ago** — removed design.md
+* **1 days ago** — removed use.md
+* **1 days ago** — removed daedelus.md
+* **1 days ago** — removed conferences.md
+* **1 days ago** — opened the Within a month section and the Later section
+* **1 days ago** — opened the Later section and the No date given section
 * 1.4 hours logged in this window
 
 [The Website on the site](../site-dev-log.md)
@@ -51,9 +48,10 @@ _at the desk · 11 minutes ago · 1.4h this week_
 
 <summary>What to Read — nothing recorded yet</summary>
 
-_resting · Aug 14_
+_resting · Aug 15_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
+
 
 [What to Read on the site](../personal/overview.md)
 
@@ -73,22 +71,23 @@ _resting · Aug 09_
 
 </details>
 
+
 #### Cyber World Modeling
 
 <details>
 
 <summary>FOE-Dreamer — Third draft and submission.</summary>
 
-_warm · 6 hours ago · 14.5h this week_
+_warm · 1 days ago · 14.5h this week_
 
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
-* **6 hours ago** — logged 4.0h — Third draft and submission.
-* **11 hours ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
-* **15 hours ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
-* **17 hours ago** — logged 1.7h — Break-in, decompose, plan, collect materials, set up folders
-* **18 hours ago** — logged 0.7h — Break-in, decompose, plan, collect materials, set up folders
-* **Feb 21** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
+* **1 days ago** — logged 4.0h — Third draft and submission.
+* **1 days ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
+* **1 days ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
+* **1 days ago** — logged 1.7h — Break-in, decompose, plan, collect materials, set up folders
+* **1 days ago** — logged 0.7h — Break-in, decompose, plan, collect materials, set up folders
+* **Feb 22** — logged 1.9h — A seed idea about realism conceptual framework and evaluation. We need a viable strategy to take off a piece of that general problem.
 * 16.4 hours logged in this window
 
 [FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
@@ -99,9 +98,10 @@ _warm · 6 hours ago · 14.5h this week_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
+
 
 [World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
 
@@ -131,12 +131,13 @@ _resting · Apr 09_
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 * **Apr 09** — logged 1.1h — An extended search from the three papers.
-* **Apr 08** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
+* **Apr 09** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
 * 203.0 hours logged in this window
 
 [AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
 
 </details>
+
 
 #### Toward Deployment
 
@@ -144,12 +145,12 @@ _resting · Apr 09_
 
 <summary>What Is a Realistic Cyber Environment — Draft survey and interview</summary>
 
-_warm · 17 hours ago · 3.4h this week_
+_warm · 1 days ago · 3.4h this week_
 
 <figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
 
-* **17 hours ago** — logged 0.2h — Draft survey and interview
-* **19 hours ago** — logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview
+* **1 days ago** — logged 0.2h — Draft survey and interview
+* **2 days ago** — logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview
 * 62.1 hours logged in this window
 
 [What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
@@ -176,9 +177,11 @@ _resting · Aug 06_
 
 _resting · —_
 
+
 [Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
+
 
 #### Mental World Modeling
 
@@ -186,12 +189,12 @@ _resting · —_
 
 <summary>Progressive Problem Design — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf,…</summary>
 
-_warm · 1 days ago · 2.9h this week_
+_warm · 3 days ago · 2.9h this week_
 
 <figure><img src="../.gitbook/assets/heat-progressive-problem-design.png" alt="Daily work on Progressive Problem Design"><figcaption></figcaption></figure>
 
-* **1 days ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
-* **1 days ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
+* **3 days ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
+* **3 days ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
 * 2.9 hours logged in this window
 
 [Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
@@ -219,6 +222,7 @@ _resting · Aug 10_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
+
 
 [Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
@@ -252,9 +256,10 @@ _resting · Jul 06_
 * **Jul 06** — logged 0.2h — Working in VS Code
 * 8.2 hours logged in this window
 
-[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/)
+[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
 
 </details>
+
 
 #### Human-AI Complementarity
 
@@ -262,9 +267,10 @@ _resting · Jul 06_
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 08_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
+
 
 [Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
@@ -329,6 +335,7 @@ _resting · Mar 13_
 
 </details>
 
+
 #### Study approvals
 
 <details>
@@ -339,9 +346,11 @@ _resting · Aug 04_
 
 <figure><img src="../.gitbook/assets/heat-irb-logistics.png" alt="Daily work on IRB Logistics"><figcaption></figcaption></figure>
 
+
 [IRB Logistics on the site](../research/projects/irb-applications/overview.md)
 
 </details>
+
 
 #### Around the work
 
@@ -369,10 +378,10 @@ _resting · Jul 25_
 
 * **Jul 25** — logged 0.6h — Aritran's survey
 * **Mar 17** — logged 0.6h — Filling in the research activity form and feeling jealous
-* **Mar 15** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
+* **Mar 16** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
-[Service on the site](../overview-3/)
+[Service on the site](../overview-3/README.md)
 
 </details>
 
@@ -387,7 +396,7 @@ _resting · Jul 25_
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 58.9 hours logged in this window
 
-[Thinking on the site](what-is-she-thinking.md)
+[Thinking on the site](../home/what-is-she-thinking.md)
 
 </details>
 
@@ -402,7 +411,7 @@ _resting · Apr 09_
 * **Mar 12** — logged 1.1h — How to prepare for the reading group?
 * 3.3 hours logged in this window
 
-[Mentoring on the site](../mentor/)
+[Mentoring on the site](../mentor/README.md)
 
 </details>
 
@@ -433,8 +442,9 @@ _resting · Mar 27_
 * **Mar 17** — logged 0.2h — Making a post for Maria Rigaki
 * 16.0 hours logged in this window
 
-[Reading Group on the site](../overview-3/cyberai-reading-group/)
+[Reading Group on the site](../overview-3/cyberai-reading-group/README.md)
 
 </details>
 
-_Last looked at Aug 26, 09:20_
+
+_Last looked at Aug 26, 15:20_
