@@ -8,7 +8,7 @@ icon: golf-flag-hole
 
 Six years of population-scale data from a competitive cybersecurity platform document a structural break.
 
-<table><thead><tr><th width="330">Measure</th><th width="200">Five years to 2025</th><th>2026</th></tr></thead><tbody><tr><td>Median time to first solve, hard challenges</td><td>a 40-to-340-minute band</td><td>five minutes</td></tr><tr><td>Field-wide hard solve rate</td><td>5 to 7%</td><td>above 18%</td></tr><tr><td>Score gap, first to fiftieth place</td><td>—</td><td>zero; every team in the competitive tier solved every hard challenge</td></tr></tbody></table>
+<table><thead><tr><th width="330">Measure</th><th width="200">Five years to 2025</th><th>2026</th></tr></thead><tbody><tr><td>Median time to first solve, hard challenges</td><td>a 40-to-340-minute band</td><td>five minutes</td></tr><tr><td>Field-wide hard solve rate</td><td>5–7%</td><td>above 18%</td></tr><tr><td>Score gap, first to fiftieth place</td><td>—</td><td>zero; every team in the competitive tier solved every hard challenge</td></tr></tbody></table>
 
 ## The mechanism, which is the part that matters
 
@@ -25,7 +25,5 @@ They were wrong about their own speed, in the direction that keeps the habit.
 ## Why this sits at five years and not one
 
 If competition no longer measures depth of ability, the instrument the field has used to identify and rank talent has stopped measuring the thing it was trusted to measure. What replaces it has to record process rather than outcome, which is what the [problem-solving work](../../3-year-agenda/mental-world-modeling/problem-solving/) is built to do, and it has to be run somewhere conditions can be varied deliberately — a classroom rather than a leaderboard.
-
-The vocabulary this needs, including the two competitions that share one phrase and what empirical game theory already knows about a competition that has stopped separating its entrants, is on the [Lexicon](lexicon.md) page.
 
 ## Stewing...
