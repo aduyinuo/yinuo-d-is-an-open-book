@@ -65,7 +65,6 @@
       * [TPC family](overview/blogs/world-model-origin-frontier-and-open-challenges/tpc-family.md)
     * [A Unified Perspective of Advancements in the Unified Perspective -- Revisiting PSRO](overview/blogs/a-unified-perspective-of-advancements-in-the-unified-perspective-revisiting-psro.md)
     * [Cyber-Human-AI Dictionary](overview/blogs/cyber-human-ai-dictionary/README.md)
-      * [Cross-Domain Map](overview/blogs/cyber-human-ai-dictionary/cross-domain-map.md)
       * [Transfer Learning Terms](overview/blogs/cyber-human-ai-dictionary/transfer-learning-terms.md)
       * [Cyber Env Terms](overview/blogs/cyber-human-ai-dictionary/cyber-env-terms.md)
       * [Opponent Modeling Terms](overview/blogs/cyber-human-ai-dictionary/opponent-modeling-terms.md)
