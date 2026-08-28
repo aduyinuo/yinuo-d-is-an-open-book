@@ -1,6 +1,18 @@
+*INSTALL THE BARE MINIMUM
+
 https://learn.microsoft.com/en-us/windows/wsl/basic-commands
 https://claude.com/product/claude-science
 https://learn.microsoft.com/en-us/windows/wsl/tutorials/gui-apps
 https://claude.com/docs/claude-science/run-on-windows-wsl
 https://openalex.org/settings/api-key
 https://github.com/anthropics/claude-code/issues/85199
+
+
+
+*TO FIND WINDOWS FOLDERS FROM WSL2 LINUX
+
+maxine@MaxineYD:~$ ls /mnt
+c  wsl  wslg
+maxine@MaxineYD:~$ ls -d /mnt/c/\[2025-2026\]*
+ '/mnt/c/[2025-2026][postdoc][utep]'
+maxine@MaxineYD:~$
