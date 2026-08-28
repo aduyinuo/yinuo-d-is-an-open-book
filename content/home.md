@@ -23,14 +23,14 @@ My research is driven by <mark style="color:$primary;">real-world network securi
 * _**2026-07** — <mark style="color:$primary;">**Talk**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">accepted to</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Collective Intelligence**</mark>_ [_<mark style="color:$info;">(Project Mental World Modeling - Group IPD)</mark>_](research/overview.md)
 * _**2026-07** — <mark style="color:$primary;">**Workshop paper**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">accepted to</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**RAISE@ESORICS**</mark>_ [_<mark style="color:$info;">(Project Toward Deployment - Sim2Sim)</mark>_](overview/3-year-agenda/toward-deployment/transfer-to-realistic-environments.md)
 * _**2026-06** — <mark style="color:$primary;">**Organized**</mark>_ [_<mark style="color:$primary;">**AAAI Summer Symposium**</mark>_](overview-3/aaai-summer-symposium-2026.md) _at Seoul_
-* _**2026-04** — <mark style="color:$primary;">**Book chapter**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">accepted to</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Advancements in Human Agent Teaming Research Infrastructure: Testbeds, Metrics, and Concepts**</mark>_<mark style="color:$primary;">.</mark> <mark style="color:$primary;"></mark>_<mark style="color:$primary;">CRC Press, Taylor & Francis.</mark>_[_<mark style="color:$info;">(Project CHART)</mark>_](overview/3-year-agenda/human-ai-complementarity/chart.md)
 
 <details>
 
 <summary>Earlier</summary>
 
-* **2025-09** — Joined UTEP CS Department
-* **2025-05** — PhD dissertation defense
+* _**2026-04** — <mark style="color:$primary;">**Book chapter**</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">accepted to</mark> <mark style="color:$primary;"></mark><mark style="color:$primary;">**Advancements in Human Agent Teaming Research Infrastructure: Testbeds, Metrics, and Concepts**</mark>_<mark style="color:$primary;">.</mark> <mark style="color:$primary;"></mark>_<mark style="color:$primary;">CRC Press, Taylor & Francis.</mark>_[_<mark style="color:$info;">(Project CHART)</mark>_](overview/3-year-agenda/human-ai-complementarity/chart.md)
+* _**2025-09** — Joined UTEP CS Department_
+* _**2025-05** — PhD dissertation defense_
 
 </details>
 
