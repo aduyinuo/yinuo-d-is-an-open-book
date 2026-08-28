@@ -15,7 +15,7 @@ At the desk on **The Website**.
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>28 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>86 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>80 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 year" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>715 hours logged in the last year</p></figcaption></figure>
@@ -28,13 +28,13 @@ At the desk on **The Website**.
 
 <summary>The Website — removed design.md</summary>
 
-_at the desk · 3 minutes ago_
+_at the desk · 1 hours ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **3 minutes ago** — removed future-of-work-in-agentic-laboratories-open-science-health-scientists.md
-* **3 minutes ago** — removed trustworthy-controllable-causal-world-model-for-operational-network-defense.md
-* **3 minutes ago** — removed what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance.md
+* **1 hours ago** — removed future-of-work-in-agentic-laboratories-open-science-health-scientists.md
+* **1 hours ago** — removed trustworthy-controllable-causal-world-model-for-operational-network-defense.md
+* **1 hours ago** — removed what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance.md
 * **1 days ago** — wrote into case study
 * **1 days ago** — wrote into panel organization
 * **1 days ago** — wrote into poster and work in progress
@@ -47,7 +47,7 @@ _at the desk · 3 minutes ago_
 
 <summary>What to Read — nothing recorded yet</summary>
 
-_resting · Aug 14_
+_resting · Aug 15_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
 
@@ -86,7 +86,7 @@ _warm · 1 days ago · 21.3h this week_
 * **1 days ago** — logged 3.2h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
 * **1 days ago** — logged 4.0h — Third draft and submission.
 * **1 days ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
-* **1 days ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
+* **2 days ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
 * 23.2 hours logged in this window
 
 [FOE-Dreamer on the site](../overview/3-year-agenda/cyber-world-modeling/environment.md)
@@ -97,7 +97,7 @@ _warm · 1 days ago · 21.3h this week_
 
 <summary>World Model Failure — nothing recorded yet</summary>
 
-_resting · Aug 09_
+_resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
 
@@ -130,7 +130,7 @@ _resting · Apr 09_
 <figure><img src="../.gitbook/assets/heat-acceleratepsro.png" alt="Daily work on AcceleratePSRO"><figcaption></figcaption></figure>
 
 * **Apr 09** — logged 1.1h — An extended search from the three papers.
-* **Apr 08** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
+* **Apr 09** — logged 1.0h — The seed papers, Dyna-PSRO, GenBR, and DiscoverPSROVariants
 * 203.0 hours logged in this window
 
 [AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
@@ -266,7 +266,7 @@ _resting · Jul 06_
 
 <summary>Team Defense Game — nothing recorded yet</summary>
 
-_resting · Aug 08_
+_resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
 
@@ -357,12 +357,12 @@ _resting · Aug 04_
 
 <summary>Thinking — Analogical thinking run wild.</summary>
 
-_at the desk · 3 hours ago · 5.3h this week_
+_at the desk · 4 hours ago · 5.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-thinking.png" alt="Daily work on Thinking"><figcaption></figcaption></figure>
 
-* **3 hours ago** — logged 2.7h — Analogical thinking run wild.
-* **11 hours ago** — logged 2.6h — Filter through opportunities collected by my opportunity scouts and the ones shared by linkedin hub accounts. Found several astonishingly well matching fellowships. I am not sure if I could have always tried to match my work with buzz words and rebrand myself constantly, or if it really is the most recent thing, that the trending of AI agents suddenly made my skills marketable
+* **4 hours ago** — logged 2.7h — Analogical thinking run wild.
+* **13 hours ago** — logged 2.6h — Filter through opportunities collected by my opportunity scouts and the ones shared by linkedin hub accounts. Found several astonishingly well matching fellowships. I am not sure if I could have always tried to match my work with buzz words and rebrand myself constantly, or if it really is the most recent thing, that the trending of AI agents suddenly made my skills marketable
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 64.2 hours logged in this window
 
@@ -394,7 +394,7 @@ _resting · Jul 25_
 
 * **Jul 25** — logged 0.6h — Aritran's survey
 * **Mar 17** — logged 0.6h — Filling in the research activity form and feeling jealous
-* **Mar 15** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
+* **Mar 16** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
 [Service on the site](../overview-3/README.md)
@@ -448,4 +448,4 @@ _resting · Mar 27_
 </details>
 
 
-_Last looked at Aug 27, 16:52_
+_Last looked at Aug 27, 22:52_
