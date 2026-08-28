@@ -28,13 +28,13 @@ At the desk on **The Website**.
 
 <summary>The Website — removed design.md</summary>
 
-_at the desk · 1 hours ago_
+_at the desk · 22 hours ago_
 
 <figure><img src="../.gitbook/assets/heat-the-website.png" alt="Daily work on The Website"><figcaption></figcaption></figure>
 
-* **1 hours ago** — removed future-of-work-in-agentic-laboratories-open-science-health-scientists.md
-* **1 hours ago** — removed trustworthy-controllable-causal-world-model-for-operational-network-defense.md
-* **1 hours ago** — removed what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance.md
+* **22 hours ago** — removed future-of-work-in-agentic-laboratories-open-science-health-scientists.md
+* **22 hours ago** — removed trustworthy-controllable-causal-world-model-for-operational-network-defense.md
+* **22 hours ago** — removed what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance.md
 * **1 days ago** — wrote into case study
 * **1 days ago** — wrote into panel organization
 * **1 days ago** — wrote into poster and work in progress
@@ -77,15 +77,15 @@ _resting · Aug 09_
 
 <summary>FOE-Dreamer — Harvest the side products, such as tips, actionable templates, and methodology for this…</summary>
 
-_warm · 1 days ago · 21.3h this week_
+_warm · 2 days ago · 21.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
-* **1 days ago** — logged 0.6h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
-* **1 days ago** — logged 3.0h — Reflect on lucrative research questions highlighted by reviewer's comments
-* **1 days ago** — logged 3.2h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
-* **1 days ago** — logged 4.0h — Third draft and submission.
-* **1 days ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
+* **2 days ago** — logged 0.6h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
+* **2 days ago** — logged 3.0h — Reflect on lucrative research questions highlighted by reviewer's comments
+* **2 days ago** — logged 3.2h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
+* **2 days ago** — logged 4.0h — Third draft and submission.
+* **2 days ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
 * **2 days ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
 * 23.2 hours logged in this window
 
@@ -149,7 +149,7 @@ _warm · 2 days ago · 3.4h this week_
 <figure><img src="../.gitbook/assets/heat-what-is-a-realistic-cyber-environment.png" alt="Daily work on What Is a Realistic Cyber Environment"><figcaption></figcaption></figure>
 
 * **2 days ago** — logged 0.2h — Draft survey and interview
-* **2 days ago** — logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview
+* **3 days ago** — logged 1.6h — Read relevant chapters from Antti's book, outline survey and interview
 * 62.1 hours logged in this window
 
 [What Is a Realistic Cyber Environment on the site](../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md)
@@ -188,12 +188,12 @@ _resting · —_
 
 <summary>Progressive Problem Design — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf,…</summary>
 
-_warm · 3 days ago · 2.9h this week_
+_warm · 4 days ago · 2.9h this week_
 
 <figure><img src="../.gitbook/assets/heat-progressive-problem-design.png" alt="Daily work on Progressive Problem Design"><figcaption></figcaption></figure>
 
-* **3 days ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
-* **3 days ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
+* **4 days ago** — logged 0.2h — Note next steps: connect with the algorithmic primitive paper, write new ideas to overleaf, implement proof of concepts, profile the ctftime, ibm, and Jaime’s course materials as the three basis, design the human experiments for mental operations consensus
+* **4 days ago** — logged 2.7h — Project design: map out the space of mental operations, connect write up processing, cognitive based challenge profiling, automated generation of challenges with reasoning demands, specified the role of Stackelberg and PSRO.
 * 2.9 hours logged in this window
 
 [Progressive Problem Design on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/capture-the-flag.md)
@@ -357,12 +357,12 @@ _resting · Aug 04_
 
 <summary>Thinking — Analogical thinking run wild.</summary>
 
-_at the desk · 4 hours ago · 5.3h this week_
+_at the desk · 1 days ago · 5.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-thinking.png" alt="Daily work on Thinking"><figcaption></figcaption></figure>
 
-* **4 hours ago** — logged 2.7h — Analogical thinking run wild.
-* **13 hours ago** — logged 2.6h — Filter through opportunities collected by my opportunity scouts and the ones shared by linkedin hub accounts. Found several astonishingly well matching fellowships. I am not sure if I could have always tried to match my work with buzz words and rebrand myself constantly, or if it really is the most recent thing, that the trending of AI agents suddenly made my skills marketable
+* **1 days ago** — logged 2.7h — Analogical thinking run wild.
+* **1 days ago** — logged 2.6h — Filter through opportunities collected by my opportunity scouts and the ones shared by linkedin hub accounts. Found several astonishingly well matching fellowships. I am not sure if I could have always tried to match my work with buzz words and rebrand myself constantly, or if it really is the most recent thing, that the trending of AI agents suddenly made my skills marketable
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 64.2 hours logged in this window
 
@@ -374,7 +374,7 @@ _at the desk · 4 hours ago · 5.3h this week_
 
 <summary>Overhead — Working on</summary>
 
-_warm · 1 days ago · 0.3h this week_
+_warm · 2 days ago · 0.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-overhead.png" alt="Daily work on Overhead"><figcaption></figcaption></figure>
 
