@@ -1,6 +1,106 @@
 ---
+description: Three adjectives in one title, and the vocabulary I already said I did not have.
 icon: spell-check
 ---
 
 # Lexicon
 
+I asked for this page before I asked for anything else in this vista. The sentence in my own planning notes reads: I am using terms loosely and interchangeably, because I do not understand the differences, so can we find the standard language about this topic.
+
+So this is not a summary of a project that already knows what it is saying. It is the vocabulary the project has to fix before it says anything, and it records the places where my own pages already use one of these words in more than one way. I am not tidying those away. Four of them are below, and one of the four is the reason the title says _Many_.
+
+## Three adjectives, three demands
+
+**Trustworthy** is a claim about what an operator can rely on. It is not a claim that the model is accurate. The version I mean is already stated on the [Cyber World Modeling Next](../../3-year-agenda/cyber-world-modeling/next.md) page as a preference between two ways of being wrong: a model that fails honestly, wide and uncertain, over one that fails silently, sharp and wrong.
+
+**Controllable** is doing two jobs at once and I should stop pretending otherwise. Inside [FOE-Dreamer](../../3-year-agenda/cyber-world-modeling/environment.md) it names a partition of the latent state, the block whose evolution is conditioned on the defender's own action. In the title it names a property of the deployed system, that a person can constrain what the defender does and can say afterwards why it did it. Both senses are live in my own files and neither is going away.
+
+**Causal** is the strongest of the three and the only one with an identifiability theory standing behind it. It is also the one my own [Learn Structure](../../3-year-agenda/cyber-world-modeling/strategic-structure.md) page lists as a contrast case, in the sentence that says what strategic dependence is not.
+
+## What the claim commits to
+
+The submission plan is not vague about what the project asserts, which is the only reason this vista is a project rather than a mood.
+
+The thesis is that the failures of a world-model network defender are structured: they concentrate where the environment carries dependence types the world model cannot represent or learn, and they are therefore predictable in advance from a structural analysis of the environment. The null is that failure severity is explained by model bias alone, open-loop error growth over horizon, with no additional dependence on the type of structure in the environment.
+
+Three experiments separate them. The first trains the learner on generator instances that differ only in planted dependence type and degree and measures failure per type. The second reads model bias directly off open-loop prediction error at horizons 1, 5 and 10, which is the null's only explanatory variable. The third asks whether the first experiment's type profile predicts which of the enumerated failure modes actually appear on the testbed at matched bias. The thesis predicts a type-ordered failure profile. The null predicts a flat one. Either result is publishable, which is the property that makes the plan worth keeping.
+
+The motivating evidence is two things and both are small. In the generator, a structure learner recovered all planted dependences but erred non-uniformly by type, with hallucinations concentrated in causal and degree misestimation occurring only for causal. And my advisor's stated expectation is that object-oriented world models learn spatial and control dependence, partially temporal, doubtfully causal, and not informational. One run and one conjecture. That is what a thesis is allowed to rest on before the first experiment, and not after.
+
+## The identifiability argument this inherits
+
+The FOE-Dreamer page states an assumption about itself and does not soften it: the adversary latent may not be identifiable from defender-side observation at all, and the fallback is drift detection on the joint latent, which surrenders attribution and keeps the alarm.
+
+The argument behind that sentence is a counting argument, and everything in this vista depends on it. Nonlinear independent component analysis is unidentifiable without extra structure, and what restores identifiability is an observed auxiliary variable that modulates the latent distribution. A world model of this family has two such variables available, the action and the reward. The action separates controllable from uncontrollable. The reward separates reward-relevant from reward-irrelevant. Two binary signals give four blocks, and the defender faces three sources of variation: defender effects, user activity, attacker activity. User activity and attacker activity land in the same block. Both are uncontrollable and both are reward-relevant, so neither signal can tell them apart.
+
+The consequence is that the exogenous block is identifiable as uncontrollable reward-relevant variation and is not identifiable as user activity. The opponent model is therefore not a component sitting beside the factoring. It is a precondition for the factoring's interpretation.
+
+Of the four assumptions that argument rests on, two hold and two fail, and both failures trace to one fact: the defender's containment actions act on users as well as on attackers. Isolating a host drops user sessions, so exogeneity fails. The disruption penalty is a product of the defender action and the user state rather than a sum, so additive reward separability fails. That is the operational reality the whole line is about, and it is more interesting stated than omitted.
+
+A third auxiliary signal buys the separation, and the only one on hand is privileged attacker supervision. Every causal claim this project wants to make about an operational network has to name the signal that licenses it, or it is a claim about one run.
+
+## The causal words
+
+Five objects have to stay apart. Collapsing any two of them is how a project claims a causal result it did not produce.
+
+_**Causal world model.**_ A world model whose representation is committed to claims about what happens under intervention, and not only to claims about what comes next. Not a predictive world model, which is trained on likelihood and scored on continuation. Also not a structural causal model on its own, since an SCM representation does not by itself constitute causal reinforcement learning, which adds assumptions or prior knowledge in order to analyze the mechanisms connecting actions to consequences. The test: name one query the model answers that association cannot, and name the assumption that licenses the answer. If neither exists, the word is decoration.
+
+_**Causal representation.**_ High-level causal variables extracted from low-level, entangled observations. The prior step: before anything can be said about edges, the nodes have to exist. Not causal discovery, which assumes the variables are already given. A representation alone does not identify all directed mechanisms. The test: can you point at the observation channels that make up one variable, and say what would change if two of them were split apart?
+
+_**Causal discovery.**_ Recovery of the relations among supplied or learned variables from observational or interventional data. Not fitting a sparse graph. Observational data generally does not uniquely identify a directed acyclic graph without additional assumptions, so what comes back is an equivalence class unless something extra paid for the orientation. The test: for each reported edge, name the intervention or the functional assumption that oriented it. An edge with neither is an adjacency.
+
+_**Causal mechanism.**_ The structural function describing how a variable's direct causes and its exogenous noise generate its value. Not the graph. A graph without the relevant mechanisms is insufficient for every interventional or counterfactual query, so a recovered structure is not yet a model you can query. The test: ask for a numeric answer to a counterfactual. This decides which of my planned outputs is reachable. A drift detector needs a graph. A counterfactual account of why a containment action was taken needs mechanisms.
+
+_**Decision-relevant abstraction.**_ A representation whose parts are selected by whether removing one would conflate states that require different actions. Not a causal representation. Decision relevance does not establish that a concept is causal, and causal identification does not establish that a concept is decision relevant. The test: delete the candidate concept and check whether the optimal action changes anywhere in the state space. This is the cheapest competitor the causal component has to beat. If a selected non-causal abstraction of the same size does the same work, the evidence supports the simpler architecture and this vista shrinks by one adjective.
+
+_**Identifiability.**_ Whether the quantity a model claims to represent is recoverable from the data and the assumptions at all, as against a quantity a fitted model happened to land near on one run. Not accuracy: a model can predict well and be unidentified, and an unidentified latent can be relabelled without changing a single prediction. Not interpretability either, which is a property of how the object is presented rather than of what the data can support. The test: name the auxiliary signal or the intervention variation that separates the claimed factor from its neighbour.
+
+_**Intervention target.**_ The factor a given configuration change actually moves. The set of them, written as a matrix over factors and configurations, determines whether distinct factors can be told apart. Not a perturbation applied to a trained model to test it; an intervention target is a property of how the data was collected. The test: for each planted factor, is there a configuration that moves it and leaves its neighbour still? Two factors cannot be uniquely identified when they are always intervened on jointly or never intervened on at all. This is the one identifiability requirement that costs nothing extra, because the Learn Structure generator already plants factors at known degree with ground truth recorded.
+
+## The trustworthy words
+
+_**Trustworthy.**_ Stipulated narrowly, the way _operational_ is stipulated on the FOE-Dreamer page. A model is trustworthy here when the errors it makes are ones the defender survives, and when it is wide where it is wrong. Not predictive accuracy, which does not measure this at all, and not calibration in the ordinary sense, which asks whether stated confidence matches observed frequency across the data distribution while this asks whether the width rises in the particular region an adversary will choose. Two questions and both have to answer yes. Does the model's uncertainty rise where its error rises? And does an operator reading it as uncertain do something different from an operator reading it as certain?
+
+_**Security-relevant failure.**_ A model error that an adversary can reach, that changes a defender action, and that has a consequence for an asset. Three conditions, and all three have to be shown. Not a large prediction error, which stays a technical limitation until reachability, action change and consequence are demonstrated. A limitation becomes a vulnerability only when a threat source can exploit or trigger it, and a risk only when likelihood and adverse impact are addressed. Nine mechanisms are already classified this way and only one carries a system-weakness class, causal-model misspecification. No evidence yet demonstrates a cyber attacker exploiting a causal world model's graph or mechanisms in an autonomous defender. That gap is the project, and writing it down as a gap is what keeps the project honest.
+
+_**Model bias.**_ The share of failure attributable to the world model's own error, read directly off open-loop prediction error at fixed horizons rather than inferred from return. Distinct from failure attributable to the replay buffer or to the actor and critic, and the toggle plan separates all three with one-flag decision tests, which is what makes attribution a measurement instead of an argument.
+
+_**Drift.**_ Movement of the opponent latent away from the region the model was fitted on, in a direction the opponent chose. Not the borrowed sense in model-based reinforcement learning, where a policy drifts into states the model never saw and profits from the error there; in that sense drift is an artefact of the training loop, and here it is somebody's objective. The test: ask what produced the movement. If removing the adversary removes it, it was the loop.
+
+## The controllable words
+
+_**Controllable latent.**_ The block of the latent state whose evolution is conditioned on the defender's own action, holding isolation status, deception deployment, observable reboots, and the alert dynamics that follow defender intervention. Its complement is exogenous, carrying user activity, service load and periodic maintenance. The boundary between them is enforced by architecture, through separate posterior and transition heads, rather than by a penalty added afterwards. The check is already stated in the paper: the exogenous block tracks users and ignores the defender, the controllable block tracks the defender and ignores the user, by linear decoding from each block in both directions.
+
+_**Rule-like objects.**_ An object learned alongside the policy that a person can read as a rule. Three candidates are on the table and they are different objects: a causal graph edge, a selected decision-relevant concept, and an extracted rule of the kind rule-extraction methods produce from a deployed model. Not a post-hoc explanation of a policy that was never trained to produce one, though that remains a full alternative rather than a fallback. The test: would removing the object change a decision? If not it is commentary, however well it reads. None of the three establishes a faithful causal account of a sequential decision on its own, and treating any one of them as if it did is the fastest way to overclaim here.
+
+_**Transparency for accountability.**_ The record a defender's decisions leave, sufficient for a person to reconstruct why an action was taken and to attribute the outcome to something. Real time and post-event are two different products of the same requirement. Not interpretability of the model, which is a property of the representation and can be satisfied without any decision record existing, and not a fluent rationale, which is an output rather than evidence. The test: hand an analyst the record and a planted bad decision. Can they find it, and how long does it take? Accuracy and time, not preference. A systematic review found no per-action explainability in the surveyed autonomous cyber defence agent implementations, which makes this an unmet deployment requirement rather than a finishing touch.
+
+_**Dependence type.**_ The mechanism by which one player's or one device's behaviour reaches another's best action, in the five-way classification Learn Structure fixes: time, space, control, cause, information. Not the four contrast cases on that page, which are properties of the game as written. Dependence type is a property of how the game is played, and the whole classification exists because holding a game fixed and varying only the opponent's behaviour leaves all four contrast cases unchanged while changing the reasoning the defender needs.
+
+## Where the words disagree
+
+_**Controllable, two senses that share nothing.**_ Inside FOE-Dreamer the word names a block of the latent state and its opposite is uncontrollable. In the title it names a property of the deployed system and its opposite is closer to autonomous. The two do not overlap. A model can factor its latent perfectly and be ungovernable, and a fully governed defender can carry a single undifferentiated latent. The safe choice is to keep _controllable latent_ as one headword and never let the bare adjective stand alone.
+
+_**Causal, four senses, two of them on the same page.**_ On the Cyber World Modeling page the word describes the environment: the network's own dynamics are close to stationary and roughly causal, meaning reachability, topology and load change by mechanism rather than by strategy. On the Learn Structure page the causal graph is named as one of four contrast cases, properties of the game as written, and that page's whole point is that strategic dependence is not any of them. On the same page, Cause is one of the five mechanisms in the dependence table, and it is the type the generator plants and the type the learner errs on most. In this vista, causal is the property the representation is supposed to have. A reader who takes the vista's sense back to the Learn Structure page will read the contrast list as a disavowal of the vista. It is not. The contrast list is about the graph of the game, and the vista is about the graph of the dynamics.
+
+_**Many models, or one world model.**_ The site navigation and the page heading say Many Trustworthy, Controllable, Causal Models. The folder name says world model, singular. The plural is not a typing slip. Many models is a composition problem, and it is one of the Cyber World Modeling questions that no page in that cluster develops: given a set of world model components, how do you compose the most suitable model for the target operational environment? That question survives in exactly one place on the site, and it is this title. Deciding whether the vista is about one causal model or about composing many is therefore not a naming decision. It decides whether that open question has a home.
+
+_**Trustworthy, of a model or of a result.**_ On the [Daedalus](../../../artifacts/daedalus/) page the word describes a result: most autonomous-defence work happens in a simulator, and the results are only as trustworthy as the simulator's fidelity. That is an epistemic property of a study, and the thing that fixes it is realism of the environment. In this title the word describes a model in operation, and the thing that fixes it is honest width where the model is wrong. The two pull in different directions when they meet. A model that widens its uncertainty makes for a less quotable result, and a testbed built to make results trustworthy in the first sense is expensive enough that it constrains how many configurations of the second sense can be measured. Both are already in play here, since the operational testbed and the controlled generator are the two evidence sources of this vista and each serves one sense.
+
+_**Perils, dangerous, security-relevant.**_ I wrote perils. My own track page asks when model error becomes strategically dangerous rather than merely predictive noise. The planning notes write security-relevant throughout, with a classification rule attached to it. Only one of those carries a test. The others are the same idea before it was made checkable, and the reason to record them together is that the checkable version is narrower than what I meant, and I should know that when the catalogue comes back and classifies most of my worries as ordinary technical limitations.
+
+## What this vista has to settle
+
+_**The intervention-target matrix.**_ Which generator configuration moves which planted factor, and which pairs only ever move together. Until that is written down, no result from the generator can be called an identification, and every causal word in the title is on loan. This is cheap and it is not done.
+
+_**Whether the type profile exists.**_ The first experiment is the only one that separates the thesis from the null, and the decision rule is already declared: a flat profile across types at matched data budgets means the structural half is not supported and the work becomes a horizon-and-bias analysis. Declaring that in advance makes the decision a read-off rather than a judgement call under a deadline.
+
+_**Which causal information is usable in real time.**_ Counterfactual reasoning is expensive in high-dimensional tasks, and post-event analysis and real-time control are different uses of the same object. My own sentence already separates them and my own plans keep treating them as one deliverable. They are two, and they may not both be affordable.
+
+_**Whether a simpler alternative supplies the same benefit.**_ The decision rule for the whole project is written and it can end the project: causal integration is supported only if it resolves a documented security-relevant failure more reliably than the language-model-only, state-tracking, predictive-model and rule-extraction alternatives. If state tracking or rule extraction supplies the same benefit, the evidence supports that simpler architecture. And if nothing succeeds, the result identifies an unresolved problem without proving that causal modeling was the missing piece.
+
+That last one is the honest shape of a five-year vista. Three adjectives in a title, and a written rule that can take two of them away.
+
+[**Download the full lexicon (.pdf)**](https://github.com/aduyinuo/yinuo-d-is-an-open-book/raw/main/templates/project-lexicons/vista_trustworthy_causal.pdf)
+
+_Last updated: 2026-08_
