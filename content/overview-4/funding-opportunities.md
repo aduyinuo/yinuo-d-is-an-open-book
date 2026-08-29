@@ -10,8 +10,8 @@ Open and forecasted calls.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>220 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>145 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>219 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>144 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -30,6 +30,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/pesose-pathways-enable-secure-open-source-ecosystems/nsf26-506">Pathways to Enable Secure Open-Source Ecosystems (PESOSE)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing/nsf25-543">Computer and Information Science and Engineering : Future Computing Research (Future CoRe)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
+<tr><td><a href="https://www.nsf.gov/funding/opportunities/satc-20-security-privacy-trust-cyberspace/nsf25-515">Security, Privacy, and Trust in Cyberspace (SaTC 2.0)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363293">American Innovation Hub: AI &amp; Digital Skills for the Creative &amp; Tech Economy</a></td><td>2026-08-30</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363380">Global Cybercrime and Cryptocurrency Assessment and Intelligence Gathering</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360003">ROSES 2025: A.10 INNOVATE</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -155,7 +156,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/359152">NIAMS P30 Centers Program (P30 - Clinical Trial Not Allowed)</a></td><td>—</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/351059">Integrating Machine Learning with Computational Fluid Dynamics Models of Orally Inhaled Drug Products (U01) Clinical Trials Not Allowed</a></td><td>—</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/351125">Utilizing Real-World Data and Algorithmic Analyses to Assess Post-Market Clinical Outcomes in Patients Switching Amongst Therapeutically Equ</a></td><td>—</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/362960">Interdisciplinary Transportation Law and Policy Technology Training Development</a></td><td>2026-08-28</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/334326">Tribal Colleges and Universities Program</a></td><td>2026-09-01</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363724">Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) Equipment/</a></td><td>2026-10-09</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362029">Tribal Colleges Research Grants Program</a></td><td>2026-12-31</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -188,4 +188,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Aug 28, 21:19_
+_Last refreshed Aug 29, 15:28_

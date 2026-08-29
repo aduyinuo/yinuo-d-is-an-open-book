@@ -10,30 +10,29 @@ Call-for-papers deadlines, soonest first.
 ## Within a month
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.acsac.org/2026/workshops/icss/">ICSS 2026</a></td><td>2026-08-28</td><td>**today**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://artman-workshop.gitlab.io/">ARTMAN 2026</a></td><td>2026-08-31</td><td>**3 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://bcca-conference.org/2026/Workshops/B4TI.php">B4TI 2026</a></td><td>2026-08-31</td><td>**3 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://secitc.eu/">SECITC 2026</a></td><td>2026-09-07</td><td>10 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://ssresearch26.umbc.edu/">SSR 2026</a></td><td>2026-09-15</td><td>18 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://eurocrypt.iacr.org/2027/">Eurocrypt 2027</a></td><td>2026-09-17</td><td>20 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://fc27.ifca.ai/">FC 2027</a></td><td>2026-09-17</td><td>20 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://acns2027.isg.rhul.ac.uk/">ACNS 2027</a></td><td>2026-09-24</td><td>27 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://dfrws.org/conferences/dfceurope2027/">DFC Europe 2027</a></td><td>2026-09-25</td><td>28 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://aidcworkshop.github.io/">AIDC 2026</a></td><td>2026-09-25</td><td>28 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://artman-workshop.gitlab.io/">ARTMAN 2026</a></td><td>2026-08-31</td><td>**2 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://bcca-conference.org/2026/Workshops/B4TI.php">B4TI 2026</a></td><td>2026-08-31</td><td>**2 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://secitc.eu/">SECITC 2026</a></td><td>2026-09-07</td><td>9 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://ssresearch26.umbc.edu/">SSR 2026</a></td><td>2026-09-15</td><td>17 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://eurocrypt.iacr.org/2027/">Eurocrypt 2027</a></td><td>2026-09-17</td><td>19 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://fc27.ifca.ai/">FC 2027</a></td><td>2026-09-17</td><td>19 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://acns2027.isg.rhul.ac.uk/">ACNS 2027</a></td><td>2026-09-24</td><td>26 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://dfrws.org/conferences/dfceurope2027/">DFC Europe 2027</a></td><td>2026-09-25</td><td>27 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://aidcworkshop.github.io/">AIDC 2026</a></td><td>2026-09-25</td><td>27 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
 </tbody></table>
 
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://satml.org/">SaTML 2027</a></td><td>2026-09-29</td><td>32 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://www.sigapp.org/sac/sac2027">SAC 2027</a></td><td>2026-10-02</td><td>35 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://conf.researchr.org/home/fse-2027">ESEC/FSE 2027</a></td><td>2026-10-02</td><td>35 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://waiti-workshop.github.io/">WAITI 2026</a></td><td>2026-10-05</td><td>38 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://acmweb2027.org/">WWW 2027</a></td><td>2026-10-18</td><td>51 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/">CT-RSA 2027</a></td><td>2026-10-22</td><td>55 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://acisp.org/">ACISP 2027</a></td><td>2026-11-30</td><td>94 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://dsn2027-berlin.github.io/">DSN 2027</a></td><td>2026-12-02</td><td>96 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://conf.researchr.org/home/issta-2027">ISSTA 2027</a></td><td>2027-01-11</td><td>136 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://satml.org/">SaTML 2027</a></td><td>2026-09-29</td><td>31 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.sigapp.org/sac/sac2027">SAC 2027</a></td><td>2026-10-02</td><td>34 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://conf.researchr.org/home/fse-2027">ESEC/FSE 2027</a></td><td>2026-10-02</td><td>34 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://waiti-workshop.github.io/">WAITI 2026</a></td><td>2026-10-05</td><td>37 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://acmweb2027.org/">WWW 2027</a></td><td>2026-10-18</td><td>50 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/">CT-RSA 2027</a></td><td>2026-10-22</td><td>54 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://acisp.org/">ACISP 2027</a></td><td>2026-11-30</td><td>93 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://dsn2027-berlin.github.io/">DSN 2027</a></td><td>2026-12-02</td><td>95 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://conf.researchr.org/home/issta-2027">ISSTA 2027</a></td><td>2027-01-11</td><td>135 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -118,4 +117,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Aug 28, 21:19_
+_Last refreshed Aug 29, 15:28_
