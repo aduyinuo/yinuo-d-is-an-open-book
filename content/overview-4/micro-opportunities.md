@@ -10,7 +10,7 @@ Credits, small grants, travel awards and targeted programs.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program</a></td><td>2027-07-28</td><td>333 days</td><td>3</td><td><em>faculty</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program</a></td><td>2027-07-28</td><td>332 days</td><td>3</td><td><em>faculty</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -23,7 +23,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (51) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (52) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363370">U.S. Embassy Jakarta Media Small Grants Competition</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -75,6 +75,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/363355">FY26 Bureau of Land Management Plant Conservation and Restoration Management - Bureau wide</a></td><td>2026-09-28</td><td>-7</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359757">NIH Small Business Technology Transfer Grant (Parent STTR [R41/R42] Clinical Trial Optional)</a></td><td>2027-04-05</td><td>-8</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/341997">Mathematical Biology</a></td><td>2026-10-14</td><td>-9</td><td><em>Grants.gov — small awards</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363309">Pilot Testing, Implementation, and Evaluation of the Cervical, Breast and Colorectal Cancer Clinical Decision Support Tools</a></td><td>—</td><td>-10</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/355297">National Cancer Institute Youth Enjoy Science Research Education Program (R25 Clinical Trial Not Allowed)</a></td><td>2026-09-28</td><td>-12</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359208">Clinical Data Ecosystem for Genomics (CDEG)</a></td><td>—</td><td>-12</td><td><em>Grants.gov — small awards</em></td></tr>
 </tbody></table>
@@ -85,4 +86,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Aug 29, 15:28_
+_Last refreshed Aug 30, 15:09_
