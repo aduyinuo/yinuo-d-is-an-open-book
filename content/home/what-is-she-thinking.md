@@ -23,6 +23,7 @@ If there's <mark style="color:$primary;">a genie of world modeling</mark>, what 
 
 * [Introspective Interpretability](https://lingo.csail.mit.edu/blog/introspective_interpretability/) (by _Belinda Z. Li)_
 * [Failure-aware Causal Training](https://arxiv.org/pdf/2608.10232) _(by Nicklas Hansen)_
+* [Test-Time Continual Learning](https://ttcl-agents.github.io/) (continuously <mark style="color:$primary;">acquire, consolidate, and refine</mark> knowledge and capabilities during <mark style="color:$primary;">deployment</mark>, without catastrophic forgetting or repeated large-scale retraining.)
 * [Factored Latent Action World Models](https://arxiv.org/abs/2602.16229)
 * [Generalizable Action-Conditioned World Models](https://arxiv.org/pdf/2607.27599) _(by Yilun Du)_
 * [Critique of World Model](https://arxiv.org/abs/2507.05169)
