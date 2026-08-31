@@ -69,4 +69,5 @@ When does the <mark style="color:$primary;">algorithmic making</mark> of an agen
 * Do we need to care about whether an agent is rule-based, RL-based, or LLM-based, if their <mark style="color:$primary;">behavior</mark> are similar?  Are they truly similar or is it a matter of perspective, perception, and metric?&#x20;
 * What <mark style="color:$primary;">algorithmic characteristics</mark> translate smoother to <mark style="color:$primary;">behavioral signals</mark>, and which tend to get lost?&#x20;
 * Are there <mark style="color:$primary;">optical illusions between human and agents</mark>, analogous to Müller-Lyer Illusion, for ex, when there's actually important distinctions, only humans' subject perception cannot capture it, or vice versa?&#x20;
+* [Interprete Agent Behavior](http://arxiv.org/pdf/2605.13625)
 
