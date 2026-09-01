@@ -10,7 +10,7 @@ Credits, small grants, travel awards and targeted programs.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program</a></td><td>2027-07-28</td><td>331 days</td><td>3</td><td><em>faculty</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program</a></td><td>2027-07-28</td><td>330 days</td><td>3</td><td><em>faculty</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -26,12 +26,9 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <summary>Everything else found (51) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363370">U.S. Embassy Jakarta Media Small Grants Competition</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/362367">Lead Hazard Reduction Grant Program</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363578">Syria Annual Program Statement</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/362368">Healthy Homes Production Grant Program</a></td><td>2026-08-31</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362317">Medical Student Education Program (MSE)</a></td><td>2026-09-01</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362670">OVW Fiscal Year 2026 Local Law Enforcement Grants for Enforcement of Cybercrimes Program</a></td><td>2026-09-01</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363761">OVC FY 2026 Victim Reunification Travel Program</a></td><td>2026-09-02</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/353413">IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)</a></td><td>2026-09-08</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360149">Computer and Information Science and Engineering (CISE): Future Computing Research</a></td><td>2026-09-10</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/352741">NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research</a></td><td>2026-09-30</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -46,6 +43,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/358569">Applied Mathematics</a></td><td>2026-11-16</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362842">Native Entities Grant Program</a></td><td>2026-11-17</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/278447">Computational Mathematics</a></td><td>2026-12-01</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363752">IUSE: Innovation in Two-Year College STEM Education (ITYC)</a></td><td>2026-12-09</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/361080">ERDC Broad Agency Announcement</a></td><td>2027-01-01</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/344715">Oceanographic Facilities and Equipment Support</a></td><td>2027-01-11</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363622">EMERGING FRONTIERS IN RESEARCH AND INNOVATION (EFRI-2026/27): Wave-Based Computing ( EFRI-WBC)</a></td><td>2027-02-11</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -63,7 +61,9 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/322814">AFCP 2020 Small Grants Competition</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/338558">Facilities for Atmospheric Research and Education</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/334093">2020/2021 EducationUSA Graduate Opportunity Funds Program</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/335069">U.S. Embassy The Hague, PAS, REMVE Mayoral Exchanges and Summit</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/356629">GPD Grant Forecast</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/325599">U.S. Embassy Praia Ambassador&amp;rsquo;s Special Self-Help (SSH) Program</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359159">Optimizing Behavioral Sleep Interventions for Adolescents and Young Adults (R34 Clinical Trial Required)</a></td><td>2026-10-22</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/353710">Mentored Quantitative Research Development Award (Parent K25 Independent Clinical Trial Not Allowed)</a></td><td>2027-05-07</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/58617">State Veterans Home Construction Grant Program</a></td><td>—</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -85,4 +85,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Aug 31, 17:50_
+_Last refreshed Sep 01, 15:22_
