@@ -1,4 +1,4 @@
-# 2026 AAAI Summer Symposium
+# AAAI Summer Symposium
 
 I co-organized this symposium, part of the AAAI 2026 Summer Symposium Series, held June 22–24, 2026 at Dongguk University in Seoul, South Korea.
 
@@ -33,20 +33,16 @@ Five half-day parts, with a keynote each morning.
 
 ## Organizing committee
 
-|                                                                                              | Organizer                                                                                  | Affiliation                    |
-| -------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------ | ------------------------------ |
-| <img src="../.gitbook/assets/arunesh-sinha.jpg" alt="Arunesh Sinha" width="90">              | [Arunesh Sinha](https://aruneshsinha.net/)                                                 | Rutgers University             |
-|                                                                                              | [Kimberly J. Ferguson-Walter](https://scholar.google.com/citations?user=o0yhhe8AAAAJ&hl=en) | Leidos                         |
-| <img src="../.gitbook/assets/palvi-aggarwal.jpg" alt="Palvi Aggarwal" width="90">            | [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal)                             | University of Texas at El Paso |
-| <img src="../.gitbook/assets/quanyan-zhu.jpg" alt="Quanyan Zhu" width="90">                  | [Quanyan Zhu](https://engineering.nyu.edu/faculty/quanyan-zhu)                              | New York University            |
-| <img src="../.gitbook/assets/sridhar-venkatesan.jpg" alt="Sridhar Venkatesan" width="90">    | [Sridhar Venkatesan](https://scholar.google.com/citations?user=ikJ6saoAAAAJ&hl=en)          | Peraton Labs                   |
-| <img src="../.gitbook/assets/yinuo-du.png" alt="Yinuo Du" width="90">                        | Yinuo Du                                                                                   | University of Texas at El Paso |
+|                                                                                                     | Organizer                                                                                    | Affiliation                    |
+| --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------- | ------------------------------ |
+| <img src="../.gitbook/assets/arunesh-sinha.jpg" alt="Arunesh Sinha" data-size="original">           | [Arunesh Sinha](https://aruneshsinha.net/)                                                   | Rutgers University             |
+|                                                                                                     | [Kimberly J. Ferguson-Walter](https://scholar.google.com/citations?user=o0yhhe8AAAAJ\&hl=en) | Leidos                         |
+| <img src="../.gitbook/assets/palvi-aggarwal.jpg" alt="Palvi Aggarwal" data-size="original">         | [Palvi Aggarwal](https://expertise.utep.edu/profiles/paggarwal)                              | University of Texas at El Paso |
+| <img src="../.gitbook/assets/quanyan-zhu.jpg" alt="Quanyan Zhu" data-size="original">               | [Quanyan Zhu](https://engineering.nyu.edu/faculty/quanyan-zhu)                               | New York University            |
+| <img src="../.gitbook/assets/sridhar-venkatesan.jpg" alt="Sridhar Venkatesan" data-size="original"> | [Sridhar Venkatesan](https://scholar.google.com/citations?user=ikJ6saoAAAAJ\&hl=en)          | Peraton Labs                   |
+| <img src="../.gitbook/assets/yinuo-du.png" alt="Yinuo Du" data-size="original">                     | Yinuo Du                                                                                     | University of Texas at El Paso |
 
-## Paper
 
-Selected papers were published in the AAAI symposium proceedings. Mine:
-
-> J. Acosta, M. T. Nazim, T. Guerra, **Y. Du**, P. Aggarwal. _Cyber-Agent-Flow: Execution Trace Instrumentation and Analysis for Cybersecurity Agent Workflows._ Proceedings of the AAAI Symposium Series, 9(1), 337–340, 2026.
 
 **Related:** [Community](./) | [CyberAI Reading Group](cyberai-reading-group/cyberai-reading-group-1.md) | [Research overview](../research/overview.md)
 
