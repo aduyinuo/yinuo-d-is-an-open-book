@@ -4,25 +4,15 @@ icon: share-nodes
 
 # Decorum
 
-Nobody sits you down and explains the conventions. They are learned by violating them, usually in front of the people who matter most.
-
-Etiquette guides are useful for the same reason a systems handbook is useful: they make explicit a set of rules everyone else absorbed implicitly, so you can decide which to keep and which to ignore on purpose rather than by accident. That is worth more if you arrived from another country, another class, or another field, where the implicit set you absorbed was a different one.
-
 ## Military etiquette guides
 
-[Protocol for the Modern Diplomat](https://www.govinfo.gov/content/pkg/GOVPUB-S-PURL-LPS81568/pdf/GOVPUB-S-PURL-LPS81568.pdf) — the State Department Transition Center's guide, and the most complete of these.
+[A New Officer’s Guide to&#x20;Etiquette and Decorum](https://www.uh.edu/cadetcorner/An_Officers_Guide_Etiquette.pdf) and the[ West Point social etiquette manual](https://www.westpointaog.org/wp-content/uploads/2023/01/Protocol-and-Etiquette-Guide.pdf?id=9979) are the most thorough written-down versions I've found. They teach you almost everything you need to know, from how to organize a minimum wardrobe, to what topics must you avoid in small talks. It's not entirely surprising that guides like this come from the military, as it might be unseemly for a supervisor in other work environments to pick upon the makeup or dresses or their subordinates. But I see it this way: by outsourcing the labor of decision-making about the mundane things to the Mirandas who care about them, we can free up so much energy to _color_ the more important decisions with our true passion. Everyone is happy.
 
-The officers' guides and the West Point social etiquette manual are the most thorough written-down versions I've found. Much of the specific content belongs to its institution and its era. What survives translation is the underlying grammar:
+It is after reading these manuals that I finally understood the awkwardness on a dinner table two years ago, after I brought up the soul-crushing misery of job search. And man, five years have passed, and I am still plagued by my vivid memory of the stark silence in a classroom, when I complained about political propaganda against China. Those topics are not taboo per se, but they are selective in terms of the time and the place. I can only imagine how it must have felt like from my peers' perspectives.&#x20;
 
-**Introductions and precedence** — who is introduced to whom, and the fact that there is an answer. Seniority, and the deliberate exceptions to it.
+[Protocol for the Modern Diplomat](https://www.govinfo.gov/content/pkg/GOVPUB-S-PURL-LPS81568/pdf/GOVPUB-S-PURL-LPS81568.pdf) — the State Department Transition Center's guide. This one is more targeting international students. Now that internet is no longer a new thing as it was a few generations ago, most students are less concerned about culture shock, which can be a grave mistake. Speaking from personal experience, during my first year in the U.S, the sandwiched criticism from colleagues and mentors sounded like love letters after tranlated directly into Chinese. It took me one or two more years to surpress the urge of launching into a monogue when asked _how are you doing_.  I don't have the heart to count how many polite Americans I have offended with zero awareness. Of course, this is a data point below average. But better safe than sorry.
 
-**Correspondence** — forms of address, when a written note is owed, and how quickly. The convention that a thank-you is not optional and is not an email.
 
-**Hosting and being hosted** — arriving, leaving, the timing of both, and the guest's obligations as distinct from the host's.
-
-**Formality as a service.** The single most useful idea in the whole genre: form exists to spare other people awkwardness, not to create it. Any rule that fails that test can be dropped. Any rule that passes it is worth following even when it feels arbitrary — because the person it protects is usually not you.
-
-Read them the way you'd read a field guide to a culture you are already living in.
 
 ## The academic version
 
