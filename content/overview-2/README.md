@@ -2,12 +2,12 @@
 icon: person-chalkboard
 ---
 
-# Teach
+# Teach & Mentor
 
 ## TLDR
 
-* [CMU Future Faculty Program](cmu-future-faculty-program.md) — the pedagogy training, and the courses I taught along the way
-* [2025 Fall Guest Lectures at UTEP](2025-fall-guest-lectures-at-utep.md) — two guest lectures, on presenting and on deep reinforcement learning
+* [CMU Future Faculty Program](teach/cmu-future-faculty-program.md) — the pedagogy training, and the courses I taught along the way
+* [2025 Fall Guest Lectures at UTEP](teach/2025-fall-guest-lectures-at-utep.md) — two guest lectures, on presenting and on deep reinforcement learning
 
 ## Teaching post-rigorously
 

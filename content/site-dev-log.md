@@ -1,5 +1,6 @@
 ---
 description: Rome wasn't built in a day.
+hidden: true
 icon: dev
 ---
 

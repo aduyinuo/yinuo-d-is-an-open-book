@@ -68,6 +68,6 @@ Cybersecurity is the motivating case — tiered authority, compartmentalized acc
 
 ## Acknowledgements
 
-_This project is supported by_ [_URI_](../../../funding.md)_._&#x20;
+_This project is supported by_ [_URI_](../../funding.md)_._
 
 _Last updated: 2026-08_

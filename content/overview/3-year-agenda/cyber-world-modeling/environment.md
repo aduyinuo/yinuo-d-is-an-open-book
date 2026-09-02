@@ -16,7 +16,7 @@ The two sides meet at the concatenation. $$z^{opp}_t$$, $$z_t, h_t$$ and $$u_t$$
 
 ## Results
 
-Trained and evaluated in [Daedalus](../../../artifacts/daedalus/): an eight-host OpenStack network across three subnets, provisioned with real services, with CVE-bound exploits and GHOSTS-generated background user traffic.
+Trained and evaluated in [Daedalus](../../artifacts/daedalus/): an eight-host OpenStack network across three subnets, provisioned with real services, with CVE-bound exploits and GHOSTS-generated background user traffic.
 
 Against both scripted attacker profiles, FOE-Dreamer roughly halves episode loss relative to Rainbow and IQN under matched compute, and trains inside a three-day budget on one GPU. Ablations show the factoring and the opponent model each contribute.
 
@@ -40,6 +40,6 @@ Success is fixed in advance. The detector fires before the attacker reaches the 
 
 ## Collaborators
 
-<table><thead><tr><th width="150"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-christopher-kiekintveld.png" alt="Christopher Kiekintveld" width="48"><br><a href="https://www.cs.utep.edu/kiekintveld/"><strong>Christopher Kiekintveld</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
+<table><thead><tr><th width="150"></th></tr></thead><tbody><tr><td><p><img src="../../../.gitbook/assets/collab-christopher-kiekintveld.png" alt="Christopher Kiekintveld" data-size="original"></p><p><br><a href="https://www.cs.utep.edu/kiekintveld/"><strong>Christopher Kiekintveld</strong></a><br>University of Texas at El Paso</p></td></tr></tbody></table>
 
 _Last updated: 2026-08_

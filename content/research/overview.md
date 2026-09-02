@@ -18,6 +18,6 @@ icon: researchgate
 
 <figure><img src="../.gitbook/assets/collaborator-map.png" alt="Where the collaborators are: 34 people across 7 institutions"><figcaption></figcaption></figure>
 
-[Publications](../publications.md)
+[Publications](../overview/publications.md)
 
 _Last updated: 2026-08_

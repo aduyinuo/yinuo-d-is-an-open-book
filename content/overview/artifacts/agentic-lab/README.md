@@ -6,7 +6,7 @@ icon: user-headset
 
 A consent-aware substrate for collecting and analysing researcher–agent interaction — across teamwork, cognition, science quality, wellbeing, and organizational dynamics.
 
-<figure><img src="../../.gitbook/assets/mock-agentic-lab.png" alt="The Agentic Lab pipeline: ingestion adapters, a typed event schema, a provenance graph, and weekly diagnostics, all behind a versioned consent gate, with the five annotated dimensions"><figcaption>Ingestion to provenance graph, gated by a versioned consent protocol.</figcaption></figure>
+<figure><img src="../../../.gitbook/assets/mock-agentic-lab.png" alt="The Agentic Lab pipeline: ingestion adapters, a typed event schema, a provenance graph, and weekly diagnostics, all behind a versioned consent gate, with the five annotated dimensions"><figcaption><p>Ingestion to provenance graph, gated by a versioned consent protocol.</p></figcaption></figure>
 
 ## Why the interaction has to be the record
 
@@ -16,7 +16,7 @@ Self-report is therefore not a usable instrument. The interaction itself has to 
 
 ## The problem it addresses
 
-As people do more of their research work *with* agents, the interaction itself becomes data — but data that is scattered across providers, uneven in quality, and ethically loaded. Agentic Lab is the collection-and-analysis layer that makes that interaction into something you can study without losing the consent context that makes studying it legitimate.
+As people do more of their research work _with_ agents, the interaction itself becomes data — but data that is scattered across providers, uneven in quality, and ethically loaded. Agentic Lab is the collection-and-analysis layer that makes that interaction into something you can study without losing the consent context that makes studying it legitimate.
 
 ## The shape of it
 

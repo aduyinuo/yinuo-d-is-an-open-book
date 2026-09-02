@@ -16,7 +16,7 @@ Most autonomous cyber defense trains in a simulator and transfers the resulting 
 
 ## The environment it trains in
 
-[Daedalus](../../../artifacts/daedalus/) is an eight-host OpenStack network across three subnets — two public web servers, a workstation tier, and an NTP and database tier — provisioned with real services, so its behaviour is executed rather than modelled.
+[Daedalus](../../artifacts/daedalus/) is an eight-host OpenStack network across three subnets — two public web servers, a workstation tier, and an NTP and database tier — provisioned with real services, so its behaviour is executed rather than modelled.
 
 A gRPC command-and-control server carries each defender action to the host it names, enabling or disabling an actual service on an actual operating system. The attacker is a scripted red agent that executes a genuine web exploit, establishes persistence over SSH, and pivots toward the interior hosts, so a defender is measured against real tool execution. Background user activity is generated rather than assumed away.
 
@@ -42,6 +42,6 @@ That distinction is the whole point of the quotation marks in the title. An envi
 
 ## Collaborators
 
-<table><thead><tr><th width="150"></th></tr></thead><tbody><tr><td><img src="../../../.gitbook/assets/collab-christopher-kiekintveld.png" alt="Christopher Kiekintveld" width="48"><br><a href="https://www.cs.utep.edu/kiekintveld/"><strong>Christopher Kiekintveld</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
+<table><thead><tr><th width="150"></th></tr></thead><tbody><tr><td><p><img src="../../../.gitbook/assets/collab-christopher-kiekintveld.png" alt="Christopher Kiekintveld" data-size="original"></p><p><br><a href="https://www.cs.utep.edu/kiekintveld/"><strong>Christopher Kiekintveld</strong></a><br>University of Texas at El Paso</p></td></tr></tbody></table>
 
 _Last updated: 2026-08_

@@ -5,7 +5,7 @@ icon: creative-commons-remix
 
 # Work With Me
 
-<mark style="color:$danger;">These positions are unpaid. I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis.</mark> If funded positions become available they will be listed on [Opportunities](../overview-4/).
+<mark style="color:$danger;">These positions are unpaid. I do not currently have funding for research or engineering assistants, so anyone joining does so on a volunteer basis.</mark> If funded positions become available they will be listed on [Opportunities](../resources/overview-4/).
 
 I strive to provide students with <mark style="color:$primary;">defined research questions, actionable project plans, ethical, open, collaborative research environments</mark>. I am excited to work with students who are willing to <mark style="color:$primary;">think deeply and courageously</mark> about decision-making challenges in cybersecurity.
 
@@ -115,6 +115,6 @@ Claims about transfer are only meaningful if the same agent can actually be run 
 
 Write to me with the project you are interested in, what you have done that is relevant, and what you want to get out of it. If you are a UTEP student, say what year you are in and how many hours a week you can realistically commit, keeping in mind that this is unpaid and should not come at the cost of paid work or coursework. Undergraduates are welcome to write about the engineering projects and about [Eliciting reasoning under a clock](work-with-me.md#eliciting-reasoning-under-a-clock).
 
-Funded positions, when available, are listed on [Opportunities](../overview-4/). Current and past students are on [Mentor](../mentor/).
+Funded positions, when available, are listed on [Opportunities](../resources/overview-4/). Current and past students are on [Mentor](../overview-2/mentor/).
 
 _Last updated: 2026-08_

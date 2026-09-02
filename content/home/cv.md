@@ -4,7 +4,7 @@ icon: folder-user
 
 # CV
 
-[Google Scholar](https://scholar.google.com/citations?user=XdY3VB0AAAAJ) · [LinkedIn](https://www.linkedin.com/in/yinuo-du) · [Publications](../publications.md)
+[Google Scholar](https://scholar.google.com/citations?user=XdY3VB0AAAAJ) · [LinkedIn](https://www.linkedin.com/in/yinuo-du) · [Publications](../overview/publications.md)
 
 {% file src="../.gitbook/assets/yinuo-du-cv.pdf" %}
 Download CV (PDF)
@@ -30,12 +30,10 @@ Download CV (PDF)
 
 <table><thead><tr><th width="140">Term</th><th>Role</th></tr></thead><tbody><tr><td>2025 Fall</td><td>Guest lecture, Graduate Research Methods — how to give an effective presentation</td></tr><tr><td>2025 Fall</td><td>Guest lecture, Introduction to Artificial Intelligence (undergraduate) — function approximation and deep reinforcement learning</td></tr><tr><td>2025 Summer</td><td>Teaching assistant, Demystifying AI for Everyone: Concepts and Applications — designed coding-free in-class activities</td></tr><tr><td>2024 – 2025</td><td>Eberly Future Faculty Program participant — course design, pedagogy seminars, teaching consultations, syllabus design project</td></tr><tr><td>2024 Spring</td><td>Teaching assistant, 88-312 Decision Models and Games</td></tr><tr><td>2023 Fall</td><td>Teaching assistant, 17-759/17-599 Advanced Topics in Machine Learning and Game Theory — designed the programming assignment on strategic language agents</td></tr></tbody></table>
 
-More on [Teach](../overview-2/); students on [Mentor](../mentor/); committees and reviewing on [Service](../overview-3/).
+More on [Teach](../overview-2/); students on [Mentor](../overview-2/mentor/); committees and reviewing on [Service](../overview-3/).
 
 ## Other research and industry experience
 
 <table><thead><tr><th width="140">Year</th><th>Position</th></tr></thead><tbody><tr><td>2020</td><td>Independent study, <a href="https://www.cmu.edu/dietrich/sds/ddmlab/">Dynamic Decision Making Lab, Carnegie Mellon University</a> (advisor: <a href="https://hb2504.utep.edu/Home/Profile?username=paggarwal">Palvi Aggarwal</a>)</td></tr><tr><td>2020</td><td>Research student, <a href="https://mews.sv.cmu.edu/">Mobile, Embedded &#x26; Wireless Security Lab</a>, Carnegie Mellon University (advisor: <a href="https://www.cmu.edu/ini/about/team/tague.html">Patrick Tague</a>)</td></tr><tr><td>2020</td><td>Software engineer intern, BlockApps Inc.</td></tr><tr><td>2018</td><td>Research intern, <a href="https://www.xjtu.edu.cn/xynr.jsp?urltype=tree.TreeTempUrl&#x26;wbtreeid=1634&#x26;wbxjtucollegeid=241">Key Lab for Intelligent Networks and Network Security, Xi'an Jiaotong University</a> (advisor: Jing Tao)</td></tr></tbody></table>
-
-
 
 _Last updated: 2026-08_

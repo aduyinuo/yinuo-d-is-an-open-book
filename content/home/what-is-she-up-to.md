@@ -403,7 +403,7 @@ _resting · Apr 09_
 * **Mar 12** — logged 1.1h — How to prepare for the reading group?
 * 3.3 hours logged in this window
 
-[Mentoring on the site](../mentor/)
+[Mentoring on the site](../overview-2/mentor/)
 
 </details>
 

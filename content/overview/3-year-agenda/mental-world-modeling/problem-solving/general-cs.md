@@ -42,10 +42,10 @@ This is the layer underneath the tooling. If mental operations can be identified
 
 ## Publications
 
-_In preparation. Astrolabe, the annotation instrument this work runs on, is described under_ [_Artifacts_](../../../../artifacts/astrolabe/)_._
+_In preparation. Astrolabe, the annotation instrument this work runs on, is described under_ [_Artifacts_](../../../artifacts/astrolabe/)_._
 
 ## Collaborators
 
-<table><thead><tr><th width="150"></th></tr></thead><tbody><tr><td><img src="../../../../.gitbook/assets/collab-anantaa-kotal.png" alt="Anantaa Kotal" width="48"><br><a href="https://anantaakotal.github.io/"><strong>Anantaa Kotal</strong></a><br>University of Texas at El Paso</td></tr></tbody></table>
+<table><thead><tr><th width="150"></th></tr></thead><tbody><tr><td><p><img src="../../../../.gitbook/assets/collab-anantaa-kotal.png" alt="Anantaa Kotal" data-size="original"></p><p><br><a href="https://anantaakotal.github.io/"><strong>Anantaa Kotal</strong></a><br>University of Texas at El Paso</p></td></tr></tbody></table>
 
 _Last updated: 2026-08_

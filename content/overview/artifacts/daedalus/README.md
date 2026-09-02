@@ -26,13 +26,13 @@ The defender's move is not "block" or "patch." It is to shape what the attacker 
 
 Three extensions, in progress.
 
-**Generated engagements.** Bringing the game-generation component of [Learn Structure](../../overview/3-year-agenda/cyber-world-modeling/strategic-structure.md) into Daedalus, so networks and engagements can be generated carrying a known amount of strategic structure rather than fixed by hand.
+**Generated engagements.** Bringing the game-generation component of [Learn Structure](../../3-year-agenda/cyber-world-modeling/strategic-structure.md) into Daedalus, so networks and engagements can be generated carrying a known amount of strategic structure rather than fixed by hand.
 
 **Adversarial disturbance.** Moving threat modelling and adversarial training inside the environment, where today they are approximated outside it.
 
 **A broader population.** Widening the agent population across attacker, defender and ordinary user, so scenarios vary more and benchmarking means something in practice.
 
-[Metrion](../../overview/3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md) supplies the criteria for deciding which of these matter for a given claim.
+[Metrion](../../3-year-agenda/toward-deployment/when-we-say-a-realistic-cyber-environment.md) supplies the criteria for deciding which of these matter for a given claim.
 
 ## More
 
