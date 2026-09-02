@@ -9,14 +9,17 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>536 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap.png" alt="Daily activity across projects, 6 months"><figcaption><p>536 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
+
 {% tab title="This week" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>15 hours logged in the last week</p></figcaption></figure>
 {% endtab %}
+
 {% tab title="1 month" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>64 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
+
 {% tab title="1 year" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>715 hours logged in the last year</p></figcaption></figure>
 {% endtab %}
@@ -51,8 +54,7 @@ _resting · Aug 15_
 
 <figure><img src="../.gitbook/assets/heat-what-to-read.png" alt="Daily work on What to Read"><figcaption></figcaption></figure>
 
-
-[What to Read on the site](../personal/overview.md)
+[What to Read on the site](/broken/pages/XY9qkpLHBPkAOwFXubo2)
 
 </details>
 
@@ -70,7 +72,6 @@ _resting · Aug 09_
 
 </details>
 
-
 #### Cyber World Modeling
 
 <details>
@@ -81,9 +82,9 @@ _warm · 5 days ago · 21.3h this week_
 
 <figure><img src="../.gitbook/assets/heat-foe-dreamer.png" alt="Daily work on FOE-Dreamer"><figcaption></figcaption></figure>
 
-* **5 days ago** — logged 0.6h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
+* **5 days ago** — logged 0.6h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest & expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
 * **5 days ago** — logged 3.0h — Reflect on lucrative research questions highlighted by reviewer's comments
-* **6 days ago** — logged 3.2h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest &amp; expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
+* **6 days ago** — logged 3.2h — Harvest the side products, such as tips, actionable templates, and methodology for this specific type of rebuttal, slides and pedagogical materials related to the project, reflection on the community's interest & expertise and next steps in this project, logistics and action items for hypothetical next stage, plans for backup and cleansing of artifacts
 * **6 days ago** — logged 4.0h — Third draft and submission.
 * **6 days ago** — logged 4.3h — Second draft, inspect the comments from various angle, outline rebuttal (template, theme, key papers), infer the stance of reviewers, prioritize and cluster comments, narrow done todo items for each comment, and compile into spreadsheet for the tweak and play next round.
 * **6 days ago** — logged 3.9h — First draft, identified the deeper questions in reviewers' comments that worth discussing, and collected some tips about addressing comments for ACSAC
@@ -100,7 +101,6 @@ _warm · 5 days ago · 21.3h this week_
 _resting · Aug 10_
 
 <figure><img src="../.gitbook/assets/heat-world-model-failure.png" alt="Daily work on World Model Failure"><figcaption></figcaption></figure>
-
 
 [World Model Failure on the site](../research/projects/lucid-world/world-model-failure-track.md)
 
@@ -136,7 +136,6 @@ _resting · Apr 09_
 [AcceleratePSRO on the site](../overview/3-year-agenda/cyber-world-modeling/accelerate-psro.md)
 
 </details>
-
 
 #### Toward Deployment
 
@@ -176,11 +175,9 @@ _resting · Aug 06_
 
 _resting · —_
 
-
 [Emulators on the site](../research/projects/be-realistic/emulator-track.md)
 
 </details>
-
 
 #### Mental World Modeling
 
@@ -222,7 +219,6 @@ _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-mental-operations-consensus.png" alt="Daily work on Mental Operations Consensus"><figcaption></figcaption></figure>
 
-
 [Mental Operations Consensus on the site](../overview/3-year-agenda/mental-world-modeling/problem-solving/general-cs.md)
 
 </details>
@@ -255,10 +251,9 @@ _resting · Jul 06_
 * **Jul 06** — logged 0.2h — Working in VS Code
 * 8.2 hours logged in this window
 
-[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/README.md)
+[Attacker Behavior Modeling on the site](../overview/3-year-agenda/mental-world-modeling/opponent-agent-modeling/bias/)
 
 </details>
-
 
 #### Human-AI Complementarity
 
@@ -269,7 +264,6 @@ _resting · Jul 06_
 _resting · Aug 09_
 
 <figure><img src="../.gitbook/assets/heat-team-defense-game.png" alt="Daily work on Team Defense Game"><figcaption></figcaption></figure>
-
 
 [Team Defense Game on the site](../overview/3-year-agenda/human-ai-complementarity/team-defense-game.md)
 
@@ -334,7 +328,6 @@ _resting · Mar 13_
 
 </details>
 
-
 #### Study approvals
 
 <details>
@@ -345,11 +338,9 @@ _resting · Aug 04_
 
 <figure><img src="../.gitbook/assets/heat-irb-logistics.png" alt="Daily work on IRB Logistics"><figcaption></figcaption></figure>
 
-
 [IRB Logistics on the site](../research/projects/irb-applications/overview.md)
 
 </details>
-
 
 #### Around the work
 
@@ -366,7 +357,7 @@ _at the desk · 4 days ago · 5.3h this week_
 * **Jul 25** — logged 4.6h — Toward a theory of "pull it together"
 * 64.2 hours logged in this window
 
-[Thinking on the site](../home/what-is-she-thinking.md)
+[Thinking on the site](what-is-she-thinking.md)
 
 </details>
 
@@ -397,7 +388,7 @@ _resting · Jul 25_
 * **Mar 16** — logged 1.3h — Review for Computational Brain and Behavior. Claude is not good at this.
 * 2.5 hours logged in this window
 
-[Service on the site](../overview-3/README.md)
+[Service on the site](../overview-3/)
 
 </details>
 
@@ -412,7 +403,7 @@ _resting · Apr 09_
 * **Mar 12** — logged 1.1h — How to prepare for the reading group?
 * 3.3 hours logged in this window
 
-[Mentoring on the site](../mentor/README.md)
+[Mentoring on the site](../mentor/)
 
 </details>
 
@@ -443,9 +434,8 @@ _resting · Mar 27_
 * **Mar 17** — logged 0.2h — Making a post for Maria Rigaki
 * 16.0 hours logged in this window
 
-[Reading Group on the site](../overview-3/cyberai-reading-group/README.md)
+[Reading Group on the site](../overview-3/cyberai-reading-group/)
 
 </details>
-
 
 _Last looked at Aug 27, 22:52_
