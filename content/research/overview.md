@@ -16,7 +16,7 @@ icon: researchgate
 
 ## With Friends...
 
-<figure><img src="../.gitbook/assets/collaborator-map.png" alt="Where the collaborators are: 34 people across 7 institutions"><figcaption><p>34 people, 7 institutions, 4 countries.</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/collaborator-map.png" alt="Where the collaborators are: 34 people across 7 institutions"><figcaption></figcaption></figure>
 
 [Publications](../publications.md)
 
