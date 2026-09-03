@@ -10,7 +10,7 @@ Credits, small grants, travel awards and targeted programs.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program</a></td><td>2027-07-28</td><td>329 days</td><td>3</td><td><em>faculty</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program</a></td><td>2027-07-28</td><td>328 days</td><td>3</td><td><em>faculty</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -23,10 +23,9 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (49) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (48) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363761">OVC FY 2026 Victim Reunification Travel Program</a></td><td>2026-09-02</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/353413">IUSE / Professional Formation of Engineers: Revolutionizing Engineering Departments (IUSE/PFE: RED)</a></td><td>2026-09-08</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360149">Computer and Information Science and Engineering (CISE): Future Computing Research</a></td><td>2026-09-10</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/352741">NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research</a></td><td>2026-09-30</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -83,4 +82,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 02, 14:56_
+_Last refreshed Sep 03, 14:51_

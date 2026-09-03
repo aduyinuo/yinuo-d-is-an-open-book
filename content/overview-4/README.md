@@ -12,4 +12,4 @@ Four queues, refreshed daily from 10 sources. Everything found is listed with th
 * [Postdoc/faculty opportunities](postdoc-faculty-opportunities.md) — 37 worth a look, 0 closing within a month
 * [Micro opportunities](micro-opportunities.md) — 2 worth a look, 0 closing within a month
 
-_Last refreshed Sep 02, 14:56_
+_Last refreshed Sep 03, 14:51_
