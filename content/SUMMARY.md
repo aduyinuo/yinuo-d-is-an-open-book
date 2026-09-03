@@ -44,6 +44,7 @@
   * [5-Year Vista](overview/5-year-vista/README.md)
     * [Many Trustworthy, Controllable, Causal Models for Operational Network Defense](overview/5-year-vista/trustworthy-controllable-causal-world-model-for-operational-network-defense/README.md)
       * [Lexicon](overview/5-year-vista/trustworthy-controllable-causal-world-model-for-operational-network-defense/lexicon.md)
+    * [Human-In-The-Loop](overview/5-year-vista/human-in-the-loop.md)
     * [What Makes it So Difficult? Competitive Cybersecurity Learning and Workforce Expertise Maintenance](overview/5-year-vista/what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance/README.md)
       * [Lexicon](overview/5-year-vista/what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance/lexicon.md)
     * [(AI4)^2 Network Security Research](overview/5-year-vista/future-of-work-in-agentic-laboratories-open-science-health-scientists/README.md)
