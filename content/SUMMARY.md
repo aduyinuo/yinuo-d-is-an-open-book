@@ -46,7 +46,7 @@
       * [Lexicon](overview/5-year-vista/trustworthy-controllable-causal-world-model-for-operational-network-defense/lexicon.md)
     * [What Makes it So Difficult? Competitive Cybersecurity Learning and Workforce Expertise Maintenance](overview/5-year-vista/what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance/README.md)
       * [Lexicon](overview/5-year-vista/what-makes-it-so-difficult-competitive-cybersecurity-learning-and-workforce-expertise-maintenance/lexicon.md)
-    * [Future of Work in Agentic Laboratories: Open Science, Health Scientists](overview/5-year-vista/future-of-work-in-agentic-laboratories-open-science-health-scientists/README.md)
+    * [(AI4)^2 Network Security Research](overview/5-year-vista/future-of-work-in-agentic-laboratories-open-science-health-scientists/README.md)
       * [Lexicon](overview/5-year-vista/future-of-work-in-agentic-laboratories-open-science-health-scientists/lexicon.md)
   * [Publications](overview/publications.md)
   * [Artifacts](overview/artifacts/README.md)
