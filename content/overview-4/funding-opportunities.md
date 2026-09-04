@@ -10,8 +10,8 @@ Open and forecasted calls.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>214 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>139 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>213 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>138 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -24,7 +24,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (153) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (152) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing/nsf25-543">Computer and Information Science and Engineering : Future Computing Research (Future CoRe)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
@@ -138,7 +138,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/359123">Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for </a></td><td>2026-10-19</td><td>-2</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/sosbio-science-science-approach-analyzing-innovating-biomedical/nsf23-569">A Science of Science Approach to Analyzing and Innovating the Biomedical Research Enterprise (SoS:BIO)</a></td><td>—</td><td>-2</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360350">NSF STEM K-12</a></td><td>—</td><td>-3</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/361084">NIH Director&amp;rsquo;s Transformative Research Award for Individual and Group Science (R01 Clinical Trial Optional)</a></td><td>2026-09-03</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363586">MANUFACTURING AND SMALL BUSINESS CYBERSECURITY RESILIENCE PROGRAM 2026</a></td><td>2026-09-04</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363179">Public Wireless Supply Chain Innovation Fund Grant Program &amp;ndash; Solutions for AI-Native RAN</a></td><td>2026-09-09</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360874">Atopic Dermatitis Research Network (ADRN) (U19 Clinical Trial Optional)</a></td><td>2026-09-24</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -188,4 +187,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 03, 14:51_
+_Last refreshed Sep 04, 14:45_
