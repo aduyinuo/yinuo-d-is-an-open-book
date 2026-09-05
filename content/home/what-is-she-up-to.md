@@ -9,13 +9,13 @@ At the desk on **The Website**.
 
 {% tabs %}
 {% tab title="6 months" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>523 hours logged in the last six months</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-6m.png" alt="Daily activity across projects, 6 months"><figcaption><p>519 hours logged in the last six months</p></figcaption></figure>
 {% endtab %}
 {% tab title="This week" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1w.png" alt="Daily activity across projects, this week"><figcaption><p>Work across the last week</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 month" %}
-<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>52 hours logged in the last month</p></figcaption></figure>
+<figure><img src="../.gitbook/assets/activity-heatmap-1m.png" alt="Daily activity across projects, 1 month"><figcaption><p>34 hours logged in the last month</p></figcaption></figure>
 {% endtab %}
 {% tab title="1 year" %}
 <figure><img src="../.gitbook/assets/activity-heatmap-1y.png" alt="Daily activity across projects, 1 year"><figcaption><p>715 hours logged in the last year</p></figcaption></figure>
