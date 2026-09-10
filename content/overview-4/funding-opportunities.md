@@ -10,8 +10,9 @@ Open and forecasted calls.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>208 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>133 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>207 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363843">Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)</a></td><td>2026-10-16</td><td>36 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>132 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -24,7 +25,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (152) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (149) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/future-core-computer-information-science-engineering-future-computing/nsf25-543">Computer and Information Science and Engineering : Future Computing Research (Future CoRe)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
@@ -46,10 +47,10 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/361931">Advancing Global Capacity to Detect and Respond to Fungal Diseases</a></td><td>2026-09-30</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360333">Expanding global health security through local partnerships in Ethiopia</a></td><td>2026-10-02</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360337">Expanding global health security though local partnerships in Tanzania</a></td><td>2026-10-02</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363657">Innovative Water Infrastructure Workforce Development Grant</a></td><td>2026-10-05</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/353936">Mathematical Foundations of Artificial Intelligence</a></td><td>2026-10-09</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/361315">2026 National Urban and Community Forestry Challenge Cost Share Grant Program</a></td><td>2026-10-12</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363224">ROSES25: A.13 Accelerating Earth Solutions</a></td><td>2026-10-15</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363657">Innovative Water Infrastructure Workforce Development Grant</a></td><td>2026-10-15</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363594">Annual Recurring University Training and Research</a></td><td>2026-10-16</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363240">ROSES25: A.14 Atmosphere</a></td><td>2026-10-20</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363325">ROSES25: D.8 Habitable Worlds Observatory Precursor Science Investigation</a></td><td>2026-10-26</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -99,7 +100,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/336244">Mission Spain Public Diplomacy 2022 Annual Program Statement</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/349858">DRAFT Community Noise Mitigation Program</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/358672">STARBASE Cherry Point</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/355967">Military and Civilian Partnership for Trauma Readiness Grant Program/Mission Zero</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/347707">2023 Emerging Voices Small Grants Program</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362086">Annual Program Statement (APS) For Fiscal Year 2026</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359120">Annual Program Statement (APS) for Fiscal Year 2025</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -134,11 +134,9 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/318918">National Space Grant College and Fellowship Program - Opportunities in NASA STEM FY 2020 &amp;ndash; 2024</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363748">Informing global polio eradication efforts through innovative modeling approaches</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362951">Limited Competition: Resources and Workforce Development for the Regional Biocontainment Laboratories</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363412">Maternal and Child Health Encounters Networks (MCHEK)</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359123">Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for </a></td><td>2026-10-19</td><td>-2</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.nsf.gov/funding/opportunities/sosbio-science-science-approach-analyzing-innovating-biomedical/nsf23-569">A Science of Science Approach to Analyzing and Innovating the Biomedical Research Enterprise (SoS:BIO)</a></td><td>—</td><td>-2</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360350">NSF STEM K-12</a></td><td>—</td><td>-3</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/360986">NIH Director&amp;rsquo;s Pioneer Award (DP1 Clinical Trial Optional)</a></td><td>2026-09-09</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363179">Public Wireless Supply Chain Innovation Fund Grant Program &amp;ndash; Solutions for AI-Native RAN</a></td><td>2026-09-09</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360874">Atopic Dermatitis Research Network (ADRN) (U19 Clinical Trial Optional)</a></td><td>2026-09-24</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/361234">ROSES25: B.2 Heliophysics Foundational Research</a></td><td>2026-09-25</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359651">Renewal of the Clinician-Scientists Transdisciplinary Aging Research (Clin-STAR) Coordinating Center (U24 Clinical Trial Not Allowed)</a></td><td>2026-09-29</td><td>-4</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -187,4 +185,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 09, 15:00_
+_Last refreshed Sep 10, 14:47_
