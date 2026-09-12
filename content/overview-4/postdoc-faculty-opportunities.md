@@ -30,6 +30,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32459">Hillsdale College , Hillsdale College/Math and Computer Science — Tenure-Track Assistant or Associate Professor of Computer Science</a></td><td>4</td><td><em>tenure-track</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32241">Pomona College , Computer Science — Assistant Professor of Computer Science</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32039">Rutgers, The State University of New Jersey , Math and Computer Science — Assistant Professor/Associate Professor/Professor</a></td><td>4</td><td><em>assistant professor</em></td></tr>
+<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32649">University of British Columbia , Department of Computer Science — Assistant Professor of Teaching in Systems – Tenure Track</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32563">University of Puget Sound , Computer Science — Assistant Professor - Computer Science</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31183">Beijing Institute of Mathematical Sciences and Applications — Assistant Professor</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32490">Boston University , Department of Biomedical Engineering — Tenure-Track Assistant Professor</a></td><td>4</td><td><em>assistant professor, tenure-track</em></td></tr>
@@ -42,7 +43,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32152">Duke University , Electrical and Computer Engineering — Post Doctoral Associate</a></td><td>3</td><td><em>postdoc</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32271">ETH Zurich , Office for Faculty Affairs — Professor of Generative AI in Visual Computing (f/m/d)</a></td><td>3</td><td><em>faculty</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32272">ETH Zurich , Office for Faculty Affairs — Professors of Artificial Intelligence and its Mathematical and Computational Foundations (f/m/d)</a></td><td>3</td><td><em>faculty</em></td></tr>
-<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32378">Institute of Science and Technology Austria (ISTA) , Academic Affairs — NOMIS-ISTA Fellowship Program</a></td><td>3</td><td><em>postdoc</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31693">RIKEN , Center for Interdisciplinary Theoretical and Mathematical Sciences — ［Female only］Seeking a few Senior Research Scientists, Research Scientist</a></td><td>3</td><td><em>postdoc</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31863">University of Richmond , Computer Science — Postdoctoral Research Associate</a></td><td>3</td><td><em>postdoc</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32669">VinUniversity , College of Engineering and Computer Science — [AY26-27] Faculty of Computer Science</a></td><td>3</td><td><em>faculty</em></td></tr>
@@ -51,7 +51,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (77) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (76) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.linkedin.com/jobs/view/cyber-researcher-attack-emulation-senior-principal-at-pentera-4346538150">Pentera — Cyber Researcher, Attack Emulation (Senior / Principal)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -59,7 +59,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-security-and-privacy-at-nvidia-4395488267">NVIDIA — Senior Research Scientist, Security and Privacy</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/threat-detection-researcher-windows-linux-macos-at-wiz-4434551145">Wiz — Threat Detection Researcher (Windows/Linux/MacOS)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-security-researcher-at-ibm-4462537778">IBM — AI Security Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/principal-security-researcher-at-hirerubydevs-4464023177">HireRubyDevs — Principal Security Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/principal-security-researcher-at-palo-alto-networks-4431557442">Palo Alto Networks — Principal Security Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-research-scientist-genai-at-bosch-usa-4458470329">Bosch USA — AI Research Scientist - GenAI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-skild-ai-4184497871">Skild AI — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -70,19 +69,19 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-techire-ai-4455252412">techire ai — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-robotics-ai-at-bosch-usa-4453806406">Bosch USA — Research Scientist- Robotics AI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-researcher-at-scout-ai-4375818974">Scout AI — AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-fauna-at-amazon-4455773999">Amazon — Applied Scientist, Fauna</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/senior-machine-learning-research-scientist-frontier-lab-at-carnegie-mellon-university-4456890347">Carnegie Mellon University — Senior Machine Learning Research Scientist - Frontier Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-alignment-at-openai-4417173100">OpenAI — Researcher, Alignment</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-geminiapp-deepmind-at-google-deepmind-4448758670">Google DeepMind — Staff UX Researcher, GeminiApp, DeepMind</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-human%E2%80%91ai-perception-and-interaction-at-nvidia-4437932202">NVIDIA — Senior Research Scientist, Human‑AI Perception and Interaction</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-human%E2%80%91ai-perception-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395479271">NVIDIA — Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-ux-researcher-google-health-at-google-4461318869">Google — Senior UX Researcher, Google Health</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-personalization-at-%C5%8Dura-4437629344">ŌURA — Staff UX Researcher, Personalization</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/staff-mixed-methods-ux-researcher-google-lens-at-google-4451921037">Google — Staff Mixed-Methods UX Researcher, Google Lens</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-multimodal-safety-at-openai-4448240991">OpenAI — Researcher, Multimodal Safety</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/ux-quantitative-researcher-ii-at-google-4461306297">Google — UX Quantitative Researcher II</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-customer-experience-and-business-trends-at-amazon-4461566369">Amazon — Applied Scientist, Customer Experience and Business Trends</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4465356400">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4465368287">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-science-4463926253">Amazon Science — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-synthetic-rl-at-openai-4417161422">OpenAI — Researcher, Synthetic RL</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-autonomous-systems-research-scientist-at-carnegie-mellon-university-4458637664">Carnegie Mellon University — Senior Autonomous Systems Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -139,4 +138,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 11, 14:50_
+_Last refreshed Sep 12, 13:50_
