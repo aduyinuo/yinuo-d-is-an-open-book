@@ -51,7 +51,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (76) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (75) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.linkedin.com/jobs/view/cyber-researcher-attack-emulation-senior-principal-at-pentera-4346538150">Pentera — Cyber Researcher, Attack Emulation (Senior / Principal)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -74,10 +74,9 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-geminiapp-deepmind-at-google-deepmind-4448758670">Google DeepMind — Staff UX Researcher, GeminiApp, DeepMind</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-human%E2%80%91ai-perception-and-interaction-at-nvidia-4437932202">NVIDIA — Senior Research Scientist, Human‑AI Perception and Interaction</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-human%E2%80%91ai-perception-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395479271">NVIDIA — Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/senior-ux-researcher-google-health-at-google-4461318869">Google — Senior UX Researcher, Google Health</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/senior-quantitative-ux-researcher-ai-enablement-at-google-4465793165">Google — Senior Quantitative UX Researcher, AI Enablement</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-personalization-at-%C5%8Dura-4437629344">ŌURA — Staff UX Researcher, Personalization</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-multimodal-safety-at-openai-4448240991">OpenAI — Researcher, Multimodal Safety</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/ux-quantitative-researcher-ii-at-google-4461306297">Google — UX Quantitative Researcher II</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-customer-experience-and-business-trends-at-amazon-4461566369">Amazon — Applied Scientist, Customer Experience and Business Trends</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -87,11 +86,11 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-autonomous-systems-research-scientist-at-carnegie-mellon-university-4458637664">Carnegie Mellon University — Senior Autonomous Systems Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-horizon-robotics-4414148749">Horizon Robotics — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-ai-researcher-at-scout-ai-4437313958">Scout AI — Senior AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/applied-researcher-at-pittsburgh-robotics-network-4464769343">Pittsburgh Robotics Network — Applied Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-engineer-at-real-time-innovations-rti-4387530779">Real-Time Innovations (RTI) — Research Engineer</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-autonomous-vehicles-at-nvidia-4395472511">NVIDIA — Senior Research Scientist - Autonomous Vehicles</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/principal-research-scientist-autonomous-systems-at-peraton-labs-4409992964">Peraton Labs — Principal Research Scientist - Autonomous Systems</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/physical-ai-researcher-at-feather-robotics-4460948897">Feather Robotics — Physical AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-deft-robotics-4441104036">Deft Robotics — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32159">Boğaziçi University , Intitute for Data Science and Artificial Intelligence — Assistant/Associate Professor</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32323">Boston University , Department of Electrical and Computer Engineering — Professor and Head of the Division of Systems Engineering</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32541">Duke Kunshan University — Multiple Positions in Data Science and Computer Science</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
@@ -115,7 +114,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31191">Ben Gurion University , Physics - High Energy Theory — Postdoctoral position in theoretical high-energy physics</a></td><td>—</td><td>-1</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32600">Cornell University , Research Division — AI-MI Postdoctoral Fellowship, Artificial Intelligence Materials Institute</a></td><td>—</td><td>-2</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31929">University of Massachusetts Chan Medical School , GRN Lab — Postdoc in Biological Causal Networks</a></td><td>—</td><td>-2</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
-<tr><td><a href="https://academicjobsonline.org/ajo/jobs/31815">Beijing Academy of Quantum Information Sciences , Human Resources Department — Quantum AI Researcher Positions at Beijing Academy of Quantum</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32211">Academia Sinica , Institute of Atomic and Molecular Sciences — Faculty positions (Full/Associate/Assistant Research Fellow)</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31847">Ariel University , Physics — Physics at Ariel University- M.Sc / Direct Ph.D Program (with scholarship)</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31848">Ariel University , Physics — PhD position, Ariel University, Israel</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
@@ -123,6 +121,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32512">National University of Singapore , School of Computing &amp; Department of Physics — Postdoctoral Research Fellow in Quantum and AI</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31740">Academia Sinica , Quantum Matter Theory Group, Institute of Physics — Postdoc</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32601">Ariel University , Physics — Postdoc in quantum field theory</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
+<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32684">Bonn University , Quantum Optics group — Postdoctoral fellow: Experimental quantum optics / cold atom physics</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32645">Boston University , Department of Astronomy — Observatory Manager and Research Scientist</a></td><td>—</td><td>-6</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31816">Cornell University , Lab of Ornithology — Research Associate (Statistical Scientist), Cornell University, Cornell Lab of Ornithology</a></td><td>—</td><td>-8</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31967">Cornell University , Lab of Ornithology — Senior Extension Associate, Cornell Lab of Ornithology, Cornell University</a></td><td>—</td><td>-8</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
@@ -138,4 +137,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 13, 14:47_
+_Last refreshed Sep 14, 16:46_
