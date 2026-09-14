@@ -12,3 +12,7 @@ CISA [Cybersecurity Career Development Program](https://www.cisa.gov/resources-t
 
 [Statistical Reinforcement Learning](https://nanjiang.cs.illinois.edu/cs542f25/) by [Nan Jiang](https://nanjiang.cs.illinois.edu/) from UIUC
 
+[World Models](https://www.cis.upenn.edu/~cis6280/) by [Jiatao Gu](https://jiataogu.me/) from UPenn
+
+[AI Agents](https://www.cmu-agents.com/#/schedule) by [Daniel Fried](https://dpfried.github.io/) from Carnegie Mellon&#x20;
+
