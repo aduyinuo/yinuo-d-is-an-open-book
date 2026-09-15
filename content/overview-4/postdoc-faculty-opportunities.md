@@ -35,6 +35,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31183">Beijing Institute of Mathematical Sciences and Applications — Assistant Professor</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32490">Boston University , Department of Biomedical Engineering — Tenure-Track Assistant Professor</a></td><td>4</td><td><em>assistant professor, tenure-track</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32578">Boston University , Department of Political Science — Assistant Professor</a></td><td>4</td><td><em>assistant professor</em></td></tr>
+<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32696">Boston University , Frederick S. Pardee School of Global Studies — Assistant Professor, International Economic Policy</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32665">Boston University , Mechanical Engineering Department — Assistant Professor</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32321">Cornell University , School of Civil &amp; Environmental Engineering — PostDoc_Associate</a></td><td>3</td><td><em>postdoc</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32543">Duke Kunshan University — Multiple Faculty Positions (Teaching Stream) in Data Science and Computer Science</a></td><td>3</td><td><em>faculty</em></td></tr>
@@ -51,7 +52,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (75) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (74) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.linkedin.com/jobs/view/cyber-researcher-attack-emulation-senior-principal-at-pentera-4346538150">Pentera — Cyber Researcher, Attack Emulation (Senior / Principal)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -77,13 +78,13 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-quantitative-ux-researcher-ai-enablement-at-google-4465793165">Google — Senior Quantitative UX Researcher, AI Enablement</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-personalization-at-%C5%8Dura-4437629344">ŌURA — Staff UX Researcher, Personalization</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-multimodal-safety-at-openai-4448240991">OpenAI — Researcher, Multimodal Safety</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-customer-experience-and-business-trends-at-amazon-4461566369">Amazon — Applied Scientist, Customer Experience and Business Trends</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/sr-research-scientist-skills-at-ets-4456717584">ETS — Sr. Research Scientist- Skills</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4465368287">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-science-4463926253">Amazon Science — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-science-4455072875">Amazon Science — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-synthetic-rl-at-openai-4417161422">OpenAI — Researcher, Synthetic RL</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/senior-autonomous-systems-research-scientist-at-carnegie-mellon-university-4458637664">Carnegie Mellon University — Senior Autonomous Systems Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-horizon-robotics-4414148749">Horizon Robotics — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-ai-researcher-at-scout-ai-4437313958">Scout AI — Senior AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-researcher-at-pittsburgh-robotics-network-4464769343">Pittsburgh Robotics Network — Applied Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -104,7 +105,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32501">Arizona State University , School of Historical, Philosophical and Religious Studies — Assistant Teaching Professor</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32404">Boston University , College of Engineering — Professor and Head of the Division of Systems Engineering</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32469">Boston University , Department of Romance Studies — Full-Time Lecturer</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
-<tr><td><a href="https://academicjobsonline.org/ajo/jobs/31942">Boston University , Questrom School of Business — Full Time Lecturer</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32053">Cornell University , Biomedical Engineering — Postdoctoral Associate</a></td><td>—</td><td>-1</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32497">Stanford University , Q-FARM — Bloch Fellowship in Quantum Science and Engineering</a></td><td>—</td><td>-1</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32514">Syracuse University , Institute for Quantum and Information Sciences — Postdoctoral Researcher – Classical and/or Quantum Computer Architect</a></td><td>—</td><td>-1</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
@@ -117,7 +117,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32211">Academia Sinica , Institute of Atomic and Molecular Sciences — Faculty positions (Full/Associate/Assistant Research Fellow)</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31847">Ariel University , Physics — Physics at Ariel University- M.Sc / Direct Ph.D Program (with scholarship)</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31848">Ariel University , Physics — PhD position, Ariel University, Israel</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
-<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32523">Cornell University , Lab of Ornithology — Postdoc Associate Statistical Integration of eBird and Acoustic Data, Cornell University, Ithaca N</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
+<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32523">Cornell University , Lab of Ornithology — Postdoc Associate eBird-acoustical statistical integration, Cornell University, Ithaca NY, Cornell</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32512">National University of Singapore , School of Computing &amp; Department of Physics — Postdoctoral Research Fellow in Quantum and AI</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31740">Academia Sinica , Quantum Matter Theory Group, Institute of Physics — Postdoc</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32601">Ariel University , Physics — Postdoc in quantum field theory</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
@@ -137,4 +137,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 14, 16:46_
+_Last refreshed Sep 15, 15:26_

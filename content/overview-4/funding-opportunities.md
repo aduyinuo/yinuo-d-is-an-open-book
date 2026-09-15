@@ -10,9 +10,9 @@ Open and forecasted calls.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>203 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363843">Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)</a></td><td>2026-10-16</td><td>32 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>128 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>202 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363843">Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)</a></td><td>2026-10-16</td><td>31 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>127 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -33,10 +33,8 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/ecrcore-edu-core-research/nsf21-588">EDU Core Research (ECR:Core)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/eri-engineering-research-initiation/nsf24-590">Engineering Research Initiation (ERI)</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.nsf.gov/funding/opportunities/research-experiences-teachers-engineering-computer-science/nsf24-503">Research Experiences for Teachers in Engineering and Computer Science</a></td><td>—</td><td>2</td><td><em>NSF upcoming funding</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363645">University-led Networks for Innovation, Technology, and Expertise (UNITE)</a></td><td>2026-09-14</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363174">DE-FOA-0003646 Notice of Intent to Issue DE-FOA-0003647 Accelerating Scale-up and Pre-piloting of Emerging Chemical Technologies (ASPECT)</a></td><td>2026-09-14</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363744">U.S-Saudi AI Research Commercialization Accelerator Program (ReCAP)</a></td><td>2026-09-14</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/358955">Measurement Science and Engineering (MSE) Research Grant Programs</a></td><td>2026-09-15</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363864">UI Integrity Center of Excellence Operations</a></td><td>2026-09-25</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/357554">Security, Privacy, and Trust in Cyberspace</a></td><td>2026-09-28</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360678">FY 2026 Continuation of Solicitation for the Office of Science Financial Assistance Program</a></td><td>2026-09-30</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/361931">Advancing Global Capacity to Detect and Respond to Fungal Diseases</a></td><td>2026-09-30</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -131,6 +129,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/361952">Professional Formation of Engineers</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/318918">National Space Grant College and Fellowship Program - Opportunities in NASA STEM FY 2020 &amp;ndash; 2024</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363748">Informing global polio eradication efforts through innovative modeling approaches</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363866">Data Science Corps (DSC)</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362951">Limited Competition: Resources and Workforce Development for the Regional Biocontainment Laboratories</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363412">Maternal and Child Health Encounters Networks (MCHEK)</a></td><td>—</td><td>0</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359123">Community Engagement Evaluation and Data Coordination (CEED) Hub to Advance Data and Practice Transformation for Optimizing Oral Health for </a></td><td>2026-10-19</td><td>-2</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -151,6 +150,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/363724">Research and Education Program for Historically Black Colleges and Universities (HBCU) and Tribal Colleges and Universities (TCU) Equipment/</a></td><td>2026-10-09</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/334326">Tribal Colleges and Universities Program (TCUP)</a></td><td>2026-10-14</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/362029">Tribal Colleges Research Grants Program</a></td><td>2026-12-31</td><td>-5</td><td><em>Grants.gov — AI and cyber</em></td></tr>
+<tr><td><a href="https://www.nsf.gov/funding/opportunities/aapf-nsf-astronomy-astrophysics-postdoctoral-fellowships/nsf22-621">NSF Astronomy and Astrophysics Postdoctoral Fellowships (AAPF)</a></td><td>—</td><td>-5</td><td><em>NSF upcoming funding</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363514">Lewis-Houghton Civics and Democracy Initiative: New Awards for 2027-2029</a></td><td>2026-09-18</td><td>-6</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/361249">Postdoctoral Research Fellowships in Biology</a></td><td>2026-09-29</td><td>-6</td><td><em>Grants.gov — AI and cyber</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/360455">Protecting and Improving Global Health Security by Engaging Local Partners: Strengthening and Sustaining Public Health Systems in Ghana</a></td><td>2026-10-02</td><td>-6</td><td><em>Grants.gov — AI and cyber</em></td></tr>
@@ -185,4 +185,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 14, 16:46_
+_Last refreshed Sep 15, 15:26_
