@@ -24,7 +24,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32590">Ave Maria University , Human Resources — Faculty Position-Assistant Professor of History</a></td><td>7</td><td><em>assistant professor, faculty</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-reinforcement-learning-robotics-at-applied-intuition-4423966477">Applied Intuition — Research Scientist - Reinforcement Learning, Robotics</a></td><td>6</td><td><em>from LinkedIn — public job search, reinforcement learning</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-reinforcement-learning-at-deeproute-ai-4424953731">DeepRoute.ai — Research Scientist, Reinforcement Learning</a></td><td>6</td><td><em>from LinkedIn — public job search, reinforcement learning</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-rl-for-autonomous-planning-world-modeling-at-waymo-4459726545">Waymo — Research Scientist, RL for Autonomous Planning &amp; World Modeling</a></td><td>6</td><td><em>from LinkedIn — public job search, world model</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-cybersecurity-researcher-at-lawrence-livermore-national-laboratory-4400366273">Lawrence Livermore National Laboratory — Senior Cybersecurity Researcher</a></td><td>5</td><td><em>from LinkedIn — public job search, cybersecurity</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/30885">Commonwealth University of PA , Mathematics, Computer Science, Digital Forensics — Assistant Professor (Tenure Track) - Computer Science</a></td><td>4</td><td><em>assistant professor</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32459">Hillsdale College , Hillsdale College/Math and Computer Science — Tenure-Track Assistant or Associate Professor of Computer Science</a></td><td>4</td><td><em>tenure-track</em></td></tr>
@@ -52,7 +51,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (74) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (75) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.linkedin.com/jobs/view/cyber-researcher-attack-emulation-senior-principal-at-pentera-4346538150">Pentera — Cyber Researcher, Attack Emulation (Senior / Principal)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -72,19 +71,19 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-robotics-ai-at-bosch-usa-4453806406">Bosch USA — Research Scientist- Robotics AI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-researcher-at-scout-ai-4375818974">Scout AI — AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-alignment-at-openai-4417173100">OpenAI — Researcher, Alignment</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/mixed-methods-ux-researcher-at-google-4467135077">Google — Mixed-Methods UX Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-geminiapp-deepmind-at-google-deepmind-4448758670">Google DeepMind — Staff UX Researcher, GeminiApp, DeepMind</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-human%E2%80%91ai-perception-and-interaction-at-nvidia-4437932202">NVIDIA — Senior Research Scientist, Human‑AI Perception and Interaction</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-human%E2%80%91ai-perception-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395479271">NVIDIA — Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/senior-quantitative-ux-researcher-ai-enablement-at-google-4465793165">Google — Senior Quantitative UX Researcher, AI Enablement</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-personalization-at-%C5%8Dura-4437629344">ŌURA — Staff UX Researcher, Personalization</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-multimodal-safety-at-openai-4448240991">OpenAI — Researcher, Multimodal Safety</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/sr-research-scientist-skills-at-ets-4456717584">ETS — Sr. Research Scientist- Skills</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/neuromorphic-ai-research-scientist-at-intel-4467142051">Intel — Neuromorphic/AI Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4465368287">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-science-4463926253">Amazon Science — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-science-4455072875">Amazon Science — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/researcher-synthetic-rl-at-openai-4417161422">OpenAI — Researcher, Synthetic RL</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-horizon-robotics-4414148749">Horizon Robotics — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-ai-researcher-at-scout-ai-4437313958">Scout AI — Senior AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-researcher-at-pittsburgh-robotics-network-4464769343">Pittsburgh Robotics Network — Applied Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -118,6 +117,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32211">Academia Sinica , Institute of Atomic and Molecular Sciences — Faculty positions (Full/Associate/Assistant Research Fellow)</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31847">Ariel University , Physics — Physics at Ariel University- M.Sc / Direct Ph.D Program (with scholarship)</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31848">Ariel University , Physics — PhD position, Ariel University, Israel</a></td><td>—</td><td>-4</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
+<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32728">Cornell University , Lab of Ornithology — Postdoctorial Associate, Acoustic Abundance Estimation for eBird Integration, Cornell University, </a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32523">Cornell University , Lab of Ornithology — Postdoc Associate eBird-acoustical statistical integration, Cornell University, Ithaca NY, Cornell</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32512">National University of Singapore , School of Computing &amp; Department of Physics — Postdoctoral Research Fellow in Quantum and AI</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31740">Academia Sinica , Quantum Matter Theory Group, Institute of Physics — Postdoc</a></td><td>—</td><td>-5</td><td><em>AcademicJobsOnline — all postdoc listings</em></td></tr>
@@ -137,4 +137,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 16, 15:19_
+_Last refreshed Sep 17, 15:25_

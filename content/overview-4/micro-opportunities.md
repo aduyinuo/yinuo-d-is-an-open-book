@@ -10,7 +10,7 @@ Credits, small grants, travel awards and targeted programs.
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program (CAREER)</a></td><td>2027-07-28</td><td>315 days</td><td>3</td><td><em>faculty</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/339594">Faculty Early Career Development Program (CAREER)</a></td><td>2027-07-28</td><td>314 days</td><td>3</td><td><em>faculty</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -23,7 +23,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (49) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (48) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.grants.gov/search-results-detail/352741">NRL Long Range Broad Agency Announcement (BAA) for Basic and Applied Research</a></td><td>2026-09-30</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -45,7 +45,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/351947">Innovations in Graduate Education (IGE) Program</a></td><td>2027-03-25</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/355196">NSF National Quantum Virtual Laboratory - Quantum Testbeds</a></td><td>2027-04-06</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/363623">Expeditions in Computing (Expeditions)</a></td><td>2027-07-27</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/328902">FAA Aviation Research Grants Program</a></td><td>2027-09-07</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/356536">Geospace Cluster</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/332012">Education Programs in Atmospheric and Geospace Sciences</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/329432">Law &amp; Science</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -62,6 +61,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/356629">GPD Grant Forecast</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/325599">U.S. Embassy Praia Ambassador&amp;rsquo;s Special Self-Help (SSH) Program</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/345645">State Electronic Crash Data Collection</a></td><td>—</td><td>0</td><td><em>Grants.gov — small awards</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363869">The DOE Quantum Genesis Q Competition</a></td><td>2026-10-19</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359159">Optimizing Behavioral Sleep Interventions for Adolescents and Young Adults (R34 Clinical Trial Required)</a></td><td>2026-10-22</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/353710">Mentored Quantitative Research Development Award (Parent K25 Independent Clinical Trial Not Allowed)</a></td><td>2027-05-07</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/58617">State Veterans Home Construction Grant Program</a></td><td>—</td><td>-4</td><td><em>Grants.gov — small awards</em></td></tr>
@@ -72,7 +72,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.grants.gov/search-results-detail/363355">FY26 Bureau of Land Management Plant Conservation and Restoration Management - Bureau wide</a></td><td>2026-09-28</td><td>-7</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359757">NIH Small Business Technology Transfer Grant (Parent STTR [R41/R42] Clinical Trial Optional)</a></td><td>2027-04-05</td><td>-8</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/341997">Mathematical Biology</a></td><td>2026-10-14</td><td>-9</td><td><em>Grants.gov — small awards</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363309">Pilot Testing, Implementation, and Evaluation of the Cervical, Breast and Colorectal Cancer Clinical Decision Support Tools</a></td><td>—</td><td>-10</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/355297">National Cancer Institute Youth Enjoy Science Research Education Program (R25 Clinical Trial Not Allowed)</a></td><td>2026-09-28</td><td>-12</td><td><em>Grants.gov — small awards</em></td></tr>
 <tr><td><a href="https://www.grants.gov/search-results-detail/359208">Clinical Data Ecosystem for Genomics (CDEG)</a></td><td>—</td><td>-12</td><td><em>Grants.gov — small awards</em></td></tr>
 </tbody></table>
@@ -83,4 +82,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 16, 15:19_
+_Last refreshed Sep 17, 15:25_
