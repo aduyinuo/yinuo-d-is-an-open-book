@@ -10,14 +10,14 @@ Open and forecasted calls.
 ## Within a month
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/363843">Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)</a></td><td>2026-10-16</td><td>29 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/363843">Advisory Support for Establishing a National Cybersecurity Operations Center (SOC)</a></td><td>2026-10-16</td><td>28 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
 </tbody></table>
 
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>200 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
-<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>125 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/361238">Artificial Intelligence and Cybersecurity Education Innovation and Scholarship for Service (CyberAI SFS)</a></td><td>2027-04-05</td><td>199 days</td><td>8</td><td><em>cybersecurity, cybersecurity education</em></td></tr>
+<tr><td><a href="https://www.grants.gov/search-results-detail/358004">Cybersecurity Innovation for Cyberinfrastructure</a></td><td>2027-01-20</td><td>124 days</td><td>4</td><td><em>cybersecurity</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -190,4 +190,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 17, 15:25_
+_Last refreshed Sep 18, 14:46_

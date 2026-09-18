@@ -10,30 +10,29 @@ Call-for-papers deadlines, soonest first.
 ## Within a month
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://eurocrypt.iacr.org/2027/">Eurocrypt 2027</a></td><td>2026-09-17</td><td>**today**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://fc27.ifca.ai/">FC 2027</a></td><td>2026-09-24</td><td>**7 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://acns2027.isg.rhul.ac.uk/">ACNS 2027</a></td><td>2026-09-24</td><td>**7 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://dfrws.org/conferences/dfceurope2027/">DFC Europe 2027</a></td><td>2026-09-25</td><td>8 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://aidcworkshop.github.io/">AIDC 2026</a></td><td>2026-09-25</td><td>8 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://satml.org/">SaTML 2027</a></td><td>2026-09-29</td><td>12 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://www.sigapp.org/sac/sac2027">SAC 2027</a></td><td>2026-10-02</td><td>15 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://conf.researchr.org/home/fse-2027">ESEC/FSE 2027</a></td><td>2026-10-02</td><td>15 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://waiti-workshop.github.io/">WAITI 2026</a></td><td>2026-10-05</td><td>18 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://fc27.ifca.ai/">FC 2027</a></td><td>2026-09-24</td><td>**6 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://acns2027.isg.rhul.ac.uk/">ACNS 2027</a></td><td>2026-09-24</td><td>**6 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://dfrws.org/conferences/dfceurope2027/">DFC Europe 2027</a></td><td>2026-09-25</td><td>**7 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://aidcworkshop.github.io/">AIDC 2026</a></td><td>2026-09-25</td><td>**7 days**</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://satml.org/">SaTML 2027</a></td><td>2026-09-29</td><td>11 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.sigapp.org/sac/sac2027">SAC 2027</a></td><td>2026-10-02</td><td>14 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://conf.researchr.org/home/fse-2027">ESEC/FSE 2027</a></td><td>2026-10-02</td><td>14 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://waiti-workshop.github.io/">WAITI 2026</a></td><td>2026-10-05</td><td>17 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
 </tbody></table>
 
 ## Later
 
 <table><thead><tr><th width="330">What</th><th width="150">Deadline</th><th width="90">Left</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/">CT-RSA 2027</a></td><td>2026-10-22</td><td>35 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://acmweb2027.org/">WWW 2027</a></td><td>2026-10-25</td><td>38 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://www.sacmat.org/2027/">SACMAT 2027</a></td><td>2026-10-30</td><td>43 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://acisp.org/">ACISP 2027</a></td><td>2026-11-30</td><td>74 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://eurosp2027.ieee-security.org/">Euro S&amp;P 2027</a></td><td>2026-12-02</td><td>76 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://dsn2027-berlin.github.io/">DSN 2027</a></td><td>2026-12-02</td><td>76 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://spacesec.info/">SpaceSec 2027</a></td><td>2026-12-06</td><td>80 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://conf.researchr.org/home/issta-2027">ISSTA 2027</a></td><td>2027-01-11</td><td>116 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://www.isdfs.org/2027/">ISDFS 2027</a></td><td>2027-01-31</td><td>136 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
-<tr><td><a href="https://www.usenix.org/conference/sais27">SAIS 2027</a></td><td>2027-02-04</td><td>140 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.esat.kuleuven.be/cosic/events/ct-rsa-2027/">CT-RSA 2027</a></td><td>2026-10-22</td><td>34 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://acmweb2027.org/">WWW 2027</a></td><td>2026-10-25</td><td>37 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.sacmat.org/2027/">SACMAT 2027</a></td><td>2026-10-30</td><td>42 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://acisp.org/">ACISP 2027</a></td><td>2026-11-30</td><td>73 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://eurosp2027.ieee-security.org/">Euro S&amp;P 2027</a></td><td>2026-12-02</td><td>75 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://dsn2027-berlin.github.io/">DSN 2027</a></td><td>2026-12-02</td><td>75 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://spacesec.info/">SpaceSec 2027</a></td><td>2026-12-06</td><td>79 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://conf.researchr.org/home/issta-2027">ISSTA 2027</a></td><td>2027-01-11</td><td>115 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.isdfs.org/2027/">ISDFS 2027</a></td><td>2027-01-31</td><td>135 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
+<tr><td><a href="https://www.usenix.org/conference/sais27">SAIS 2027</a></td><td>2027-02-04</td><td>139 days</td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
 </tbody></table>
 
 ## No date given
@@ -41,7 +40,6 @@ Call-for-papers deadlines, soonest first.
 Ranked by fit alone. A missing deadline is reported as missing rather than guessed at.
 
 <table><thead><tr><th width="430">What</th><th width="60">Fit</th><th>Why it scored</th></tr></thead><tbody>
-<tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203162&amp;copyownerid=200341">SE4AgenticAI 2026 : 2nd IEEE Big Data International Workshop on Software Engineering for Agentic AI</a></td><td>8</td><td><em>from WikiCFP — artificial intelligence, agentic</em></td></tr>
 <tr><td><a href="https://www.petsymposium.org/cfp27.php">PETS 2027</a></td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
 <tr><td><a href="https://fse.iacr.org/2027/">FSE 2027</a></td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
 <tr><td><a href="https://ches.iacr.org/2027/">CHES 2027</a></td><td>6</td><td><em>from Security and privacy deadlines</em></td></tr>
@@ -64,6 +62,8 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201301&amp;copyownerid=199515">SECITC 2026 : International Conference on Security for Information Technology and Communications</a></td><td>5</td><td><em>from WikiCFP — security</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201166&amp;copyownerid=61987">PSCare 2026 : The 13th International Workshop on Privacy and Security in Healthcare (PSCare 2026)</a></td><td>5</td><td><em>from WikiCFP — security</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=200354&amp;copyownerid=33993">IJE 2026 : International Journal of Education</a></td><td>5</td><td><em>from WikiCFP — security</em></td></tr>
+<tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203267&amp;copyownerid=93140">EEPE-TIA 2027 : 2027 7th International Conference on Energy Evolution and Power Engineering: Transition, Intelligence and Autonomy</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
+<tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203261&amp;copyownerid=163220">ICBAIE 2026 : IEEE 2026 7th International Conference on Big Data, Artificial Intelligence and Internet of Things Engineering</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203245&amp;copyownerid=163220">AHPCAI 2026 : 2026 6th International Conference on Algorithms, High Performance Computing, and Artificial Intelligence</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203244&amp;copyownerid=163220">ICICML 2026 : IEEE 2026 5th International Conference on Image Processing, Computer Vision and Machine Learning</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203239&amp;copyownerid=200429">WoWMoM 2027 : World of Wireless, Mobile and Multimedia Networks</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
@@ -82,7 +82,6 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203172&amp;copyownerid=13881">CVIT--EI 2027 : 2027 8th International Conference on Computer Vision and Information Technology (CVIT 2027)</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203170&amp;copyownerid=13881">ICCCM--EI 2027 : 2027 The 15th International Conference on Computer and Communications Management (ICCCM 2027)</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203168&amp;copyownerid=13881">DSDE--EI 2027 : 2027 The 10th International Conference on Data Storage and Data Engineering (DSDE 2027)</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
-<tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=203165&amp;copyownerid=163220">DSInS 2026 : 2026 6th International Conference on Digital Society and Intelligent Systems</a></td><td>4</td><td><em>from WikiCFP — artificial intelligence</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=201651&amp;copyownerid=199703">Oxford Intersections 2026 : Social Media and Health - Well-being: Physical and Mental</a></td><td>3</td><td><em>from WikiCFP — human computer interaction</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199623&amp;copyownerid=198981">HumSec@ESORICS 2026 : Workshop on Human-Targeted Cyber Threats and Defenses</a></td><td>3</td><td><em>from WikiCFP — human computer interaction</em></td></tr>
 <tr><td><a href="http://www.wikicfp.com/cfp/servlet/event.showcfp?eventid=199583&amp;copyownerid=198937">iWOAR 2026 : 11th international Workshop on Sensor-Based Activity Recognition and Artificial Intelligence</a></td><td>3</td><td><em>from WikiCFP — human computer interaction</em></td></tr>
@@ -118,4 +117,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 17, 15:25_
+_Last refreshed Sep 18, 14:46_

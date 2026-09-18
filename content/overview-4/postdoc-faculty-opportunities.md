@@ -51,7 +51,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 <details>
 
-<summary>Everything else found (75) — nothing matched enough of the profile to rank</summary>
+<summary>Everything else found (77) — nothing matched enough of the profile to rank</summary>
 
 <table><thead><tr><th width="400">What</th><th width="130">Deadline</th><th width="60">Fit</th><th>Source</th></tr></thead><tbody>
 <tr><td><a href="https://www.linkedin.com/jobs/view/cyber-researcher-attack-emulation-senior-principal-at-pentera-4346538150">Pentera — Cyber Researcher, Attack Emulation (Senior / Principal)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -60,6 +60,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/threat-detection-researcher-windows-linux-macos-at-wiz-4434551145">Wiz — Threat Detection Researcher (Windows/Linux/MacOS)</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-security-researcher-at-ibm-4462537778">IBM — AI Security Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/principal-security-researcher-at-palo-alto-networks-4431557442">Palo Alto Networks — Principal Security Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/senior-principal-cyber-researcher-ai-security-gpu-at-collins-aerospace-4468826131">Collins Aerospace — Senior Principal Cyber Researcher - AI Security/GPU</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/ai-research-scientist-genai-at-bosch-usa-4458470329">Bosch USA — AI Research Scientist - GenAI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-skild-ai-4184497871">Skild AI — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-research-scientist-at-general-motors-4467795158">General Motors — Staff Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -75,15 +76,15 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-geminiapp-deepmind-at-google-deepmind-4448758670">Google DeepMind — Staff UX Researcher, GeminiApp, DeepMind</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-research-scientist-human%E2%80%91ai-perception-and-interaction-at-nvidia-4437932202">NVIDIA — Senior Research Scientist, Human‑AI Perception and Interaction</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-human%E2%80%91ai-perception-and-interaction-research-phd-new-college-grad-2026-at-nvidia-4395479271">NVIDIA — Research Scientist, Human‑AI Perception and Interaction Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/senior-ux-researcher-at-microsoft-4469152452">Microsoft — Senior UX Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/staff-ux-researcher-personalization-at-%C5%8Dura-4437629344">ŌURA — Staff UX Researcher, Personalization</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/researcher-multimodal-safety-at-openai-4448240991">OpenAI — Researcher, Multimodal Safety</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/sr-research-scientist-skills-at-ets-4456717584">ETS — Sr. Research Scientist- Skills</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/neuromorphic-ai-research-scientist-at-intel-4467142051">Intel — Neuromorphic/AI Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/member-of-technical-staff-research-%24175k-%24300k-%2B-equity-at-patronus-ai-at-jack-jill-4467821964">Jack &amp; Jill — Member of Technical Staff - Research ($175k-$300k + Equity) at Patronus AI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4465368287">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-science-4463926253">Amazon Science — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-science-4455072875">Amazon Science — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-horizon-robotics-4414148749">Horizon Robotics — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-ai-researcher-at-scout-ai-4437313958">Scout AI — Senior AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-researcher-at-pittsburgh-robotics-network-4464769343">Pittsburgh Robotics Network — Applied Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -96,6 +97,7 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32541">Duke Kunshan University — Multiple Positions in Data Science and Computer Science</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31917">Duke University , Computer Science — Associate in Research</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/29136">Duke University , Pratt Masters Programs — Adjunct Professor in Game Design, Development, &amp; Innovation</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
+<tr><td><a href="https://academicjobsonline.org/ajo/jobs/32749">Fermilab , Computational Science and Artificial Intelligence Directorate — Artificial Intelligence Associate</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32060">Illinois Institute of Technology , Computer Science — Multiple Teaching Track Positions (Mumbai Campus)</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/31462">National Taiwan University , AI Center of Research Excellence — Open-Rank Professor</a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
 <tr><td><a href="https://academicjobsonline.org/ajo/jobs/32317">New York University Abu Dhabi , Academic Recruitment - Office of Academic Appointments — Computer Science Professor, Tenured / Tenure Track </a></td><td>—</td><td>0</td><td><em>AcademicJobsOnline — computer science</em></td></tr>
@@ -137,4 +139,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 17, 15:25_
+_Last refreshed Sep 18, 14:46_
