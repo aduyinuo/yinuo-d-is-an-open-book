@@ -82,9 +82,9 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-generalist-embodied-agent-research-phd-new-college-grad-2026-at-nvidia-4395473358">NVIDIA — Research Scientist, Generalist Embodied Agent Research - PhD New College Grad 2026</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-4455907940">Amazon — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/neuromorphic-ai-research-scientist-at-intel-4467142051">Intel — Neuromorphic/AI Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/member-of-technical-staff-research-%24175k-%24300k-%2B-equity-at-patronus-ai-at-jack-jill-4467821964">Jack &amp; Jill — Member of Technical Staff - Research ($175k-$300k + Equity) at Patronus AI</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-4465368287">Amazon — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/applied-scientist-safe-rl-robotics-saf-lab-at-amazon-science-4455072875">Amazon Science — Applied Scientist, Safe RL, Robotics, SAF Lab</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
-<tr><td><a href="https://www.linkedin.com/jobs/view/researcher-synthetic-rl-at-openai-4417161422">OpenAI — Researcher, Synthetic RL</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
+<tr><td><a href="https://www.linkedin.com/jobs/view/senior-applied-scientist-safe-locomotion-compass-at-amazon-science-4463926253">Amazon Science — Senior Applied Scientist, Safe Locomotion, Compass</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/research-scientist-at-horizon-robotics-4414148749">Horizon Robotics — Research Scientist</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/senior-ai-researcher-at-scout-ai-4437313958">Scout AI — Senior AI Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
 <tr><td><a href="https://www.linkedin.com/jobs/view/applied-researcher-at-pittsburgh-robotics-network-4464769343">Pittsburgh Robotics Network — Applied Researcher</a></td><td>—</td><td>1</td><td><em>LinkedIn — public job search</em></td></tr>
@@ -141,4 +141,4 @@ Ranked by fit alone. A missing deadline is reported as missing rather than guess
 
 _Fit is the sum of the profile terms that appear in the listing; the terms are shown so the number can be argued with. Nothing is hidden for scoring low._
 
-_Last refreshed Sep 19, 14:09_
+_Last refreshed Sep 20, 14:28_
